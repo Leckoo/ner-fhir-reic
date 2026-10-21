@@ -87,7 +87,7 @@ def gerar(i, rng, out, ocultos=False):
     if esc: escanear(pdf, rng)
     gab = {"id": pdf.stem, "paciente": nome, "nascimento": nasc, "data": data, "layout": layout,
            "separador_decimal": sep, "escaneado": esc, "observacoes": obs}
-    (out / f"laudo_{i:03d}.json").write_text(json.dumps(gab, ensure_ascii=False, indent=2))
+    (out / f"laudo_{i:03d}.json").write_text(json.dumps(gab, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def escanear(pdf, rng):
     """Ruído de digitalização SIMULADO (hipótese, REGRAS R6): render -> rotação -> blur -> ruído -> JPEG -> PDF imagem."""

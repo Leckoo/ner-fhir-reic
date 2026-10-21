@@ -60,8 +60,8 @@ def chamar(prompt, tentativas=8):
 
 def _cache(variante, conj, doc_id, prompt):
     c = pathlib.Path(__file__).parent.parent / "results" / "gemini" / variante / conj / f"{doc_id}.json"
-    if c.exists(): return json.loads(c.read_text())
-    r = chamar(prompt); c.parent.mkdir(parents=True, exist_ok=True); c.write_text(json.dumps(r, ensure_ascii=False, indent=1))
+    if c.exists(): return json.loads(c.read_text(encoding="utf-8"))
+    r = chamar(prompt); c.parent.mkdir(parents=True, exist_ok=True); c.write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     return r
 
 def _json(txt):

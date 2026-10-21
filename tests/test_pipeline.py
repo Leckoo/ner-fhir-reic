@@ -35,9 +35,9 @@ def test_rotulos_ocultos_fora_do_dicionario():
     for loinc, rs in OCULTOS.items():
         for r in rs: assert norm(r) not in DIC, r
     for f in ["pipeline.py", "extrator_gliner.py", "extrator_gemini.py", "avaliar.py"]:
-        assert "rotulos_ocultos" not in (RAIZ / "src" / f).read_text()
+        assert "rotulos_ocultos" not in (RAIZ / "src" / f).read_text(encoding="utf-8")
 
 def test_teste_congelado():
     d = RAIZ / "data" / "teste"
-    for l in (d / "SHA256SUMS").read_text().splitlines():
+    for l in (d / "SHA256SUMS").read_text(encoding="utf-8").splitlines():
         h, nome = l.split(); assert hashlib.sha256((d / nome).read_bytes()).hexdigest() == h, nome
