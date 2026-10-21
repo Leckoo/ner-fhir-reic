@@ -1,0 +1,405 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "FABIO NUNES"
+     }
+    ],
+    "birthDate": "1948-06-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3c1b65dc-4adc-57bd-832d-38ccd8ccdcce",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "PLAQUETOGRAMA"
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 417.0,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 450.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:10a8a508-00fe-5cab-81cd-22a1dab914d4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CONTAGEM DE LEUCOCITOS"
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 16.6,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 11.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e646816b-67c6-5b63-a3ca-7a5d382b51ab",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 148.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4a26d4f8-e2ff-5954-b8e5-95c24d84aced",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 50.2,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:59096dfa-abb8-5845-8301-e81b2832c00b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 15.6,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:62414fde-9449-50cc-abd2-b6108ac56586",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CONTAGEM DE ERITROCITOS"
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 4.28,
+     "unit": "10*6/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*6/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:035c3bf1-29e1-5ef2-b9ee-0a07752b6dd2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "DOSAGEM DE COLESTEROL TOTAL"
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 315.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:02bef2b1-a2a1-55a4-a3e5-c9774d248cb6",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:2688a1ad-1ff2-5079-b64b-7f00de02874c"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "result": [
+     {
+      "reference": "urn:uuid:3c1b65dc-4adc-57bd-832d-38ccd8ccdcce"
+     },
+     {
+      "reference": "urn:uuid:10a8a508-00fe-5cab-81cd-22a1dab914d4"
+     },
+     {
+      "reference": "urn:uuid:e646816b-67c6-5b63-a3ca-7a5d382b51ab"
+     },
+     {
+      "reference": "urn:uuid:4a26d4f8-e2ff-5954-b8e5-95c24d84aced"
+     },
+     {
+      "reference": "urn:uuid:59096dfa-abb8-5845-8301-e81b2832c00b"
+     },
+     {
+      "reference": "urn:uuid:62414fde-9449-50cc-abd2-b6108ac56586"
+     },
+     {
+      "reference": "urn:uuid:035c3bf1-29e1-5ef2-b9ee-0a07752b6dd2"
+     }
+    ]
+   }
+  }
+ ]
+}

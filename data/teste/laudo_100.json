@@ -1,0 +1,63 @@
+{
+  "id": "laudo_100",
+  "paciente": "Marcos Antônio Vieira",
+  "nascimento": "1943-12-06",
+  "data": "2026-08-26",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "rotulo_visto": true,
+      "valor": 5.53,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,53",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "rotulo_visto": true,
+      "valor": 71.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "71",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 5.8,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "5,8",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 - 5,1"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetograma",
+      "rotulo_visto": false,
+      "valor": 135.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "135.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 - 450.000"
+    }
+  ]
+}

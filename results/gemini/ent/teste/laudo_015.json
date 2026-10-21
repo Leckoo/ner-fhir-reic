@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"70\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"HEMACIAS\",\n      \"valor\": \"5,51\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"32,8\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 – 36,0\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"185\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 a 450\"\n    }\n  ]\n}",
+ "latencia_s": 4.441083669662476,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 389,
+ "tokens_saida": 244,
+ "tokens_total": 633
+}

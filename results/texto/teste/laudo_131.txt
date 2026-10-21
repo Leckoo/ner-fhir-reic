@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 1475118 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3088
+Paciente: Tiago Monteiro Nascimento: 1981-08-21
+Data: 2026-06-07 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+TSH ultra sensível 3.41 µUI/mL 0.40 a 4.00
+HGB 14.0 g/dL 12.0 a 16.0
+Uréia 48 mg/dL 15 - 45
+MCH 33.6 pg 27.0 - 32.0
+AST 42 U/L Até 40
+Liberado em 2026-06-07. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

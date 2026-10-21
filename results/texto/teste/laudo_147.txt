@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 4722428 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5053
+Paciente: Fábio Nunes Nascimento: 1985-11-26
+Data: 2026-05-01 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Glicose de jejum 133 mg/dl 70 - 99
+MCH 28,0 pg 27,0 a 32,0
+TGL 112 mg/dL Até 150
+K 4,8 mmol/L 3,5 a 5,1
+Dosagem de colesterol tota 222 mg/dl Até 190
+Hb 13,9 g/ dL 12,0 a 16,0
+TGP 124 U/L Até 41
+Liberado em 2026-05-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

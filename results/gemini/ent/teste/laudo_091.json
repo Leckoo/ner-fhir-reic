@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"31,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE LEUCÓCITOS\",\n      \"valor\": \"8,7\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"VOLUME CORPUSCULAR MÉDIO\",\n      \"valor\": \"76,4\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 – 100,0\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"30,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"72\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"191\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    }\n  ]\n}",
+ "latencia_s": 8.258664608001709,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 477,
+ "tokens_saida": 343,
+ "tokens_total": 820
+}

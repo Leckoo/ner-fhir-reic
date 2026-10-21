@@ -1,0 +1,100 @@
+gemini_e2e teste laudo_000 obs=3 13.75s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_001 obs=7 14.77s
+gemini_e2e teste laudo_002 obs=4 12.90s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_003 obs=4 22.06s
+gemini_e2e teste laudo_004 obs=8 13.39s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_005 obs=4 9.48s
+gemini_e2e teste laudo_006 obs=6 19.94s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_007 obs=8 21.86s
+gemini_e2e teste laudo_008 obs=7 8.84s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_009 obs=3 5.21s
+gemini_e2e teste laudo_010 obs=2 3.20s
+gemini_e2e teste laudo_011 obs=6 13.17s
+gemini_e2e teste laudo_012 obs=3 10.78s
+gemini_e2e teste laudo_013 obs=5 12.87s
+gemini_e2e teste laudo_014 obs=4 12.49s
+gemini_e2e teste laudo_015 obs=4 10.74s
+gemini_e2e teste laudo_016 obs=7 10.91s
+gemini_e2e teste laudo_017 obs=8 8.89s
+gemini_e2e teste laudo_018 obs=4 6.77s
+gemini_e2e teste laudo_019 obs=4 10.02s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_020 obs=8 28.81s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_021 obs=6 13.86s
+gemini_e2e teste laudo_022 obs=5 10.42s
+gemini_e2e teste laudo_023 obs=4 13.62s
+gemini_e2e teste laudo_024 obs=2 7.14s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 2 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_025 obs=4 9.76s
+gemini_e2e teste laudo_026 obs=5 8.44s
+gemini_e2e teste laudo_027 obs=4 16.64s
+gemini_e2e teste laudo_028 obs=7 8.87s
+gemini_e2e teste laudo_029 obs=6 10.30s
+gemini_e2e teste laudo_030 obs=6 9.52s
+gemini_e2e teste laudo_031 obs=5 9.43s
+gemini_e2e teste laudo_032 obs=5 8.32s
+gemini_e2e teste laudo_033 obs=6 11.25s
+  [gemini] tentativa 1 falhou: The read operation timed out
+gemini_e2e teste laudo_034 obs=6 12.86s
+gemini_e2e teste laudo_035 obs=6 13.67s
+gemini_e2e teste laudo_036 obs=7 12.51s
+gemini_e2e teste laudo_037 obs=7 12.57s
+gemini_e2e teste laudo_038 obs=3 8.25s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 2 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 3 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_039 obs=4 7.95s
+gemini_e2e teste laudo_040 obs=4 9.10s
+gemini_e2e teste laudo_041 obs=6 10.28s
+gemini_e2e teste laudo_042 obs=6 10.63s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_043 obs=6 11.98s
+gemini_e2e teste laudo_044 obs=5 17.95s
+gemini_e2e teste laudo_045 obs=5 10.50s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 2 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_046 obs=6 9.51s
+  [gemini] tentativa 1 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+gemini_e2e teste laudo_047 obs=7 15.68s
+gemini_e2e teste laudo_048 obs=7 9.27s
+gemini_e2e teste laudo_049 obs=5 14.05s
+gemini_e2e teste laudo_050 obs=8 11.16s
+gemini_e2e teste laudo_051 obs=4 14.52s
+gemini_e2e teste laudo_052 obs=8 12.88s
+  [gemini] tentativa 1 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+gemini_e2e teste laudo_053 obs=7 11.26s
+gemini_e2e teste laudo_054 obs=3 12.58s
+gemini_e2e teste laudo_055 obs=2 6.46s
+  [gemini] tentativa 1 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 2 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+gemini_e2e teste laudo_056 obs=6 32.46s
+gemini_e2e teste laudo_057 obs=6 15.31s
+  [gemini] tentativa 1 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 2 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 3 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 4 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 5 falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+  [gemini] tentativa 6 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 7 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  [gemini] tentativa 8 falhou: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+Traceback (most recent call last):
+  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 182, in <module>
+    for m in METODOS:
+    
+  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 37, in rodar
+    ext, bundle, r = extrair_gemini_e2e(texto, pdf.stem, conj)
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/projetos/ner-fhir/src/extrator_gemini.py", line 76, in extrair_gemini_e2e
+    r = _cache("e2e", conj, doc_id, PROMPT_E2E + texto)
+  File "/workspace/projetos/ner-fhir/src/extrator_gemini.py", line 64, in _cache
+    r = chamar(prompt); c.parent.mkdir(parents=True, exist_ok=True); c.write_text(json.dumps(r, ensure_ascii=False, indent=1))
+  File "/workspace/projetos/ner-fhir/src/extrator_gemini.py", line 59, in chamar
+    raise RuntimeError("Gemini falhou após várias tentativas")
+RuntimeError: Gemini falhou após várias tentativas

@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 2583789 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2702
+Paciente: Tiago Monteiro Nascimento: 1946-06-12
+Data: 2026-05-25 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+ALT 46 U/L Até 41
+MCV 104,0 fl 80,0 - 100,0
+Glicose em jejum 155 mg/dl 70 - 99
+Amplitude de distribuição dos eritrócitos 14,0 % 11,5 a 14,5
+Uréia 26 mg/dl 15 a 45
+MCHC 35,2 g/dl 32,0 – 36,0
+Liberado em 2026-05-25. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

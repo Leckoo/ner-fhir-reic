@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 6041488 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9743
+Paciente: Lúcia Ferreira Nascimento: 1988-02-28
+Data: 2026-03-09 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+MCV 103.5 fl 80.0 – 100.0
+CT 146 mg/dL < 190
+Leucócitos - Global 13.500 /mm³ 4.000 – 11.000
+Sódio 147 mEq/L 136 a 145
+RDW-CV 14.6 % 11.5 a 14.5
+MCHC 30.9 g/dl 32.0 a 36.0
+Liberado em 2026-03-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

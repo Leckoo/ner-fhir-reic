@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4798871 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6978
+Paciente: Tiago Monteiro Nascimento: 1963-02-03
+Data: 2026-08-11 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Leucócitos - Global 14.1 mil/mm³ 4.0 a 11.0
+Hemoglobina corpuscular mé 34.5 pg 27.0 a 32.0
+TG 211 mg/dl Até 150
+TSH 6.44 mUI/L 0.40 - 4.00
+Volume corpuscular médio 84.9 fL 80.0 - 100.0
+Natremia 133 mEq/L 136 - 145
+Liberado em 2026-08-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

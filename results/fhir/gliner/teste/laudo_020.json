@@ -1,0 +1,113 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:74938b88-6291-5704-a291-e9401cc79bd8",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Sílvia Araújo"
+     }
+    ],
+    "birthDate": "1978-07-08"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:02911131-f3a7-5d6f-831f-148b207395a7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Hormônio tireoestimulante"
+    },
+    "subject": {
+     "reference": "urn:uuid:74938b88-6291-5704-a291-e9401cc79bd8"
+    },
+    "effectiveDateTime": "2026-06-18",
+    "valueQuantity": {
+     "value": 0.4
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dab2451a-4af7-514a-b684-b9247954289c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:74938b88-6291-5704-a291-e9401cc79bd8"
+    },
+    "effectiveDateTime": "2026-06-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e933aeb7-efbc-5ccc-80d1-bcb03b9f6766",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:74938b88-6291-5704-a291-e9401cc79bd8"
+    },
+    "effectiveDateTime": "2026-06-18",
+    "result": [
+     {
+      "reference": "urn:uuid:02911131-f3a7-5d6f-831f-148b207395a7"
+     },
+     {
+      "reference": "urn:uuid:dab2451a-4af7-514a-b684-b9247954289c"
+     }
+    ]
+   }
+  }
+ ]
+}

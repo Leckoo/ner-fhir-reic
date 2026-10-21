@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:aa90a80f-afbd-5440-b41e-2d0e67b93662",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Otávio Pereira"
+     }
+    ],
+    "birthDate": "2008-01-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2690ce05-9c62-52be-bcb9-e39b5fe4011a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:aa90a80f-afbd-5440-b41e-2d0e67b93662"
+    },
+    "effectiveDateTime": "2026-01-24",
+    "valueQuantity": {
+     "value": 32.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dc9c4a75-9c05-56ae-81e8-cb853225924b",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:aa90a80f-afbd-5440-b41e-2d0e67b93662"
+    },
+    "effectiveDateTime": "2026-01-24",
+    "result": [
+     {
+      "reference": "urn:uuid:2690ce05-9c62-52be-bcb9-e39b5fe4011a"
+     }
+    ]
+   }
+  }
+ ]
+}

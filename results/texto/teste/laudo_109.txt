@@ -1,0 +1,10 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 8845174 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7887
+Paciente: Hugo Reis Nascimento: 1968-01-10
+Data: 2026-01-03 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Triglicerídeos 287 mg/dL Até 150
+WBC 13,9 x10³/µL 4,0 – 11,0
+RDW-CV 14,2 % 11,5 a 14,5
+Colesterol 196 mg/dl < 190
+Liberado em 2026-01-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

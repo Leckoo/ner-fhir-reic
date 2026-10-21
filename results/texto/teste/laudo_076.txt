@@ -1,0 +1,14 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 2262718 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5045
+Paciente: Tiago Monteiro Nascimento: 1972-04-06
+Data: 2026-07-20 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Natremia 150 mmol/L 136 - 145
+Glicose 248 mg/dL 70 a 99
+Contagem de plaquetas 210 x10³/µL 150 a 450
+Tirotropina 0,80 µUI/mL 0,40 - 4,00
+URE 62 mg/dl 15 a 45
+CHCM 33,9 g/dl 32,0 - 36,0
+Glicose em jejum 202 mg/dl 70 – 99
+VCM 97,8 fl 80,0 – 100,0
+Liberado em 2026-07-20. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

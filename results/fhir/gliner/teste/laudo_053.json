@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Gabriela Melo"
+     }
+    ],
+    "birthDate": "1969-07-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b38cdf08-f752-5548-a06f-85f5a532da68",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-02-15",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3222af38-240d-58be-a101-b21a93dca68a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-02-15",
+    "result": [
+     {
+      "reference": "urn:uuid:b38cdf08-f752-5548-a06f-85f5a532da68"
+     }
+    ]
+   }
+  }
+ ]
+}

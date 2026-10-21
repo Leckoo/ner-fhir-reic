@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:f7049a8e-810e-5e4b-8ddc-eda534ae7b45",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "1940-04-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:99cf75bb-356d-5db9-ba2e-10a06c47336f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:f7049a8e-810e-5e4b-8ddc-eda534ae7b45"
+    },
+    "effectiveDateTime": "2026-05-20",
+    "valueQuantity": {
+     "value": 11.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c88e9d65-5f1e-5814-819b-ed6643884f81",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f7049a8e-810e-5e4b-8ddc-eda534ae7b45"
+    },
+    "effectiveDateTime": "2026-05-20",
+    "result": [
+     {
+      "reference": "urn:uuid:99cf75bb-356d-5db9-ba2e-10a06c47336f"
+     }
+    ]
+   }
+  }
+ ]
+}

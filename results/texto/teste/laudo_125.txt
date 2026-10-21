@@ -1,0 +1,18 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 3093647 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4802
+
+Paciente: Marcos Antônio Vieira Nascimento: 1991-06-23
+
+Data: 2026-02-07 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+Concentração de hemoglobin 33,0 g/dl 32,0 = 36,0
+
+UR 71 mg/dl 15 a 45
+
+Contagem de plaquetas 496.000 /mmº 150.000 a 450.000
+
+MCV 89,0 f1 80,0 a 100,0
+
+Liberado em 2026-02-07. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

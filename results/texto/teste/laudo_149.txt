@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 6511828 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6563
+Paciente: Marcos Antônio Vieira Nascimento: 1991-10-01
+Data: 2026-03-28 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Creatinina 0.45 mg/dL 0.60 – 1.20
+Colesterol sérico 209 mg/dL Até 190
+Contagem de plaquetas 239 mil/mm³ 150 - 450
+Amplitude de distribuição dos eritrócitos 15.6 % 11.5 – 14.5
+Potássio no soro 5.7 mEq/L 3.5 – 5.1
+HCT 37.4 % 36.0 – 48.0
+HCM 28.9 pg 27.0 a 32.0
+Liberado em 2026-03-28. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

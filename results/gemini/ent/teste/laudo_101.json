@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Determinação do hematócrit\",\n      \"valor\": \"54,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"6,45\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"Sódio no soro\",\n      \"valor\": \"148\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Colesterolemia\",\n      \"valor\": \"247\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"6,26\",\n      \"unidade\": \"x1076/pL\",\n      \"faixa\": \"4,20 a 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 6.627448797225952,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 372,
+ "tokens_saida": 297,
+ "tokens_total": 669
+}

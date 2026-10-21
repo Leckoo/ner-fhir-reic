@@ -1,0 +1,89 @@
+{
+  "id": "laudo_137",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1946-06-12",
+  "data": "2026-05-25",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "ALT",
+      "rotulo_visto": true,
+      "valor": 46.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "46",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCV",
+      "rotulo_visto": true,
+      "valor": 104.0,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "104,0",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 - 100,0"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 155.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "155",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "Amplitude de distribuição dos eritrócitos",
+      "rotulo_visto": false,
+      "valor": 14.0,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,0",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "rotulo_visto": true,
+      "valor": 26.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "26",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 35.2,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35,2",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 – 36,0"
+    }
+  ]
+}

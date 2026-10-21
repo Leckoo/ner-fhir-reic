@@ -1,0 +1,11 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7410632 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1986
+Paciente: Carla Dias Nascimento: 1955-08-22
+Data: 2026-03-09 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Ureia 56 mg/dL 15 – 45
+Contagem de plaquetas 86 x10³/µL 150 – 450
+Leucócitos - Global 13.500 /mm³ 4.000 a 11.000
+Dosagem de colesterol tota 147 mg/dl Até 190
+Alanina aminotransferase 119 U/L < 41
+Liberado em 2026-03-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

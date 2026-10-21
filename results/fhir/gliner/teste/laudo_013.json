@@ -1,0 +1,122 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:43955c46-cb16-569a-a1b2-8a30856100ff",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Carla Dias"
+     }
+    ],
+    "birthDate": "1995-04-27"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:28a47da1-9298-5321-9d94-daeb3adc6265",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:43955c46-cb16-569a-a1b2-8a30856100ff"
+    },
+    "effectiveDateTime": "2026-07-22",
+    "valueQuantity": {
+     "value": 11.8
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:accae53e-894c-5302-857d-374ce1440d6f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:43955c46-cb16-569a-a1b2-8a30856100ff"
+    },
+    "effectiveDateTime": "2026-07-22",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b42e2e0a-df61-5b7d-81fd-41f8dc5b141d",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:43955c46-cb16-569a-a1b2-8a30856100ff"
+    },
+    "effectiveDateTime": "2026-07-22",
+    "result": [
+     {
+      "reference": "urn:uuid:28a47da1-9298-5321-9d94-daeb3adc6265"
+     },
+     {
+      "reference": "urn:uuid:accae53e-894c-5302-857d-374ce1440d6f"
+     }
+    ]
+   }
+  }
+ ]
+}

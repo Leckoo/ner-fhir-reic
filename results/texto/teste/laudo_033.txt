@@ -1,0 +1,12 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7788001 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7432
+Paciente: Sílvia Araújo Nascimento: 1941-05-04
+Data: 2026-09-15 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+VCM 82,0 fL 80,0 a 100,0
+TG 303 mg/dl Até 150
+Tireotrofina 9,16 µUI/mL 0,40 - 4,00
+Determinação do hematócrito 46,6 % 36,0 – 48,0
+ALT 19 U/L < 41
+Calemia 3,4 mmol/L 3,5 a 5,1
+Liberado em 2026-09-15. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

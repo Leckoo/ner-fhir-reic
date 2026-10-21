@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:e1f05020-c803-5b3e-81f1-a70fe39bcd39",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1953-11-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:adb93d3e-0e63-5ca1-ba44-e066dfed4dae",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:e1f05020-c803-5b3e-81f1-a70fe39bcd39"
+    },
+    "effectiveDateTime": "2026-01-08",
+    "valueQuantity": {
+     "value": 9.9
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cdb7aa7f-1ec3-56ec-b3ba-dd0c8e9cdb0b",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e1f05020-c803-5b3e-81f1-a70fe39bcd39"
+    },
+    "effectiveDateTime": "2026-01-08",
+    "result": [
+     {
+      "reference": "urn:uuid:adb93d3e-0e63-5ca1-ba44-e066dfed4dae"
+     }
+    ]
+   }
+  }
+ ]
+}

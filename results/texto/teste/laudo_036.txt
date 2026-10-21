@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 5096345 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3088
+Paciente: Fábio Nunes Nascimento: 1972-12-21
+Data: 2026-08-10 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Dosagem de ureia 63 mg/dL 15 - 45
+Alanina aminotransferase 143 U/L Até 41
+HCT 39,5 % 36,0 – 48,0
+Plaquetograma 333.000 /mm³ 150.000 - 450.000
+Triglicérides 79 mg/dl < 150
+TSH ultra sensível 8,09 mUI/L 0,40 a 4,00
+VCM 76,2 fl 80,0 - 100,0
+Liberado em 2026-08-10. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

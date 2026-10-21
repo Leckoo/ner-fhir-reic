@@ -1,0 +1,107 @@
+{
+  "id": "laudo_056",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1955-08-19",
+  "data": "2026-03-05",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "valor": 26.7,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "26,7",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 – 32,0"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "CT",
+      "valor": 127.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "127",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 190"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "valor": 87.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "87",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicemia de jejum",
+      "valor": 195.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "195",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "valor": 137.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "137",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "valor": 197.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "197",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "valor": 5.53,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,53",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hemoglobina",
+      "valor": 16.4,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "16,4",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 a 16,0"
+    }
+  ]
+}

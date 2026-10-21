@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"3,07\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"4,0\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"GLICOSE DE JEJUM\",\n      \"valor\": \"139\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"247\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"67\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"43,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"TIREOTROFINA\",\n      \"valor\": \"3,29\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    }\n  ]\n}",
+ "latencia_s": 5.845111131668091,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 541,
+ "tokens_saida": 446,
+ "tokens_total": 987
+}

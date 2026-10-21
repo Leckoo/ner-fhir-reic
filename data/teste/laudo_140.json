@@ -1,0 +1,63 @@
+{
+  "id": "laudo_140",
+  "paciente": "João Batista Moura",
+  "nascimento": "1970-03-05",
+  "data": "2026-04-02",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose no soro",
+      "rotulo_visto": false,
+      "valor": 190.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "190",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "rotulo_visto": true,
+      "valor": 3.15,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,15",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 a 5,40"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de triglicerídeos",
+      "rotulo_visto": false,
+      "valor": 291.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "291",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 150"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "Amplitude de distribuição dos eritrócitos",
+      "rotulo_visto": false,
+      "valor": 17.3,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "17,3",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    }
+  ]
+}

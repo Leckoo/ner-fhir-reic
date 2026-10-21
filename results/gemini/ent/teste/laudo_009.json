@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"133\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 — 145\"\n    },\n    {\n      \"exame\": \"Contagem de leucócitos\",\n      \"valor\": \"11.000\",\n      \"unidade\": \"Immê\",\n      \"faixa\": \"4.000 - 11.000\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"0,91\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"313\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"2,21\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"39,6\",\n      \"unidade\": \"Yo\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"26\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"<41\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"31\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15-45\"\n    }\n  ]\n}",
+ "latencia_s": 10.284754991531372,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 421,
+ "tokens_saida": 449,
+ "tokens_total": 870
+}

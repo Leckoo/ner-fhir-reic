@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HB\",\n      \"valor\": \"17.0\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12.0 – 16.0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"4.51\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4.20 - 5.40\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"57\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"377\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE TRIGLICERIDEOS\",\n      \"valor\": \"64\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 150\"\n    },\n    {\n      \"exame\": \"GLICOSE DE JEJUM\",\n      \"valor\": \"242\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"HORMONIO TIROTROFICO\",\n      \"valor\": \"0.34\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 - 4.00\"\n    }\n  ]\n}",
+ "latencia_s": 8.117775917053223,
+ "tentativas": 4,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 478,
+ "tokens_saida": 416,
+ "tokens_total": 894
+}

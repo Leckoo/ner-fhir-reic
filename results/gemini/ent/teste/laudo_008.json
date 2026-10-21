@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICOSE EM JEJUM\",\n      \"valor\": \"91\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"TIREOTROFINA\",\n      \"valor\": \"1,43\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"84.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 – 450.000\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"214\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"HEMATOCRITO\",\n      \"valor\": \"32,8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"CREATININEMIA\",\n      \"valor\": \"2,59\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE SODIO\",\n      \"valor\": \"143\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    }\n  ]\n}",
+ "latencia_s": 15.499401569366455,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 480,
+ "tokens_saida": 416,
+ "tokens_total": 896
+}

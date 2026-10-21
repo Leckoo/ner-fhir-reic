@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:c9a80674-a732-58b3-ba5e-da059272655a",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Elisa Prado"
+     }
+    ],
+    "birthDate": "1949-04-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:995e060d-53df-5672-b90b-f69a12e06a41",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c9a80674-a732-58b3-ba5e-da059272655a"
+    },
+    "effectiveDateTime": "2026-07-28"
+   }
+  }
+ ]
+}

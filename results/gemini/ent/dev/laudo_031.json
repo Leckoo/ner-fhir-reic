@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,1\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"41,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"GLICOSE DE JEJUM\",\n      \"valor\": \"135\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"81,7\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"CHCM\",\n      \"valor\": \"35,2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"405.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 – 450.000\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"4,46\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 – 4,00\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"305\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 190\"\n    }\n  ]\n}",
+ "latencia_s": 20.19029664993286,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 505,
+ "tokens_saida": 462,
+ "tokens_total": 967
+}

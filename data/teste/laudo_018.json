@@ -1,0 +1,102 @@
+{
+  "id": "laudo_018",
+  "paciente": "Vânia Lopes",
+  "nascimento": "1972-04-04",
+  "data": "2026-01-21",
+  "layout": "tabela",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de leucócitos",
+      "rotulo_visto": false,
+      "valor": 3.6,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "3.600",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 – 11.000"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 175.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "175",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "Concentração de hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 34.3,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "34.3",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32.0 - 36.0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 10.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "10",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 14.7,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "14.7",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12.0 a 16.0"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 3.6,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3.6",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3.5 - 5.1"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 9.54,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "9.54",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 - 4.00"
+    }
+  ]
+}

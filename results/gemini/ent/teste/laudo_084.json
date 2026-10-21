@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"119\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70-99\"\n    },\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"5.85\",\n      \"unidade\": \"x10\\\"6/uL\",\n      \"faixa\": \"4.20 - 5.40\"\n    },\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"91\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70-99\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"17.0\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"Hormônio tirotrófico\",\n      \"valor\": \"0.67\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0.40 — 4.00\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"239\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"154\",\n      \"unidade\": \"mEqg/L\",\n      \"faixa\": \"136 — 145\"\n    }\n  ]\n}",
+ "latencia_s": 6.769017219543457,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 419,
+ "tokens_saida": 409,
+ "tokens_total": 828
+}

@@ -1,0 +1,307 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1991-10-01"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:926ed31a-32c0-5d0e-8b35-2703a0366de3",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "valueQuantity": {
+     "value": 0.45,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e053a4bb-0be8-52c5-8a83-7f04bfa0388c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Colesterol sérico"
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "valueQuantity": {
+     "value": 209.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0e7acb86-b6ef-5db0-a2d5-d93708354a4c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Potássio no soro"
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "valueQuantity": {
+     "value": 5.7,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5adac977-9449-5d2d-9da9-a0711c6f9fc2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "valueQuantity": {
+     "value": 37.4,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cbca9c31-a0cc-5ada-a504-596b3a5a42d9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "valueQuantity": {
+     "value": 28.9,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 27.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:890f0983-e03c-59fd-86c2-354c5e557a8d",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f71b0c2d-f3d3-52cd-b773-910c9eb8b67a"
+    },
+    "effectiveDateTime": "2026-03-28",
+    "result": [
+     {
+      "reference": "urn:uuid:926ed31a-32c0-5d0e-8b35-2703a0366de3"
+     },
+     {
+      "reference": "urn:uuid:e053a4bb-0be8-52c5-8a83-7f04bfa0388c"
+     },
+     {
+      "reference": "urn:uuid:0e7acb86-b6ef-5db0-a2d5-d93708354a4c"
+     },
+     {
+      "reference": "urn:uuid:5adac977-9449-5d2d-9da9-a0711c6f9fc2"
+     },
+     {
+      "reference": "urn:uuid:cbca9c31-a0cc-5ada-a504-596b3a5a42d9"
+     }
+    ]
+   }
+  }
+ ]
+}

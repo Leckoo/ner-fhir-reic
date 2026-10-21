@@ -1,0 +1,29 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7092519 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9925
+Paciente: Lúcia Ferreira Nascimento: 1956-10-28
+Data: 2026-02-12 Solicitante: Dr(a). Exemplo
+URÉIA
+Material: Sangue Método: Automatizado
+Resultado: 82 mg/dl
+Valor de referência: 15 – 45
+ERITRÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 3,19 x10^6/µL
+Valor de referência: 4,20 – 5,40
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 132 mmol/L
+Valor de referência: 136 - 145
+K
+Material: Sangue Método: Automatizado
+Resultado: 3,7 mmol/L
+Valor de referência: 3,5 - 5,1
+COLESTEROL
+Material: Sangue Método: Automatizado
+Resultado: 215 mg/dl
+Valor de referência: < 190
+CONTAGEM DE PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 393 x10³/µL
+Valor de referência: 150 a 450
+Liberado em 2026-02-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

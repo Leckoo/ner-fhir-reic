@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7135971 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8516
+Paciente: Elisa Prado Nascimento: 1985-11-05
+Data: 2026-08-08 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+UR 46 mg/dl 15 - 45
+RBC 4.45 x10"6/pL 4.20 - 5.40
+CHCM 36.9 g/dl 32.0 - 36.0
+ALT 16 U/L < 41
+Liberado em 2026-08-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

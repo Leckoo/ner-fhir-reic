@@ -1,0 +1,37 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4286524 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2820
+Paciente: Lúcia Ferreira Nascimento: 1998-03-23
+Data: 2026-01-17 Solicitante: Dr(a). Exemplo
+CREATININA
+Material: Sangue Método: Automatizado
+Resultado: 2.87 mg/dl
+Valor de referência: 0.60 a 1.20
+AST
+Material: Sangue Método: Automatizado
+Resultado: 25 U/L
+Valor de referência: Até 40
+HT
+Material: Sangue Método: Automatizado
+Resultado: 41.0 %
+Valor de referência: 36.0 – 48.0
+ALT
+Material: Sangue Método: Automatizado
+Resultado: 73 U/L
+Valor de referência: Até 41
+VCM
+Material: Sangue Método: Automatizado
+Resultado: 92.5 fl
+Valor de referência: 80.0 – 100.0
+CT
+Material: Sangue Método: Automatizado
+Resultado: 302 mg/dL
+Valor de referência: < 190
+TG
+Material: Sangue Método: Automatizado
+Resultado: 198 mg/dl
+Valor de referência: Até 150
+POTÁSSIO
+Material: Sangue Método: Automatizado
+Resultado: 3.2 mEq/L
+Valor de referência: 3.5 - 5.1
+Liberado em 2026-01-17. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

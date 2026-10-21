@@ -1,0 +1,26 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 1548998 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8905
+
+Paciente: Hugo Reis Nascimento: 1989-08-16
+
+Data: 2026-06-03 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+Transaminase glutâmico pir 13 U/L < 41
+
+Colesterolemia 273 mg/dL Até 190
+
+Contagem de leucócitos 13.9 x10º/pL 4:0:= 11.0
+
+RDW-CV 13.874 115 =14:45
+
+TGO 28 U/L Até 40
+
+Concentração de hemoglobin 33.7 g/al 32.0 a 36.0
+
+CREA 1.48 mg/dl 0.60 a 1.20
+
+Dosagem de hemoglobina 16.5 g/ dL 12.0 - 16.0
+
+Liberado em 2026-06-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

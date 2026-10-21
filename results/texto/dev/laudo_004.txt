@@ -1,0 +1,12 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 3267325 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6555
+Paciente: Carla Dias Nascimento: 1960-07-19
+Data: 2026-05-10 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+MCH 33,9 pg 27,0 – 32,0
+Hemoglobina 10,8 g/dl 12,0 a 16,0
+TSH 5,95 mUI/L 0,40 - 4,00
+Hematócrito 36,0 % 36,0 - 48,0
+RDW 15,3 % 11,5 - 14,5
+TG 97 mg/dL < 150
+Liberado em 2026-05-10. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,102 @@
+{
+  "id": "laudo_062",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "1944-07-28",
+  "data": "2026-04-13",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 93.3,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "93,3",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 – 100,0"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 15.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "15,4",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 - 14,5"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 36.5,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "36,5",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32,0 a 36,0"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetograma",
+      "rotulo_visto": false,
+      "valor": 375.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "375",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia no soro",
+      "rotulo_visto": false,
+      "valor": 58.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "58",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 67.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "67",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 3.36,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3,36",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 – 4,00"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 8797686 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2392
+Paciente: Fábio Nunes Nascimento: 2004-11-15
+Data: 2026-09-11 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Leucócitos - Global 7,4 mil/mm³ 4,0 – 11,0
+Glicose em jejum 245 mg/dl 70 a 99
+Potássio 5,6 mmol/L 3,5 – 5,1
+Tireotrofina 5,17 µUI/mL 0,40 a 4,00
+ALT 105 U/L < 41
+Liberado em 2026-09-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"0,65\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 – 1,20\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"4,0\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"Leucócitos\",\n      \"valor\": \"9.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"79,3\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"31,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"138\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    }\n  ]\n}",
+ "latencia_s": 10.11464810371399,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 411,
+ "tokens_saida": 402,
+ "tokens_total": 813
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14.4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 a 14.5\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"34.0\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27.0 a 32.0\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"17.300\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"12.8\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12.0 a 16.0\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"95.7\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80.0 – 100.0\"\n    }\n  ]\n}",
+ "latencia_s": 14.626027822494507,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 369,
+ "tokens_saida": 296,
+ "tokens_total": 665
+}

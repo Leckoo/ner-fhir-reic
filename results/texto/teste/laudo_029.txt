@@ -1,0 +1,29 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7264067 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8421
+Paciente: Íris Campos Nascimento: 1976-03-19
+Data: 2026-05-01 Solicitante: Dr(a). Exemplo
+POTÁSSIO NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 2.8 mEq/L
+Valor de referência: 3.5 - 5.1
+PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 397 mil/mm?
+Valor de referência: 150 — 450
+TRIGLICERÍDEOS
+Material: Sangue Método: Automatizado
+Resultado: 65 mg/dL
+Valor de referência: Até 150
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 126 mmol/L
+Valor de referência: 136 - 145
+HEMÁCIAS
+Material: Sangue Método: Automatizado
+Resultado: 4.55 x1046/uL
+Valor de referência: 4.20 a 5.40
+UREIA
+Material: Sangue Método: Automatizado
+Resultado: 49 mg/dL
+Valor de referência: 15 a 45
+Liberado em 2026-05-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

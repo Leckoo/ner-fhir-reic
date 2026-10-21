@@ -1,0 +1,89 @@
+{
+  "id": "laudo_132",
+  "paciente": "Sílvia Araújo",
+  "nascimento": "1963-05-20",
+  "data": "2026-06-07",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "Amplitude de distribuição dos eritrócitos",
+      "rotulo_visto": false,
+      "valor": 14.7,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,7",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "rotulo_visto": true,
+      "valor": 39.6,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "39,6",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "rotulo_visto": true,
+      "valor": 50.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "50",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 14.2,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "14.200",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 - 11.000"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 33.8,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "33,8",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "rotulo_visto": true,
+      "valor": 226.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "226",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    }
+  ]
+}

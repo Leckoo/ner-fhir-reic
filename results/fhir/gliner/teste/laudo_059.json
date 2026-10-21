@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:9756d598-65ee-56b6-aa0e-2b5108918671",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Otávio Pereira"
+     }
+    ],
+    "birthDate": "1957-09-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:86412eef-e865-5416-952a-c23def9f3e44",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9756d598-65ee-56b6-aa0e-2b5108918671"
+    },
+    "effectiveDateTime": "2026-09-16"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c41d461e-f0d7-59d8-b76d-b01ca5d784cc",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9756d598-65ee-56b6-aa0e-2b5108918671"
+    },
+    "effectiveDateTime": "2026-09-16",
+    "result": [
+     {
+      "reference": "urn:uuid:86412eef-e865-5416-952a-c23def9f3e44"
+     }
+    ]
+   }
+  }
+ ]
+}

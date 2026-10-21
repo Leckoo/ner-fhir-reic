@@ -1,0 +1,89 @@
+{
+  "id": "laudo_021",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1963-02-03",
+  "data": "2026-08-11",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos - Global",
+      "rotulo_visto": true,
+      "valor": 14.1,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "14.1",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "4.0 a 11.0"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "Hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 34.5,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "34.5",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 a 32.0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "rotulo_visto": true,
+      "valor": 211.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "211",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 6.44,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "6.44",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 - 4.00"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 84.9,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "84.9",
+      "texto_unidade": "fL",
+      "texto_faixa": "80.0 - 100.0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Natremia",
+      "rotulo_visto": false,
+      "valor": 133.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "133",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 - 145"
+    }
+  ]
+}

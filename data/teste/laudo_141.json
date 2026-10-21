@@ -1,0 +1,76 @@
+{
+  "id": "laudo_141",
+  "paciente": "Vânia Lopes",
+  "nascimento": "1995-11-19",
+  "data": "2026-02-03",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "rotulo_visto": true,
+      "valor": 97.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "97",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hemoglobina",
+      "rotulo_visto": true,
+      "valor": 15.2,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "15,2",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 - 16,0"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose no soro",
+      "rotulo_visto": false,
+      "valor": 211.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "211",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterolemia",
+      "rotulo_visto": false,
+      "valor": 172.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "172",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 190"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 35.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "35,8",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    }
+  ]
+}

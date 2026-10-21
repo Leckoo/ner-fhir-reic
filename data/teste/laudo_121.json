@@ -1,0 +1,63 @@
+{
+  "id": "laudo_121",
+  "paciente": "Carla Dias",
+  "nascimento": "1949-02-18",
+  "data": "2026-08-09",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "rotulo_visto": true,
+      "valor": 5.11,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,11",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 a 5,40"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "rotulo_visto": true,
+      "valor": 17.5,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "17,5",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "Hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 29.4,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "29,4",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 - 32,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "rotulo_visto": true,
+      "valor": 76.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "76",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    }
+  ]
+}

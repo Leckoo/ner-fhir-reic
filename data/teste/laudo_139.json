@@ -1,0 +1,63 @@
+{
+  "id": "laudo_139",
+  "paciente": "Fábio Nunes",
+  "nascimento": "1940-04-21",
+  "data": "2026-05-20",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "ALT",
+      "rotulo_visto": true,
+      "valor": 40.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "40",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 53.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "53",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 12.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "12,4",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 - 14,5"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Ureia",
+      "rotulo_visto": true,
+      "valor": 60.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "60",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Colesterolemia\",\n      \"valor\": \"1783\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"Contagem de leucócitos\",\n      \"valor\": \"17,3\",\n      \"unidade\": \"mil/mm3\",\n      \"faixa\": \"4,0- 11,0\"\n    },\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"5.27\",\n      \"unidade\": \"milhões/mm?\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"144\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    }\n  ]\n}",
+ "latencia_s": 5.052160739898682,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 343,
+ "tokens_saida": 238,
+ "tokens_total": 581
+}

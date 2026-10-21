@@ -1,0 +1,37 @@
+LabSul Diagnósticos (fictício)
+CNES 9406982 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8825
+Paciente: Ana Souza Nascimento: 1944-03-09
+Data: 2026-01-16 Solicitante: Dr(a). Exemplo
+HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 35,8 %
+Valor de referência: 36,0 - 48,0
+HGB
+Material: Sangue Método: Automatizado
+Resultado: 12,5 g/dl
+Valor de referência: 12,0 – 16,0
+LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 11,5 x10³/µL
+Valor de referência: 4,0 a 11,0
+RBC
+Material: Sangue Método: Automatizado
+Resultado: 6,34 milhões/mm³
+Valor de referência: 4,20 – 5,40
+MCHC
+Material: Sangue Método: Automatizado
+Resultado: 32,5 g/dl
+Valor de referência: 32,0 - 36,0
+TGO
+Material: Sangue Método: Automatizado
+Resultado: 82 U/L
+Valor de referência: < 40
+CONTAGEM DE PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 224.000 /mm³
+Valor de referência: 150.000 a 450.000
+VOLUME CORPUSCULAR MÉDIO
+Material: Sangue Método: Automatizado
+Resultado: 76,8 fl
+Valor de referência: 80,0 – 100,0
+Liberado em 2026-01-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

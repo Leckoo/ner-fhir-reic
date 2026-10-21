@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Natremia\",\n      \"valor\": \"150\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"248\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"210\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"Tirotropina\",\n      \"valor\": \"0,80\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"62\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"CHCM\",\n      \"valor\": \"33,9\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"202\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"97,8\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 – 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 5.79856538772583,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 426,
+ "tokens_saida": 451,
+ "tokens_total": 877
+}

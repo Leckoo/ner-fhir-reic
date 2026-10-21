@@ -1,0 +1,55 @@
+Laboratório Exemplo de Análises Clínicas
+
+CNES 7545274 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4393
+
+Paciente: Sílvia Araújo Nascimento: 1963-05-20
+Data: 2026-06-07 Solicitante: Dr(a). Exemplo
+AMPLITUDE DE DISTRIBUIÇÃO DOS ERITRÓCITOS
+
+Material: Sangue Método: Automatizado
+
+Resultado: 14,7 %
+
+Valor de referência: 11,5 — 14,5
+
+HT
+
+Material: Sangue Método: Automatizado
+
+Resultado: 39,6 %
+
+Valor de referência: 36,0 a 48,0
+
+AST
+
+Material: Sangue Método: Automatizado
+
+Resultado: 50 U/L
+
+Valor de referência: Até 40
+
+WBC
+
+Material: Sangue Método: Automatizado
+
+Resultado: 14.200 /mmº
+
+Valor de referência: 4.000 - 11.000
+
+MCHC
+
+Material: Sangue Método: Automatizado
+
+Resultado: 33,8 g/dl
+
+Valor de referência: 32,0 - 36,0
+
+GLICOSE DE JEJUM
+
+Material: Sangue Método: Automatizado
+
+Resultado: 226 mg/dl
+
+Valor de referência: 70 - 99
+
+Liberado em 2026-06-07. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

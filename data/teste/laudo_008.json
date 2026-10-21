@@ -1,0 +1,102 @@
+{
+  "id": "laudo_008",
+  "paciente": "Sílvia Araújo",
+  "nascimento": "1953-02-05",
+  "data": "2026-03-17",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICOSE EM JEJUM",
+      "rotulo_visto": true,
+      "valor": 91.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "91",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TIREOTROFINA",
+      "rotulo_visto": true,
+      "valor": 1.43,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "1,43",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLAQUETAS",
+      "rotulo_visto": true,
+      "valor": 84.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "84.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 – 450.000"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 214.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "214",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HEMATOCRITO",
+      "rotulo_visto": true,
+      "valor": 32.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "32,8",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREATININEMIA",
+      "rotulo_visto": false,
+      "valor": 2.59,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2,59",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 a 1,20"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "DOSAGEM DE SODIO",
+      "rotulo_visto": false,
+      "valor": 143.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "143",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145"
+    }
+  ]
+}

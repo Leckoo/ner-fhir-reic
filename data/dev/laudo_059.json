@@ -1,0 +1,59 @@
+{
+  "id": "laudo_059",
+  "paciente": "Otávio Pereira",
+  "nascimento": "1979-08-20",
+  "data": "2026-04-03",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "valor": 83.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "83",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "CT",
+      "valor": 208.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "208",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "valor": 4.47,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "4,47",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "valor": 202.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "202",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 - 99"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"K\",\n      \"valor\": \"3,0\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5-5,1\"\n    },\n    {\n      \"exame\": \"Sódio no soro\",\n      \"valor\": \"149\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"394\",\n      \"unidade\": \"mil/mm3\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"Tirotropina\",\n      \"valor\": \"2,94\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 — 4,00\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"288\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    }\n  ]\n}",
+ "latencia_s": 4.479700565338135,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 368,
+ "tokens_saida": 290,
+ "tokens_total": 658
+}

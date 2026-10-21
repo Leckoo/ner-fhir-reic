@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 3550549 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8855
+Paciente: Íris Campos Nascimento: 1966-03-13
+Data: 2026-08-06 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+K 3,0 mEq/L 3,5-5,1
+Sódio no soro 149 mmol/L 136 - 145
+Plaquetograma 394 mil/mm3 150 a 450
+Tirotropina 2,94 mUI/L 0,40 — 4,00
+Triglicérides 288 mg/dL Até 150
+Liberado em 2026-08-06. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

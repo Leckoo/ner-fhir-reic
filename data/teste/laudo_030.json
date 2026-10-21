@@ -1,0 +1,89 @@
+{
+  "id": "laudo_030",
+  "paciente": "Natália Gomes",
+  "nascimento": "1979-07-08",
+  "data": "2026-02-04",
+  "layout": "tabela",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de eritrócitos",
+      "rotulo_visto": false,
+      "valor": 5.97,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5.97",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4.20 a 5.40"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase glutâmico pirúvica",
+      "rotulo_visto": false,
+      "valor": 29.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "29",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Dosagem de hemoglobina",
+      "rotulo_visto": true,
+      "valor": 16.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "16.9",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12.0 - 16.0"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "Concentração de hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 35.7,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35.7",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32.0 a 36.0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Hormônio tirotrófico",
+      "rotulo_visto": false,
+      "valor": 4.46,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "4.46",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 – 4.00"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 97.4,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "97.4",
+      "texto_unidade": "fL",
+      "texto_faixa": "80.0 – 100.0"
+    }
+  ]
+}

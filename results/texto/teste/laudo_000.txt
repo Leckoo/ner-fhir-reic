@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 9605863 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9486
+Paciente: Sílvia Araújo Nascimento: 1993-10-18
+Data: 2026-02-08 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+TGO 84 U/L Até 40
+Dosagem de triglicerídeos 400 mg/dl Até 150
+Contagem de leucócitos 9,3 mil/mm³ 4,0 – 11,0
+HGB 16,6 g/dL 12,0 - 16,0
+Eritrócitos 4,40 x10^6/µL 4,20 – 5,40
+HCT 39,5 % 36,0 – 48,0
+MCH 34,1 pg 27,0 – 32,0
+Liberado em 2026-02-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

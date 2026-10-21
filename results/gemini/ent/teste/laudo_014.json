@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"35,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"TIREOTROFINA\",\n      \"valor\": \"4,66\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS - GLOBAL\",\n      \"valor\": \"15.100\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"CREATININEMIA\",\n      \"valor\": \"0,58\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    }\n  ]\n}",
+ "latencia_s": 8.988311290740967,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 402,
+ "tokens_saida": 253,
+ "tokens_total": 655
+}

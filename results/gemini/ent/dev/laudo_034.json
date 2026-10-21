@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TRANSAMINASE OXALACÉTICA\",\n      \"valor\": \"73\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"TIREOTROFINA\",\n      \"valor\": \"0,92\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"11,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"256\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    }\n  ]\n}",
+ "latencia_s": 6.361206769943237,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 401,
+ "tokens_saida": 230,
+ "tokens_total": 631
+}

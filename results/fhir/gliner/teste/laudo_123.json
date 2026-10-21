@@ -1,0 +1,116 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:6b613aed-8a67-5c53-a13f-4b28dde90e69",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Bruno Lima"
+     }
+    ],
+    "birthDate": "1964-04-07"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:be739ca2-96ee-523c-ad63-bcaa930f3a45",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6b613aed-8a67-5c53-a13f-4b28dde90e69"
+    },
+    "effectiveDateTime": "2026-05-19",
+    "valueQuantity": {
+     "value": 0.55
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bef28f08-6511-555d-ba08-54e1c3c26dcc",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sódio no soro"
+    },
+    "subject": {
+     "reference": "urn:uuid:6b613aed-8a67-5c53-a13f-4b28dde90e69"
+    },
+    "effectiveDateTime": "2026-05-19",
+    "valueQuantity": {
+     "value": 136.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9c242dbe-f475-5ebf-ac35-2ca3fb4a5dfd",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6b613aed-8a67-5c53-a13f-4b28dde90e69"
+    },
+    "effectiveDateTime": "2026-05-19",
+    "result": [
+     {
+      "reference": "urn:uuid:be739ca2-96ee-523c-ad63-bcaa930f3a45"
+     },
+     {
+      "reference": "urn:uuid:bef28f08-6511-555d-ba08-54e1c3c26dcc"
+     }
+    ]
+   }
+  }
+ ]
+}

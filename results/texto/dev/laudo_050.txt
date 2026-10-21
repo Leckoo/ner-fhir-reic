@@ -1,0 +1,10 @@
+LabSul Diagnósticos (fictício)
+CNES 1865412 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7034
+Paciente: Patrícia Ramos Nascimento: 2001-12-08
+Data: 2026-03-27 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Leucócitos - Global 9.500 /mm³ 4.000 - 11.000
+RBC 6,21 milhões/mm³ 4,20 a 5,40
+Transaminase oxalacética 53 U/L < 40
+HCT 32,5 % 36,0 – 48,0
+Liberado em 2026-03-27. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,9\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"Hemoglobina\",\n      \"valor\": \"10,8\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"5,95\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"Hematócrito\",\n      \"valor\": \"36,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"15,3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"97\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    }\n  ]\n}",
+ "latencia_s": 5.306983232498169,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 381,
+ "tokens_saida": 335,
+ "tokens_total": 716
+}

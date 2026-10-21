@@ -1,0 +1,83 @@
+{
+  "id": "laudo_028",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "1956-10-28",
+  "data": "2026-02-12",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "valor": 82.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "82",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 – 45"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "valor": 3.19,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,19",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 – 5,40"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "valor": 132.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "132",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 - 145"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "valor": 3.7,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3,7",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 - 5,1"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol",
+      "valor": 215.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "215",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "valor": 393.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "393",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 a 450"
+    }
+  ]
+}

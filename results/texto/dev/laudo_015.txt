@@ -1,0 +1,25 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 1754650 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1906
+Paciente: Hugo Reis Nascimento: 1949-11-24
+Data: 2026-05-07 Solicitante: Dr(a). Exemplo
+TRANSAMINASE OXALACÉTICA
+Material: Sangue Método: Automatizado
+Resultado: 24 U/L
+Valor de referência: Até 40
+TRIGLICÉRIDES
+Material: Sangue Método: Automatizado
+Resultado: 170 mg/dl
+Valor de referência: < 150
+HCM
+Material: Sangue Método: Automatizado
+Resultado: 32.6 pg
+Valor de referência: 27.0 – 32.0
+CONTAGEM DE PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 109 mil/mm³
+Valor de referência: 150 a 450
+ALT
+Material: Sangue Método: Automatizado
+Resultado: 76 U/L
+Valor de referência: Até 41
+Liberado em 2026-05-07. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

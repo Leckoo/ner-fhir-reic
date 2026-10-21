@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"133\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"28,0\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"112\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"4,8\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"Dosagem de colesterol tota\",\n      \"valor\": \"222\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"13,9\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"124\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 6.9354352951049805,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 388,
+ "tokens_saida": 385,
+ "tokens_total": 773
+}

@@ -1,0 +1,37 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7897261 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1820
+Paciente: Íris Campos Nascimento: 2006-09-01
+Data: 2026-06-24 Solicitante: Dr(a). Exemplo
+MCV
+Material: Sangue Método: Automatizado
+Resultado: 85,9 fl
+Valor de referência: 80,0 - 100,0
+MCH
+Material: Sangue Método: Automatizado
+Resultado: 35,1 pg
+Valor de referência: 27,0 a 32,0
+GLICEMIA DE JEJUM
+Material: Sangue Método: Automatizado
+Resultado: 160 mg/dL
+Valor de referência: 70 – 99
+TIREOTROFINA
+Material: Sangue Método: Automatizado
+Resultado: 7,06 µUI/mL
+Valor de referência: 0,40 – 4,00
+NA
+Material: Sangue Método: Automatizado
+Resultado: 155 mEq/L
+Valor de referência: 136 – 145
+GLI
+Material: Sangue Método: Automatizado
+Resultado: 118 mg/dl
+Valor de referência: 70 – 99
+HT
+Material: Sangue Método: Automatizado
+Resultado: 28,8 %
+Valor de referência: 36,0 - 48,0
+LEUCÓCITOS - GLOBAL
+Material: Sangue Método: Automatizado
+Resultado: 11,0 x10³/µL
+Valor de referência: 4,0 a 11,0
+Liberado em 2026-06-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

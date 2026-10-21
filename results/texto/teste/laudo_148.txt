@@ -1,0 +1,21 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4792262 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7047
+Paciente: Gabriela Melo Nascimento: 1985-10-20
+Data: 2026-02-18 Solicitante: Dr(a). Exemplo
+DOSAGEM DE UREIA
+Material: Sangue Método: Automatizado
+Resultado: 39 mg/dL
+Valor de referência: 15 a 45
+CREA
+Material: Sangue Método: Automatizado
+Resultado: 2,90 mg/dL
+Valor de referência: 0,60 – 1,20
+NA
+Material: Sangue Método: Automatizado
+Resultado: 137 mmol/L
+Valor de referência: 136 a 145
+COLESTEROL TOTAL
+Material: Sangue Método: Automatizado
+Resultado: 242 mg/dl
+Valor de referência: < 190
+Liberado em 2026-02-18. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

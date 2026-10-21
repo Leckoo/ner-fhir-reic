@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"27.7\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27.0 a 32.0\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"56\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"GLICOSE EM JEJUM\",\n      \"valor\": \"83\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"54.8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 – 48.0\"\n    }\n  ]\n}",
+ "latencia_s": 5.438446521759033,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 390,
+ "tokens_saida": 222,
+ "tokens_total": 612
+}

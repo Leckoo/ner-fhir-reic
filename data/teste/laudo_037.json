@@ -1,0 +1,102 @@
+{
+  "id": "laudo_037",
+  "paciente": "Ana Souza",
+  "nascimento": "1989-09-19",
+  "data": "2026-08-11",
+  "layout": "legado",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREATININEMIA",
+      "rotulo_visto": false,
+      "valor": 0.84,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "0.84",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0.60 a 1.20"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "HEMACIAS",
+      "rotulo_visto": true,
+      "valor": 4.43,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4.43",
+      "texto_unidade": "milhoes/mm³",
+      "texto_faixa": "4.20 - 5.40"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "COLESTEROL TOTAL",
+      "rotulo_visto": true,
+      "valor": 138.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "138",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "ATE 190"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICOSE",
+      "rotulo_visto": true,
+      "valor": 137.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "137",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "DETERMINACAO DO HEMATOCRITO",
+      "rotulo_visto": false,
+      "valor": 51.1,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "51.1",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 - 48.0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "LEUCOCITOS",
+      "rotulo_visto": true,
+      "valor": 16.7,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "16.700",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 - 11.000"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLAQUETOGRAMA",
+      "rotulo_visto": false,
+      "valor": 158.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "158",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 - 450"
+    }
+  ]
+}

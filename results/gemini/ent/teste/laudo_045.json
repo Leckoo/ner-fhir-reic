@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"COLESTEROLEMIA\",\n      \"valor\": \"275\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"POTASSIO\",\n      \"valor\": \"4,7\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"50,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE GLUTAMICO OXALACETICA\",\n      \"valor\": \"27\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 40\"\n    },\n    {\n      \"exame\": \"GLICOSE EM JEJUM\",\n      \"valor\": \"99\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    }\n  ]\n}",
+ "latencia_s": 4.393453359603882,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 404,
+ "tokens_saida": 285,
+ "tokens_total": 689
+}

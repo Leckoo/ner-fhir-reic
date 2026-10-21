@@ -1,0 +1,29 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 6809393 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4440
+Paciente: Marcos Antônio Vieira Nascimento: 1948-05-09
+Data: 2026-01-20 Solicitante: Dr(a). Exemplo
+GLICOSE
+Material: Sangue Método: Automatizado
+Resultado: 88 mg/dl
+Valor de referência: 70 a 99
+TSH
+Material: Sangue Método: Automatizado
+Resultado: 2,89 µUI/mL
+Valor de referência: 0,40 a 4,00
+HGB
+Material: Sangue Método: Automatizado
+Resultado: 17,6 g/dL
+Valor de referência: 12,0 – 16,0
+CONCENTRAÇÃO DE HEMOGLOBINA CORPUSCULAR MÉDIA
+Material: Sangue Método: Automatizado
+Resultado: 31,3 g/dL
+Valor de referência: 32,0 - 36,0
+SGOT
+Material: Sangue Método: Automatizado
+Resultado: 65 U/L
+Valor de referência: < 40
+DOSAGEM DE CREATININA
+Material: Sangue Método: Automatizado
+Resultado: 2,53 mg/dL
+Valor de referência: 0,60 a 1,20
+Liberado em 2026-01-20. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

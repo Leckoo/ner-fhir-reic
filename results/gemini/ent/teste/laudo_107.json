@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"433\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrit\",\n      \"valor\": \"42,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"46\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"13.500\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"Colesterol sérico\",\n      \"valor\": \"157\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"3,68\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"247\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    }\n  ]\n}",
+ "latencia_s": 8.59286618232727,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 410,
+ "tokens_saida": 403,
+ "tokens_total": 813
+}

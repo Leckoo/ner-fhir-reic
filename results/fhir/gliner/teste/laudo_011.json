@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:dd75ce7e-ef6f-513e-bcc6-0d3b441988c6",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Lúcia Ferreira"
+     }
+    ],
+    "birthDate": "2002-06-27"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b1f6df91-ea23-5790-9329-d0a362c4ec91",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:dd75ce7e-ef6f-513e-bcc6-0d3b441988c6"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:68d7f944-370b-551f-b328-92e7bbd87b4a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dd75ce7e-ef6f-513e-bcc6-0d3b441988c6"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "result": [
+     {
+      "reference": "urn:uuid:b1f6df91-ea23-5790-9329-d0a362c4ec91"
+     }
+    ]
+   }
+  }
+ ]
+}

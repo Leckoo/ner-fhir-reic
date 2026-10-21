@@ -1,0 +1,76 @@
+{
+  "id": "laudo_049",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "1994-02-20",
+  "data": "2026-01-23",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "Hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 27.4,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "27,4",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 - 32,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "rotulo_visto": true,
+      "valor": 256.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "256",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 150"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "rotulo_visto": true,
+      "valor": 2.31,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2,31",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 a 1,20"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 148.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "148",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos",
+      "rotulo_visto": true,
+      "valor": 12.1,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "12,1",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 – 11,0"
+    }
+  ]
+}

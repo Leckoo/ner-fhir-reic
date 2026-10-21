@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:501d5f27-b862-519f-821f-5f959fca3eab",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Sílvia Araújo"
+     }
+    ],
+    "birthDate": "1963-05-20"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:98ac7293-b38c-5772-b526-da7cdcef8727",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:501d5f27-b862-519f-821f-5f959fca3eab"
+    },
+    "effectiveDateTime": "2026-06-07",
+    "valueQuantity": {
+     "value": 11.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ba036953-ed43-583d-a2ce-68cd3c4c909b",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:501d5f27-b862-519f-821f-5f959fca3eab"
+    },
+    "effectiveDateTime": "2026-06-07",
+    "result": [
+     {
+      "reference": "urn:uuid:98ac7293-b38c-5772-b526-da7cdcef8727"
+     }
+    ]
+   }
+  }
+ ]
+}

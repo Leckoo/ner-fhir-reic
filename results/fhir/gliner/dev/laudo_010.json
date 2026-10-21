@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:a8d0757f-31e6-5d62-bfe5-651056d51e82",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "2004-11-15"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:812bb244-5f30-52d5-ab3a-8343a5f61fdf",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a8d0757f-31e6-5d62-bfe5-651056d51e82"
+    },
+    "effectiveDateTime": "2026-09-11"
+   }
+  }
+ ]
+}

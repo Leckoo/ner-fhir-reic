@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"43\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"33,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 – 36,0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"16,5\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"COLESTEROL\",\n      \"valor\": \"175\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"HORMONIO TIROTROFICO\",\n      \"valor\": \"2,89\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 – 4,00\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS\",\n      \"valor\": \"3,9\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 a 11,0\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"139\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"DETERMINACAO DO HEMATOCRITO\",\n      \"valor\": \"42,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    }\n  ]\n}",
+ "latencia_s": 15.045488834381104,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 506,
+ "tokens_saida": 473,
+ "tokens_total": 979
+}

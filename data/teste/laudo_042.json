@@ -1,0 +1,89 @@
+{
+  "id": "laudo_042",
+  "paciente": "Diego Rocha",
+  "nascimento": "1981-05-05",
+  "data": "2026-07-17",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TGL",
+      "rotulo_visto": false,
+      "valor": 173.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "173",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 150"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 203.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "203",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLAQUETOGRAMA",
+      "rotulo_visto": false,
+      "valor": 498.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "498",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "DOSAGEM DE SODIO",
+      "rotulo_visto": false,
+      "valor": 137.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "137",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 16.1,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "16,1",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 a 16,0"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 31.1,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "31,1",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 – 36,0"
+    }
+  ]
+}

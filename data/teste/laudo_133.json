@@ -1,0 +1,89 @@
+{
+  "id": "laudo_133",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1953-11-23",
+  "data": "2026-01-08",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 9.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "9,9",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 - 16,0"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HCT",
+      "rotulo_visto": true,
+      "valor": 32.5,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "32,5",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "rotulo_visto": true,
+      "valor": 4.2,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,2",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 a 5,1"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 79.9,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "79,9",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 - 100,0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de eritrócitos",
+      "rotulo_visto": false,
+      "valor": 6.31,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "6,31",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 30.2,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "30,2",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 – 36,0"
+    }
+  ]
+}

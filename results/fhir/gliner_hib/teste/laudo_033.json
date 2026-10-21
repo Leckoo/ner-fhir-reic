@@ -1,0 +1,307 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Sílvia Araújo"
+     }
+    ],
+    "birthDate": "1941-05-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5a6472fb-32d6-5dd9-8299-a50e5def8120",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VCM 82"
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "valueQuantity": {
+     "value": 0.0,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4a85a66b-2ee7-5f91-a4fa-f47a4b0d06e4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "valueQuantity": {
+     "value": 303.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:85965c8b-dccf-5465-8ce4-b441a36a45ea",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "valueQuantity": {
+     "value": 9.16,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:92b500bb-da1b-518e-a375-e954b9cece62",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "valueQuantity": {
+     "value": 46.6,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b117718a-b79d-5a19-8160-0e9dcc071d58",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Calemia"
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "valueQuantity": {
+     "value": 3.4,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:50d10147-b25a-5770-a2ac-8c15a917e037",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-09-15",
+    "result": [
+     {
+      "reference": "urn:uuid:5a6472fb-32d6-5dd9-8299-a50e5def8120"
+     },
+     {
+      "reference": "urn:uuid:4a85a66b-2ee7-5f91-a4fa-f47a4b0d06e4"
+     },
+     {
+      "reference": "urn:uuid:85965c8b-dccf-5465-8ce4-b441a36a45ea"
+     },
+     {
+      "reference": "urn:uuid:92b500bb-da1b-518e-a375-e954b9cece62"
+     },
+     {
+      "reference": "urn:uuid:b117718a-b79d-5a19-8160-0e9dcc071d58"
+     }
+    ]
+   }
+  }
+ ]
+}

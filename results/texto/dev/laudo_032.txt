@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 8171004 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4861
+Paciente: Fábio Nunes Nascimento: 1988-11-17
+Data: 2026-08-25 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+MCH 33,7 pg 27,0 – 32,0
+Transaminase pirúvica 83 U/L < 41
+Sódio 154 mmol/L 136 a 145
+Volume corpuscular médio 82,0 fL 80,0 a 100,0
+Plaquetas 473.000 /mm³ 150.000 a 450.000
+Hb 14,3 g/dl 12,0 – 16,0
+Liberado em 2026-08-25. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

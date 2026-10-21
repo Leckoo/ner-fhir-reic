@@ -1,0 +1,63 @@
+{
+  "id": "laudo_145",
+  "paciente": "Patrícia Ramos",
+  "nascimento": "2009-09-03",
+  "data": "2026-07-17",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLT",
+      "rotulo_visto": true,
+      "valor": 281.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "281.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 - 450.000"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "rotulo_visto": true,
+      "valor": 92.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "92",
+      "texto_unidade": "U/L",
+      "texto_faixa": "ATE 41"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 15.8,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "15.800",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 – 11.000"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "SODIO",
+      "rotulo_visto": true,
+      "valor": 128.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "128",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 – 145"
+    }
+  ]
+}

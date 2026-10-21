@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"80\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 — 45\"\n    },\n    {\n      \"exame\": \"DETERMINAÇÃO DO HEMATÓCRITO\",\n      \"valor\": \"46,8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"226.000\",\n      \"unidade\": \"/mm?\",\n      \"faixa\": \"150.000 — 450.000\"\n    },\n    {\n      \"exame\": \"SGPT\",\n      \"valor\": \"92\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"3,55\",\n      \"unidade\": \"uUW/mL\",\n      \"faixa\": \"0,40 — 4,00\"\n    },\n    {\n      \"exame\": \"cr\",\n      \"valor\": \"304\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"HEMÁCIAS\",\n      \"valor\": \"5,95\",\n      \"unidade\": \"x10\\\"6/uL\",\n      \"faixa\": \"4,20 - 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 6.495022296905518,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 524,
+ "tokens_saida": 405,
+ "tokens_total": 929
+}

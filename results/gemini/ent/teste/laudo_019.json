@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICEMIA\",\n      \"valor\": \"182\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"83\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"15,9\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"157\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"33,1\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 4.7326438426971436,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 419,
+ "tokens_saida": 297,
+ "tokens_total": 716
+}

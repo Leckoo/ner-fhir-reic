@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:c004e8cf-0dc0-57ff-804b-c5059f2eabfc",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Íris Campos"
+     }
+    ],
+    "birthDate": "1999-11-27"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c98fbe6d-a97f-5f2a-822d-a66810a826a8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c004e8cf-0dc0-57ff-804b-c5059f2eabfc"
+    },
+    "effectiveDateTime": "2026-03-03",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1160e7f6-390c-58cd-bcd8-984c347f37b3",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c004e8cf-0dc0-57ff-804b-c5059f2eabfc"
+    },
+    "effectiveDateTime": "2026-03-03",
+    "result": [
+     {
+      "reference": "urn:uuid:c98fbe6d-a97f-5f2a-822d-a66810a826a8"
+     }
+    ]
+   }
+  }
+ ]
+}

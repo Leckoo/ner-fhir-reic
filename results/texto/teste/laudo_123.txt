@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 3579375 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8372
+Paciente: Bruno Lima Nascimento: 1964-04-07
+Data: 2026-05-19 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Alanina aminotransferase 77 U/L < 41
+Hb 16.9 g/ dL 12.0 a 16.0
+Dosagem de colesterol tota 315 mg/dL Até 190
+UR 72 mg/dl 15 – 45
+TSH 0.55 µUI/mL 0.40 – 4.00
+Sódio no soro 126 mEq/L 136 a 145
+Transaminase oxalacética 107 U/L Até 40
+Liberado em 2026-05-19. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

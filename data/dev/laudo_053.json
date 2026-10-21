@@ -1,0 +1,59 @@
+{
+  "id": "laudo_053",
+  "paciente": "Fábio Nunes",
+  "nascimento": "1943-09-02",
+  "data": "2026-05-06",
+  "layout": "blocos",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "valor": 8.9,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "8.90",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 a 4.00"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "valor": 14.0,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "14.0",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4.0 - 11.0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "valor": 159.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "159",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicemia de jejum",
+      "valor": 163.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "163",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    }
+  ]
+}

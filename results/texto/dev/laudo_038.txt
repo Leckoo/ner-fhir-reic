@@ -1,0 +1,22 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 5762311 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2367
+
+Paciente: Lúcia Ferreira Nascimento: 2010-01-21
+
+Data: 2026-06-12 Solicitante: Dr(a). Exemplo
+
+Exame Resultado Unidade Referência
+
+Transaminase oxalacética 111 UL <40
+
+Eritrócitos 3,51 x10"6/uL 4,20 - 5,40
+
+Potássio 4,3 mmol/L 3,5-5,1
+
+ALT 149 UL <41
+
+Triglicérides 54 mg/dl Até 150
+
+CHCM 35,3 g/dl 32,0 - 36,0
+Liberado em 2026-06-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

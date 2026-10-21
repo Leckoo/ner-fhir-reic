@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"32,6\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 - 32,0\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"1,21\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"4,94\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"80\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"213\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14,9\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"15,2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 – 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 13.723425149917603,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 471,
+ "tokens_saida": 407,
+ "tokens_total": 878
+}

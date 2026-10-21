@@ -1,0 +1,347 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Rafael Conceição"
+     }
+    ],
+    "birthDate": "1983-12-10"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:36ee3d4f-9fa6-59fb-a590-edcaffaf4540",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "K 6"
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 2.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 35.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fb13e339-90b7-5cef-af9d-92cd36612282",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 24.0,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 40.0,
+       "unit": "U/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "U/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dc36183d-7cd5-5f40-89f0-77f1d18903f8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 4.1
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2
+      },
+      "high": {
+       "value": 5.4
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b7710e3d-0bbb-5634-ab84-75a56f45dcff",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 11.9,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:594383e9-f4a5-5757-aaba-a935119b6473",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VCM 90"
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 1.0,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e6609f32-0f16-530b-9ac2-a1f49e9f647f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 201.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c582a999-160a-55c3-a51b-baace5bb72ec",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "result": [
+     {
+      "reference": "urn:uuid:36ee3d4f-9fa6-59fb-a590-edcaffaf4540"
+     },
+     {
+      "reference": "urn:uuid:fb13e339-90b7-5cef-af9d-92cd36612282"
+     },
+     {
+      "reference": "urn:uuid:dc36183d-7cd5-5f40-89f0-77f1d18903f8"
+     },
+     {
+      "reference": "urn:uuid:b7710e3d-0bbb-5634-ab84-75a56f45dcff"
+     },
+     {
+      "reference": "urn:uuid:594383e9-f4a5-5757-aaba-a935119b6473"
+     },
+     {
+      "reference": "urn:uuid:e6609f32-0f16-530b-9ac2-a1f49e9f647f"
+     }
+    ]
+   }
+  }
+ ]
+}

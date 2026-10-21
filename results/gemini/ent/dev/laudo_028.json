@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"URÉIA\",\n      \"valor\": \"82\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"ERITRÓCITOS\",\n      \"valor\": \"3,19\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 – 5,40\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"132\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"3,7\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"COLESTEROL\",\n      \"valor\": \"215\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"393\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 a 450\"\n    }\n  ]\n}",
+ "latencia_s": 6.354045867919922,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 488,
+ "tokens_saida": 348,
+ "tokens_total": 836
+}

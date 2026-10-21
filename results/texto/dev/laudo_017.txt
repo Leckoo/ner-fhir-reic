@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 7923118 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9816
+Paciente: Íris Campos Nascimento: 1999-11-27
+Data: 2026-03-03 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+HGB 12,9 g/dL 12,0 a 16,0
+Hematócrito 45,2 % 36,0 — 48,0
+Tireotrofina 6.66 uUI/mL 0,40 - 4,00
+AST 117 U/L Até 40
+HCM 31,1 pg 27,0 — 32,0
+TGP 67 U/L Até 41
+Liberado em 2026-03-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

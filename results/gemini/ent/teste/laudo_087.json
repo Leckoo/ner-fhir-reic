@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"21\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"21\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"12.7\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 - 14.5\"\n    },\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"5.71\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4.20 a 5.40\"\n    },\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"228\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"97.2\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 a 100.0\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"50.0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 a 48.0\"\n    }\n  ]\n}",
+ "latencia_s": 6.187807321548462,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 394,
+ "tokens_saida": 391,
+ "tokens_total": 785
+}

@@ -1,0 +1,96 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:550e8400-e29b-41d4-a716-446655440000",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": [
+     {
+      "text": "PATRICIA RAMOS"
+     }
+    ],
+    "birthDate": "2000-01-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:550e8400-e29b-41d4-a716-446655440001",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-8",
+       "display": "Mean corpuscular volume [Entitic volume] of Erythrocytes"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "valueQuantity": {
+     "value": 98.1,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:550e8400-e29b-41d4-a716-446655440002",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "result": [
+     {
+      "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440001"
+     }
+    ]
+   }
+  }
+ ]
+}

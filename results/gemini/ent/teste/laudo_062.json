@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"93,3\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 – 100,0\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"15,4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"36,5\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"375\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"Uréia no soro\",\n      \"valor\": \"58\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"67\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"3,36\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 – 4,00\"\n    }\n  ]\n}",
+ "latencia_s": 9.757379055023193,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 414,
+ "tokens_saida": 407,
+ "tokens_total": 821
+}

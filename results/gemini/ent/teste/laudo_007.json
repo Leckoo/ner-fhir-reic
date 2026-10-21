@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"236\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"43.2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"12.4\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"16.4\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4.0 – 11.0\"\n    },\n    {\n      \"exame\": \"Dosagem de potássio\",\n      \"valor\": \"4.6\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3.5 a 5.1\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"7.97\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0.40 – 4.00\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"80.5\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80.0 – 100.0\"\n    },\n    {\n      \"exame\": \"SGPT\",\n      \"valor\": \"150\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 3.831631898880005,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 436,
+ "tokens_saida": 460,
+ "tokens_total": 896
+}

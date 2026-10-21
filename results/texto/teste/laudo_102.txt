@@ -1,0 +1,13 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 9029407 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4791
+Paciente: Lúcia Ferreira Nascimento: 1981-06-09
+Data: 2026-05-02 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Colesterol 295 mg/dl Até 190
+RDW-CV 14,3 % 11,5 a 14,5
+Contagem de leucócitos 7,5 x10³/µL 4,0 - 11,0
+Creatinina 2,18 mg/dl 0,60 a 1,20
+Sódio 140 mmol/L 136 - 145
+Contagem de plaquetas 299 x10³/µL 150 – 450
+Dosagem de triglicerídeos 214 mg/dl < 150
+Liberado em 2026-05-02. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

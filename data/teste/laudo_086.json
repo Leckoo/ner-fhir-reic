@@ -1,0 +1,102 @@
+{
+  "id": "laudo_086",
+  "paciente": "Elisa Prado",
+  "nascimento": "1996-10-15",
+  "data": "2026-08-16",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicemia de jejum",
+      "rotulo_visto": true,
+      "valor": 189.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "189",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "rotulo_visto": true,
+      "valor": 17.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "17",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "rotulo_visto": true,
+      "valor": 2.77,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2.77",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0.60 - 1.20"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 8.07,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "8.07",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 – 4.00"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "rotulo_visto": true,
+      "valor": 80.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "80",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 7.8,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "7.8",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "4.0 - 11.0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "rotulo_visto": true,
+      "valor": 127.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "127",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 – 145"
+    }
+  ]
+}

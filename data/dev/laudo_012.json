@@ -1,0 +1,107 @@
+{
+  "id": "laudo_012",
+  "paciente": "Hugo Reis",
+  "nascimento": "1962-05-05",
+  "data": "2026-05-07",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "valor": 14.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,4",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "valor": 449.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "449.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "valor": 232.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "232",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "valor": 69.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "69",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "valor": 246.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "246",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 150"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "valor": 71.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "71",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol total",
+      "valor": 208.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "208",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "valor": 4.8,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,8",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 - 5,1"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:7210e485-478e-5391-b68d-b605befc9969",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Bruno Lima"
+     }
+    ],
+    "birthDate": "1951-07-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:30f3d1a7-cc9b-54c4-b676-9ac580491473",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7210e485-478e-5391-b68d-b605befc9969"
+    },
+    "effectiveDateTime": "2026-04-22"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ac19e53f-331a-53fb-bff8-03d2d6f39755",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7210e485-478e-5391-b68d-b605befc9969"
+    },
+    "effectiveDateTime": "2026-04-22",
+    "result": [
+     {
+      "reference": "urn:uuid:30f3d1a7-cc9b-54c4-b676-9ac580491473"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"124\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"Glicose no soro\",\n      \"valor\": \"77\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"85\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"304\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"32,4\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"127\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"4,80\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"13,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 - 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 7.7178263664245605,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 411,
+ "tokens_saida": 446,
+ "tokens_total": 857
+}

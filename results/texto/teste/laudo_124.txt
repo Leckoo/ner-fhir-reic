@@ -1,0 +1,37 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 3919835 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5347
+Paciente: Bruno Lima Nascimento: 1955-01-09
+Data: 2026-07-28 Solicitante: Dr(a). Exemplo
+CREA
+Material: Sangue Método: Automatizado
+Resultado: 1,24 mg/dl
+Valor de referência: 0,60 — 1,20
+RBC
+Material: Sangue Método: Automatizado
+Resultado: 4,22 milhões/mm?
+Valor de referência: 4,20 - 5,40
+PLT
+Material: Sangue Método: Automatizado
+Resultado: 443 x10%uL
+Valor de referência: 150 — 450
+TSH
+Material: Sangue Método: Automatizado
+Resultado: 9,78 mUI/L
+Valor de referência: 0,40 — 4,00
+RDW-CV
+Material: Sangue Método: Automatizado
+Resultado: 13,1 %
+Valor de referência: 11,5 - 14,5
+AST
+Material: Sangue Método: Automatizado
+Resultado: 20 U/L
+Valor de referência: Até 40
+K
+Material: Sangue Método: Automatizado
+Resultado: 3,1 mEq/L
+Valor de referência: 3,5 a 5,1
+TGP
+Material: Sangue Método: Automatizado
+Resultado: 24 U/L
+Valor de referência: Até 41
+Liberado em 2026-07-28. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,89 @@
+{
+  "id": "laudo_091",
+  "paciente": "Diego Rocha",
+  "nascimento": "1991-04-26",
+  "data": "2026-06-05",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 31.6,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "31,6",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de leucócitos",
+      "rotulo_visto": false,
+      "valor": 8.7,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "8,7",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "4,0 - 11,0"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 76.4,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "76,4",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 – 100,0"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "rotulo_visto": true,
+      "valor": 30.6,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "30,6",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "URE",
+      "rotulo_visto": false,
+      "valor": 72.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "72",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 191.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "191",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    }
+  ]
+}

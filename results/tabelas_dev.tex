@@ -1,0 +1,58 @@
+% Gerado por src/avaliar.py — conjunto dev
+\begin{table}[ht]\centering\small
+\caption{F1 por campo (normalizado e ligado ao LOINC) no teste, IC 95\% por \textit{bootstrap}.}\label{tab:campos}
+\begin{tabular}{lccccc}\toprule
+Método & Exame (LOINC) & Valor & Unidade & Faixa de ref. & Obs. completa\\\midrule
+Regex + dicionário & 0,97 [0,92; 1,00] & 0,97 [0,92; 1,00] & 0,92 [0,87; 0,96] & 0,95 [0,91; 0,99] & 0,92 [0,86; 0,96]\\
+GLiNER zero-shot & 0,31 [0,21; 0,40] & 0,10 [0,06; 0,15] & 0,00 [0,00; 0,01] & 0,00 [0,00; 0,00] & 0,00 [0,00; 0,00]\\
+GLiNER (exame) + regras & 0,83 [0,79; 0,87] & 0,83 [0,79; 0,87] & 0,81 [0,76; 0,85] & 0,82 [0,78; 0,86] & 0,80 [0,76; 0,84]\\
+Gemini (entidades) + ligação & 0,97 [0,93; 1,00] & 0,97 [0,93; 1,00] & 0,93 [0,88; 0,97] & 0,96 [0,92; 0,99] & 0,92 [0,88; 0,96]\\
+Gemini FHIR direto & 0,62 [0,57; 0,68] & 0,60 [0,55; 0,65] & 0,54 [0,49; 0,60] & 0,60 [0,55; 0,65] & 0,54 [0,48; 0,59]\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{F1 do reconhecimento de trechos (texto normalizado), antes da ligação.}\label{tab:spans}
+\begin{tabular}{lcccc}\toprule
+Método & Exame & Valor & Unidade & Faixa\\\midrule
+Regex + dicionário & 0,97 [0,92; 1,00] & 0,98 [0,95; 1,00] & 0,93 [0,89; 0,97] & 0,98 [0,96; 0,99]\\
+GLiNER zero-shot & 0,28 [0,19; 0,37] & 0,11 [0,07; 0,17] & 0,01 [0,00; 0,01] & 0,00 [0,00; 0,00]\\
+GLiNER (exame) + regras & 0,79 [0,74; 0,83] & 0,85 [0,81; 0,89] & 0,85 [0,80; 0,89] & 0,89 [0,86; 0,92]\\
+Gemini (entidades) + ligação & 0,97 [0,92; 1,00] & 0,99 [0,97; 1,00] & 0,94 [0,91; 0,97] & 0,99 [0,97; 1,00]\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Acurácia LOINC, conformidade HL7 R5, latência e custo por laudo.}\label{tab:fhir}
+\begin{tabular}{lcccc}\toprule
+Método & Acur. LOINC & Válidos HL7 (\%) & Latência (s) & Chamadas / \textit{tokens}\\\midrule
+Regex + dicionário & 0,986 [0,958; 1,000] & 100,0 [100,0; 100,0] & 0,000 & 0,00 / 0\\
+GLiNER zero-shot & 0,923 [0,783; 1,000] & 100,0 [100,0; 100,0] & 8,619 & 0,00 / 0\\
+GLiNER (exame) + regras & 0,972 [0,952; 0,989] & 100,0 [100,0; 100,0] & 14,110 & 0,00 / 0\\
+Gemini (entidades) + ligação & 0,986 [0,958; 1,000] & 100,0 [100,0; 100,0] & 8,960 & 1,30 / 761\\
+Gemini FHIR direto & 0,647 [0,599; 0,696] & 5,0 [0,0; 11,7] & 16,503 & 1,50 / 3374\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Rótulos vistos vs.\ não vistos no dicionário: recall da observação completa e acurácia LOINC.}\label{tab:vistos}
+\begin{tabular}{llccc}\toprule
+Método & Rótulo & Obs. & Recall obs. & Acur. LOINC\\\midrule
+Regex + dicionário & visto & 359 & 0,914 & 0,986\\
+GLiNER zero-shot & visto & 359 & 0,000 & 0,923\\
+GLiNER (exame) + regras & visto & 359 & 0,735 & 0,972\\
+Gemini (entidades) + ligação & visto & 359 & 0,916 & 0,986\\
+Gemini FHIR direto & visto & 359 & 0,513 & 0,647\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, 1000 reamostragens): método A $-$ método B.}\label{tab:dif}
+\begin{tabular}{llccc}\toprule
+A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule
+GLiNER (exame) + regras -- Regex + dicionário & acuracia loinc & -0,014 & [-0,035; +0,008] & 0,216\\
+GLiNER (exame) + regras -- Regex + dicionário & f1 obs completa & -0,115 & [-0,146; -0,082] & $<$0,001\\
+GLiNER (exame) + regras -- Regex + dicionário & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & acuracia loinc & -0,014 & [-0,035; +0,008] & 0,214\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & f1 obs completa & -0,123 & [-0,155; -0,092] & $<$0,001\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
+Regex + dicionário -- Gemini (entidades) + ligação & acuracia loinc & +0,000 & [-0,000; +0,000] & 1,000\\
+Regex + dicionário -- Gemini (entidades) + ligação & f1 obs completa & -0,008 & [-0,019; +0,000] & 0,094\\
+Regex + dicionário -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
+\bottomrule\end{tabular}\end{table}

@@ -1,0 +1,13 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7899633 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3643
+Paciente: Elisa Prado Nascimento: 1949-04-04
+Data: 2026-07-28 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Hormônio tireoestimulante 4,94 mUI/L 0,40 - 4,00
+Glicose de jejum 213 mg/dL 70 -.99
+Potássio 6,2 mEq/L 3,5 — 5,1
+Eritrócitos 6,23 x10"6/pL 4,20 a 5,40
+Hematócrito 30,8 *% 36,0 - 48,0
+TGL 250 mg/dl Até 150
+HCM 35,0 pg 27,0 a 32,0
+Liberado em 2026-07-28. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

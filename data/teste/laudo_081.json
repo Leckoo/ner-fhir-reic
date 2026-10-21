@@ -1,0 +1,63 @@
+{
+  "id": "laudo_081",
+  "paciente": "Ana Souza",
+  "nascimento": "1961-12-02",
+  "data": "2026-03-05",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "Hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 32.3,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "32.3",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 a 32.0"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "rotulo_visto": true,
+      "valor": 4.5,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4.5",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3.5 – 5.1"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 2.56,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "2.56",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 – 4.00"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "rotulo_visto": true,
+      "valor": 3.23,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3.23",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4.20 a 5.40"
+    }
+  ]
+}

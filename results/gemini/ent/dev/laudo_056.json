@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"26,7\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"127\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"87\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"195\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"137\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"197\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"5,53\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"Hemoglobina\",\n      \"valor\": \"16,4\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 a 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 9.129151344299316,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 408,
+ "tokens_saida": 442,
+ "tokens_total": 850
+}

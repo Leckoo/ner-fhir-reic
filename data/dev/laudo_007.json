@@ -1,0 +1,59 @@
+{
+  "id": "laudo_007",
+  "paciente": "Natália Gomes",
+  "nascimento": "1980-10-15",
+  "data": "2026-02-03",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE PLAQUETAS",
+      "valor": 189.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "189",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "valor": 12.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "12,4",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 - 14,5"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "valor": 0.99,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0,99",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "POTASSIO",
+      "valor": 6.3,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,3",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 - 5,1"
+    }
+  ]
+}

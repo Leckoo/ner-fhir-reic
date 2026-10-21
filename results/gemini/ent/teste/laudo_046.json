@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"K\",\n      \"valor\": \"6,2\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"35a5,1\"\n    },\n    {\n      \"exame\": \"Transaminase oxalacética\",\n      \"valor\": \"24\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"4,10\",\n      \"unidade\": \"milhões/mm?\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"11,9\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"90,1\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"Colesterol\",\n      \"valor\": \"201\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 8.137346744537354,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 380,
+ "tokens_saida": 336,
+ "tokens_total": 716
+}

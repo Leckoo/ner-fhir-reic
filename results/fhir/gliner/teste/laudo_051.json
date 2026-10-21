@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Elisa Prado"
+     }
+    ],
+    "birthDate": "1986-09-22"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:019a4b68-c675-5236-9b5a-0e21418c0d03",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-07-01",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cd69b139-3ab6-55f4-81a9-5debf531c223",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-07-01",
+    "result": [
+     {
+      "reference": "urn:uuid:019a4b68-c675-5236-9b5a-0e21418c0d03"
+     }
+    ]
+   }
+  }
+ ]
+}

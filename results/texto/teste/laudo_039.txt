@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 5912700 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7140
+Paciente: Vânia Lopes Nascimento: 2002-02-12
+Data: 2026-05-24 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+HCM 28,0 pg 27,0 - 32,0
+CREA 1,62 mg/dL 0,60 - 1,20
+Transaminase pirúvica 52 U/L < 41
+CHCM 32,2 g/dl 32,0 a 36,0
+Liberado em 2026-05-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

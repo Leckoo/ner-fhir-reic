@@ -1,0 +1,1754 @@
+{
+ "laudo_000": {
+  "paciente": "Carla Dias",
+  "data": "2026-05-04",
+  "nascimento": "2003-08-16",
+  "observacoes": [],
+  "latencia_s": 14.96634817123413,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_001": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-09-14",
+  "nascimento": "2004-11-07",
+  "observacoes": [],
+  "latencia_s": 10.540721654891968,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_002": {
+  "paciente": "Marcos Antônio Vieira",
+  "data": "2026-06-15",
+  "nascimento": "1974-11-18",
+  "observacoes": [],
+  "latencia_s": 5.349686861038208,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_003": {
+  "paciente": "RAFAEL CONCEICAO",
+  "data": "2026-08-04",
+  "nascimento": "1943-05-13",
+  "observacoes": [
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "COLESTEROL",
+    "texto_valor": "313 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": "RDW"
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.29,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TIREOTROFINA",
+    "texto_valor": "5.29",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TG",
+    "texto_valor": "278 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.869298934936523,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_004": {
+  "paciente": "Carla Dias",
+  "data": "2026-05-10",
+  "nascimento": "1960-07-19",
+  "observacoes": [
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 0.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TSH",
+    "texto_valor": "0,40",
+    "texto_unidade": "5,95 mUI/L",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Hematócrito",
+    "texto_valor": "36,0",
+    "texto_unidade": "36,0",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 15.3,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW",
+    "texto_valor": "15,3",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.231057167053223,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_005": {
+  "paciente": "Natália Gomes",
+  "data": "2026-09-12",
+  "nascimento": "2008-08-25",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 4.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "4,0",
+    "texto_unidade": "11,0",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 15.129653453826904,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_006": {
+  "paciente": "Bruno Lima",
+  "data": "2026-05-01",
+  "nascimento": "1941-02-14",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": "RDW"
+   }
+  ],
+  "latencia_s": 10.17659616470337,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_007": {
+  "paciente": "NATALIA GOMES",
+  "data": "2026-02-03",
+  "nascimento": "1980-10-15",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "DR",
+    "texto_valor": "189 mil/mm?",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 0.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Snrseresido",
+    "texto_valor": "0,40",
+    "texto_unidade": "04,99",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.999444484710693,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_008": {
+  "paciente": "Ana Souza",
+  "data": "2026-04-13",
+  "nascimento": "1949-05-18",
+  "observacoes": [],
+  "latencia_s": 4.962789297103882,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_009": {
+  "paciente": "Bruno Lima",
+  "data": "2026-06-27",
+  "nascimento": "2010-12-23",
+  "observacoes": [],
+  "latencia_s": 4.922755479812622,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_010": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-09-11",
+  "nascimento": "2004-11-15",
+  "observacoes": [],
+  "latencia_s": 4.954048156738281,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_011": {
+  "paciente": "IRIS CAMPOS",
+  "data": "2026-07-07",
+  "nascimento": "1946-08-22",
+  "observacoes": [
+   {
+    "loinc": "3091-6",
+    "display": "Urea [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "UREIA",
+    "texto_valor": "46 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 137.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "NA",
+    "texto_valor": "137",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "HEMATOCRITO",
+    "texto_valor": "39,6 %",
+    "texto_unidade": "PLT",
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.6,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "POTASSIO",
+    "texto_valor": "5,6",
+    "texto_unidade": "3,5 a 5,1",
+    "texto_faixa": "mEq/L"
+   }
+  ],
+  "latencia_s": 71.1240508556366,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_012": {
+  "paciente": "Hugo Reis",
+  "data": "2026-05-07",
+  "nascimento": "1962-05-05",
+  "observacoes": [
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 14.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW",
+    "texto_valor": "14,4",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.88791298866272,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_013": {
+  "paciente": "TIAGO MONTEIRO",
+  "data": "2026-01-09",
+  "nascimento": "2005-04-15",
+  "observacoes": [
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 141.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "SODIO",
+    "texto_valor": "141",
+    "texto_unidade": "VR",
+    "texto_faixa": "mEq/L"
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "CT",
+    "texto_valor": "314 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICOSE",
+    "texto_valor": "248 mg/dl",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TRIGLICERIDEOS",
+    "texto_valor": "322 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 3.56,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TSH",
+    "texto_valor": "3,56",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICOSE EM JEJUM",
+    "texto_valor": "226 mg/dl",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 6.3031089305877686,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_014": {
+  "paciente": "Vânia Lopes",
+  "data": "2026-07-03",
+  "nascimento": "1985-02-22",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 12.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "12,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 14.266392707824707,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_015": {
+  "paciente": "Hugo Reis",
+  "data": "2026-05-07",
+  "nascimento": "1949-11-24",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 27.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "27.0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 10.145349025726318,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_016": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-01-16",
+  "nascimento": "2007-12-20",
+  "observacoes": [
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Plaquetas",
+    "texto_valor": "33.5 g/dl 32.0",
+    "texto_unidade": "77.4 fl 80.0",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 0.56,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TSH",
+    "texto_valor": "0.56",
+    "texto_unidade": "K 6.1 mEq/L",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW-CV",
+    "texto_valor": "13.8 % 11.5",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.311903715133667,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_017": {
+  "paciente": "Íris Campos",
+  "data": "2026-03-03",
+  "nascimento": "1999-11-27",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Hematócrito",
+    "texto_valor": "36,0",
+    "texto_unidade": "45,2",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.9935972690582275,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_018": {
+  "paciente": "Diego Rocha",
+  "data": "2026-03-02",
+  "nascimento": "1966-07-28",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 10.068342208862305,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_019": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-03-09",
+  "nascimento": "1988-02-28",
+  "observacoes": [
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW-CV",
+    "texto_valor": "30.9 g/dl 32.0",
+    "texto_unidade": "14.6",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.031149864196777,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_020": {
+  "paciente": "Íris Campos",
+  "data": "2026-06-24",
+  "nascimento": "2006-09-01",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 85.9,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "85,9",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 14.777146100997925,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_021": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-05-03",
+  "nascimento": "2007-11-03",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 11.5,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "11.5",
+    "texto_unidade": "MCHC",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 10.195436239242554,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_022": {
+  "paciente": "PATRICIA RAMOS",
+  "data": "2026-01-07",
+  "nascimento": "1978-12-23",
+  "observacoes": [
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TIREOTROFINA",
+    "texto_valor": "0,40 – 4,00",
+    "texto_unidade": "mUI/L (VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLI",
+    "texto_valor": "117 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "NA",
+    "texto_valor": "141 mmol/L",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": null,
+    "display": null,
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "VR",
+    "texto_valor": "136 a 145",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.539409875869751,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_023": {
+  "paciente": "Natália Gomes",
+  "data": "2026-05-22",
+  "nascimento": "1942-02-03",
+  "observacoes": [],
+  "latencia_s": 4.913122177124023,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_024": {
+  "paciente": "Rafael Conceição",
+  "data": "2026-07-23",
+  "nascimento": "1994-02-03",
+  "observacoes": [],
+  "latencia_s": 5.00661301612854,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_025": {
+  "paciente": "Bruno Lima",
+  "data": "2026-04-22",
+  "nascimento": "1951-07-04",
+  "observacoes": [
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLI",
+    "texto_valor": "70 - 99",
+    "texto_unidade": "mg/dL",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.934541463851929,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_026": {
+  "paciente": "Íris Campos",
+  "data": "2026-05-16",
+  "nascimento": "1979-05-16",
+  "observacoes": [
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 9.9,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "WBC",
+    "texto_valor": "9.900",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.903954029083252,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_027": {
+  "paciente": "Diego Rocha",
+  "data": "2026-04-19",
+  "nascimento": "1965-09-19",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 12.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "hemoglobina",
+    "texto_valor": "12,0",
+    "texto_unidade": "10,1",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.880839824676514,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_028": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-02-12",
+  "nascimento": "1956-10-28",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 4.2,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "4,20",
+    "texto_unidade": "3,19",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 10.138845920562744,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_029": {
+  "paciente": "Patrícia Ramos",
+  "data": "2026-03-05",
+  "nascimento": "1949-10-05",
+  "observacoes": [
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Potássio",
+    "texto_valor": "Glicemia de jejum 111",
+    "texto_unidade": "5,9 mEq/L 3,5",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 0.6,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Creatinina 2",
+    "texto_valor": "0,60",
+    "texto_unidade": "1,20",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Glicose",
+    "texto_valor": "g/dL 32,0",
+    "texto_unidade": "MCHC 35,5",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.975079774856567,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_030": {
+  "paciente": "PATRICIA RAMOS",
+  "data": "2026-01-04",
+  "nascimento": "2000-01-21",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "sacana",
+    "texto_valor": "36,0",
+    "texto_unidade": "Ma (VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": null,
+    "display": null,
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "cslonerro",
+    "texto_valor": "136 - 145",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.883726119995117,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_031": {
+  "paciente": "LUCIA FERREIRA",
+  "data": "2026-08-26",
+  "nascimento": "1970-11-20",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] by Automated count",
+    "valor": 33.1,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "MCH",
+    "texto_valor": "33,1",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": 41.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "HCT",
+    "texto_valor": "41,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICOSE DE JEJUM",
+    "texto_valor": "135 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "VCM",
+    "texto_valor": "81,7 fL",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 80.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "VR",
+    "texto_valor": "80,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "786-4",
+    "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "CHCM",
+    "texto_valor": "35,2 g/dl",
+    "texto_unidade": "PLT",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TSH",
+    "texto_valor": "0,40 – 4,00",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "COLESTEROL",
+    "texto_valor": "305 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   }
+  ],
+  "latencia_s": 6.15562629699707,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_032": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-08-25",
+  "nascimento": "1988-11-17",
+  "observacoes": [
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 80.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sódio",
+    "texto_valor": "80,0",
+    "texto_unidade": "154 mmol/L",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.908033609390259,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_033": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-02-08",
+  "nascimento": "1990-08-04",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Hematócrito",
+    "texto_valor": "53.8 % 36.0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 197.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "hemoglobina",
+    "texto_valor": "197.000",
+    "texto_unidade": "12.2 g/dl 12.0",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.586235046386719,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_034": {
+  "paciente": "Ana Souza",
+  "data": "2026-03-05",
+  "nascimento": "1972-04-07",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 0.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "0,40",
+    "texto_unidade": null,
+    "texto_faixa": "RDW"
+   }
+  ],
+  "latencia_s": 9.483607530593872,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_035": {
+  "paciente": "Natália Gomes",
+  "data": "2026-06-24",
+  "nascimento": "1962-04-10",
+  "observacoes": [
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 0.62,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Tireotrofina",
+    "texto_valor": "0,62",
+    "texto_unidade": "4,00",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.910766124725342,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_036": {
+  "paciente": "GABRIELA MELO",
+  "data": "2026-07-22",
+  "nascimento": "2006-03-27",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "HB",
+    "texto_valor": "15,0 g/ dL",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 12.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "VR",
+    "texto_valor": "12,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 12.9,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW-CV",
+    "texto_valor": "12,9",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "3091-6",
+    "display": "Urea [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "UR",
+    "texto_valor": "25 mg/dL",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICOSE DE JEJUM",
+    "texto_valor": "153 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "LEUCOCITOS",
+    "texto_valor": "15.200 /mm³",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 6.101705551147461,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_037": {
+  "paciente": "Natália Gomes",
+  "data": "2026-09-12",
+  "nascimento": "1965-04-12",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Ht",
+    "texto_valor": "54.8 %",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.57,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Tireotrofina",
+    "texto_valor": "5.57",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.132283926010132,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_038": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-06-12",
+  "nascimento": "2010-01-21",
+  "observacoes": [],
+  "latencia_s": 4.860407590866089,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_039": {
+  "paciente": "Íris Campos",
+  "data": "2026-04-07",
+  "nascimento": "1952-05-24",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 13.563637256622314,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_040": {
+  "paciente": "Ana Souza",
+  "data": "2026-01-16",
+  "nascimento": "1944-03-09",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 14.634150743484497,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_041": {
+  "paciente": "FABIO NUNES",
+  "data": "2026-05-22",
+  "nascimento": "2007-05-19",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 0.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GE",
+    "texto_valor": "0,40",
+    "texto_unidade": "mUI/L (VR",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.639143705368042,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_042": {
+  "paciente": "HUGO REIS",
+  "data": "2026-01-21",
+  "nascimento": "1963-09-24",
+  "observacoes": [
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICOSE",
+    "texto_valor": "180 mg/dL",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "3091-6",
+    "display": "Urea [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "UR",
+    "texto_valor": "70 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "COLESTEROL",
+    "texto_valor": "209 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TRIGLICERIDES",
+    "texto_valor": "51 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 4.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "WBC",
+    "texto_valor": "4,0",
+    "texto_unidade": "17,0 mil/mm³",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.985785245895386,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_043": {
+  "paciente": "JOAO BATISTA MOURA",
+  "data": "2026-02-21",
+  "nascimento": "2002-02-17",
+  "observacoes": [
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "COLESTEROL",
+    "texto_valor": "254 mg/dL",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 0.54,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "CREATININA",
+    "texto_valor": "0,54",
+    "texto_unidade": null,
+    "texto_faixa": "mg/dL"
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 7.3,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "LEUCOCITOS",
+    "texto_valor": "7,3",
+    "texto_unidade": "11,0",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.484745740890503,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_044": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-09-09",
+  "nascimento": "1969-03-07",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 13.66860818862915,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_045": {
+  "paciente": "BRUNO LIMA",
+  "data": "2026-05-25",
+  "nascimento": "1964-06-12",
+  "observacoes": [
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TRIGLICERIDEOS",
+    "texto_valor": "356 mg/dl",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "3091-6",
+    "display": "Urea [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "UR",
+    "texto_valor": "29 mg/dL",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "ERITROCITOS",
+    "texto_valor": "4.20 - 5.40",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.630323886871338,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_046": {
+  "paciente": "Elisa Prado",
+  "data": "2026-03-06",
+  "nascimento": "1950-10-09",
+  "observacoes": [
+   {
+    "loinc": "1558-6",
+    "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+    "valor": 32.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Glicose de jejum",
+    "texto_valor": "32,0",
+    "texto_unidade": "234 mg/dl",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.99201226234436,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_047": {
+  "paciente": "Diego Rocha",
+  "data": "2026-03-13",
+  "nascimento": "1944-05-20",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "36,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 9.800296783447266,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_048": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-01-06",
+  "nascimento": "2002-06-06",
+  "observacoes": [
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 17.2,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW",
+    "texto_valor": "17,2",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.894196033477783,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_049": {
+  "paciente": "Carla Dias",
+  "data": "2026-09-11",
+  "nascimento": "1979-10-11",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 4.2,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "4,20",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 14.644428014755249,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_050": {
+  "paciente": "Patrícia Ramos",
+  "data": "2026-03-27",
+  "nascimento": "2001-12-08",
+  "observacoes": [
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 36.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Transaminase oxalacética",
+    "texto_valor": "36,0",
+    "texto_unidade": "HCT 32,5",
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 4.837058067321777,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_051": {
+  "paciente": "TIAGO MONTEIRO",
+  "data": "2026-05-28",
+  "nascimento": "1951-08-25",
+  "observacoes": [
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 15.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW-CV",
+    "texto_valor": "15,0",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "786-4",
+    "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+    "valor": 36.2,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "CHCM",
+    "texto_valor": "36,2",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TRIGLICERIDEOS",
+    "texto_valor": "398 mg/dl",
+    "texto_unidade": "VR",
+    "texto_faixa": "VR"
+   }
+  ],
+  "latencia_s": 5.861797094345093,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_052": {
+  "paciente": "Sílvia Araújo",
+  "data": "2026-05-19",
+  "nascimento": "1966-05-22",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 12.0,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "12,0",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 10.11935019493103,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_053": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-05-06",
+  "nascimento": "1943-09-02",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 0.4,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "0.40",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 9.919755458831787,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_054": {
+  "paciente": "ELISA PRADO",
+  "data": "2026-02-23",
+  "nascimento": "1953-07-02",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] by Automated count",
+    "valor": 32.6,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "MCH",
+    "texto_valor": "32,6",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "3016-3",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 4.94,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "TSH",
+    "texto_valor": "4,94",
+    "texto_unidade": null,
+    "texto_faixa": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "GLICEMIA DE JEJUM",
+    "texto_valor": "80 mg/dl",
+    "texto_unidade": "VR",
+    "texto_faixa": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+    "valor": 14.9,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "RDW-CV",
+    "texto_valor": "14,9",
+    "texto_unidade": null,
+    "texto_faixa": "VR"
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 15.2,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "HGB",
+    "texto_valor": "15,2",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 5.510078191757202,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_055": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-01-11",
+  "nascimento": "1993-01-12",
+  "observacoes": [],
+  "latencia_s": 4.992265701293945,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_056": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-03-05",
+  "nascimento": "1955-08-19",
+  "observacoes": [],
+  "latencia_s": 5.163557767868042,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_057": {
+  "paciente": "Vânia Lopes",
+  "data": "2026-09-23",
+  "nascimento": "2001-11-09",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": null,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "Até 190",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 9.82397723197937,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_058": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-01-17",
+  "nascimento": "1998-03-23",
+  "observacoes": [
+   {
+    "loinc": null,
+    "display": null,
+    "valor": 0.6,
+    "unidade": null,
+    "ref_low": null,
+    "ref_high": null,
+    "texto_exame": "Sangue",
+    "texto_valor": "0.60",
+    "texto_unidade": null,
+    "texto_faixa": null
+   }
+  ],
+  "latencia_s": 14.66179871559143,
+  "chamadas": 0,
+  "tokens": 0
+ },
+ "laudo_059": {
+  "paciente": "Otávio Pereira",
+  "data": "2026-04-03",
+  "nascimento": "1979-08-20",
+  "observacoes": [],
+  "latencia_s": 4.787367820739746,
+  "chamadas": 0,
+  "tokens": 0
+ }
+}

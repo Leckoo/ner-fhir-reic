@@ -1,0 +1,59 @@
+{
+  "id": "laudo_022",
+  "paciente": "Patrícia Ramos",
+  "nascimento": "1978-12-23",
+  "data": "2026-01-07",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TIREOTROFINA",
+      "valor": 5.3,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "5,30",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 – 4,00"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VOLUME CORPUSCULAR MEDIO",
+      "valor": 91.1,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "91,1",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 – 100,0"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "valor": 117.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "117",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "NA",
+      "valor": 141.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "141",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145"
+    }
+  ]
+}

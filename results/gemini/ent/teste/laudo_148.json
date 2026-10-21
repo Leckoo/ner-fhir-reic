@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"DOSAGEM DE UREIA\",\n      \"valor\": \"39\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"2,90\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 – 1,20\"\n    },\n    {\n      \"exame\": \"NA\",\n      \"valor\": \"137\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"242\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 11.144662141799927,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 395,
+ "tokens_saida": 228,
+ "tokens_total": 623
+}

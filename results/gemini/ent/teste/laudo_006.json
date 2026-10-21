@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Uréia no soro\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"171\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"0,82\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrit\",\n      \"valor\": \"28,8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"195\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"235\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    }\n  ]\n}",
+ "latencia_s": 6.043726682662964,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 371,
+ "tokens_saida": 331,
+ "tokens_total": 702
+}

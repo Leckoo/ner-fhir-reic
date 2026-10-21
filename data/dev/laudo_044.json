@@ -1,0 +1,95 @@
+{
+  "id": "laudo_044",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1969-03-07",
+  "data": "2026-09-09",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "valor": 28.4,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "28,4",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos - Global",
+      "valor": 3.5,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "3.500",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 a 11.000"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "valor": 1.85,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "1,85",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "valor": 356.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "356",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "valor": 27.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "27",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "valor": 30.4,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "30,4",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "valor": 149.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "149",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 – 145"
+    }
+  ]
+}

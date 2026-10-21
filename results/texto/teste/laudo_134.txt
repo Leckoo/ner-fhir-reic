@@ -1,0 +1,12 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6076825 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4831
+Paciente: Elisa Prado Nascimento: 1950-03-10
+Data: 2026-07-05 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Creatinina 0,57 mg/dL 0,60 a 1,20
+Concentração de hemoglobina corpuscul3a1r ,m7édia g/dL 32,0 - 36,0
+Triglicerídeos 51 mg/dl < 150
+Alanina aminotransferase 28 U/L Até 41
+Glicose em jejum 223 mg/dl 70 a 99
+Leucócitos - Global 16,7 x10³/µL 4,0 – 11,0
+Liberado em 2026-07-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

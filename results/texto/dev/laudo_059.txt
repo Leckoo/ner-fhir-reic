@@ -1,0 +1,10 @@
+LabSul Diagnósticos (fictício)
+CNES 5961087 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3991
+Paciente: Otávio Pereira Nascimento: 1979-08-20
+Data: 2026-04-03 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+AST 83 U/L Até 40
+CT 208 mg/dl < 190
+Tireotrofina 4,47 mUI/L 0,40 a 4,00
+GLI 202 mg/dL 70 - 99
+Liberado em 2026-04-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

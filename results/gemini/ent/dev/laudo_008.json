@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"4,64\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Hemoglobina\",\n      \"valor\": \"16,0\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"28\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"118\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    }\n  ]\n}",
+ "latencia_s": 15.07573413848877,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 342,
+ "tokens_saida": 233,
+ "tokens_total": 575
+}

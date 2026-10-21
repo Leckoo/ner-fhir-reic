@@ -1,0 +1,39 @@
+LabSul Diagnósticos (fictício)
+
+CNES 7833534 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4299
+
+Paciente: Gabriela Melo Nascimento: 2007-11-03
+Data: 2026-05-03 Solicitante: Dr(a). Exemplo
+RDW
+
+Material: Sangue Método: Automatizado
+
+Resultado: 17.3 %
+
+Valor de referência: 11.5 - 14.5
+
+MCHC
+
+Material: Sangue Método: Automatizado
+
+Resultado: 36.2 g/dL
+
+Valor de referência: 32.0 — 36.0
+
+NA
+
+Material: Sangue Método: Automatizado
+
+Resultado: 138 mmol/L
+
+Valor de referência: 136 — 145
+
+CT
+
+Material: Sangue Método: Automatizado
+
+Resultado: 280 mg/dL
+
+Valor de referência: Até 190
+
+Liberado em 2026-05-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

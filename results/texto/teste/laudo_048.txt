@@ -1,0 +1,33 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7710432 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6619
+Paciente: Natália Gomes Nascimento: 1950-11-22
+Data: 2026-06-03 Solicitante: Dr(a). Exemplo
+CONCENTRAÇÃO DE HEMOGLOBINA CORPUSCULAR MÉDIA
+Material: Sangue Método: Automatizado
+Resultado: 37,0 g/dL
+Valor de referência: 32,0 - 36,0
+UREIA
+Material: Sangue Método: Automatizado
+Resultado: 38 mg/dl
+Valor de referência: 15 — 45
+GLICOSE DE JEJUM
+Material: Sangue Método: Automatizado
+Resultado: 64 mg/dl
+Valor de referência: 70 - 99
+LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 10.200 /mm?
+Valor de referência: 4.000 a 11.000
+CREATININA
+Material: Sangue Método: Automatizado
+Resultado: 1,58 mg/dL
+Valor de referência: 0,60 - 1,20
+DOSAGEM DE TRIGLICERÍDEOS
+Material: Sangue Método: Automatizado
+Resultado: 202 mg/dl
+Valor de referência: Até 150
+POTÁSSIO NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 3,0 mmol/L
+Valor de referência: 3,5 a 5,1
+Liberado em 2026-06-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

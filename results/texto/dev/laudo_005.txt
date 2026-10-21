@@ -1,0 +1,37 @@
+LabSul Diagnósticos (fictício)
+CNES 9963968 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2872
+Paciente: Natália Gomes Nascimento: 2008-08-25
+Data: 2026-09-12 Solicitante: Dr(a). Exemplo
+LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 14,1 mil/mm³
+Valor de referência: 4,0 – 11,0
+RBC
+Material: Sangue Método: Automatizado
+Resultado: 4,29 milhões/mm³
+Valor de referência: 4,20 - 5,40
+HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 34,4 %
+Valor de referência: 36,0 – 48,0
+TRANSAMINASE OXALACÉTICA
+Material: Sangue Método: Automatizado
+Resultado: 23 U/L
+Valor de referência: Até 40
+MCH
+Material: Sangue Método: Automatizado
+Resultado: 28,9 pg
+Valor de referência: 27,0 - 32,0
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 135 mmol/L
+Valor de referência: 136 – 145
+TRIGLICÉRIDES
+Material: Sangue Método: Automatizado
+Resultado: 68 mg/dl
+Valor de referência: Até 150
+CONTAGEM DE PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 480 x10³/µL
+Valor de referência: 150 - 450
+Liberado em 2026-09-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

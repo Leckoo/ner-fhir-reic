@@ -1,0 +1,76 @@
+{
+  "id": "laudo_078",
+  "paciente": "Gabriela Melo",
+  "nascimento": "2002-01-28",
+  "data": "2026-07-06",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "rotulo_visto": true,
+      "valor": 36.5,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "36,5",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 124.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "124",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Ureia",
+      "rotulo_visto": true,
+      "valor": 52.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "52",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "rotulo_visto": true,
+      "valor": 5.78,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,78",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "CT",
+      "rotulo_visto": true,
+      "valor": 248.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "248",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    }
+  ]
+}

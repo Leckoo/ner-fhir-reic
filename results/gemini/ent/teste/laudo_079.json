@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"105\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"1,47\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"3,88\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Dosagem de hemoglobina\",\n      \"valor\": \"9,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,4\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"149\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"96,5\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 – 100,0\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"9,62\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    }\n  ]\n}",
+ "latencia_s": 10.73869800567627,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 441,
+ "tokens_saida": 467,
+ "tokens_total": 908
+}

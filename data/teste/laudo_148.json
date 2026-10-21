@@ -1,0 +1,63 @@
+{
+  "id": "laudo_148",
+  "paciente": "Gabriela Melo",
+  "nascimento": "1985-10-20",
+  "data": "2026-02-18",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de ureia",
+      "rotulo_visto": false,
+      "valor": 39.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "39",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "rotulo_visto": true,
+      "valor": 2.9,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2,90",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 – 1,20"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "rotulo_visto": true,
+      "valor": 137.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "137",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol total",
+      "rotulo_visto": true,
+      "valor": 242.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "242",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 190"
+    }
+  ]
+}

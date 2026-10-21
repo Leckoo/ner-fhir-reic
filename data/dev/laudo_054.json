@@ -1,0 +1,95 @@
+{
+  "id": "laudo_054",
+  "paciente": "Elisa Prado",
+  "nascimento": "1953-07-02",
+  "data": "2026-02-23",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "valor": 32.6,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "32,6",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 - 32,0"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "valor": 1.21,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,21",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0,60 - 1,20"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "valor": 4.94,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "4,94",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICEMIA DE JEJUM",
+      "valor": 80.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "80",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE PLAQUETAS",
+      "valor": 213.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "213",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "valor": 14.9,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,9",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 - 14,5"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "valor": 15.2,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "15,2",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 – 16,0"
+    }
+  ]
+}

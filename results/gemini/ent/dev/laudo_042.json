@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREATININA\",\n      \"valor\": \"1,46\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"180\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE OXALACETICA\",\n      \"valor\": \"50\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 40\"\n    },\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"70\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"209\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 190\"\n    },\n    {\n      \"exame\": \"TRIGLICERIDES\",\n      \"valor\": \"51\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"224.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 – 450.000\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"17,0\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 a 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 8.933785438537598,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 492,
+ "tokens_saida": 449,
+ "tokens_total": 941
+}

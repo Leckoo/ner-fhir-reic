@@ -1,0 +1,149 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:411c8151-49c5-537e-b79a-578796074431",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "BRUNO LIMA"
+     }
+    ],
+    "birthDate": "1964-06-12"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f8d934fe-47cf-5f49-9bcb-dcf295463498",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-05-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2353c9cf-41d9-571d-b1dd-d888f91602a5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-05-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f306566c-3c5d-5978-80f5-b07e7f96dbd1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-05-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dfb9d62d-3082-52c3-b430-66c232915ffd",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "result": [
+     {
+      "reference": "urn:uuid:f8d934fe-47cf-5f49-9bcb-dcf295463498"
+     },
+     {
+      "reference": "urn:uuid:2353c9cf-41d9-571d-b1dd-d888f91602a5"
+     },
+     {
+      "reference": "urn:uuid:f306566c-3c5d-5978-80f5-b07e7f96dbd1"
+     }
+    ]
+   }
+  }
+ ]
+}

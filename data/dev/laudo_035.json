@@ -1,0 +1,71 @@
+{
+  "id": "laudo_035",
+  "paciente": "Natália Gomes",
+  "nascimento": "1962-04-10",
+  "data": "2026-06-24",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "valor": 2.23,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2,23",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 a 1,20"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "valor": 5.1,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "5,1",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 - 5,1"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "valor": 0.62,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0,62",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "valor": 242.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "242",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "valor": 5.99,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,99",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 – 5,40"
+    }
+  ]
+}

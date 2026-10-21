@@ -1,0 +1,158 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:97716656-808f-5ed9-a2fe-b4f72862e3a4",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Carla Dias"
+     }
+    ],
+    "birthDate": "1960-07-19"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2568212d-3dad-5f36-aa09-1da638e340ec",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:97716656-808f-5ed9-a2fe-b4f72862e3a4"
+    },
+    "effectiveDateTime": "2026-05-10",
+    "valueQuantity": {
+     "value": 0.4
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5e6bbb10-1c20-561f-8d1d-9784c5a7a327",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:97716656-808f-5ed9-a2fe-b4f72862e3a4"
+    },
+    "effectiveDateTime": "2026-05-10",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:13cd70f0-28ec-5a29-943e-2a862b76aec5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:97716656-808f-5ed9-a2fe-b4f72862e3a4"
+    },
+    "effectiveDateTime": "2026-05-10",
+    "valueQuantity": {
+     "value": 15.3
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a4bf35fc-05ea-5b8f-82db-bfa07eb184ab",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:97716656-808f-5ed9-a2fe-b4f72862e3a4"
+    },
+    "effectiveDateTime": "2026-05-10",
+    "result": [
+     {
+      "reference": "urn:uuid:2568212d-3dad-5f36-aa09-1da638e340ec"
+     },
+     {
+      "reference": "urn:uuid:5e6bbb10-1c20-561f-8d1d-9784c5a7a327"
+     },
+     {
+      "reference": "urn:uuid:13cd70f0-28ec-5a29-943e-2a862b76aec5"
+     }
+    ]
+   }
+  }
+ ]
+}

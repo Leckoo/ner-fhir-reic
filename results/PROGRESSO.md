@@ -1,0 +1,12 @@
+# Progresso (Dev) — 20/10 23:05 BRT
+- [x] REGRAS_VARIACAO.md + histórico; teste congelado sha256(SHA256SUMS)=c3c25703cb5e0773d7002405bbb0f4c171563e0e33164cd8369b204600f31d79
+- [x] dev: todos os 5 métodos + validação
+- [x] teste: regex, gliner, gemini_ent rodados e validados
+- [x] gliner_hib teste validado; - [ ] gemini_e2e (em andamento; cache results/gemini/e2e/teste)
+- [ ] validar gliner_hib/gemini_e2e teste; avaliar.py metricas teste; exemplo_bundle; pytest
+- [x] exemplo_bundle.json, pytest (7 passando)
+- [ ] gemini_e2e teste em andamento; watcher roda validar + metricas dev/teste ao terminar (linha FINALIZADO abaixo)
+- [x] Bootstrap PAREADO (results/diferencas_teste.csv, Tabela tab:dif): acurácia LOINC e F1 obs. completa, gliner_hib − regex e gliner_hib − gemini_ent.
+- NOTA: no artigo, a validade HL7 do gemini_e2e deve usar SÓ o número do TESTE (results/fhir_custo_teste.csv / validacao/gemini_e2e_teste.csv). O valor do dev (3/60 = 5%) é só diagnóstico e não deve ser citado.
+- [x] diferencas_teste.csv/tab:dif: + recall_nao_vistos e par regex − gemini_ent (3 pares × 3 métricas). pytest 7/7.
+- [x] FINALIZADO automaticamente: e2e teste, validação, métricas

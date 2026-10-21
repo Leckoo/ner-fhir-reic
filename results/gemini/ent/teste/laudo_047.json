@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"153\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"125\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"HB\",\n      \"valor\": \"12,0\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"181\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS - GLOBAL\",\n      \"valor\": \"6,5\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"309\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"TSH ULTRA SENSÍVEL\",\n      \"valor\": \"9,78\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    }\n  ]\n}",
+ "latencia_s": 5.460265636444092,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 523,
+ "tokens_saida": 401,
+ "tokens_total": 924
+}

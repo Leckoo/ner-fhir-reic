@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 6761727 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1699
+Paciente: Lúcia Ferreira Nascimento: 1944-07-28
+Data: 2026-04-13 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Volume corpuscular médio 93,3 fl 80,0 – 100,0
+RDW-CV 15,4 % 11,5 - 14,5
+MCHC 36,5 g/dL 32,0 a 36,0
+Plaquetograma 375 x10³/µL 150 - 450
+Uréia no soro 58 mg/dL 15 a 45
+Glicose em jejum 67 mg/dL 70 a 99
+Tireotrofina 3,36 µUI/mL 0,40 – 4,00
+Liberado em 2026-04-13. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

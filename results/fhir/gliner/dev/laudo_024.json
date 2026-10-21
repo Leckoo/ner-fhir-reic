@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Rafael Conceição"
+     }
+    ],
+    "birthDate": "1994-02-03"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:907abad5-123b-5556-8927-d4788ba4c499",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-07-23"
+   }
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "laudo_040",
+  "paciente": "Ana Souza",
+  "nascimento": "1944-03-09",
+  "data": "2026-01-16",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "valor": 35.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "35,8",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 - 48,0"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "valor": 12.5,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12,5",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 – 16,0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos",
+      "valor": 11.5,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "11,5",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 a 11,0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "valor": 6.34,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "6,34",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 – 5,40"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "valor": 32.5,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "32,5",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "valor": 82.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "82",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "valor": 224.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "224.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "valor": 76.8,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "76,8",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 – 100,0"
+    }
+  ]
+}

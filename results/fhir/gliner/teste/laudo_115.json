@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:ee9d6cab-122d-5786-b4be-d2b20c839ba2",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Hugo Reis"
+     }
+    ],
+    "birthDate": "1989-08-16"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fc9cce71-f4d1-5ded-8482-bf2b725ed4e7",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ee9d6cab-122d-5786-b4be-d2b20c839ba2"
+    },
+    "effectiveDateTime": "2026-06-03"
+   }
+  }
+ ]
+}

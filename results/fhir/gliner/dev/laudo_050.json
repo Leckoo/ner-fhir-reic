@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:18f814bc-9a52-5781-ada0-f004fe6a893c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Patrícia Ramos"
+     }
+    ],
+    "birthDate": "2001-12-08"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cd0c897c-7f53-509b-ac2c-dcde32adf1ec",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:18f814bc-9a52-5781-ada0-f004fe6a893c"
+    },
+    "effectiveDateTime": "2026-03-27",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aeebb0ec-d22d-5024-b98e-6a34326dd99f",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:18f814bc-9a52-5781-ada0-f004fe6a893c"
+    },
+    "effectiveDateTime": "2026-03-27",
+    "result": [
+     {
+      "reference": "urn:uuid:cd0c897c-7f53-509b-ac2c-dcde32adf1ec"
+     }
+    ]
+   }
+  }
+ ]
+}

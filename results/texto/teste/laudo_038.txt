@@ -1,0 +1,13 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 9829113 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4088
+Paciente: Íris Campos Nascimento: 1999-08-09
+Data: 2026-04-03 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+UR 46 mg/dl 15 a 45
+Plaquetograma 441 x10³/µL 150 - 450
+RDW-CV 14,1 % 11,5 – 14,5
+MCHC 33,7 g/dL 32,0 – 36,0
+TSH 1,77 µUI/mL 0,40 a 4,00
+HCT 41,8 % 36,0 – 48,0
+Potássio 4,5 mmol/L 3,5 a 5,1
+Liberado em 2026-04-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

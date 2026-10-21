@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:e32ab85c-8d75-5b51-a28f-18093a1d3042",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Natália Gomes"
+     }
+    ],
+    "birthDate": "1993-03-02"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aa1cd941-c7ff-5fcf-8d97-9d9f04355504",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:e32ab85c-8d75-5b51-a28f-18093a1d3042"
+    },
+    "effectiveDateTime": "2026-06-09",
+    "valueQuantity": {
+     "value": 0.4,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fbcc220c-e49a-51cf-851e-884df5a812bf",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e32ab85c-8d75-5b51-a28f-18093a1d3042"
+    },
+    "effectiveDateTime": "2026-06-09",
+    "result": [
+     {
+      "reference": "urn:uuid:aa1cd941-c7ff-5fcf-8d97-9d9f04355504"
+     }
+    ]
+   }
+  }
+ ]
+}

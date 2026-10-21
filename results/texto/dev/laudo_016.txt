@@ -1,0 +1,13 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 1510980 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1248
+Paciente: Gabriela Melo Nascimento: 2007-12-20
+Data: 2026-01-16 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Glicemia de jejum 145 mg/dl 70 a 99
+Plaquetas 424 x10³/µL 150 - 450
+Volume corpuscular médio 77.4 fl 80.0 – 100.0
+MCHC 33.5 g/dl 32.0 a 36.0
+TSH 0.56 µUI/mL 0.40 a 4.00
+K 6.1 mEq/L 3.5 – 5.1
+RDW-CV 13.8 % 11.5 – 14.5
+Liberado em 2026-01-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,83 @@
+{
+  "id": "laudo_003",
+  "paciente": "Rafael Conceição",
+  "nascimento": "1943-05-13",
+  "data": "2026-08-04",
+  "layout": "legado",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "COLESTEROL",
+      "valor": 313.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "313",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "valor": 11.1,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "11.1",
+      "texto_unidade": "%",
+      "texto_faixa": "11.5 a 14.5"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLAQUETAS",
+      "valor": 483.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "483.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 - 450.000"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VOLUME CORPUSCULAR MEDIO",
+      "valor": 89.1,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "89.1",
+      "texto_unidade": "fl",
+      "texto_faixa": "80.0 a 100.0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TIREOTROFINA",
+      "valor": 5.29,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "5.29",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 a 4.00"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "valor": 278.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "278",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 150"
+    }
+  ]
+}

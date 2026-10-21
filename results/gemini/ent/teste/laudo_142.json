@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"COLESTEROLEMIA\",\n      \"valor\": \"288\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"HEMATÓCRITO\",\n      \"valor\": \"35,4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"5,86\",\n      \"unidade\": \"x10\\\"6/uL\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"GLi\",\n      \"valor\": \"87\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"HORMÔNIO TIREOESTIMULANTE\",\n      \"valor\": \"7,32\",\n      \"unidade\": \"uUl/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"11,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"87,2\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 — 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 5.938714981079102,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 534,
+ "tokens_saida": 413,
+ "tokens_total": 947
+}

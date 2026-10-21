@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"173\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"203\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"498\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE SODIO\",\n      \"valor\": \"137\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"16,1\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"31,1\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 – 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 9.218408823013306,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 433,
+ "tokens_saida": 342,
+ "tokens_total": 775
+}

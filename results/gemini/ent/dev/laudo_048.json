@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"2,07\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"3,58\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 – 5,40\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"17.800\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"17,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 – 14,5\"\n    }\n  ]\n}",
+ "latencia_s": 5.005126237869263,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 351,
+ "tokens_saida": 245,
+ "tokens_total": 596
+}

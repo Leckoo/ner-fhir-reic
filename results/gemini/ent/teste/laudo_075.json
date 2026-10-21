@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"25\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"HEMATOCRITO\",\n      \"valor\": \"48.3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"COLESTEROL SERICO\",\n      \"valor\": \"248\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"CREATININEMIA\",\n      \"valor\": \"0.66\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0.60 a 1.20\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"431.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 - 450.000\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"3.35\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4.20 a 5.40\"\n    }\n  ]\n}",
+ "latencia_s": 13.02785849571228,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 444,
+ "tokens_saida": 352,
+ "tokens_total": 796
+}

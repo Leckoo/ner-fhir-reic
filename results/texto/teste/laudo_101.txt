@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 6812261 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9979
+Paciente: Rafael Conceição Nascimento: 1984-04-04
+Data: 2026-06-24 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Determinação do hematócrit 54,6 4% 36,0 - 48,0
+TSH 6,45 mUI/L 0,40 - 4,00
+Sódio no soro 148 mEq/L 136 a 145
+Colesterolemia 247 mg/dl < 190
+Hemácias 6,26 x1076/pL 4,20 a 5,40
+Liberado em 2026-06-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

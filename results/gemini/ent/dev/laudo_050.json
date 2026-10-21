@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"9.500\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 - 11.000\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"6,21\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Transaminase oxalacética\",\n      \"valor\": \"53\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"32,5\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    }\n  ]\n}",
+ "latencia_s": 11.39282488822937,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 345,
+ "tokens_saida": 238,
+ "tokens_total": 583
+}

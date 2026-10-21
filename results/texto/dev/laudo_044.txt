@@ -1,0 +1,59 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 2999743 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1941
+Paciente: Tiago Monteiro Nascimento: 1969-03-07
+Data: 2026-09-09 Solicitante: Dr(a). Exemplo
+HT
+Material: Sangue Método: Automatizado
+
+Resultado: 28,4 %
+Valor de referência: 36,0 a 48,0
+
+LEUCÓCITOS - GLOBAL
+
+Material: Sangue Método: Automatizado
+
+Resultado: 3.500 /mmº
+
+Valor de referência: 4.000 a 11.000
+
+TSH
+
+Material: Sangue Método: Automatizado
+
+Resultado: 1,85 uUI/mL
+
+Valor de referência: 0,40 a 4,00
+
+TRIGLICERÍDEOS
+
+Material: Sangue Método: Automatizado
+
+Resultado: 356 mg/dl
+
+Valor de referência: Até 150
+
+TGP
+
+Material: Sangue Método: Automatizado
+
+Resultado: 27 U/L
+
+Valor de referência: Até 41
+
+MCHC
+
+Material: Sangue Método: Automatizado
+
+Resultado: 30,4 g/dl
+
+Valor de referência: 32,0 a 36,0
+
+NA
+
+Material: Sangue Método: Automatizado
+
+Resultado: 149 mmol/L
+
+Valor de referência: 136 — 145
+
+Liberado em 2026-09-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

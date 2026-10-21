@@ -1,0 +1,71 @@
+{
+  "id": "laudo_047",
+  "paciente": "Diego Rocha",
+  "nascimento": "1944-05-20",
+  "data": "2026-03-13",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "valor": 48.9,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "48,9",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "valor": 11.1,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "11.100",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 a 11.000"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "valor": 102.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "102",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "valor": 91.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "91",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "valor": 79.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "79",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    }
+  ]
+}

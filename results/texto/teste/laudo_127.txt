@@ -1,0 +1,10 @@
+LabSul Diagnósticos (fictício)
+CNES 3883967 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4168
+Paciente: Marcos Antônio Vieira Nascimento: 1972-07-04
+Data: 2026-04-11 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Plaquetas 378.000 /mm³ 150.000 – 450.000
+Kalemia 3.4 mEq/L 3.5 – 5.1
+Volume corpuscular médio 95.0 fl 80.0 - 100.0
+Hormônio tireoestimulante 6.39 µUI/mL 0.40 – 4.00
+Liberado em 2026-04-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

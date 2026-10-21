@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"8,04\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"25\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"15,9\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"34,9\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"Sódio no soro\",\n      \"valor\": \"139\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"Dosagem de creatinina\",\n      \"valor\": \"2,26\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"5,05\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 – 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 4.376114130020142,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 410,
+ "tokens_saida": 401,
+ "tokens_total": 811
+}

@@ -1,0 +1,76 @@
+{
+  "id": "laudo_031",
+  "paciente": "Fábio Nunes",
+  "nascimento": "2005-02-24",
+  "data": "2026-03-07",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "rotulo_visto": true,
+      "valor": 13.6,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "13,6",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "POTASSIO",
+      "rotulo_visto": true,
+      "valor": 6.2,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,2",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 - 5,1"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HEMATOCRITO",
+      "rotulo_visto": true,
+      "valor": 50.2,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "50,2",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 - 48,0"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 24.7,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "24,7",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 - 32,0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 52.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "52",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    }
+  ]
+}

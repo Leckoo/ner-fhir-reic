@@ -1,0 +1,59 @@
+{
+  "id": "laudo_048",
+  "paciente": "Gabriela Melo",
+  "nascimento": "2002-06-06",
+  "data": "2026-01-06",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatinina",
+      "valor": 2.07,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2,07",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0,60 a 1,20"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "valor": 3.58,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,58",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 – 5,40"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos - Global",
+      "valor": 17.8,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "17.800",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 a 11.000"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "valor": 17.2,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "17,2",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    }
+  ]
+}

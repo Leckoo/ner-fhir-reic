@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 5133056 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7744
+Paciente: Bruno Lima Nascimento: 1951-07-04
+Data: 2026-04-22 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+GLI 88 mg/dL 70 - 99
+Sódio 141 mmol/L 136 - 145
+K 5.1 mEqg/L 35 =-8,1
+Ureia 79 mg/dl 15 a 45
+VCM 102,4 f1 80,0 - 100,0
+ALT 83 U/L < 41
+CT 166 mg/dL < 190
+Liberado em 2026-04-22. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,89 @@
+{
+  "id": "laudo_106",
+  "paciente": "Ana Souza",
+  "nascimento": "2008-02-25",
+  "data": "2026-05-10",
+  "layout": "tabela",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "rotulo_visto": true,
+      "valor": 31.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "31",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tirotropina",
+      "rotulo_visto": false,
+      "valor": 0.6,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0.60",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 - 4.00"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hemoglobina",
+      "rotulo_visto": true,
+      "valor": 14.1,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "14.1",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12.0 - 16.0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de leucócitos",
+      "rotulo_visto": false,
+      "valor": 15.6,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "15.600",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 – 11.000"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "rotulo_visto": true,
+      "valor": 203.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "203",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de eritrócitos",
+      "rotulo_visto": false,
+      "valor": 5.05,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5.05",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4.20 a 5.40"
+    }
+  ]
+}

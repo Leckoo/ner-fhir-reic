@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"K\",\n      \"valor\": \"4,6\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"35a5,1\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"4,2\",\n      \"unidade\": \"x10%uL\",\n      \"faixa\": \"4,0- 11,0\"\n    },\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"284\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"131\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136- 145\"\n    },\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"158\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70a 99\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"72,5\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 a 100,0\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"17,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 a 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 5.776644706726074,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 400,
+ "tokens_saida": 395,
+ "tokens_total": 795
+}

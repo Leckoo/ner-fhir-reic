@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 3908563 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1741
+Paciente: Gabriela Melo Nascimento: 1953-07-03
+Data: 2026-07-01 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Dosagem de creatinina 1,25 mg/dl 0,60 a 1,20
+ALT 27 U/L Até 41
+Dosagem de hemoglobina 12,0 g/ dL 12,0 – 16,0
+TSH 5,52 µUI/mL 0,40 a 4,00
+Liberado em 2026-07-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

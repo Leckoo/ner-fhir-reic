@@ -1,0 +1,63 @@
+{
+  "id": "laudo_089",
+  "paciente": "Otávio Pereira",
+  "nascimento": "1952-08-11",
+  "data": "2026-02-12",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "rotulo_visto": true,
+      "valor": 362.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "362",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 237.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "237",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase glutâmico pirúvica",
+      "rotulo_visto": false,
+      "valor": 10.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "10",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "Concentração de hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 32.2,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "32.2",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32.0 a 36.0"
+    }
+  ]
+}

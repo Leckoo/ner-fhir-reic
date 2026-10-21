@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Contagem de leucócitos\",\n      \"valor\": \"3.600\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"175\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"Concentração de hemoglobina corpuscul3a4r .m3édia\",\n      \"valor\": null,\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32.0 - 36.0\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"10\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"14.7\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12.0 a 16.0\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"3.6\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3.5 - 5.1\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"9.54\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0.40 - 4.00\"\n    }\n  ]\n}",
+ "latencia_s": 8.885980129241943,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 412,
+ "tokens_saida": 407,
+ "tokens_total": 819
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"82,0\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 a 100,0\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"303\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"9,16\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrito\",\n      \"valor\": \"46,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"19\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"Calemia\",\n      \"valor\": \"3,4\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 4.360672235488892,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 380,
+ "tokens_saida": 335,
+ "tokens_total": 715
+}

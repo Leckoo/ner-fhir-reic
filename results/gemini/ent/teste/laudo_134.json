@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"0,57\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Concentração de hemoglobina corpuscul3a1r ,m7édia\",\n      \"valor\": null,\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"51\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"28\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"223\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"16,7\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 – 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 11.852073669433594,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 396,
+ "tokens_saida": 355,
+ "tokens_total": 751
+}

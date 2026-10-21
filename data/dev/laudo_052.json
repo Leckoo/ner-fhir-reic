@@ -1,0 +1,71 @@
+{
+  "id": "laudo_052",
+  "paciente": "Sílvia Araújo",
+  "nascimento": "1966-05-22",
+  "data": "2026-05-19",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "valor": 17.0,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "17,0",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12,0 - 16,0"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "valor": 129.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "129",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "valor": 95.3,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "95,3",
+      "texto_unidade": "fL",
+      "texto_faixa": "80,0 a 100,0"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol",
+      "valor": 147.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "147",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Ureia",
+      "valor": 46.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "46",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 – 45"
+    }
+  ]
+}

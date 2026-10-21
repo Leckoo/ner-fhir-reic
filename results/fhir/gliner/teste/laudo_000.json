@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:9659084c-080b-5e2e-ac95-d5069528aafb",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Sílvia Araújo"
+     }
+    ],
+    "birthDate": "1993-10-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5c10bcba-5798-5a3f-ba91-cc38e20a68d4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9659084c-080b-5e2e-ac95-d5069528aafb"
+    },
+    "effectiveDateTime": "2026-02-08",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e82d7d9a-4a2c-5c2c-8d8c-c147208d9d62",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9659084c-080b-5e2e-ac95-d5069528aafb"
+    },
+    "effectiveDateTime": "2026-02-08",
+    "result": [
+     {
+      "reference": "urn:uuid:5c10bcba-5798-5a3f-ba91-cc38e20a68d4"
+     }
+    ]
+   }
+  }
+ ]
+}

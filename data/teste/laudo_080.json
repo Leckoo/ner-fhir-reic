@@ -1,0 +1,102 @@
+{
+  "id": "laudo_080",
+  "paciente": "Patrícia Ramos",
+  "nascimento": "1978-03-12",
+  "data": "2026-03-20",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE PLAQUETAS",
+      "rotulo_visto": true,
+      "valor": 82.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "82",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "LEUCOCITOS",
+      "rotulo_visto": true,
+      "valor": 9.1,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "9,1",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 - 11,0"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "rotulo_visto": true,
+      "valor": 12.0,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "12,0",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREATININA",
+      "rotulo_visto": true,
+      "valor": 1.82,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,82",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 - 1,20"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "rotulo_visto": true,
+      "valor": 36.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "36",
+      "texto_unidade": "U/L",
+      "texto_faixa": "ATE 41"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA",
+      "rotulo_visto": false,
+      "valor": 35.6,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35,6",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TRIGLICERIDES",
+      "rotulo_visto": true,
+      "valor": 106.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "106",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 150"
+    }
+  ]
+}

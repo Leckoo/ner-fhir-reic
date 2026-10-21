@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"DETERMINAÇÃO DO HEMATÓCRITO\",\n      \"valor\": \"37,9\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"CALEMIA\",\n      \"valor\": \"6,0\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 – 5,1\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"34,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"11,9\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"ASPARTATO AMINOTRANSFERASE\",\n      \"valor\": \"116\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE UREIA\",\n      \"valor\": \"12\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    }\n  ]\n}",
+ "latencia_s": 17.573585987091064,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 487,
+ "tokens_saida": 351,
+ "tokens_total": 838
+}

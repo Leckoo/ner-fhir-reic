@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TRIGLICERIDEOS\",\n      \"valor\": \"356\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 150\"\n    },\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"29\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"111\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"ERITROCITOS\",\n      \"valor\": \"4.60\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4.20 - 5.40\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"312\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 190\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"49\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    }\n  ]\n}",
+ "latencia_s": 1.4260163307189941,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 416,
+ "tokens_saida": 318,
+ "tokens_total": 734
+}

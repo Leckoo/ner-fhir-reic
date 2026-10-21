@@ -1,0 +1,278 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "VANIA LOPES"
+     }
+    ],
+    "birthDate": "1942-06-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:daf41b6d-2500-523a-9a2b-244f1d1dffb1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09",
+    "valueQuantity": {
+     "value": 14.3
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:73db5988-d437-59c1-b7e7-f2bdd86cb35c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:41066698-9453-5a40-9cd9-b3af60de997b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bc9ceac9-684e-5f4f-a13f-27a727761867",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VR"
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09",
+    "valueQuantity": {
+     "value": 80.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c4c62d70-6d3e-5247-9b17-486ab78ec718",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3610632c-1625-5929-9174-4798fdaec217",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e2b8ee98-53b2-5a66-a240-dac929b2b759",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "HEMOGLOBINA CORPUSCULAR MEDIA"
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09",
+    "valueQuantity": {
+     "value": 28.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b89ae718-f88c-5ff8-b7df-1dfe29515544",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:47bc9fab-a6b0-5a45-b6a2-28ed5dade2f2"
+    },
+    "effectiveDateTime": "2026-05-09",
+    "result": [
+     {
+      "reference": "urn:uuid:daf41b6d-2500-523a-9a2b-244f1d1dffb1"
+     },
+     {
+      "reference": "urn:uuid:73db5988-d437-59c1-b7e7-f2bdd86cb35c"
+     },
+     {
+      "reference": "urn:uuid:41066698-9453-5a40-9cd9-b3af60de997b"
+     },
+     {
+      "reference": "urn:uuid:bc9ceac9-684e-5f4f-a13f-27a727761867"
+     },
+     {
+      "reference": "urn:uuid:c4c62d70-6d3e-5247-9b17-486ab78ec718"
+     },
+     {
+      "reference": "urn:uuid:3610632c-1625-5929-9174-4798fdaec217"
+     },
+     {
+      "reference": "urn:uuid:e2b8ee98-53b2-5a66-a240-dac929b2b759"
+     }
+    ]
+   }
+  }
+ ]
+}

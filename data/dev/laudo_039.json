@@ -1,0 +1,95 @@
+{
+  "id": "laudo_039",
+  "paciente": "Íris Campos",
+  "nascimento": "1952-05-24",
+  "data": "2026-04-07",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "valor": 51.2,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "51,2",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "valor": 149.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "149",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 – 145"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "valor": 248.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "248",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "valor": 15.9,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "15,9",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "valor": 3.65,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,65",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 a 5,40"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "valor": 327.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "327",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "valor": 33.2,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "33,2",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0"
+    }
+  ]
+}

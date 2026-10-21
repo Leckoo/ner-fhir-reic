@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"1,93\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Ht\",\n      \"valor\": \"28,5\",\n      \"unidade\": \"4%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"5,65\",\n      \"unidade\": \"x10\\\"6/pL\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"CHCM\",\n      \"valor\": \"32,3\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"136\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Plaquetas\",\n      \"valor\": \"332\",\n      \"unidade\": \"x10º/pL\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"TSH ultra sensível\",\n      \"valor\": \"8,95\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"123\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 8.571630716323853,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 438,
+ "tokens_saida": 466,
+ "tokens_total": 904
+}

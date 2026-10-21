@@ -1,0 +1,18 @@
+Laboratório Exemplo de Análises Clínicas
+
+CNES 8320470 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6852
+
+Paciente: Rafael Conceição Nascimento: 1988-04-15
+Data: 2026-03-09 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+
+K 4,6 mEq/L 35a5,1
+Leucócitos - Global 4,2 x10%uL 4,0- 11,0
+TGL 284 mg/dL Até 150
+
+Na 131 mEq/L 136- 145
+Glicose de jejum 158 mg/dL 70a 99
+VCM 72,5 fL 80,0 a 100,0
+Hb 17,6 g/dl 12,0 a 16,0
+
+Liberado em 2026-03-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

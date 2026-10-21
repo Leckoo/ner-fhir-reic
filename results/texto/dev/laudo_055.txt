@@ -1,0 +1,22 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 4009808 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6576
+
+Paciente: Lúcia Ferreira Nascimento: 1993-01-12
+
+Data: 2026-01-11 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+CREA 2,14 mg/dl 0,60 a 1,20
+
+Colesterol total 250 mg/dl < 190
+
+RDW » É ER ID 11,5 — 14,5
+
+GLI 99 mg/dl 70 - 99
+
+Leucócitos 2,1 mil/mmº 4,0 - 11,0
+
+CHCM 36,7 g/dl 32,0 a 36,0
+
+Liberado em 2026-01-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

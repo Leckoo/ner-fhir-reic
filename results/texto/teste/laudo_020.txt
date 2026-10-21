@@ -1,0 +1,14 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7943638 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2630
+Paciente: Sílvia Araújo Nascimento: 1978-07-08
+Data: 2026-06-18 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Dosagem de sódio 137 mEq/L 136 - 145
+Glicose 128 mg/dl 70 – 99
+Transaminase glutâmico pirúvica 76 U/L < 41
+CREA 1.53 mg/dL 0.60 a 1.20
+Hormônio tireoestimulante 1.26 µUI/mL 0.40 - 4.00
+Ureia 61 mg/dl 15 – 45
+RDW 13.2 % 11.5 a 14.5
+Plaquetas 357 mil/mm³ 150 - 450
+Liberado em 2026-06-18. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

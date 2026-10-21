@@ -1,0 +1,12 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+*.key
+tools/*.jar
+paper*/*.aux
+paper*/*.log
+paper*/*.out
+*.bak
+paper-reic/old-imitacao/

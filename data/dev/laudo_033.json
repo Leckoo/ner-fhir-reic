@@ -1,0 +1,107 @@
+{
+  "id": "laudo_033",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1990-08-04",
+  "data": "2026-02-08",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "valor": 53.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "53.8",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 - 48.0"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "valor": 68.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "68",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "valor": 6.45,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "6.45",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4.20 – 5.40"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCV",
+      "valor": 104.7,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "104.7",
+      "texto_unidade": "fl",
+      "texto_faixa": "80.0 - 100.0"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "valor": 5.4,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "5.4",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3.5 a 5.1"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Dosagem de hemoglobina",
+      "valor": 12.2,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12.2",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12.0 a 16.0"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLT",
+      "valor": 197.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "197.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "valor": 135.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "135",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145"
+    }
+  ]
+}

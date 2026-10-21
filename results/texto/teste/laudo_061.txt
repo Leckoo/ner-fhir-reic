@@ -1,0 +1,18 @@
+Laboratório Exemplo de Análises Clínicas
+
+CNES 4288473 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1498
+
+Paciente: Patrícia Ramos Nascimento: 1945-08-01
+
+Data: 2026-06-08 Solicitante: Dr(a). Exemplo
+
+Exame Resultado Unidade Referência
+
+Volume corpuscular médio 70,5 fL 80,0 - 100,0
+
+Creatinina 2,35 mg/dL 0,60 a 1,20
+
+Amplitude de distribuição dos eritrócitos 14,9 % 11,5a 14,5
+
+K 5,2 mmol/L 35a5,1
+Liberado em 2026-06-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

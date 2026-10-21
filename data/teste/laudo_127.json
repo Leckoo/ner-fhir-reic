@@ -1,0 +1,63 @@
+{
+  "id": "laudo_127",
+  "paciente": "Marcos Antônio Vieira",
+  "nascimento": "1972-07-04",
+  "data": "2026-04-11",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "rotulo_visto": true,
+      "valor": 378.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "378.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 – 450.000"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Kalemia",
+      "rotulo_visto": false,
+      "valor": 3.4,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3.4",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3.5 – 5.1"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 95.0,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "95.0",
+      "texto_unidade": "fl",
+      "texto_faixa": "80.0 - 100.0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Hormônio tireoestimulante",
+      "rotulo_visto": false,
+      "valor": 6.39,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "6.39",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 – 4.00"
+    }
+  ]
+}

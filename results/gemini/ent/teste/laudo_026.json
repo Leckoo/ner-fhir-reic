@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMATÓCRITO\",\n      \"valor\": \"28.8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITRÓCITOS\",\n      \"valor\": \"3.89\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4.20 – 5.40\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"COLESTEROL\",\n      \"valor\": \"258\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE OXALACÉTICA\",\n      \"valor\": \"31\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    }\n  ]\n}",
+ "latencia_s": 26.59807538986206,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 449,
+ "tokens_saida": 293,
+ "tokens_total": 742
+}

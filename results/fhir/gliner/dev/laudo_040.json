@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Ana Souza"
+     }
+    ],
+    "birthDate": "1944-03-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f5bce385-a8f2-5c82-a138-3a575d97d4f6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5bc01c1b-cb23-5155-892b-c3314ca56600",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "result": [
+     {
+      "reference": "urn:uuid:f5bce385-a8f2-5c82-a138-3a575d97d4f6"
+     }
+    ]
+   }
+  }
+ ]
+}

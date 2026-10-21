@@ -1,0 +1,21 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7268891 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2271
+Paciente: Ana Souza Nascimento: 1989-06-05
+Data: 2026-05-18 Solicitante: Dr(a). Exemplo
+HCM
+Material: Sangue Método: Automatizado
+Resultado: 27.7 pg
+Valor de referência: 27.0 a 32.0
+URE
+Material: Sangue Método: Automatizado
+Resultado: 56 mg/dl
+Valor de referência: 15 - 45
+GLICOSE EM JEJUM
+Material: Sangue Método: Automatizado
+Resultado: 83 mg/dL
+Valor de referência: 70 – 99
+HT
+Material: Sangue Método: Automatizado
+Resultado: 54.8 %
+Valor de referência: 36.0 – 48.0
+Liberado em 2026-05-18. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

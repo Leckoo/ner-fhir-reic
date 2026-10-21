@@ -1,0 +1,14 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 4642712 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6025
+Paciente: Tiago Monteiro Nascimento: 2005-05-11
+Data: 2026-01-21 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Glicose em jejum 236 mg/dL 70 - 99
+HCT 43.2 % 36.0 - 48.0
+HGB 12.4 g/dL 12.0 - 16.0
+Leucócitos - Global 16.4 mil/mm³ 4.0 – 11.0
+Dosagem de potássio 4.6 mmol/L 3.5 a 5.1
+Tireotrofina 7.97 mUI/L 0.40 – 4.00
+VCM 80.5 fL 80.0 – 100.0
+SGPT 150 U/L Até 41
+Liberado em 2026-01-21. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

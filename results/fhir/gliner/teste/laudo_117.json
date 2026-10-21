@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:f2e33f5f-e0dc-5ecf-b172-4ff378eba6c9",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Ana Souza"
+     }
+    ],
+    "birthDate": "1955-10-15"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dc709826-48c5-54f8-9503-c2bf20a09066",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f2e33f5f-e0dc-5ecf-b172-4ff378eba6c9"
+    },
+    "effectiveDateTime": "2026-06-23",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:907cd17b-a110-5100-9fe3-3b929e51a93a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f2e33f5f-e0dc-5ecf-b172-4ff378eba6c9"
+    },
+    "effectiveDateTime": "2026-06-23",
+    "result": [
+     {
+      "reference": "urn:uuid:dc709826-48c5-54f8-9503-c2bf20a09066"
+     }
+    ]
+   }
+  }
+ ]
+}

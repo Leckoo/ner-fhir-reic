@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"0,95\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"Concentração de hemoglobin\",\n      \"valor\": \"36,4\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"10\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"4,77\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"16,5\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"346\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    }\n  ]\n}",
+ "latencia_s": 5.545328617095947,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 378,
+ "tokens_saida": 343,
+ "tokens_total": 721
+}

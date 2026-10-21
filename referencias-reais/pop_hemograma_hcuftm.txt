@@ -1,0 +1,581 @@
+POP
+HC-UFTM/EBSERH
+
+
+
+
+                 Realização de Hemograma no
+                       Serviço Laboratorial de
+                                 Hematologia
+
+
+
+                                  Versão: 2 | 2026
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                         Página 2 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+                                          SUPERINTENDENTE
+                                   LUCIANA DE ALMEIDA SILVA TEIXEIRA
+
+                                     GERENTE DE ATENÇÃO À SAÚDE
+                              LUIZ ANTÔNIO PERTILI RODRIGUES DE RESENDE
+
+                       CHEFE DA DIVISÃO DE APOIO DIAGNÓSTICO E TERAPÊUTICO
+                                        MARISLEY FRANCISCO
+
+                  CHEFE DA UNIDADE DE ANÁLISES CLÍNICAS E ANATOMIA PATOLÓGICA
+                                    TATIANA DA SILVA CAMPOS
+
+
+
+
+ELABORAÇÃO DA VERSÃO ATUAL
+Marcos Aurélio Stoppa, Unidade de Análises Clínicas e Anatomia Patológica
+André Luiz Maltos, Unidade de Análises Clínicas e Anatomia Patológica
+
+ANÁLISE
+Tatiana da Silva Campos, Unidade de Análises Clínicas e Anatomia Patológica
+
+VALIDAÇÃO TÉCNICA
+Raquel Bessa Ribeiro Rosalino, Unidade de Gestão da Qualidade e Segurança do Paciente
+
+REGISTRO, VALIDAÇÃO DE FORMA E REVISÃO
+Ana Paula Corrêa Gomes, Comissão de Gestão da Qualidade Documental
+
+APROVAÇÃO
+Marisley Francisco, Divisão de Apoio Diagnóstico e Terapêutico
+
+
+
+
+Data da emissão: 16/3/2026
+Vigência: dois anos
+Código do documento: POP.HC-UFTM-UACAP.004
+ISBN:
+
+
+
+
+Cópia eletrônica não controlada. Permitida a reprodução parcial ou total, desde que indicada a fonte e sem
+fins lucrativos. O uso deste documento em meio físico ou fora da vigência pode disseminar informação e/ou
+     procedimento desatualizados ® 2026, Empresa Brasileira de Serviços Hospitalares. Todos os direitos
+                                                reservados
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                 Página 3 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+1.      OBJETIVOS
+            Fornecer as informações necessárias para a realização de hemograma no Serviço de
+Hematologia da Unidade de Análises Clínicas e Anatomia Patológica (UACAP) do Hospital de
+Clínicas da Universidade Federal do Triângulo Mineiro (HC-UFTM).
+
+2. INFORMAÇÕES GERAIS
+             O hemograma é um exame laboratorial de rotina para avaliação quantitativa e
+qualitativa dos elementos figurados do sangue e para a dosagem da hemoglobina. Apresenta
+alterações significativas tanto nas doenças hematológicas quanto em doenças das mais
+variadas patogêneses, tendo, por isso, grande valor preditivo e diagnóstico. É composto pelos
+seguintes parâmetros: contagem de eritrócitos, dosagem de hemoglobina, determinação do
+hematócrito, volume corpuscular médio (VCM), hemoglobina corpuscular média (HCM),
+concentração de hemoglobina corpuscular média (CHCM) e amplitude de distribuição dos
+eritrócitos (RDW) que compõem o eritrograma; contagem de leucócitos e fórmula leucocitária
+que compõem o leucograma.
+
+3. MATERIAL E REAGENTES
+
+3.1 Equipamento - Analisador hematológico: Sysmex XN 1500 (contrato atual)
+           Dois equipamentos XN 1000 que se baseiam na citometria de fluxo, usando
+semicondutor laser, foco hidrodinâmico, impedância elétrica, SLS para o método de detecção
+de hemoglobina – (absorção espectrofotométrica), rádio frequência, difusão direta e
+fluorescência direta. O equipamento dispõe de 3 modos de aspiração: automático de tubo
+fechado, manual de tubo fechado e manual de tubo aberto. Após a aspiração da amostra,
+através de uma válvula, ela é “segmentada” em alíquotas para os diferentes tipos de testes. Os
+segmentos de reagentes e amostras são direcionados para as respetivas câmaras/canais de
+reação para a mistura e aspiração.
+           Ambos os equipamentos são compostos pelos seguintes módulos: Analisador,
+Unidade Pneumática, Estação de Dados e Impressora.
+
+3.2 Equipamento – Unidade automatizada de preparação e coloração de lâminas SP-50
+(contrato atual)
+       Dois equipamentos SP-50, acoplados individualmente ao XN 1000, que podem ser
+operados de forma autônoma ou como parte de uma linha de automação do XN 1000. Podem
+preparar e corar automaticamente um esfregaço sanguíneo de qualidade elevada numa lâmina
+de microscópio para análise diferencial e exame ao microscópio de leucócitos (WBC) e de
+hemácias (RBC). O sistema produz e cora lâminas com base em critérios que podem ser
+personalizados no software do sistema.
+
+3.3 Amostras
+•     Sangue total anticoagulado com EDTA K3 ou K2 (pó ou solução);
+•     Volume recomendável: 4,0 mL;
+•     Volume mínimo: 1,0 mL;
+•     Volume de amostra aspirado: 88 μl.;
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                Página 4 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+•       Estabilidade e armazenamento:
+✓       Estável por até 48h a temperatura de 2 a 8 ˚C;
+✓       Transportar o material colhido à temperatura ambiente e dentro das normas de
+segurança legais. A amostra deve ser encaminhada ao laboratório o mais rápido possível, sendo
+ideal a realização do exame dentro de 6h após a colheita.
+
+3.4 Reagentes do XN 1500
+✓      CELLPACK DCL – Volume 20 L;
+✓      SLS SULFOLYSER – Volume 5 L;
+✓      FLUOROCELL RET – Volume 2 mL x 2;
+✓      FLUOROCELL PLT – Volume 12 mL x 2;
+✓      FLUOROCELL WNR – Volume 82 mL x 2;
+✓      FLUOROCELL WDF – Volume 82 mL x 2;
+✓      CELLCLEAN AUTO – Volume 3 mL x 20.
+•      Armazenamento e validade dos Reagentes do Aparelho XN 1500: os reagentes
+CELLPACK DCL, SLS SULFOLYSER, FLUOROCELL RET, FLUOROCELL PLT, FLUOROCELL WNR
+FLUOROCELL WDF e CELLCLEAN devem ser armazenados em temperatura ambiente (15 a 30 C)
+e não devem ser congelados.
+•      Estabilidade: são estáveis até a data de validade impressa na embalagem.
+
+3.5 Reagentes do Corador de lâminas SP-50
+            As 2 misturas de coloração utilizadas têm propriedades muito distintas. O corante
+May-Grünwald (STAIN 1 [Corante 1]) cora as zonas acidófilas das células e as granulações
+neutrófilas dos leucócitos, enquanto o corante Giemsa (STAIN 2 [Corante 2]) cora o citoplasma
+dos monócitos e dos linfócitos, assim como a cromatina dos núcleos. O esfregaço corado é
+examinado microscopicamente, sendo as células diferenciadas e quantificadas manualmente.
+1-     Corante May-Grünwald;
+2-     Corante Giemsa;
+3-     Metanol;
+4-     Solução Rinse CELLPACK DCL;
+5-     Água.
+•      Armazenamento e validade dos reagentes do Corador SP-50: todos os reagentes e
+corantes deverão ser armazenados à temperatura ambiente, e são estáveis até a data de
+validade impressa no rótulo, onde o controle de validade dos reagentes em uso é feito
+automaticamente pelo próprio aparelho.
+
+3.6 Controles e calibradores
+SYSMEX XN 1000:
+•      Controle Interno: Controle Hematológico XN Check:
+1- XN CHECK 1 (Nível baixo);
+2- XN CHECK 2 (Nível normal);
+3- XN CHECK 3 (Nível aumentado).
+           Os resultados dos controles devem estar dentro dos limites descritos pelo
+fabricante e disponíveis na bula do controle (Range) ou dentro dos valores estabelecidos
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                 Página 5 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+(Média +/- 3DP). Ademais, serão utilizadas as regras de Westgard para manutenção do controle
+de qualidade.
+•      Controle Externo: amostras enviadas pelo laboratório contratado, a cada três meses.
+•      Calibração: a calibração do equipamento é realizada pelo fornecedor em toda
+manutenção preventiva, ou quando solicitado pelo setor técnico.
+•      Calibradores:
+✓      Armazenados pelo fabricante;
+✓      Preparação:
+➢      Reagentes: Pronto para uso;
+➢      Controles: Pronto para uso;
+➢      Calibradores: Preparado pelo fabricante.
+
+3.7 Estabilidade
+            Todos os reagentes fechados são estáveis até a data de validade impressa no rótulo
+do produto, desde que armazenados em suas devidas temperaturas de conservação.
+
+4. COMPETÊNCIA
+Todos os profissionais da UACAP do HC-UFTM.
+
+5. DESCRIÇÃO DOS PROCEDIMENTOS
+
+5.1 Calibração dos Aparelhos
+•       Periodicidade: realizado nas manutenções preventivas ou quando solicitado pelo setor
+técnico, devido a não conformidades do controle interno de qualidade.
+•       Técnica de calibração: disponível no manual do equipamento.
+•       Registro de calibração: na pasta do equipamento, junto com o relatório de manutenção.
+
+5.2 Procedimento Técnico
+            ✓ Identificação das amostras: após o cadastro do paciente no software Infolab, é
+gerada a etiqueta com código de barras que é adicionada no tubo primário no momento da
+realização da coleta.
+✓       Triagem: o material coletado é triado em qualquer terminal do laboratório e enviado
+aos aparelhos. Posteriormente, as amostras serão enviadas ao aparelho no qual será realizado
+o exame (XN 1000 – Aparelho 1 ou 2), e os resultados relativos às amostras dos pacientes serão
+encaminhados para a Interface do sistema Infolab.
+✓       Passo a passo: inicialmente é realizada a manutenção diária dos aparelhos XN 1500
+(aparelho 1 e 2). Diariamente e antes de se iniciar a rotina, os aparelhos XN 1000 deverão ser
+descontaminados (Procedimento de Shut-down) com o reagente CELLCLEAN (conforme anexos
+que estão disponíveis internamente à equipe do laboratório). Posteriormente, os controles são
+passados e avaliados, e, se adequados, são aprovados.
+
+5.2.1 Preparação das amostras
+           Amostras de paciente: as amostras serão entregues no setor de hematologia
+(bancada de registro de material) provenientes do serviço ambulatorial e de pacientes
+internados. Avaliá-las quanto à identificação, posição do rótulo, volume, coágulos e
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                  Página 6 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+microcoágulos. Amostras mal identificadas devem retornar ao setor administrativo. Amostras
+com pouco volume devem ser tratadas individualmente e seus resultados avaliados. Amostras
+coaguladas serão rejeitadas incondicionalmente, devendo o auxiliar de laboratório providenciar
+sua nova colheita conforme rotina preconizada.
+
+5.2.2 Corrida das amostras
+             Correr as racks com as amostras previamente identificadas e numeradas. Utilizar-se
+do equipamento de automação liberado para uso. As amostras de sangue podem ser aspiradas
+através de um dos seguintes sistemas:
+1- Dispositivo coletor de amostras automático;
+2- Coletor de amostras em tubo fechado;
+3- Coletor de amostras em tubo aberto.
+•       Correr as amostras no modo Sampler (tubo fechado). Amostras com pouco volume
+devem ser passadas no modo manual (tubo aberto).
+•       Amostras com a solicitação de urgência, quando personalizadas, devem ter tratamento
+prioritário: passar a amostra no equipamento de automação e o resultado diretamente ao
+funcionário que trouxe a amostra para triagem; se necessário utilizar o modo manual.
+•       Quando usar o modo manual e a amostra necessitar de lâmina, fazer manualmente as
+distensões sanguíneas das amostras que foram definidas como positivas durante o
+procedimento automatizado. Corar automaticamente as distensões sanguíneas.
+•       As amostras são contadas com auxílio de um computador com acesso ao Sistema
+Infolab, onde o microscopista terá acesso aos dados iniciais do hemograma.
+
+5.2.3 Avaliação microscópica da amostra (Técnicos, Bioquímicos, Biomédicos e Médicos)
+             Examinar as lâminas das amostras, selecionadas pelos aparelhos como positivas,
+após coloração. Utilizar-se dos microscópios do setor. Usar objetiva de 50X e 100X em imersão.
+Após a avaliação microscópica fazer as alterações, se necessárias, e acrescentar as informações
+importantes diretamente na página de conferência de exames do Sistema Infolab, utilizando-se
+dos históricos para hemograma. Vide Tabela 3 - Códigos do Hemograma. Fazer a conferência e
+posterior liberação dos resultados no Sistema Infolab.
+
+5.2.4 Resultados
+            As informações contidas nos laudos de resultado resultam das medidas efetuadas
+no equipamento, com alterações e informações acrescidas após avaliação microscópica da
+amostra. Estão expressos em formato aceito e consagrado internacionalmente e serão
+digitados no Infolab Informatização e posteriormente conferidos. Após a conferência dos
+resultados,       eles      serão      liberados       por       profissional    habilitado
+(Biomédico/Bioquímico/Biólogo/Médico) no Infolab Informatização.
+
+5.2.5 Critérios de aceitação
+✓      Resultados cujas amostras foram preparadas rigorosamente dentro das condições
+estabelecidas.
+✓      Resultados dentro dos limites de normalidade, triagem e sem nenhum alarme dos
+equipamentos de automação são conferidos e posteriormente liberadas via interfaceamento.
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                      Página 7 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+✓      Resultados fora dos limites normais de triagem ou com alarmes dos equipamentos de
+automação devem ser liberados após processamento e confirmação de resultados.
+✓      Resultados dentro de valores críticos (com risco de morte ao paciente) devem ser
+liberados após confirmação e realizado contato com o médico solicitante se possível. Vide
+Valores críticos, Tabela 5.
+
+5.2.6 Metodologia
+            O analisador utiliza a citometria de fluxo e leitura ótica a laser para fornecer a
+contagem diferencial. A hemoglobina é determinada pelo método sem cianeto, onde a leitura é
+feita espectrofotometricamente.
+
+5.2.7 Linearidade
+            A linearidade pode ser avaliada ao testar os níveis de um parâmetro com uma
+formulação conhecida, usando o sangue periférico ou através de materiais disponíveis
+comercialmente qualificados para uso no XN.
+•       Leucócitos: WBC:
+✓       dentro de ±3% ou ±0,20 x 10³/μL (0,00 a 100,00 x 10³/μL);
+✓       dentro de ±6% (100,01 a 310,00 x 10³/μL);
+✓       dentro de ±11% (310,01 a 440,00 x 10³/μL);
+•       Hemácias: RBC:
+✓       dentro de ±2% ou ±0,03 x 10/μL (0,00 a 8,00 x 106/μL)
+✓       dentro de ±4% ou ±0,06 x 106/μL (8,01 a 8,60 x 106//μL)
+•       Hemoglobina: HGB dentro de ±2% ou ±0,2 g/ dL (0,0 a 25,0g/dL, 0,00 a 15,52 mmol/L)
+dentro de ±5% ou ±0,5g/dL (25,1 a 26,0 g/dL, 15,53 a 16,14 mmol/L)
+•       Hematócrito: HCT dentro de ±3% ou ±1,0 HCT (0,0 a 75,0%)
+•       PLT*1 dentro de ±5% ou ±10 x 10³/μL (0 a 1000 x 10³/μL);
+dentro de ±6% (1001 a 5000 x 10³/μL);
+•       PLT*2,3 dentro de ±5% ou ±10 x 10³/μL (0 a 1000 x 10³/μL);
+dentro de ±6% (1001 a 5000 x 10³/μL)
+•       NRBC# dentro de ±10% ou ±0,20 x 10³/μL (0,00 a 20,00 x 10³/μL);
+NRBC% dentro de ±20% ou ±2,0 NRBC% (0,0 a 600,0/100 WBC)
+•       RET%*2 dentro de ±20% ou ±0,30 RET% (0,00 a 30,00%)
+RET#*2 dentro de ±20% ou ±0,0150 x 106/μL (0,0000 a 0,7200 x 106/μL).
+*1 PLT contados nos canais RBC/PLT (Distribuição granulométrica de partículas PLT).
+*2 Estes itens não são exibidos com todos os tipos de analisador.
+*3 PLT contados nos canais PLT-F.
+           Amostras cujos parâmetros ultrapassarem os limites de linearidade devem ser
+analisadas novamente após diluição automática, ou determinada pelo operador em diluente
+Cellpack.
+
+5.2.8 Limitações do método
+Interferentes Ligados à amostra:
+•       Excesso de anticoagulante (EDTA): causa desidratação dos eritrócitos (alterações
+morfológicas) e alteração para menos do hematócrito (erro pouco significativo nos contadores
+eletrônicos).
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                  Página 8 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+•       Amostra de pouco volume: pode causar hemodiluição se o anticoagulante usado for
+líquido. Pode provocar erro de diluição por aspiração incorreta do equipamento de automação.
+Anotar no mapa de trabalho correspondente.
+•       Sangue anticoagulado com heparina: não deve ser usado para o leucograma (variação
+significativa no número de linfócitos). Não deve ser usado para contagem de plaquetas. Pode
+ser usado para o eritrograma. Se usado imediatamente após a colheita, as diferenças são pouco
+significativas. Anotar no mapa de trabalho correspondente.
+•       Amostra com microcoágulos: podem apresentar resultados errôneos por erro na
+diluição da amostra. Na impossibilidade de nova colheita de material avisar o responsável e
+anotar no mapa de trabalho correspondente.
+•       Amostra lipêmica: interferência com hemoglobina (aumento). Anotar no mapa de
+trabalho correspondente.
+•       Amostra coagulada: rejeição incondicional dos resultados. Providenciar nova colheita de
+material.
+Interferentes Ligados ao equipamento de automação:
+•       Erro na homogeneização da amostra por falha no sistema: apresenta resultados
+menores ou maiores dependendo da sedimentação do material. Nem sempre o resultado
+apresenta alarme o que prejudica a avaliação. Avaliar a distensão sanguínea ao microscópio
+sempre que os resultados estiverem fora dos limites de normalidade.
+•       Falha na aspiração da amostra: resultados sempre com alarme. Repetir o exame.
+•       Interferência por indução eletromagnética: resultados sempre com alarme (*). Repetir o
+exame.
+•       Entupimento nas câmaras de diluição: Rerultados das contagens tendem a zero.
+Proceder à desobstrução das câmaras conforme descritos nos anexos 3 e 4. Repetir o exame.
+•       Amostras hemolisadas: os equipamentos de automação possuem mecanismos de
+compensação a fim de minimizar erros.
+
+5.2.9 Interpretação dos resultados
+            Exame de auxílio diagnóstico para doenças hematológicas e sistêmicas. Valores fora
+dos limites de referência podem indicar: anemias, neoplasias hematológicas, reações
+infecciosas e inflamatórias, acompanhamento de terapias medicamentosas, entre outras
+patologias.
+
+5.2.10 Manutenções
+           As manutenções corretivas e preventivas serão realizadas pontualmente, conforme
+previsão contratual do equipamento locado.
+
+1- XN 1000
+           As manutenções devem ser diárias e semanais (conforme Manual de Uso XN Series
+e do Guia Rápido XN-1000, disponíveis internamente à equipe do laboratório.
+•      Limpeza do sistema de lavagem de amostra manual: quando houver entupimento ou
+encontrar-se com sujidade.
+•      Limpeza do coletor de amostra: quando houver acúmulo de cristais (sais) e sujidades.
+•      Remoção de coágulos.
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                 Página 9 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+2- Corador de Lâminas SP-50
+           As manutenções devem ser diárias e semanais (conforme Manual de Uso XN Series
+e do Guia Rápido da Unidade de Preparação de Lâminas SP-50, disponíveis internamente à
+equipe do laboratório.
+           Ademais, todos os procedimentos relacionados à manutenção e o correto
+funcionamento dos aparelhos XN-1000 e do Corador de Lâminas SP-50, encontram-se
+impressos em guias rápidos do XN-1000 e do SP-50, e no Manual XN Series, disponíveis à
+equipe da UACAP.
+
+5.2.11 Resultados
+            Os resultados do aparelho são liberados como negativos ou positivos. Os negativos
+são interfaceados diretamente para o software Infolab. Para os positivos, ou seja, aqueles que
+apresentam algum resultado baixo ou alto de acordo com os parâmetros estabelecidos, são
+automaticamente enviados para o aparelho SP-50 CORADOR para a confecção dos esfregaços.
+As alterações observadas pelo microscopista são incluídas no laudo de acordo com as respostas
+“padrão” referenciadas ao Hemograma e descritas na Tabela 3.
+
+6. REFERÊNCIAS
+1.     Bain, Barbara J. Células sangüíneas: um guia prático. 2.ed. – Porto Alegre: Artes
+Médicas, 1997.
+2.     Failace, Renato. Hemograma: manual de interpretação. 3.ed. – Porto Alegre: Artes
+Médicas, 1995.
+3.     SYSMEX® - Sysmex Corporation, Kobe – Japan (2012 a 2019). Rev. 03/2019.
+4.     Henry J.B., Diagnósticos Clínicos Tratamento por Métodos Laboratoriais, 20ª ed, 1680 p,
+2008.
+5.     Dallman PR,1977;
+6.     Nathan DG,1993;
+7.      Lanzkowsk P,1995;
+8.     Silveira MM,1995
+9.     Lee GC,1999
+10. https://www.mayocliniclabs.com/test-catalog/overview/9109#Clinical-and-Interpretive
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                   Página 10 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+Tabela 1- Linearidade das Classes Celulares:
+
+                         CLASSE CELULAR                     LINEARIDADE
+
+
+                         Leucócitos (WBC)                   0,00 - 400 x 10³/ μl
+
+
+                         Hemácias (RBC)                     0,0 – 7,0 x 106/μl
+
+
+                         Hemoglobina                        0,0 – 22,5 g/dl
+
+
+                         Hematócrito (HCT)                  0,0 – 60%
+
+
+                         Plaquetas                          5,0 – 3500 x 10³/ μl
+
+
+                         Reticulócitos (RET)                0,0 - 0,65 x 106/μl
+
+
+Tabela 2- Parâmetros utilizados como triagem para Hemogramas positivos e negativos:
+             Parâmetros utilizados como triagem para Hemogramas positivos e negativos
+
+             Parâmetro       Resultado                   Interpretação
+             HB              < 11,0 g/dL                 Anemia
+             RBC             > 6,50 x 106                Eritrocitose
+
+             RDW-SD          > 55,0 fL                   Anisocitose
+             RDW-CV          > 15,9 fL                   Anisocitose
+
+             VCM             < 69,0 fL                   Microcitose
+             VCM             > 100,0 fL                  Macrocitose
+
+             CHCM            < 30.00 g/dL                Hipocromia
+
+             WBC             < 3,50 x 103                Leucopenia
+             WBC             > 11,50 x 103               Leucocitose
+
+             NEUT            < 1,50 x 103                Neutropenia
+             NEUT (%)        < 35,0 %                    Neutropenia
+             NEUT            > 8,00 x 103                Neutrofilia
+             NEUT (%)        > 70,0 %                    Neutrofilia
+
+             LYMPH           < 1,0 x 103                 Linfopenia
+             LYMPH
+             (%)             < 18,0 %                    Linfopenia
+             LYMPH           > 5,0 x 103                 Linfocitose
+             LYMPH           > 60,0 %                    Linfocitose
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                   Página 11 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+             (%)
+
+             MONO            > 1,0 x 103                 Monocitose
+             MONO (%)        > 15,0 %                    Monocitose
+
+             EO              > 1,0 x 103                 Eosinofilia
+             EO (%)          > 15,0 %                    Eosinofilia
+
+             BASO            > 0,10 x 103                Basofilia
+             BASO (%)        > 3,0 %                     Basofilia
+
+             PLT             < 150 x 103                 Trombocitopenia
+             PLT (%)         > 500 x 103                 Trombocitose
+
+
+
+Tabela 3- Respostas Padrão referenciadas ao Hemograma - UFTM-HC-SPC
+         Código     Descrição
+         1          Presença de hipocromia
+         2          Presença de anisocitose
+         3          Presença de anisocitose com microcitose
+         4          Presença de anisocitose com macrocitose
+         5          Presença de microcitose
+         6          Presença de macrocitose
+         7          Presença de dismorfismo eritrocitário (micro e macrocitose)
+         8          Presença de dismorfismo eritrocitário (micro e normocitose)
+         9          Presença de dismorfismo eritrocitário (macro e normocitose)
+         10         Presença de poiquilocitose
+         11         Presença de drepanócitos
+         12         Presença de hemácias em alvo
+         13         Presença de esferócitos
+         14         Presença de eliptócitos
+         15         Presença de dacriócitos
+         16         Presença de rouleaux
+         17         Presença de aglutinação de hemácias
+         18         Presença de estomatócitos
+         19         Presença de acantócitos
+         20         Presença de ovalócitos
+         21         Presença de policromasia
+         22         Presença de pontilhado basófilo
+         23         Presença de corpúsculos de Howell-Jolly
+         24         Presença de corpúsculos de Heinz
+         25         Presença de esquizócitos
+         26         Foram observados xxx eritroblastos em 100 glóbulos brancos contados
+         30         Presença de polimorfismo linfocitário
+         31         Presença de manchas de Gumprecht %
+         32         Presença de granulações tóxicas médias e grosseiras nos neutrófilos
+         34         Presença de vacuolização citoplasmática nos neutrófilos
+         33         Presença de neutrófilos multissegmentados
+Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                            Página 12 de 13
+POP.HC-UFTM-UACAP.004 – versão 2
+
+         40          Presença de anisocitose plaquetária
+         41          Presença de agregados plaquetários
+         42          Presença de plaquetas gigantes
+         43          Plaquetas conferidas em lâmina
+
+
+Tabela 4 - Valores de referência adotados no SPC-UFTM:
+                    Idade
+Parâmetro
+                    0    a    2         2 meses a 2          12 a 16            Adultos
+                    meses               anos                 anos               Masculino        Feminino
+RBC                 3.9 – 5.6           3,7 a 6,0            4,1 a 5,5          4.30    -        3.9 - 5.0
+(106 μl)                                                                        5.70
+HB (g/dL)           13.5-22.0           10.5 - 13.5          12.2    -          13.5    -        12 - 15.5
+                                                             16.0               17.5
+HT (%)              42 - 60             33 - 40              37 - 47            39 - 50          35 - 45
+VCM (fl)            88 - 120            74 - 89              80 - 92            81 - 95          82 - 98
+HCM (pg)            28 - 40             25 - 35              25 - 35            26 - 34          26 - 34
+CHCM                28 - 38             30 - 36              31 - 36            31 - 36          31 - 36
+(g/dL)
+RDW (%)             12 - 14.5           12 - 14.5            11.8    -          11.8    -        11.9    -
+                                                             15.6               15.6             15.5
+WBC               9.400      -      5.000-                   3.600-             3.500-           3.500-
+     3
+(mm )             34.000            10.000                   9.100              10.500           10.500
+Bastonetes        Até 4010          Até 1.340                Até 730            Até 840          Até 840
+(mm3)
+Neutrófilos       1.500      -      1.000-            1.800-          1.700     -                1.700 -
+(mm3)             10.000            8.500             8.000           7.000                      7.000
+Eosinófilos       20 - 850          20 - 850          0 - 500         50 - 500                   50 - 500
+     3
+(mm )
+Basófilos         0 - 600           0 - 600           0 - 200         0 - 300                    0 - 300
+Linfócitos        2.000      -      4.000-            1.200-          900       -                900      -
+     3
+(mm )             11.000            3.500             5.200           2.900                      2.900
+Monócitos         400 - 1800        50 - 1.100        0 - 800         300 - 900                  300 - 900
+(mm3)
+Fonte: Clínica Mayo dos EUA. Disponível em: https://www.mayocliniclabs.com/test-
+
+
+Tabela 5 - Valores críticos adotados no SPC-UFTM
+
+                          Tipo Celular                Valor
+                          Leucócitos (WBC)            <1,00 x 10³/ μl
+                          Hemoglobina (HB)            <7,0 g/dL
+                          Hemoglobina (HB)            >20,0 g/dL
+                          Plaquetas (PLT)             <20,00 x 10³/ μl
+ Procedimento. Realização de Hemograma no Serviço Laboratorial de Hematologia.
+                                                                                                         Página 13 de 13
+ POP.HC-UFTM-UACAP.004 – versão 2
+
+ 7. HISTÓRICO DE ELABORAÇÃO/REVISÃO
+ VERSÃO      DATA                      DESCRIÇÃO DA AÇÃO/ALTERAÇÃO
+     1     18/5/2022   Elaboração da 1ª versão do Procedimento Operacional Padrão (POP)
+     2     16/3/2026                  Revisão e inserção em novo modelo
+
+ 8. RESPONSÁVEIS PELO DOCUMENTO
+Elaboração da versão atual (versão 2) – data: 11/8/2025 e 7/1/2026
+Marcos Aurélio Stoppa, biomédico da Unidade de Análises Clínicas e Anatomia Patológica (UACAP)
+André Luiz Maltos, médico da UACAP
+Análise – data: 15/1/2026
+Tatiana Silva Campos, chefe da UACAP
+Aprovação – data: 26/1/2026
+Marisley Francisco, chefe da Divisão de Apoio Diagnóstico e Terapêutico (DADT)
+Validação técnica – data: 20/2/2026
+Raquel Bessa Ribeiro Rosalino, chefe da Unidade de Gestão da Qualidade e Segurança do Paciente (UGQSP)
+Registro, validação de forma e revisão – data: 16/3/2026
+Ana Paula Corrêa Gomes, coordenadora da Comissão de Gestão da Qualidade Documental
+Elaboração da versão 1 – data: 18/5/2022
+Marcos Aurélio Stoppa, biomédico da UACAP
+André Luiz Maltos, médico da UACAP
+Registro, análise e revisão
+Maria Aparecida Ferreira, enfermeira da Unidade de Planejamento, Gestão de Riscos e Controles Internos (UPLAG)
+Ana Paula Corrêa Gomes, chefe da UPLAG
+Validação
+Tatiana Silva Campos, chefe da UACAP
+Raquel Bessa Ribeiro Rosalino, chefe da UGQSP
+Aprovação
+Marina Casteli Rodrigues Monteiro, chefe da DADT
+

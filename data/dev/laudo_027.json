@@ -1,0 +1,83 @@
+{
+  "id": "laudo_027",
+  "paciente": "Diego Rocha",
+  "nascimento": "1965-09-19",
+  "data": "2026-04-19",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol",
+      "valor": 137.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "137",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 190"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "valor": 111.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "111",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Dosagem de hemoglobina",
+      "valor": 10.1,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "10,1",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 - 16,0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "valor": 2.58,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "2,58",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "valor": 75.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "75",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "valor": 51.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "51",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    }
+  ]
+}

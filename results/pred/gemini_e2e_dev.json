@@ -1,0 +1,3569 @@
+{
+ "laudo_000": {
+  "paciente": "Carla Dias",
+  "data": "2026-05-04",
+  "nascimento": "2003-08-16",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "RDW",
+    "valor": 12.9,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV",
+    "valor": 101.5,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium",
+    "valor": 5.2,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin",
+    "valor": 10.9,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea",
+    "valor": 52,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "ALT",
+    "valor": 55,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose",
+    "valor": 236,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.052919626235962,
+  "chamadas": 1,
+  "tokens": 3896,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_001": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-09-14",
+  "nascimento": "2004-11-07",
+  "observacoes": [
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 106,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 49,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.3,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 136,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 13,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 99,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 8.943735599517822,
+  "chamadas": 1,
+  "tokens": 3607,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_002": {
+  "paciente": "Marcos Antônio Vieira",
+  "data": "2026-06-15",
+  "nascimento": "1974-11-18",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 14.0,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6299-2",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 75.0,
+    "unidade": "mg/dL",
+    "ref_low": 15.0,
+    "ref_high": 45.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 141.0,
+    "unidade": "mmol/L",
+    "ref_low": 136.0,
+    "ref_high": 145.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 6.0,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.11813497543335,
+  "chamadas": 1,
+  "tokens": 2970,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_003": {
+  "paciente": "RAFAEL CONCEICAO",
+  "data": "2026-08-04",
+  "nascimento": "1943-05-13",
+  "observacoes": [
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 313,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte distribution width [Ratio]",
+    "valor": 11.1,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 483,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 89.1,
+    "unidade": "fL",
+    "ref_low": 80,
+    "ref_high": 100,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.29,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 278,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.917307376861572,
+  "chamadas": 1,
+  "tokens": 3809,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_004": {
+  "paciente": "Carla Dias",
+  "data": "2026-05-10",
+  "nascimento": "1960-07-19",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] of erythrocyte",
+    "valor": 33.9,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 10.8,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.95,
+    "unidade": "mIU/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Fraction] of Blood",
+    "valor": 36.0,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "Erythrocyte distribution width [Ratio]",
+    "valor": 15.3,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 97,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 14.82161569595337,
+  "chamadas": 3,
+  "tokens": 3810,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_005": {
+  "paciente": "Natália Gomes",
+  "data": "2026-09-12",
+  "nascimento": "2008-08-25",
+  "observacoes": [
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 14.1,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 4.29,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Fraction] of Blood by Automated count",
+    "valor": 34.4,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1632-2",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 23,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular hemoglobin [Mass/volume] in Blood",
+    "valor": 28.9,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 135,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 68,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 480,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.705727577209473,
+  "chamadas": 1,
+  "tokens": 3628,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_006": {
+  "paciente": "Bruno Lima",
+  "data": "2026-05-01",
+  "nascimento": "1941-02-14",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Ratio] of Blood by Automated count",
+    "valor": 40.2,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte distribution width [Ratio] by Automated count",
+    "valor": 16.2,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 14.9,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 262,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 6.4661266803741455,
+  "chamadas": 1,
+  "tokens": 2614,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_007": {
+  "paciente": "NATALIA GOMES",
+  "data": "2026-02-03",
+  "nascimento": "1980-10-15",
+  "observacoes": [
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 189,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 6.3,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 8.70037841796875,
+  "chamadas": 1,
+  "tokens": 1917,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_008": {
+  "paciente": "Ana Souza",
+  "data": "2026-04-13",
+  "nascimento": "1949-05-18",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 4.64,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 16.0,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 28,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 118,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.060753583908081,
+  "chamadas": 1,
+  "tokens": 2834,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_009": {
+  "paciente": "Bruno Lima",
+  "data": "2026-06-27",
+  "nascimento": "2010-12-23",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "Hemoglobin concentration [Mass/volume] in Blood by calculation",
+    "valor": 35.4,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 164,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 122,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 75,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Fraction] of Blood by automated count",
+    "valor": 0.297,
+    "unidade": "1",
+    "ref_low": 0.36,
+    "ref_high": 0.48,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 11.709144830703735,
+  "chamadas": 2,
+  "tokens": 3093,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_010": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-09-11",
+  "nascimento": "2004-11-15",
+  "observacoes": [
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 7.4,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 245,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.6,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.17,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 105,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.13327407836914,
+  "chamadas": 1,
+  "tokens": 3042,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_011": {
+  "paciente": "IRIS CAMPOS",
+  "data": "2026-07-07",
+  "nascimento": "1946-08-22",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 1.1,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6299-2",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 46,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 137,
+    "unidade": "meq/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCHC [Mass/volume] in Blood by Automated count",
+    "valor": 34.4,
+    "unidade": "g/dL",
+    "ref_low": 32,
+    "ref_high": 36,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Fraction] of Blood by Automated count",
+    "valor": 0.396,
+    "unidade": "1",
+    "ref_low": 0.36,
+    "ref_high": 0.48,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 357,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.6,
+    "unidade": "meq/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 39.77334642410278,
+  "chamadas": 3,
+  "tokens": 4441,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_012": {
+  "paciente": "Hugo Reis",
+  "data": "2026-05-07",
+  "nascimento": "1962-05-05",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte distribution width [Ratio] in Blood by Automated count",
+    "valor": 14.4,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 449,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 232,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 12.695224046707153,
+  "chamadas": 1,
+  "tokens": 2186,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_013": {
+  "paciente": "TIAGO MONTEIRO",
+  "data": "2026-01-09",
+  "nascimento": "2005-04-15",
+  "observacoes": [
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 141,
+    "unidade": "meq/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 314,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 248,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCHC [Mass/volume] by Automated count",
+    "valor": 32.8,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 322,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "TSH [Units/volume] in Serum or Plasma",
+    "valor": 3.56,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "14749-6",
+    "display": "Glucose [Mass/volume] in Serum or Plasma --fasting",
+    "valor": 226,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 274,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.96144437789917,
+  "chamadas": 1,
+  "tokens": 4439,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_014": {
+  "paciente": "Vânia Lopes",
+  "data": "2026-07-03",
+  "nascimento": "1985-02-22",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 11.7,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "20505-4",
+    "display": "MCHC [Mass/volume] in Blood",
+    "valor": 36.2,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 146,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1632-2",
+    "display": "AST [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 60,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 5.29,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "788-0",
+    "display": "RDW [Ratio] in Blood by Automated count",
+    "valor": 15.3,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 93,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 11.447924613952637,
+  "chamadas": 2,
+  "tokens": 4506,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_015": {
+  "paciente": "Hugo Reis",
+  "data": "2026-05-07",
+  "nascimento": "1949-11-24",
+  "observacoes": [
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 24,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 170,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular hemoglobin [Mass/volume] in Blood",
+    "valor": 32.6,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 109,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 76,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 50.875542402267456,
+  "chamadas": 1,
+  "tokens": 3271,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_016": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-01-16",
+  "nascimento": "2007-12-20",
+  "observacoes": [
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 145,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 424,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.9515221118927,
+  "chamadas": 2,
+  "tokens": 1926,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_017": {
+  "paciente": "Íris Campos",
+  "data": "2026-03-03",
+  "nascimento": "1999-11-27",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 12.9,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood",
+    "valor": 45.2,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 6.66,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.80912709236145,
+  "chamadas": 3,
+  "tokens": 2371,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_018": {
+  "paciente": "Diego Rocha",
+  "data": "2026-03-02",
+  "nascimento": "1966-07-28",
+  "observacoes": [
+   {
+    "loinc": "20570-8",
+    "display": "Hematocrit [Ratio] of Blood",
+    "valor": 30.7,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 4.86,
+    "unidade": "10*6/uL",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 148,
+    "unidade": "meq/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 3.1,
+    "unidade": "meq/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 16.90651559829712,
+  "chamadas": 1,
+  "tokens": 2619,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_019": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-03-09",
+  "nascimento": "1988-02-28",
+  "observacoes": [
+   {
+    "loinc": "787-8",
+    "display": "MCV",
+    "valor": 103.5,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol",
+    "valor": 146,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes",
+    "valor": 13.5,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 6.4189698696136475,
+  "chamadas": 1,
+  "tokens": 2155,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_020": {
+  "paciente": "Íris Campos",
+  "data": "2026-06-24",
+  "nascimento": "2006-09-01",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] of Erythrocytes",
+    "valor": 85.9,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "786-4",
+    "display": "Mean corpuscular hemoglobin [Mass/volume] of Erythrocytes",
+    "valor": 35.1,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 160,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 7.06,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 155,
+    "unidade": "meq/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 118,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "20570-8",
+    "display": "Hematocrit [Volume Fraction] of Blood",
+    "valor": 0.288,
+    "unidade": "%",
+    "ref_low": 0.36,
+    "ref_high": 0.48,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 11.0,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 16.065560817718506,
+  "chamadas": 2,
+  "tokens": 5104,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_021": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-05-03",
+  "nascimento": "2007-11-03",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "RDW",
+    "valor": 17.3,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "786-4",
+    "display": "MCHC",
+    "valor": 36.2,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium",
+    "valor": 138,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol",
+    "valor": 280,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 17.165591716766357,
+  "chamadas": 1,
+  "tokens": 2572,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_022": {
+  "paciente": "PATRICIA RAMOS",
+  "data": "2026-01-07",
+  "nascimento": "1978-12-23",
+  "observacoes": [
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 5.3,
+    "unidade": "mIU/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 91.1,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 117,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 141,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 12.600087642669678,
+  "chamadas": 1,
+  "tokens": 2921,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_023": {
+  "paciente": "Natália Gomes",
+  "data": "2026-05-22",
+  "nascimento": "1942-02-03",
+  "observacoes": [
+   {
+    "loinc": "6299-2",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 71,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 283,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 47,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 104,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 6.574905872344971,
+  "chamadas": 4,
+  "tokens": 2571,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_024": {
+  "paciente": "Rafael Conceição",
+  "data": "2026-07-23",
+  "nascimento": "1994-02-03",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "RDW-CV",
+    "valor": 14.4,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCH",
+    "valor": 34.0,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "WBC",
+    "valor": 17.3,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hb",
+    "valor": 12.8,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV",
+    "valor": 95.7,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.48566460609436,
+  "chamadas": 1,
+  "tokens": 2952,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_025": {
+  "paciente": "Bruno Lima",
+  "data": "2026-04-22",
+  "nascimento": "1951-07-04",
+  "observacoes": [
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 88,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 141,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.1,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 79,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 102.4,
+    "unidade": "fL",
+    "ref_low": 80,
+    "ref_high": 100,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 83,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 166,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 11.051132678985596,
+  "chamadas": 1,
+  "tokens": 4024,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_026": {
+  "paciente": "Íris Campos",
+  "data": "2026-05-16",
+  "nascimento": "1979-05-16",
+  "observacoes": [
+   {
+    "loinc": "2823-3",
+    "display": "Potassium",
+    "valor": 5.5,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine",
+    "valor": 0.55,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase",
+    "valor": 99,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes",
+    "valor": 9.9,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose",
+    "valor": 229,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 5.986170291900635,
+  "chamadas": 1,
+  "tokens": 3018,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_027": {
+  "paciente": "Diego Rocha",
+  "data": "2026-04-19",
+  "nascimento": "1965-09-19",
+  "observacoes": [
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol",
+    "valor": 137,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "14749-6",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 111,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 10.1,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 2.58,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 75,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 51,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 18.559617042541504,
+  "chamadas": 1,
+  "tokens": 3826,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_028": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-02-12",
+  "nascimento": "1956-10-28",
+  "observacoes": [
+   {
+    "loinc": "6299-2",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 82,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 3.19,
+    "unidade": "10*6/uL",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 132,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 3.7,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 215,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 393,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 11.071048736572266,
+  "chamadas": 1,
+  "tokens": 3971,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_029": {
+  "paciente": "Patrícia Ramos",
+  "data": "2026-03-05",
+  "nascimento": "1949-10-05",
+  "observacoes": [
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.9,
+    "unidade": "meq/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 111,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 2.79,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 202,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCHC [Mass/volume] in Blood by Automated count",
+    "valor": 35.5,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 30.3110134601593,
+  "chamadas": 2,
+  "tokens": 3161,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_030": {
+  "paciente": "PATRICIA RAMOS",
+  "data": "2026-01-04",
+  "nascimento": "2000-01-21",
+  "observacoes": [
+   {
+    "loinc": "787-8",
+    "display": "Mean corpuscular volume [Entitic volume] of Erythrocytes",
+    "valor": 98.1,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 12.132161378860474,
+  "chamadas": 1,
+  "tokens": 1391,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_031": {
+  "paciente": "LUCIA FERREIRA",
+  "data": "2026-08-26",
+  "nascimento": "1970-11-20",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] of Erythrocyte",
+    "valor": 33.1,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood",
+    "valor": 41.0,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 135,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV [Entitic volume] by Automated count",
+    "valor": 81.7,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "786-4",
+    "display": "MCHC [Mass/volume] of Erythrocyte",
+    "valor": 35.2,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 405,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 4.46,
+    "unidade": "mUI/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 305,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 13.089448928833008,
+  "chamadas": 1,
+  "tokens": 4988,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_032": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-08-25",
+  "nascimento": "1988-11-17",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] of erythrocyte",
+    "valor": 33.7,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 83,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 154,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV [Entitic volume] by Automated count",
+    "valor": 82.0,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 473,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 14.3,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 24.206178188323975,
+  "chamadas": 2,
+  "tokens": 3599,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_033": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-02-08",
+  "nascimento": "1990-08-04",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit",
+    "valor": 53.8,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2069-3",
+    "display": "Urea",
+    "valor": 68,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes",
+    "valor": 6.45,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "MCV",
+    "valor": 104.7,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium",
+    "valor": 5.4,
+    "unidade": "meq/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin",
+    "valor": 12.2,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets",
+    "valor": 197,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium",
+    "valor": 135,
+    "unidade": "meq/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 34.41958785057068,
+  "chamadas": 1,
+  "tokens": 4450,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_034": {
+  "paciente": "Ana Souza",
+  "data": "2026-03-05",
+  "nascimento": "1972-04-07",
+  "observacoes": [
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 73,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 0.92,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte distribution width [Ratio] in Blood by Automated count",
+    "valor": 11.2,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 256,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.941944360733032,
+  "chamadas": 1,
+  "tokens": 2814,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_035": {
+  "paciente": "Natália Gomes",
+  "data": "2026-06-24",
+  "nascimento": "1962-04-10",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 2.23,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.1,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 0.62,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 242,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 5.99,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 6.021252870559692,
+  "chamadas": 1,
+  "tokens": 3390,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_036": {
+  "paciente": "GABRIELA MELO",
+  "data": "2026-07-22",
+  "nascimento": "2006-03-27",
+  "observacoes": [
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 192,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 15.0,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 99.9,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "21000-5",
+    "display": "Erythrocyte distribution width [Ratio] by Automated count",
+    "valor": 12.9,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 25,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 153,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 15.2,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 16,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 39.35592317581177,
+  "chamadas": 3,
+  "tokens": 4418,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_037": {
+  "paciente": "Natália Gomes",
+  "data": "2026-09-12",
+  "nascimento": "1965-04-12",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 4.64,
+    "unidade": "10*6/uL",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 248,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 8.06891417503357,
+  "chamadas": 1,
+  "tokens": 1916,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_038": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-06-12",
+  "nascimento": "2010-01-21",
+  "observacoes": [
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 111,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 3.51,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 4.3,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 149,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 54,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular hemoglobin concentration [Mass/volume] in Blood",
+    "valor": 35.3,
+    "unidade": "g/dL",
+    "ref_low": 32,
+    "ref_high": 36,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.379080057144165,
+  "chamadas": 1,
+  "tokens": 3759,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_039": {
+  "paciente": "Íris Campos",
+  "data": "2026-04-07",
+  "nascimento": "1952-05-24",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Ratio] of Blood by Automated count",
+    "valor": 51.2,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 149,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 248,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte distribution width [Ratio] by Automated count",
+    "valor": 15.9,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocyte count [#/volume] in Blood by Automated count",
+    "valor": 3.65,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelet count [#/volume] in Blood by Automated count",
+    "valor": 327,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2857-1",
+    "display": "MCHC [Mass/volume] in Blood by Automated count",
+    "valor": 33.2,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 21.560087203979492,
+  "chamadas": 1,
+  "tokens": 4007,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_040": {
+  "paciente": "Ana Souza",
+  "data": "2026-01-16",
+  "nascimento": "1944-03-09",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit",
+    "valor": 35.8,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin",
+    "valor": 12.5,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes",
+    "valor": 11.5,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes",
+    "valor": 6.34,
+    "unidade": "10*6/uL",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "28540-5",
+    "display": "MCHC",
+    "valor": 32.5,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "ALT",
+    "valor": 82,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets",
+    "valor": 224000,
+    "unidade": "10*3/uL",
+    "ref_low": 150000,
+    "ref_high": 450000,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCV",
+    "valor": 76.8,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 16.300312757492065,
+  "chamadas": 1,
+  "tokens": 4495,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_041": {
+  "paciente": "FABIO NUNES",
+  "data": "2026-05-22",
+  "nascimento": "2007-05-19",
+  "observacoes": [
+   {
+    "loinc": "2157-6",
+    "display": "Amylase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 71,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 2.17,
+    "unidade": "mIU/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "26515-7",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 495,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 109,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 12.4,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 8.715439319610596,
+  "chamadas": 1,
+  "tokens": 3494,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_042": {
+  "paciente": "HUGO REIS",
+  "data": "2026-01-21",
+  "nascimento": "1963-09-24",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 1.46,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2345-7",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 180,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 50,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 70,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 209,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 51,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 224,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 17,
+    "unidade": "10*3/uL",
+    "ref_low": 4,
+    "ref_high": 11,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 16.244646310806274,
+  "chamadas": 2,
+  "tokens": 4910,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_043": {
+  "paciente": "JOAO BATISTA MOURA",
+  "data": "2026-02-21",
+  "nascimento": "2002-02-17",
+  "observacoes": [
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 92,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 467,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 254,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 0.54,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 7.3,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 9.27480411529541,
+  "chamadas": 1,
+  "tokens": 3372,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_044": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-09-09",
+  "nascimento": "1969-03-07",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Ratio] of Blood by Automated count",
+    "valor": 28.4,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 3.5,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 1.85,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 356,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 27,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2857-1",
+    "display": "MCHC [Mass/volume] in Blood by Automated count",
+    "valor": 30.4,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 149,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 17.78317427635193,
+  "chamadas": 1,
+  "tokens": 3687,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_045": {
+  "paciente": "BRUNO LIMA",
+  "data": "2026-05-25",
+  "nascimento": "1964-06-12",
+  "observacoes": [
+   {
+    "loinc": "2571-8",
+    "display": "Triglycerides",
+    "valor": 356,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen",
+    "valor": 29,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase",
+    "valor": 111,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes",
+    "valor": 4.6,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol",
+    "valor": 312,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase",
+    "valor": 49,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 22.797367334365845,
+  "chamadas": 2,
+  "tokens": 3659,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_046": {
+  "paciente": "Elisa Prado",
+  "data": "2026-03-06",
+  "nascimento": "1950-10-09",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 1.51,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 234,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "MCHC [Mass/volume] in Blood by Automated count",
+    "valor": 34.8,
+    "unidade": "g/dL",
+    "ref_low": 32,
+    "ref_high": 36,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood by Automated count",
+    "valor": 494,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 5.5,
+    "unidade": "meq/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 14.851070642471313,
+  "chamadas": 2,
+  "tokens": 3426,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_047": {
+  "paciente": "Diego Rocha",
+  "data": "2026-03-13",
+  "nascimento": "1944-05-20",
+  "observacoes": [
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit",
+    "valor": 48.9,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes",
+    "valor": 11.1,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose",
+    "valor": 102,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Glucose [Mass/volume] in Serum or Plasma by Fasting",
+    "valor": 91,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen",
+    "valor": 79,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 11.345901489257812,
+  "chamadas": 1,
+  "tokens": 3089,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_048": {
+  "paciente": "Gabriela Melo",
+  "data": "2026-01-06",
+  "nascimento": "2002-06-06",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 2.07,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 3.58,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 17.8,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "30347-9",
+    "display": "Erythrocyte distribution width [Ratio] in Blood by Automated count",
+    "valor": 17.2,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 12.161094188690186,
+  "chamadas": 3,
+  "tokens": 2913,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_049": {
+  "paciente": "Carla Dias",
+  "data": "2026-09-11",
+  "nascimento": "1979-10-11",
+  "observacoes": [
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 3.07,
+    "unidade": "10*6/uL",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 4.0,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1558-6",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 139,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 247,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 67,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular hemoglobin [Mass/cell] in Blood by Automated count",
+    "valor": 33.2,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Fraction] of Blood by Automated count",
+    "valor": 0.436,
+    "unidade": "1",
+    "ref_low": 0.36,
+    "ref_high": 0.48,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 3.29,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 29.406859636306763,
+  "chamadas": 2,
+  "tokens": 4096,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_050": {
+  "paciente": "Patrícia Ramos",
+  "data": "2026-03-27",
+  "nascimento": "2001-12-08",
+  "observacoes": [
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 9.5,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 6.21,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 53,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+    "valor": 0.325,
+    "unidade": "1",
+    "ref_low": 0.36,
+    "ref_high": 0.48,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.575828075408936,
+  "chamadas": 2,
+  "tokens": 2822,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_051": {
+  "paciente": "TIAGO MONTEIRO",
+  "data": "2026-05-28",
+  "nascimento": "1951-08-25",
+  "observacoes": [
+   {
+    "loinc": "30347-1",
+    "display": "RDW-CV",
+    "valor": 15.0,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "CHCM",
+    "valor": 36.2,
+    "unidade": "g/dL",
+    "ref_low": 32.0,
+    "ref_high": 36.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "787-2",
+    "display": "HCM",
+    "valor": 31.9,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "TRIGLICERIDEOS",
+    "valor": 398,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "HT",
+    "valor": 31.7,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "AST",
+    "valor": 28,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 36.547839879989624,
+  "chamadas": 1,
+  "tokens": 3443,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_052": {
+  "paciente": "Sílvia Araújo",
+  "data": "2026-05-19",
+  "nascimento": "1966-05-22",
+  "observacoes": [
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 17.0,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 129.0,
+    "unidade": "mg/dL",
+    "ref_low": 70.0,
+    "ref_high": 99.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 95.3,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 147.0,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "3094-0",
+    "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+    "valor": 46.0,
+    "unidade": "mg/dL",
+    "ref_low": 15.0,
+    "ref_high": 45.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 7.982790231704712,
+  "chamadas": 1,
+  "tokens": 3421,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_053": {
+  "paciente": "Fábio Nunes",
+  "data": "2026-05-06",
+  "nascimento": "1943-09-02",
+  "observacoes": [
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 8.9,
+    "unidade": "mIU/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 14.0,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 159.0,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma by Fasting",
+    "valor": 163.0,
+    "unidade": "mg/dL",
+    "ref_low": 70.0,
+    "ref_high": 99.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 17.924641609191895,
+  "chamadas": 5,
+  "tokens": 2906,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_054": {
+  "paciente": "ELISA PRADO",
+  "data": "2026-02-23",
+  "nascimento": "1953-07-02",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] of Erythrocyte",
+    "valor": 32.6,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 1.21,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "TSH [Units/volume] in Serum or Plasma",
+    "valor": 4.94,
+    "unidade": "uIU/mL",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 80,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "777-3",
+    "display": "Platelets [#/volume] in Blood",
+    "valor": 213,
+    "unidade": "10*3/uL",
+    "ref_low": 150,
+    "ref_high": 450,
+    "texto_exame": null
+   },
+   {
+    "loinc": "21000-5",
+    "display": "RDW [Ratio] in Blood by Automated count",
+    "valor": 14.9,
+    "unidade": "%",
+    "ref_low": 11.5,
+    "ref_high": 14.5,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 15.2,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 8.24383807182312,
+  "chamadas": 1,
+  "tokens": 4115,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_055": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-01-11",
+  "nascimento": "1993-01-12",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 2.14,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 250,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 99,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6690-2",
+    "display": "Leukocytes [#/volume] in Blood by Automated count",
+    "valor": 2.1,
+    "unidade": "10*3/uL",
+    "ref_low": 4.0,
+    "ref_high": 11.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 7.05397891998291,
+  "chamadas": 1,
+  "tokens": 2869,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_056": {
+  "paciente": "Tiago Monteiro",
+  "data": "2026-03-05",
+  "nascimento": "1955-08-19",
+  "observacoes": [
+   {
+    "loinc": "785-6",
+    "display": "MCH [Entitic mass] of erythrocyte",
+    "valor": 26.7,
+    "unidade": "pg",
+    "ref_low": 27.0,
+    "ref_high": 32.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 127,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 87,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 195,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2951-2",
+    "display": "Sodium [Moles/volume] in Serum or Plasma",
+    "valor": 137,
+    "unidade": "mmol/L",
+    "ref_low": 136,
+    "ref_high": 145,
+    "texto_exame": null
+   },
+   {
+    "loinc": "789-8",
+    "display": "Erythrocytes [#/volume] in Blood by Automated count",
+    "valor": 5.53,
+    "unidade": "10*12/L",
+    "ref_low": 4.2,
+    "ref_high": 5.4,
+    "texto_exame": null
+   },
+   {
+    "loinc": "718-7",
+    "display": "Hemoglobin [Mass/volume] in Blood",
+    "valor": 16.4,
+    "unidade": "g/dL",
+    "ref_low": 12.0,
+    "ref_high": 16.0,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 88.10205698013306,
+  "chamadas": 1,
+  "tokens": 3579,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_057": {
+  "paciente": "Vânia Lopes",
+  "data": "2026-09-23",
+  "nascimento": "2001-11-09",
+  "observacoes": [
+   {
+    "loinc": "2571-8",
+    "display": "Triglycerides",
+    "valor": 313,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine",
+    "valor": 0.78,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase",
+    "valor": 83,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "6299-2",
+    "display": "Urea nitrogen",
+    "valor": 55,
+    "unidade": "mg/dL",
+    "ref_low": 15,
+    "ref_high": 45,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase",
+    "valor": 11,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 36.65847992897034,
+  "chamadas": 3,
+  "tokens": 2639,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_058": {
+  "paciente": "Lúcia Ferreira",
+  "data": "2026-01-17",
+  "nascimento": "1998-03-23",
+  "observacoes": [
+   {
+    "loinc": "2160-0",
+    "display": "Creatinine [Mass/volume] in Serum or Plasma",
+    "valor": 2.87,
+    "unidade": "mg/dL",
+    "ref_low": 0.6,
+    "ref_high": 1.2,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 25,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "4544-3",
+    "display": "Hematocrit [Volume Fraction] of Blood",
+    "valor": 41.0,
+    "unidade": "%",
+    "ref_low": 36.0,
+    "ref_high": 48.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "1742-6",
+    "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 73,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 41,
+    "texto_exame": null
+   },
+   {
+    "loinc": "785-6",
+    "display": "Mean corpuscular volume [Entitic volume] by Automated count",
+    "valor": 92.5,
+    "unidade": "fL",
+    "ref_low": 80.0,
+    "ref_high": 100.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 302,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2571-8",
+    "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+    "valor": 198,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 150,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2823-3",
+    "display": "Potassium [Moles/volume] in Serum or Plasma",
+    "valor": 3.2,
+    "unidade": "mmol/L",
+    "ref_low": 3.5,
+    "ref_high": 5.1,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.764439344406128,
+  "chamadas": 1,
+  "tokens": 4834,
+  "modelo": "gemini-3.1-flash-lite"
+ },
+ "laudo_059": {
+  "paciente": "Otávio Pereira",
+  "data": "2026-04-03",
+  "nascimento": "1979-08-20",
+  "observacoes": [
+   {
+    "loinc": "1920-8",
+    "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+    "valor": 83,
+    "unidade": "U/L",
+    "ref_low": null,
+    "ref_high": 40,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2093-3",
+    "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "valor": 208,
+    "unidade": "mg/dL",
+    "ref_low": null,
+    "ref_high": 190,
+    "texto_exame": null
+   },
+   {
+    "loinc": "11580-8",
+    "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+    "valor": 4.47,
+    "unidade": "mIU/L",
+    "ref_low": 0.4,
+    "ref_high": 4.0,
+    "texto_exame": null
+   },
+   {
+    "loinc": "2339-0",
+    "display": "Glucose [Mass/volume] in Serum or Plasma",
+    "valor": 202,
+    "unidade": "mg/dL",
+    "ref_low": 70,
+    "ref_high": 99,
+    "texto_exame": null
+   }
+  ],
+  "latencia_s": 10.9362211227417,
+  "chamadas": 1,
+  "tokens": 2714,
+  "modelo": "gemini-3.1-flash-lite"
+ }
+}

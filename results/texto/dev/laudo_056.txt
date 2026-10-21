@@ -1,0 +1,14 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 2776540 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2804
+Paciente: Tiago Monteiro Nascimento: 1955-08-19
+Data: 2026-03-05 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+MCH 26,7 pg 27,0 – 32,0
+CT 127 mg/dl Até 190
+TGP 87 U/L Até 41
+Glicemia de jejum 195 mg/dl 70 - 99
+Na 137 mmol/L 136 a 145
+GLI 197 mg/dL 70 a 99
+RBC 5,53 x10^6/µL 4,20 - 5,40
+Hemoglobina 16,4 g/dl 12,0 a 16,0
+Liberado em 2026-03-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

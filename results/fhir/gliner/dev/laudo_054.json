@@ -1,0 +1,227 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "ELISA PRADO"
+     }
+    ],
+    "birthDate": "1953-07-02"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:19e8257b-e31c-517c-9edb-4f4c415a391e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23",
+    "valueQuantity": {
+     "value": 32.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:411d4924-1ae2-5696-ab46-ddf53207e821",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23",
+    "valueQuantity": {
+     "value": 4.94
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:330c04cd-8c24-5455-b26a-3f93f97ab6ab",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1330e05d-8e32-5255-927a-f7f545bde61c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23",
+    "valueQuantity": {
+     "value": 14.9
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:41b39106-ed5d-59be-9fb1-5ee930ce0c0d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23",
+    "valueQuantity": {
+     "value": 15.2
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8c0918c9-2b05-5807-b56e-47611f5cf32f",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c202163a-dcdf-5a67-ba8f-b77f941e0c98"
+    },
+    "effectiveDateTime": "2026-02-23",
+    "result": [
+     {
+      "reference": "urn:uuid:19e8257b-e31c-517c-9edb-4f4c415a391e"
+     },
+     {
+      "reference": "urn:uuid:411d4924-1ae2-5696-ab46-ddf53207e821"
+     },
+     {
+      "reference": "urn:uuid:330c04cd-8c24-5455-b26a-3f93f97ab6ab"
+     },
+     {
+      "reference": "urn:uuid:1330e05d-8e32-5255-927a-f7f545bde61c"
+     },
+     {
+      "reference": "urn:uuid:41b39106-ed5d-59be-9fb1-5ee930ce0c0d"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Hematócrito\",\n      \"valor\": \"53.8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"6.45\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4.20 – 5.40\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"104.7\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 - 100.0\"\n    },\n    {\n      \"exame\": \"Potássio\",\n      \"valor\": \"5.4\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3.5 a 5.1\"\n    },\n    {\n      \"exame\": \"Dosagem de hemoglobina\",\n      \"valor\": \"12.2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12.0 a 16.0\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"197.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"135\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    }\n  ]\n}",
+ "latencia_s": 7.552705764770508,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 439,
+ "tokens_saida": 468,
+ "tokens_total": 907
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"30,7\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 — 32,0\"\n    },\n    {\n      \"exame\": \"CREATININEMIA\",\n      \"valor\": \"1,39\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"TRIGLICERÍDEOS\",\n      \"valor\": \"336\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"150\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    }\n  ]\n}",
+ "latencia_s": 7.585073709487915,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 407,
+ "tokens_saida": 236,
+ "tokens_total": 643
+}

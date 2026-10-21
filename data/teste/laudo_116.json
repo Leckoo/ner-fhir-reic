@@ -1,0 +1,76 @@
+{
+  "id": "laudo_116",
+  "paciente": "Diego Rocha",
+  "nascimento": "1946-03-14",
+  "data": "2026-08-21",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "rotulo_visto": true,
+      "valor": 168.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "168",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 150"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "rotulo_visto": true,
+      "valor": 36.8,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "36,8",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase pirúvica",
+      "rotulo_visto": true,
+      "valor": 114.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "114",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "rotulo_visto": true,
+      "valor": 210.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "210",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "rotulo_visto": true,
+      "valor": 0.71,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "0,71",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 - 1,20"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+metodo,docs,acuracia_loinc,ic95_inf,ic95_sup,pct_validos_hl7,ic95_inf,ic95_sup,latencia_media_s,chamadas_por_laudo,tokens_por_laudo,modelo
+regex,60,0.986,0.958,1.000,100.0,100.0,100.0,0.000,0.00,0,
+gliner,60,0.923,0.783,1.000,100.0,100.0,100.0,8.619,0.00,0,
+gliner_hib,60,0.972,0.952,0.989,100.0,100.0,100.0,14.110,0.00,0,
+gemini_ent,60,0.986,0.958,1.000,100.0,100.0,100.0,8.960,1.30,761,gemini-3.1-flash-lite
+gemini_e2e,60,0.647,0.599,0.696,5.0,0.0,11.7,16.503,1.50,3374,gemini-3.1-flash-lite

@@ -1,0 +1,25 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 3448313 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5821
+Paciente: Vânia Lopes Nascimento: 1995-11-19
+Data: 2026-02-03 Solicitante: Dr(a). Exemplo
+AST
+Material: Sangue Método: Automatizado
+Resultado: 97 U/L
+Valor de referência: < 40
+HEMOGLOBINA
+Material: Sangue Método: Automatizado
+Resultado: 15,2 g/dL
+Valor de referência: 12,0 - 16,0
+GLICOSE NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 211 mg/dl
+Valor de referência: 70 – 99
+COLESTEROLEMIA
+Material: Sangue Método: Automatizado
+Resultado: 172 mg/dl
+Valor de referência: Até 190
+DETERMINAÇÃO DO HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 35,8 %
+Valor de referência: 36,0 a 48,0
+Liberado em 2026-02-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

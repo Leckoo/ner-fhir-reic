@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 3477715 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4739
+Paciente: Otávio Pereira Nascimento: 1987-09-22
+Data: 2026-02-22 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Uréia no soro 68 mg/dl 15 a 45
+GLI 171 mg/dl 70 a 99
+Creatininemia 0,82 mg/dL 0,60 a 1,20
+Determinação do hematócrit 28,8 % 36,0 - 48,0
+Colesterol total 195 mg/dl < 190
+TGL 235 mg/dL < 150
+Liberado em 2026-02-22. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

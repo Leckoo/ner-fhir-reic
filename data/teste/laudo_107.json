@@ -1,0 +1,102 @@
+{
+  "id": "laudo_107",
+  "paciente": "Fábio Nunes",
+  "nascimento": "1965-07-05",
+  "data": "2026-03-01",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "rotulo_visto": true,
+      "valor": 433.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "433",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 42.0,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "42,0",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 - 48,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "rotulo_visto": true,
+      "valor": 46.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "46",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 13.5,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "13.500",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 – 11.000"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol sérico",
+      "rotulo_visto": false,
+      "valor": 157.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "157",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 190"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 3.68,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3,68",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 247.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "247",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    }
+  ]
+}

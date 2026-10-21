@@ -1,0 +1,134 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:75cbd5c9-c687-5983-9a4e-4f75f34013d8",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "BRUNO LIMA"
+     }
+    ],
+    "birthDate": "1984-02-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9a88f3c3-d0ea-58d7-9093-bcbcd9797b0c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "esd B4"
+    },
+    "subject": {
+     "reference": "urn:uuid:75cbd5c9-c687-5983-9a4e-4f75f34013d8"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 32.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1f5ee5c6-e91b-5caf-a23b-9203614db190",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "TRIGLICERIDES .,....scccccuct"
+    },
+    "subject": {
+     "reference": "urn:uuid:75cbd5c9-c687-5983-9a4e-4f75f34013d8"
+    },
+    "effectiveDateTime": "2026-06-24"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a9fd9933-85b8-5309-bb17-d5682fed8f31",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "COLESTEROL SERICO"
+    },
+    "subject": {
+     "reference": "urn:uuid:75cbd5c9-c687-5983-9a4e-4f75f34013d8"
+    },
+    "effectiveDateTime": "2026-06-24"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2558056c-5206-549f-b32a-b852e351bb7f",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:75cbd5c9-c687-5983-9a4e-4f75f34013d8"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "result": [
+     {
+      "reference": "urn:uuid:9a88f3c3-d0ea-58d7-9093-bcbcd9797b0c"
+     },
+     {
+      "reference": "urn:uuid:1f5ee5c6-e91b-5caf-a23b-9203614db190"
+     },
+     {
+      "reference": "urn:uuid:a9fd9933-85b8-5309-bb17-d5682fed8f31"
+     }
+    ]
+   }
+  }
+ ]
+}

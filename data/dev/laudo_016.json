@@ -1,0 +1,95 @@
+{
+  "id": "laudo_016",
+  "paciente": "Gabriela Melo",
+  "nascimento": "2007-12-20",
+  "data": "2026-01-16",
+  "layout": "tabela",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicemia de jejum",
+      "valor": 145.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "145",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "valor": 424.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "424",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "valor": 77.4,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "77.4",
+      "texto_unidade": "fl",
+      "texto_faixa": "80.0 – 100.0"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "valor": 33.5,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "33.5",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32.0 a 36.0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "valor": 0.56,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0.56",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 a 4.00"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "valor": 6.1,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6.1",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3.5 – 5.1"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "valor": 13.8,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "13.8",
+      "texto_unidade": "%",
+      "texto_faixa": "11.5 – 14.5"
+    }
+  ]
+}

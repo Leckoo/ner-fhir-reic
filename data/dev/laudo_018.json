@@ -1,0 +1,59 @@
+{
+  "id": "laudo_018",
+  "paciente": "Diego Rocha",
+  "nascimento": "1966-07-28",
+  "data": "2026-03-02",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HCT",
+      "valor": 30.7,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "30,7",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 - 48,0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "valor": 4.86,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4,86",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "valor": 148.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "148",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 - 145"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "valor": 3.1,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3,1",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 - 5,1"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 6135049 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8913
+
+Paciente: Rafael Conceição Nascimento: 1983-12-10
+Data: 2026-08-17 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+K 6,2 mmol/L 35a5,1
+Transaminase oxalacética 24 U/L Até 40
+Eritrócitos 4,10 milhões/mm? 4,20 a 5,40
+HGB 11,9 g/dL 12,0 a 16,0
+VCM 90,1 fl 80,0 - 100,0
+Colesterol 201 mg/dL < 190
+
+Liberado em 2026-08-17. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"14,4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"Plaquetas\",\n      \"valor\": \"449.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"232\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"69\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"246\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"71\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"208\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"4,8\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 17.24107027053833,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 413,
+ "tokens_saida": 437,
+ "tokens_total": 850
+}

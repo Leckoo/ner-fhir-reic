@@ -1,0 +1,71 @@
+{
+  "id": "laudo_024",
+  "paciente": "Rafael Conceição",
+  "nascimento": "1994-02-03",
+  "data": "2026-07-23",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "valor": 14.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14.4",
+      "texto_unidade": "%",
+      "texto_faixa": "11.5 a 14.5"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "valor": 34.0,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "34.0",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 a 32.0"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "valor": 17.3,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "17.300",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 a 11.000"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "valor": 12.8,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12.8",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12.0 a 16.0"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "valor": 95.7,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "95.7",
+      "texto_unidade": "fL",
+      "texto_faixa": "80.0 – 100.0"
+    }
+  ]
+}

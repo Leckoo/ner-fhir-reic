@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:20a3e624-fcbf-5fee-8442-93552976cbcf",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1981-08-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6fff30d4-16a6-554b-8609-ef5c6c4cffb5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:20a3e624-fcbf-5fee-8442-93552976cbcf"
+    },
+    "effectiveDateTime": "2026-06-07",
+    "valueQuantity": {
+     "value": 3.41
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7ca17dfe-2049-5f1a-92b1-d4feda540667",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:20a3e624-fcbf-5fee-8442-93552976cbcf"
+    },
+    "effectiveDateTime": "2026-06-07",
+    "result": [
+     {
+      "reference": "urn:uuid:6fff30d4-16a6-554b-8609-ef5c6c4cffb5"
+     }
+    ]
+   }
+  }
+ ]
+}

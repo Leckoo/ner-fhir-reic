@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"58\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"ALANINA AMINOTRANSFERASE\",\n      \"valor\": \"63\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"27\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"HB\",\n      \"valor\": \"16.1\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12.0 — 16.0\"\n    }\n  ]\n}",
+ "latencia_s": 5.275113344192505,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 392,
+ "tokens_saida": 219,
+ "tokens_total": 611
+}

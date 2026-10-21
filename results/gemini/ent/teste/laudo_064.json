@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CONTAGEM DE LEUCÓCITOS\",\n      \"valor\": \"10,8\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 a 11,0\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"124\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"187\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE UREIA\",\n      \"valor\": \"72\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    }\n  ]\n}",
+ "latencia_s": 8.584094524383545,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 398,
+ "tokens_saida": 228,
+ "tokens_total": 626
+}

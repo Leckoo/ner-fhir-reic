@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"11.4\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"73\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70-99\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"247\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"1.52\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0.60 - 1.20\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"114\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": null,\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 a 100.0\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"57\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"12.9\",\n      \"unidade\": \"Yo\",\n      \"faixa\": \"11.5a 14.5\"\n    }\n  ]\n}",
+ "latencia_s": 3.5302560329437256,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 404,
+ "tokens_saida": 436,
+ "tokens_total": 840
+}

@@ -1,0 +1,19 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 9015527 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9282
+Paciente: Fábio Nunes Nascimento: 1943-09-02
+Data: 2026-05-06 Solicitante: Dr(a). Exemplo
+TIREOTROFINA
+Material: Sangue Método: Automatizado
+Resultado: 8.90 mUIL
+Valor de referência: 0.40 a 4.00
+WBC
+Material: Sangue Método: Automatizado
+Resultado: 14.0 x10%uL
+Valor de referência: 4.0 - 11.0
+TG
+Resultado: 159 mg/dl
+Valor de referência: Até 150
+GLICEMIA DE JEJUM
+Resultado: 163 mg/dl
+Valor de referência: 70 - 99
+Liberado em 2026-05-06. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

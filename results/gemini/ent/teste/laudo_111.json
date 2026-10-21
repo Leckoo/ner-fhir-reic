@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"DETERMINACAO DO HEMATOCRITO\",\n      \"valor\": \"55,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS - GLOBAL\",\n      \"valor\": \"13.500\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"35,8\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"CALEMIA\",\n      \"valor\": \"4,5\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"148\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"200\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    }\n  ]\n}",
+ "latencia_s": 5.6315367221832275,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 442,
+ "tokens_saida": 351,
+ "tokens_total": 793
+}

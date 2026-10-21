@@ -1,0 +1,25 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 9804512 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6642
+Paciente: Otávio Pereira Nascimento: 1980-05-10
+Data: 2026-02-16 Solicitante: Dr(a). Exemplo
+HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 28.8 %
+Valor de referência: 36.0 - 48.0
+CONTAGEM DE ERITRÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 3.89 x10^6/µL
+Valor de referência: 4.20 – 5.40
+GLI
+Material: Sangue Método: Automatizado
+Resultado: 68 mg/dL
+Valor de referência: 70 – 99
+COLESTEROL
+Material: Sangue Método: Automatizado
+Resultado: 258 mg/dl
+Valor de referência: Até 190
+TRANSAMINASE OXALACÉTICA
+Material: Sangue Método: Automatizado
+Resultado: 31 U/L
+Valor de referência: < 40
+Liberado em 2026-02-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

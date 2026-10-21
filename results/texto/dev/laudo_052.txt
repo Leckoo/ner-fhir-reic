@@ -1,0 +1,25 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4253404 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8372
+Paciente: Sílvia Araújo Nascimento: 1966-05-22
+Data: 2026-05-19 Solicitante: Dr(a). Exemplo
+HB
+Material: Sangue Método: Automatizado
+Resultado: 17,0 g/ dL
+Valor de referência: 12,0 - 16,0
+GLICOSE EM JEJUM
+Material: Sangue Método: Automatizado
+Resultado: 129 mg/dl
+Valor de referência: 70 a 99
+VCM
+Material: Sangue Método: Automatizado
+Resultado: 95,3 fL
+Valor de referência: 80,0 a 100,0
+COLESTEROL
+Material: Sangue Método: Automatizado
+Resultado: 147 mg/dl
+Valor de referência: < 190
+UREIA
+Material: Sangue Método: Automatizado
+Resultado: 46 mg/dl
+Valor de referência: 15 – 45
+Liberado em 2026-05-19. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

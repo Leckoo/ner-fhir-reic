@@ -1,0 +1,12 @@
+LABORATORIO EXEMPLO DE ANALISES CLINICAS
+CNES 9864462 - RESP. TECNICO: DR(A). FULANO DE TAL - CRBM 8188
+PACIENTE: IRIS CAMPOS NASCIMENTO: 1946-08-22
+DATA: 2026-07-07 SOLICITANTE: DR(A). EXEMPLO
+CREA .......................: 1,10 mg/dL (VR: 0,60 a 1,20)
+UREIA ......................: 46 mg/dL (VR: 15 a 45)
+NA .........................: 137 mEq/L (VR: 136 - 145)
+MCHC .......................: 34,4 g/dL (VR: 32,0 - 36,0)
+HEMATOCRITO ................: 39,6 % (VR: 36,0 – 48,0)
+PLT ........................: 357 x10³/µL (VR: 150 - 450)
+POTASSIO ...................: 5,6 mEq/L (VR: 3,5 a 5,1)
+LIBERADO EM 2026-07-07. ASSINADO ELETRONICAMENTE. INTERPRETACAO A CRITERIO MEDICO. PAG. 1 DE 1

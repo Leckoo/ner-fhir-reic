@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6823614 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9692
+Paciente: Rafael Conceição Nascimento: 1951-04-19
+Data: 2026-05-04 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Glicose 119 mg/dL 70-99
+Eritrócitos 5.85 x10"6/uL 4.20 - 5.40
+Glicose de jejum 91 mg/dl 70-99
+Hb 17.0 g/ dL 12.0 - 16.0
+Hormônio tirotrófico 0.67 mUI/L 0.40 — 4.00
+Dosagem de triglicerídeos 239 mg/dl Até 150
+Na 154 mEqg/L 136 — 145
+Liberado em 2026-05-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

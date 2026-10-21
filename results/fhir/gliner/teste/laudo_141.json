@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:f1ad8d0a-7cc1-547d-9d6c-1d54e2a3f450",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Vânia Lopes"
+     }
+    ],
+    "birthDate": "1995-11-19"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9e42c667-70e5-5b32-9799-a5e802611897",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:f1ad8d0a-7cc1-547d-9d6c-1d54e2a3f450"
+    },
+    "effectiveDateTime": "2026-02-03",
+    "valueQuantity": {
+     "value": 12.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0fc2a270-db2d-5e37-bfa6-916983938700",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f1ad8d0a-7cc1-547d-9d6c-1d54e2a3f450"
+    },
+    "effectiveDateTime": "2026-02-03",
+    "result": [
+     {
+      "reference": "urn:uuid:9e42c667-70e5-5b32-9799-a5e802611897"
+     }
+    ]
+   }
+  }
+ ]
+}

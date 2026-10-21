@@ -1,0 +1,179 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1972-04-06"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8562c61c-13a2-525a-b0c8-ac9889dd1b3a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Natremia"
+    },
+    "subject": {
+     "reference": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c"
+    },
+    "effectiveDateTime": "2026-07-20"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b8997f21-1e98-56bb-9aef-614b95892ba8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c"
+    },
+    "effectiveDateTime": "2026-07-20",
+    "valueQuantity": {
+     "value": 0.4
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e7d4ac2c-9c63-527e-a4e6-70260bdd1a67",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c"
+    },
+    "effectiveDateTime": "2026-07-20",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0aa34cb4-f012-552b-bd00-b8bfcfcf295c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VCM 97"
+    },
+    "subject": {
+     "reference": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c"
+    },
+    "effectiveDateTime": "2026-07-20",
+    "valueQuantity": {
+     "value": 100.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b6b5e0c0-4b6c-5723-959a-b4f970d0abaa",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:0be68602-fc46-5909-b7bb-9a694fe6993c"
+    },
+    "effectiveDateTime": "2026-07-20",
+    "result": [
+     {
+      "reference": "urn:uuid:8562c61c-13a2-525a-b0c8-ac9889dd1b3a"
+     },
+     {
+      "reference": "urn:uuid:b8997f21-1e98-56bb-9aef-614b95892ba8"
+     },
+     {
+      "reference": "urn:uuid:e7d4ac2c-9c63-527e-a4e6-70260bdd1a67"
+     },
+     {
+      "reference": "urn:uuid:0aa34cb4-f012-552b-bd00-b8bfcfcf295c"
+     }
+    ]
+   }
+  }
+ ]
+}

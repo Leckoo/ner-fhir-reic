@@ -1,0 +1,83 @@
+{
+  "id": "laudo_017",
+  "paciente": "Íris Campos",
+  "nascimento": "1999-11-27",
+  "data": "2026-03-03",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "valor": 12.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12,9",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 a 16,0"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "valor": 45.2,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "45,2",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "valor": 6.66,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "6,66",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "valor": 117.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "117",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "valor": 31.1,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "31,1",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 – 32,0"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "valor": 67.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "67",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    }
+  ]
+}

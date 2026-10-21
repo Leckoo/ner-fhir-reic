@@ -1,0 +1,107 @@
+{
+  "id": "laudo_058",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "1998-03-23",
+  "data": "2026-01-17",
+  "layout": "blocos",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatinina",
+      "valor": 2.87,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2.87",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0.60 a 1.20"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "valor": 25.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "25",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "valor": 41.0,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "41.0",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 – 48.0"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "ALT",
+      "valor": 73.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "73",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "valor": 92.5,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "92.5",
+      "texto_unidade": "fl",
+      "texto_faixa": "80.0 – 100.0"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "CT",
+      "valor": 302.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "302",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "valor": 198.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "198",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "valor": 3.2,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3.2",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3.5 - 5.1"
+    }
+  ]
+}

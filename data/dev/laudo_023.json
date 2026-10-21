@@ -1,0 +1,59 @@
+{
+  "id": "laudo_023",
+  "paciente": "Natália Gomes",
+  "nascimento": "1942-02-03",
+  "data": "2026-05-22",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "valor": 71.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "71",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLT",
+      "valor": 283.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "283",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 a 450"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TG",
+      "valor": 47.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "47",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "valor": 104.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "104",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    }
+  ]
+}

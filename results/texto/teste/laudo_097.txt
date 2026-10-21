@@ -1,0 +1,25 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 2761165 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6384
+Paciente: Lúcia Ferreira Nascimento: 1967-01-08
+Data: 2026-05-19 Solicitante: Dr(a). Exemplo
+HB
+Material: Sangue Método: Automatizado
+Resultado: 15,5 g/dl
+Valor de referência: 12,0 - 16,0
+RDW-CV
+Material: Sangue Método: Automatizado
+Resultado: 15,2 %
+Valor de referência: 11,5 – 14,5
+CHCM
+Material: Sangue Método: Automatizado
+Resultado: 30,8 g/dL
+Valor de referência: 32,0 a 36,0
+SÓDIO NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 150 mmol/L
+Valor de referência: 136 - 145
+AST
+Material: Sangue Método: Automatizado
+Resultado: 42 U/L
+Valor de referência: < 40
+Liberado em 2026-05-19. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

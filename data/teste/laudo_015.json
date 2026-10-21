@@ -1,0 +1,63 @@
+{
+  "id": "laudo_015",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1980-03-01",
+  "data": "2026-01-05",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UREIA",
+      "rotulo_visto": true,
+      "valor": 70.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "70",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 – 45"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "HEMACIAS",
+      "rotulo_visto": true,
+      "valor": 5.51,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "5,51",
+      "texto_unidade": "milhoes/mm³",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA",
+      "rotulo_visto": false,
+      "valor": 32.8,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "32,8",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32,0 – 36,0"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLT",
+      "rotulo_visto": true,
+      "valor": 185.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "185",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 a 450"
+    }
+  ]
+}

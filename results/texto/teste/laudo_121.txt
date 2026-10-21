@@ -1,0 +1,21 @@
+LabSul Diagnósticos (fictício)
+CNES 7078611 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4711
+Paciente: Carla Dias Nascimento: 1949-02-18
+Data: 2026-08-09 Solicitante: Dr(a). Exemplo
+HEMÁCIAS
+Material: Sangue Método: Automatizado
+Resultado: 5,11 milhões/mm³
+Valor de referência: 4,20 a 5,40
+RDW
+Material: Sangue Método: Automatizado
+Resultado: 17,5 %
+Valor de referência: 11,5 – 14,5
+HEMOGLOBINA CORPUSCULAR MÉDIA
+Material: Sangue Método: Automatizado
+Resultado: 29,4 pg
+Valor de referência: 27,0 - 32,0
+TG
+Material: Sangue Método: Automatizado
+Resultado: 76 mg/dl
+Valor de referência: Até 150
+Liberado em 2026-08-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

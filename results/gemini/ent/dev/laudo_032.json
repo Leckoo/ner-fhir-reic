@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33,7\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"Transaminase pirúvica\",\n      \"valor\": \"83\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"154\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"82,0\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 a 100,0\"\n    },\n    {\n      \"exame\": \"Plaquetas\",\n      \"valor\": \"473.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"14,3\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 – 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 1.1109240055084229,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 390,
+ "tokens_saida": 349,
+ "tokens_total": 739
+}

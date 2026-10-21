@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMATÓCRITO\",\n      \"valor\": \"40,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 — 48,0\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"16,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"14,9\",\n      \"unidade\": \"mil/mm?\",\n      \"faixa\": \"4,0 — 1 1,0\"\n    },\n    {\n      \"exame\": \"cT\",\n      \"valor\": \"262\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 6.2614829540252686,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 388,
+ "tokens_saida": 226,
+ "tokens_total": 614
+}

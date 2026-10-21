@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"28,6\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"140\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"1,31\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"416\",\n      \"unidade\": \"x10*/pL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"6,0\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"16,0\",\n      \"unidade\": null,\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"70\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    }\n  ]\n}",
+ "latencia_s": 5.174749135971069,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 401,
+ "tokens_saida": 395,
+ "tokens_total": 796
+}

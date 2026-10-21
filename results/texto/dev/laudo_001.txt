@@ -1,0 +1,29 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 4807376 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1201
+Paciente: Lúcia Ferreira Nascimento: 2004-11-07
+Data: 2026-09-14 Solicitante: Dr(a). Exemplo
+GLICOSE
+Material: Sangue Método: Automatizado
+Resultado: 106 mg/dl
+Valor de referência: 70 - 99
+AST
+Material: Sangue Método: Automatizado
+Resultado: 49 U/L
+Valor de referência: < 40
+POTÁSSIO
+Material: Sangue Método: Automatizado
+Resultado: 5,3 mEq/L
+Valor de referência: 3,5 a 5,1
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 136 mEq/L
+Valor de referência: 136 – 145
+UREIA
+Material: Sangue Método: Automatizado
+Resultado: 13 mg/dl
+Valor de referência: 15 – 45
+TRANSAMINASE PIRÚVICA
+Material: Sangue Método: Automatizado
+Resultado: 99 U/L
+Valor de referência: Até 41
+Liberado em 2026-09-14. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

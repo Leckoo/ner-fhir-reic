@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"88\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"2,89\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"17,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"CONCENTRAÇÃO DE HEMOGLOBINA CORPUSCULAR MÉDIA\",\n      \"valor\": \"31,3\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"SGOT\",\n      \"valor\": \"65\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE CREATININA\",\n      \"valor\": \"2,53\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    }\n  ]\n}",
+ "latencia_s": 6.706736087799072,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 490,
+ "tokens_saida": 356,
+ "tokens_total": 846
+}

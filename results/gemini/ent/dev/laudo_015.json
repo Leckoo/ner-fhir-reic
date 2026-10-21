@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TRANSAMINASE OXALACÉTICA\",\n      \"valor\": \"24\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"TRIGLICÉRIDES\",\n      \"valor\": \"170\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"32.6\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27.0 – 32.0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"109\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"76\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 6.592158079147339,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 426,
+ "tokens_saida": 280,
+ "tokens_total": 706
+}

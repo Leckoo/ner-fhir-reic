@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREATININEMIA\",\n      \"valor\": \"0.84\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0.60 a 1.20\"\n    },\n    {\n      \"exame\": \"HEMACIAS\",\n      \"valor\": \"4.43\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4.20 - 5.40\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"138\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 190\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"137\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"DETERMINACAO DO HEMATOCRITO\",\n      \"valor\": \"51.1\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS\",\n      \"valor\": \"16.700\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 - 11.000\"\n    },\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"158\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 - 450\"\n    }\n  ]\n}",
+ "latencia_s": 5.368625164031982,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 484,
+ "tokens_saida": 417,
+ "tokens_total": 901
+}
