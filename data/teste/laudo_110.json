@@ -1,0 +1,63 @@
+{
+  "id": "laudo_110",
+  "paciente": "Ana Souza",
+  "nascimento": "1989-06-05",
+  "data": "2026-05-18",
+  "layout": "blocos",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "rotulo_visto": true,
+      "valor": 27.7,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "27.7",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 a 32.0"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "URE",
+      "rotulo_visto": false,
+      "valor": 56.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "56",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 83.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "83",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "rotulo_visto": true,
+      "valor": 54.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "54.8",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 – 48.0"
+    }
+  ]
+}

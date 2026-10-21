@@ -1,0 +1,110 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:c339ee5c-7c9f-5219-b6a4-c3d4332d3de4",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1991-06-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c6672bdd-647c-506d-8494-b2ffbcc9306e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Concentração de hemoglobin"
+    },
+    "subject": {
+     "reference": "urn:uuid:c339ee5c-7c9f-5219-b6a4-c3d4332d3de4"
+    },
+    "effectiveDateTime": "2026-02-07"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e3b7fb88-7c44-5757-aec5-d42c3ea640bd",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c339ee5c-7c9f-5219-b6a4-c3d4332d3de4"
+    },
+    "effectiveDateTime": "2026-02-07"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:00cbfe19-5e94-529c-ae78-b823064af66a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c339ee5c-7c9f-5219-b6a4-c3d4332d3de4"
+    },
+    "effectiveDateTime": "2026-02-07",
+    "result": [
+     {
+      "reference": "urn:uuid:c6672bdd-647c-506d-8494-b2ffbcc9306e"
+     },
+     {
+      "reference": "urn:uuid:e3b7fb88-7c44-5757-aec5-d42c3ea640bd"
+     }
+    ]
+   }
+  }
+ ]
+}

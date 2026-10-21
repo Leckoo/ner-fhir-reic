@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"143\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 — 99\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"30,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 — 48,0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITRÓCITOS\",\n      \"valor\": \"3,82\",\n      \"unidade\": \"x10\\\"6/uL\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"11,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 — 14,5\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"2,41\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE GLUTÂMICO-OXALOACÉTICA\",\n      \"valor\": \"13\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    }\n  ]\n}",
+ "latencia_s": 4.836808204650879,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 494,
+ "tokens_saida": 360,
+ "tokens_total": 854
+}

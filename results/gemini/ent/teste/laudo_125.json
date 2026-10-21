@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Concentração de hemoglobin\",\n      \"valor\": \"33,0\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 = 36,0\"\n    },\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"71\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"496.000\",\n      \"unidade\": \"/mmº\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"89,0\",\n      \"unidade\": \"f1\",\n      \"faixa\": \"80,0 a 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 8.98225712776184,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 356,
+ "tokens_saida": 243,
+ "tokens_total": 599
+}

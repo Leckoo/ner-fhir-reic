@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"4.64\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4.20 – 5.40\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"248\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"Ht\",\n      \"valor\": \"54.8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 – 48.0\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"182\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"5.57\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 - 4.00\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"181\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"73\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"62\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 6.723067760467529,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 413,
+ "tokens_saida": 440,
+ "tokens_total": 853
+}

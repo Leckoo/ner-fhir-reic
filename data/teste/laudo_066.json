@@ -1,0 +1,89 @@
+{
+  "id": "laudo_066",
+  "paciente": "Natália Gomes",
+  "nascimento": "1993-03-02",
+  "data": "2026-06-09",
+  "layout": "blocos",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 85.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "85",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "rotulo_visto": true,
+      "valor": 253.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "253",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 a 450"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 7.27,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "7.27",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0.40 - 4.00"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase pirúvica",
+      "rotulo_visto": true,
+      "valor": 116.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "116",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterolemia",
+      "rotulo_visto": false,
+      "valor": 233.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "233",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 190"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 26.8,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "26.8",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 – 32.0"
+    }
+  ]
+}

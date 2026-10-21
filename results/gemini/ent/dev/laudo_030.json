@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"VOLUME CORPUSCULAR MEDIO\",\n      \"valor\": \"98,1\",\n      \"unidade\": \"f1\",\n      \"faixa\": \"80,0 - 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 7.433632135391235,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 386,
+ "tokens_saida": 74,
+ "tokens_total": 460
+}

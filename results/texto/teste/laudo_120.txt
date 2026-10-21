@@ -1,0 +1,14 @@
+LabSul Diagnósticos (fictício)
+CNES 8067131 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5281
+Paciente: Hugo Reis Nascimento: 2008-06-08
+Data: 2026-05-26 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Plaquetograma 350 x10³/µL 150 - 450
+Colesterolemia 260 mg/dl < 190
+Amplitude de distribuição dos eritrócitos 13,0 % 11,5 – 14,5
+Glicose 182 mg/dL 70 - 99
+Leucócitos 7,2 x10³/µL 4,0 - 11,0
+Alanina aminotransferase 115 U/L < 41
+Triglicérides 244 mg/dL Até 150
+Dosagem de ureia 68 mg/dl 15 – 45
+Liberado em 2026-05-26. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

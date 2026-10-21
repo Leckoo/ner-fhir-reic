@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Dosagem de ureia\",\n      \"valor\": \"63\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"143\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"39,5\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"333.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 - 450.000\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"79\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"TSH ultra sensível\",\n      \"valor\": \"8,09\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"76,2\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 8.450833082199097,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 408,
+ "tokens_saida": 403,
+ "tokens_total": 811
+}

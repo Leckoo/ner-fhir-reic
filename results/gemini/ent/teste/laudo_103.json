@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Hb\",\n      \"valor\": \"10.1\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"Creatininemia\",\n      \"valor\": \"2.29\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0.60 - 1.20\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"26.5\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"270a 32.0\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrito\",\n      \"valor\": \"41.4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 — 48.0\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"130\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"3.91\",\n      \"unidade\": \"x10\\\"6/uL\",\n      \"faixa\": \"4.20 —- 5.40\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"3.62\",\n      \"unidade\": \"HU/mL\",\n      \"faixa\": \"0.40 a 4.00\"\n    }\n  ]\n}",
+ "latencia_s": 6.545305252075195,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 414,
+ "tokens_saida": 408,
+ "tokens_total": 822
+}

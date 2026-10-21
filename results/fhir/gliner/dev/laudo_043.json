@@ -1,0 +1,155 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:45268066-09ae-53a8-91a2-999c1309cc2a",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "JOAO BATISTA MOURA"
+     }
+    ],
+    "birthDate": "2002-02-17"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aef8b390-ffb7-5d24-9620-83299b038dba",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:45268066-09ae-53a8-91a2-999c1309cc2a"
+    },
+    "effectiveDateTime": "2026-02-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:89e11e5b-f0da-5707-8972-61b1aac8fcfe",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:45268066-09ae-53a8-91a2-999c1309cc2a"
+    },
+    "effectiveDateTime": "2026-02-21",
+    "valueQuantity": {
+     "value": 0.54
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ec7a9868-877c-504d-b12f-b8094f1c5f17",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:45268066-09ae-53a8-91a2-999c1309cc2a"
+    },
+    "effectiveDateTime": "2026-02-21",
+    "valueQuantity": {
+     "value": 7.3
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cc7dabcb-f37d-5df8-8dc5-b2e99fdfa3f7",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:45268066-09ae-53a8-91a2-999c1309cc2a"
+    },
+    "effectiveDateTime": "2026-02-21",
+    "result": [
+     {
+      "reference": "urn:uuid:aef8b390-ffb7-5d24-9620-83299b038dba"
+     },
+     {
+      "reference": "urn:uuid:89e11e5b-f0da-5707-8972-61b1aac8fcfe"
+     },
+     {
+      "reference": "urn:uuid:ec7a9868-877c-504d-b12f-b8094f1c5f17"
+     }
+    ]
+   }
+  }
+ ]
+}

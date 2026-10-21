@@ -1,0 +1,83 @@
+{
+  "id": "laudo_038",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "2010-01-21",
+  "data": "2026-06-12",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase oxalacética",
+      "valor": 111.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "111",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "valor": 3.51,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,51",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 – 5,40"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "valor": 4.3,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,3",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 – 5,1"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "ALT",
+      "valor": 149.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "149",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 41"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicérides",
+      "valor": 54.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "54",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "valor": 35.3,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35,3",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 - 36,0"
+    }
+  ]
+}

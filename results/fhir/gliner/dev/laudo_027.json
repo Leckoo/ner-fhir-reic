@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:ca149b15-b7c5-5912-8882-f1af94fba52b",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Diego Rocha"
+     }
+    ],
+    "birthDate": "1965-09-19"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5f72d611-641c-5bb1-a213-c3cfbc264d85",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ca149b15-b7c5-5912-8882-f1af94fba52b"
+    },
+    "effectiveDateTime": "2026-04-19",
+    "valueQuantity": {
+     "value": 12.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2aedcf9a-63bd-5bd3-ba30-ec4c8848bb72",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ca149b15-b7c5-5912-8882-f1af94fba52b"
+    },
+    "effectiveDateTime": "2026-04-19",
+    "result": [
+     {
+      "reference": "urn:uuid:5f72d611-641c-5bb1-a213-c3cfbc264d85"
+     }
+    ]
+   }
+  }
+ ]
+}

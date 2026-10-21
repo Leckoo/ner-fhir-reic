@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"ERITROCITOS\",\n      \"valor\": \"6,22\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"14.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 - 11.000\"\n    },\n    {\n      \"exame\": \"AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS\",\n      \"valor\": \"17,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 – 14,5\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"151\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"CRE\",\n      \"valor\": \"1,56\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 – 1,20\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"32,5\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 – 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 6.151993989944458,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 465,
+ "tokens_saida": 371,
+ "tokens_total": 836
+}

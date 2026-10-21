@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 3254982 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5101
+Paciente: Carla Dias Nascimento: 2007-09-04
+Data: 2026-07-04 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Glicemia 76 mg/dL 70 – 99
+RDW 17,3 % 11,5 a 14,5
+TGO 119 U/L Até 40
+TGL 395 mg/dl Até 150
+Uréia 17 mg/dL 15 - 45
+K 3,3 mmol/L 3,5 - 5,1
+Liberado em 2026-07-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

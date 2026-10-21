@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicemia\",\n      \"valor\": \"76\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"17,3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"119\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"395\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"17\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"3,3\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 2.6716248989105225,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 354,
+ "tokens_saida": 321,
+ "tokens_total": 675
+}

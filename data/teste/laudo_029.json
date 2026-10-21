@@ -1,0 +1,89 @@
+{
+  "id": "laudo_029",
+  "paciente": "Íris Campos",
+  "nascimento": "1976-03-19",
+  "data": "2026-05-01",
+  "layout": "blocos",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio no soro",
+      "rotulo_visto": false,
+      "valor": 2.8,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "2.8",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3.5 - 5.1"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "rotulo_visto": true,
+      "valor": 397.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "397",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "rotulo_visto": true,
+      "valor": 65.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "65",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "rotulo_visto": true,
+      "valor": 126.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "126",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 - 145"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "rotulo_visto": true,
+      "valor": 4.55,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4.55",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4.20 a 5.40"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Ureia",
+      "rotulo_visto": true,
+      "valor": 49.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "49",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 a 45"
+    }
+  ]
+}

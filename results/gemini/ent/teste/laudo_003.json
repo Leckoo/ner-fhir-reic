@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Dosagem de creatinina\",\n      \"valor\": \"1,25\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"27\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"Dosagem de hemoglobina\",\n      \"valor\": \"12,0\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"5,52\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    }\n  ]\n}",
+ "latencia_s": 4.384941816329956,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 342,
+ "tokens_saida": 239,
+ "tokens_total": 581
+}

@@ -1,0 +1,76 @@
+{
+  "id": "laudo_088",
+  "paciente": "Elisa Prado",
+  "nascimento": "1980-08-05",
+  "data": "2026-09-26",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TRANSAMINASE GLUTAMICO-OXALOACETICA",
+      "rotulo_visto": false,
+      "valor": 17.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "17",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "POTASSIO NO SORO",
+      "rotulo_visto": false,
+      "valor": 4.3,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,3",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 - 5,1"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS",
+      "rotulo_visto": false,
+      "valor": 15.5,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "15,5",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 - 14,5"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 9.3,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "9,3",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "4,0 – 11,0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE ERITROCITOS",
+      "rotulo_visto": false,
+      "valor": 3.69,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,69",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 – 5,40"
+    }
+  ]
+}

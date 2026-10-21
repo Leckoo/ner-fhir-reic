@@ -1,0 +1,102 @@
+{
+  "id": "laudo_000",
+  "paciente": "Sílvia Araújo",
+  "nascimento": "1993-10-18",
+  "data": "2026-02-08",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 84.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "84",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de triglicerídeos",
+      "rotulo_visto": false,
+      "valor": 400.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "400",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de leucócitos",
+      "rotulo_visto": false,
+      "valor": 9.3,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "9,3",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "4,0 – 11,0"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 16.6,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "16,6",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 - 16,0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "rotulo_visto": true,
+      "valor": 4.4,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4,40",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 – 5,40"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HCT",
+      "rotulo_visto": true,
+      "valor": 39.5,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "39,5",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 34.1,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "34,1",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 – 32,0"
+    }
+  ]
+}

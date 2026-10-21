@@ -1,0 +1,14 @@
+LabSul Diagnósticos (fictício)
+CNES 7010635 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1236
+Paciente: Carla Dias Nascimento: 1994-10-28
+Data: 2026-05-11 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+GLI 139 mg/dl 70 - 99
+Leucócitos 11.400 /mm³ 4.000 a 11.000
+Na 154 mEq/L 136 - 145
+CHCM 30,0 g/dL 32,0 a 36,0
+Colesterol 266 mg/dl Até 190
+MCH 31,3 pg 27,0 – 32,0
+Dosagem de hemoglobina 10,0 g/ dL 12,0 - 16,0
+PLT 325 mil/mm³ 150 – 450
+Liberado em 2026-05-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

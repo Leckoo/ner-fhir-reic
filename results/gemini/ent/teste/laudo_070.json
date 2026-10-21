@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"417\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE LEUCOCITOS\",\n      \"valor\": \"16.6\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4.0 – 11.0\"\n    },\n    {\n      \"exame\": \"SODIO\",\n      \"valor\": \"148\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"HEMATOCRITO\",\n      \"valor\": \"50.2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 – 48.0\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"15.6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 - 14.5\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"4.28\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4.20 - 5.40\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE COLESTEROL TOTAL\",\n      \"valor\": \"315\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 5.084204196929932,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 480,
+ "tokens_saida": 419,
+ "tokens_total": 899
+}

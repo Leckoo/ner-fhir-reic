@@ -1,0 +1,102 @@
+{
+  "id": "laudo_038",
+  "paciente": "Íris Campos",
+  "nascimento": "1999-08-09",
+  "data": "2026-04-03",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UR",
+      "rotulo_visto": true,
+      "valor": 46.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "46",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetograma",
+      "rotulo_visto": false,
+      "valor": 441.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "441",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 14.1,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,1",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 33.7,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "33,7",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32,0 – 36,0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 1.77,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "1,77",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "HCT",
+      "rotulo_visto": true,
+      "valor": 41.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "41,8",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "rotulo_visto": true,
+      "valor": 4.5,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,5",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 a 5,1"
+    }
+  ]
+}

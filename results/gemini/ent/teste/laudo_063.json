@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS\",\n      \"valor\": \"14,3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE SODIO\",\n      \"valor\": \"141\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"78,3\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"218\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"50\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"28,5\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 - 32,0\"\n    }\n  ]\n}",
+ "latencia_s": 1.9566256999969482,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 454,
+ "tokens_saida": 362,
+ "tokens_total": 816
+}

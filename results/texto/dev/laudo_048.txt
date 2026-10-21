@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 1878666 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7009
+Paciente: Gabriela Melo Nascimento: 2002-06-06
+Data: 2026-01-06 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Creatinina 2,07 mg/dl 0,60 a 1,20
+RBC 3,58 milhões/mm³ 4,20 – 5,40
+Leucócitos - Global 17.800 /mm³ 4.000 a 11.000
+RDW 17,2 % 11,5 – 14,5
+Liberado em 2026-01-06. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

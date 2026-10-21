@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:04b98112-cf3e-5d8a-b603-6e05430942da",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1972-07-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6252a32f-8a9f-5846-b2a4-85220c013f09",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Hormônio tireoestimulante"
+    },
+    "subject": {
+     "reference": "urn:uuid:04b98112-cf3e-5d8a-b603-6e05430942da"
+    },
+    "effectiveDateTime": "2026-04-11",
+    "valueQuantity": {
+     "value": 6.39
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7aa64112-fd82-5268-9d85-05768b39144c",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:04b98112-cf3e-5d8a-b603-6e05430942da"
+    },
+    "effectiveDateTime": "2026-04-11",
+    "result": [
+     {
+      "reference": "urn:uuid:6252a32f-8a9f-5846-b2a4-85220c013f09"
+     }
+    ]
+   }
+  }
+ ]
+}

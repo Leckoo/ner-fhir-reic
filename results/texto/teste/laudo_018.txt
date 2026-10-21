@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 5989513 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5110
+Paciente: Vânia Lopes Nascimento: 1972-04-04
+Data: 2026-01-21 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Contagem de leucócitos 3.600 /mm³ 4.000 – 11.000
+GLI 175 mg/dL 70 – 99
+Concentração de hemoglobina corpuscul3a4r .m3édia g/dL 32.0 - 36.0
+TGO 10 U/L < 40
+Hb 14.7 g/dl 12.0 a 16.0
+K 3.6 mmol/L 3.5 - 5.1
+Tireotrofina 9.54 mUI/L 0.40 - 4.00
+Liberado em 2026-01-21. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

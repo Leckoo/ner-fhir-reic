@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:9b291dfa-2aaa-5297-b7da-1ff6f87f503e",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "IRIS CAMPOS"
+     }
+    ],
+    "birthDate": "1973-12-11"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d8540469-d43f-5245-8b6e-37258a525020",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9b291dfa-2aaa-5297-b7da-1ff6f87f503e"
+    },
+    "effectiveDateTime": "2026-03-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f0bafbff-6910-5811-b17f-38683434e6f4",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9b291dfa-2aaa-5297-b7da-1ff6f87f503e"
+    },
+    "effectiveDateTime": "2026-03-18",
+    "result": [
+     {
+      "reference": "urn:uuid:d8540469-d43f-5245-8b6e-37258a525020"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6059240 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3938
+Paciente: Ana Souza Nascimento: 1946-11-20
+Data: 2026-07-15 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Potássio 6,3 mEq/L 3,5 - 5,1
+Hemoglobina corpuscular média 27,3 pg 27,0 a 32,0
+ALT 23 U/L < 41
+Dosagem de ureia 75 mg/dL 15 – 45
+Liberado em 2026-07-15. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

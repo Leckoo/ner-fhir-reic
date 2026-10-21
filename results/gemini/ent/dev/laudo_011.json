@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"1,10\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"46\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"NA\",\n      \"valor\": \"137\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"34,4\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"HEMATOCRITO\",\n      \"valor\": \"39,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"357\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"POTASSIO\",\n      \"valor\": \"5,6\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 7.2843177318573,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 461,
+ "tokens_saida": 393,
+ "tokens_total": 854
+}

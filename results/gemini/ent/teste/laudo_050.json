@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"13,3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"DOSAGEM DE POTASSIO\",\n      \"valor\": \"2,9\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"UREIA NO SORO\",\n      \"valor\": \"46\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"79,6\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"29,1\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"32,0\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 – 36,0\"\n    },\n    {\n      \"exame\": \"SODIO\",\n      \"valor\": \"128\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"GLICEMIA\",\n      \"valor\": \"89\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    }\n  ]\n}",
+ "latencia_s": 6.649950742721558,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 505,
+ "tokens_saida": 469,
+ "tokens_total": 974
+}

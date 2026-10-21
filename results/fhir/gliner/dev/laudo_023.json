@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Natália Gomes"
+     }
+    ],
+    "birthDate": "1942-02-03"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f8e9fae9-2e6c-5a5c-8a5f-47f5b5400c02",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-05-22"
+   }
+  }
+ ]
+}

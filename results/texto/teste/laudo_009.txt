@@ -1,0 +1,14 @@
+LabSul Diagnósticos (fictício)
+CNES 7731771 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7544
+Paciente: João Batista Moura Nascimento: 2000-08-04
+Data: 2026-02-12 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Sódio 133 mEq/L 136 — 145
+Contagem de leucócitos 11.000 Immê 4.000 - 11.000
+CREA 0,91 mg/dL 0,60 - 1,20
+Triglicerídeos 313 mg/dl < 150
+Tireotrofina 2,21 mUI/L 0,40 - 4,00
+HCT 39,6 Yo 36,0 - 48,0
+Alanina aminotransferase 26 U/L <41
+URE 31 mg/dL 15-45
+Liberado em 2026-02-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

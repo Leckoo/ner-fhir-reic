@@ -1,0 +1,155 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "TIAGO MONTEIRO"
+     }
+    ],
+    "birthDate": "1951-08-25"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:019a4b68-c675-5236-9b5a-0e21418c0d03",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-05-28",
+    "valueQuantity": {
+     "value": 15.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:14d37d7e-0319-5666-8760-0358195acd79",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-05-28",
+    "valueQuantity": {
+     "value": 36.2
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bf4eeefd-f55c-5d38-b6da-0537d124ada8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-05-28"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cd69b139-3ab6-55f4-81a9-5debf531c223",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:81e57a1a-5a29-5276-9ee7-ba7dbe52abdd"
+    },
+    "effectiveDateTime": "2026-05-28",
+    "result": [
+     {
+      "reference": "urn:uuid:019a4b68-c675-5236-9b5a-0e21418c0d03"
+     },
+     {
+      "reference": "urn:uuid:14d37d7e-0319-5666-8760-0358195acd79"
+     },
+     {
+      "reference": "urn:uuid:bf4eeefd-f55c-5d38-b6da-0537d124ada8"
+     }
+    ]
+   }
+  }
+ ]
+}

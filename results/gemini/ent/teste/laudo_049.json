@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMOGLOBINA CORPUSCULAR MÉDIA\",\n      \"valor\": \"27,4\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 - 32,0\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"256\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"2,31\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"GLICOSE EM JEJUM\",\n      \"valor\": \"148\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 — 99\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS\",\n      \"valor\": \"12,1\",\n      \"unidade\": \"x10%uL\",\n      \"faixa\": \"4,0 — 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 5.797914505004883,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 456,
+ "tokens_saida": 298,
+ "tokens_total": 754
+}

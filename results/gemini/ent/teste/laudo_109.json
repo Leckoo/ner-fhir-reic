@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"287\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"13,9\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 – 11,0\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"Colesterol\",\n      \"valor\": \"196\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 4.235213279724121,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 340,
+ "tokens_saida": 229,
+ "tokens_total": 569
+}

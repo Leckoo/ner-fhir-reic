@@ -1,0 +1,338 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:550e8400-e29b-41d4-a716-446655440000",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": [
+     {
+      "text": "Rafael Conceição"
+     }
+    ],
+    "birthDate": "1983-12-10"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 6.2,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "AST"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 24,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 40,
+       "unit": "U/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 4.1,
+     "unit": "10*12/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*12/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*12/L"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*12/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 11.9,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCV"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 90.1,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "effectiveDateTime": "2026-08-17",
+    "valueQuantity": {
+     "value": 201,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190,
+       "unit": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a0b1c2d3-e4f5-46a7-b8c9-d0e1f2a3b4c5",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:550e8400-e29b-41d4-a716-446655440000"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6"
+     },
+     {
+      "reference": "urn:uuid:b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7"
+     },
+     {
+      "reference": "urn:uuid:c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8"
+     },
+     {
+      "reference": "urn:uuid:d4e5f6a7-b8c9-40d1-e2f3-a4b5c6d7e8f9"
+     },
+     {
+      "reference": "urn:uuid:e5f6a7b8-c9d0-41e2-f3a4-b5c6d7e8f9a0"
+     },
+     {
+      "reference": "urn:uuid:f6a7b8c9-d0e1-42f3-a4b5-c6d7e8f9a0b1"
+     }
+    ]
+   }
+  }
+ ]
+}

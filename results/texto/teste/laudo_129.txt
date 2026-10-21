@@ -1,0 +1,37 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7477269 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7928
+Paciente: Diego Rocha Nascimento: 1975-06-08
+Data: 2026-02-01 Solicitante: Dr(a). Exemplo
+MCH
+
+Material: Sangue Método: Automatizado
+
+Resultado: 30,7 pg
+
+Valor de referência: 27,0 — 32,0
+
+CREATININEMIA
+
+Material: Sangue Método: Automatizado
+
+Resultado: 1,39 mg/dl
+
+Valor de referência: 0,60 a 1,20
+
+TRIGLICERÍDEOS
+
+Material: Sangue Método: Automatizado
+
+Resultado: 336 mg/dL
+
+Valor de referência: Até 150
+
+SÓDIO
+
+Material: Sangue Método: Automatizado
+
+Resultado: 150 mmol/L
+
+Valor de referência: 136 - 145
+
+Liberado em 2026-02-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

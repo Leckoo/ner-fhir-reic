@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 3354466 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8327
+Paciente: Elisa Prado Nascimento: 1954-09-07
+Data: 2026-05-27 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+VCM 95,8 fl 80,0 a 100,0
+TGO 90 U/L Até 40
+Hb 17,5 g/dL 12,0 – 16,0
+Dosagem de sódio 140 mEq/L 136 a 145
+MCH 27,7 pg 27,0 a 32,0
+Uréia 33 mg/dl 15 a 45
+Liberado em 2026-05-27. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

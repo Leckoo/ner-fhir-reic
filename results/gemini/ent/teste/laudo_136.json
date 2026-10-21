@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMATOCRITO\",\n      \"valor\": \"47.1\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 a 48.0\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"82\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"COLESTEROL\",\n      \"valor\": \"308\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"ATE 190\"\n    },\n    {\n      \"exame\": \"HB\",\n      \"valor\": \"16.8\",\n      \"unidade\": \"g/ dL\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"33.4\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32.0 - 36.0\"\n    },\n    {\n      \"exame\": \"TG\",\n      \"valor\": \"90\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"11.3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 a 14.5\"\n    },\n    {\n      \"exame\": \"POTASSIO\",\n      \"valor\": \"3.1\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3.5 - 5.1\"\n    }\n  ]\n}",
+ "latencia_s": 27.452555179595947,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 478,
+ "tokens_saida": 435,
+ "tokens_total": 913
+}

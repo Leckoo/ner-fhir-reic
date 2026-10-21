@@ -1,0 +1,10 @@
+metodo_a,metodo_b,metrica,diferenca_a_menos_b,ic95_inf,ic95_sup,p_bootstrap_bilateral
+gliner_hib,regex,acuracia_loinc,+0.045,+0.017,+0.076,0.000
+gliner_hib,regex,f1_obs_completa,-0.047,-0.080,-0.015,0.002
+gliner_hib,regex,recall_nao_vistos,+0.105,+0.054,+0.162,0.000
+gliner_hib,gemini_ent,acuracia_loinc,+0.073,+0.047,+0.101,0.000
+gliner_hib,gemini_ent,f1_obs_completa,-0.023,-0.052,+0.007,0.126
+gliner_hib,gemini_ent,recall_nao_vistos,+0.185,+0.143,+0.228,0.000
+regex,gemini_ent,acuracia_loinc,+0.028,+0.017,+0.040,0.000
+regex,gemini_ent,f1_obs_completa,+0.024,+0.013,+0.035,0.000
+regex,gemini_ent,recall_nao_vistos,+0.080,+0.050,+0.115,0.000

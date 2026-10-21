@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"88\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"141\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5.1\",\n      \"unidade\": \"mEqg/L\",\n      \"faixa\": \"35 =-8,1\"\n    },\n    {\n      \"exame\": \"Ureia\",\n      \"valor\": \"79\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"102,4\",\n      \"unidade\": \"f1\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"83\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"166\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 7.438840866088867,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 373,
+ "tokens_saida": 370,
+ "tokens_total": 743
+}

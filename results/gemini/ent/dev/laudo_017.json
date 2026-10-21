@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"12,9\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 a 16,0\"\n    },\n    {\n      \"exame\": \"Hematócrito\",\n      \"valor\": \"45,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 — 48,0\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"6.66\",\n      \"unidade\": \"uUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"117\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"31,1\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 — 32,0\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"67\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 6.164064884185791,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 371,
+ "tokens_saida": 334,
+ "tokens_total": 705
+}

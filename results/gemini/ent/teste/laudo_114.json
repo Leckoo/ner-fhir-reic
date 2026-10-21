@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"14\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"GLICOSE DE JEJUM\",\n      \"valor\": \"126\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"39\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 40\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS\",\n      \"valor\": \"9,1\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"CHCM\",\n      \"valor\": \"35,7\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"HEMOGLOBINA\",\n      \"valor\": \"12,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"POTASSIO\",\n      \"valor\": \"3,4\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 5.1923582553863525,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 458,
+ "tokens_saida": 393,
+ "tokens_total": 851
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"371.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 – 450.000\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"22\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"TGL\",\n      \"valor\": \"326\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"SÓDIO NO SORO\",\n      \"valor\": \"135\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS\",\n      \"valor\": \"4,7\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 a 11,0\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"54,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE GLUTÂMICO PIRÚVICA\",\n      \"valor\": \"51\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    }\n  ]\n}",
+ "latencia_s": 2.910865545272827,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 518,
+ "tokens_saida": 399,
+ "tokens_total": 917
+}

@@ -1,0 +1,33 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 4887601 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4249
+Paciente: Bruno Lima Nascimento: 1985-07-09
+Data: 2026-08-13 Solicitante: Dr(a). Exemplo
+COLESTEROLEMIA
+Material: Sangue Método: Automatizado
+Resultado: 288 mg/dl
+Valor de referência: Até 190
+HEMATÓCRITO
+Material; Sangue Método: Automatizado
+Resultado: 35,4 %
+Valor de referência: 36,0 a 48,0
+RBC
+Material: Sangue Método: Automatizado
+Resultado: 5,86 x10"6/uL
+Valor de referência: 4,20 a 5,40
+GLi
+Material: Sangue Método: Automatizado
+Resultado: 87 mg/dl
+Valor de referência: 70 - 99
+HORMÔNIO TIREOESTIMULANTE
+Material: Sangue Método: Automatizado
+Resultado: 7,32 uUl/mL
+Valor de referência: 0,40 - 4,00
+HGB
+Material: Sangue Método: Automatizado
+Resultado: 11,6 g/dL
+Valor de referência: 12,0 - 16,0
+MCV
+Material: Sangue Método: Automatizado
+Resultado: 87,2 fL
+Valor de referência: 80,0 — 100,0
+Liberado em 2026-08-13. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

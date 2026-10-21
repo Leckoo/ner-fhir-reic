@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"SODIO\",\n      \"valor\": \"141\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"314\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"248\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"32,8\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 – 36,0\"\n    },\n    {\n      \"exame\": \"TRIGLICERIDEOS\",\n      \"valor\": \"322\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 150\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"3,56\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"GLICOSE EM JEJUM\",\n      \"valor\": \"226\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"274\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    }\n  ]\n}",
+ "latencia_s": 7.698110580444336,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 487,
+ "tokens_saida": 445,
+ "tokens_total": 932
+}

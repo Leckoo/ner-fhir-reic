@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 8084669 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5523
+Paciente: Patrícia Ramos Nascimento: 1949-10-05
+Data: 2026-03-05 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Potássio 5,9 mEq/L 3,5 - 5,1
+Glicemia de jejum 111 mg/dL 70 – 99
+Creatinina 2,79 mg/dL 0,60 – 1,20
+Glicose 202 mg/dl 70 a 99
+MCHC 35,5 g/dL 32,0 – 36,0
+Liberado em 2026-03-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

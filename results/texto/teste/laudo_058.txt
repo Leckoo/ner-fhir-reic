@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6439867 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4173
+Paciente: Tiago Monteiro Nascimento: 1974-12-23
+Data: 2026-02-04 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+CHCM 30,7 g/dl 32,0 - 36,0
+Determinação do hematócrit 30,9 +% 36,0 a 48,0
+RDW 18,0 % 11,5 - 14,5
+TGP 41 U/L até 41
+Glicose de jejum 199 mg/dl 70 a 99
+Dosagem de ureia 82 mg/dL 15 — 45
+K 3,3 mEq/L 3,5 -1S94
+Liberado em 2026-02-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

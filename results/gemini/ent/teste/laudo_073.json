@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"36,9\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"ALANINA AMINOTRANSFERASE\",\n      \"valor\": \"27\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"11,1\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 – 14,5\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"24\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"197\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 - 450\"\n    }\n  ]\n}",
+ "latencia_s": 6.4815733432769775,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 432,
+ "tokens_saida": 282,
+ "tokens_total": 714
+}

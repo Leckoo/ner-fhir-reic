@@ -1,0 +1,16 @@
+LabSul Diagnósticos (fictício)
+
+CNES 5327189 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9417
+
+Paciente: Natália Gomes Nascimento: 1942-02-03
+Data: 2026-05-22 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Uréia 71 mg/dl 15-45
+
+PLT 283 x10%uL 150 a 450
+
+TG 47 mg/dL Até 150
+
+AST 104 U/L <40
+
+Liberado em 2026-05-22. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

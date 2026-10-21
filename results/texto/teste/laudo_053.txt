@@ -1,0 +1,33 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 4538023 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8713
+Paciente: Gabriela Melo Nascimento: 1969-07-25
+Data: 2026-02-15 Solicitante: Dr(a). Exemplo
+CREA
+Material: Sangue Método: Automatizado
+Resultado: 1,25 mg/dl
+Valor de referência: 0,60 - 1,20
+ERITRÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 5,55 x10^6/µL
+Valor de referência: 4,20 a 5,40
+CHCM
+Material: Sangue Método: Automatizado
+Resultado: 30,4 g/dL
+Valor de referência: 32,0 a 36,0
+K
+Material: Sangue Método: Automatizado
+Resultado: 4,4 mmol/L
+Valor de referência: 3,5 - 5,1
+TSH
+Material: Sangue Método: Automatizado
+Resultado: 3,98 mUI/L
+Valor de referência: 0,40 - 4,00
+SÓDIO NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 148 mEq/L
+Valor de referência: 136 a 145
+TGL
+Material: Sangue Método: Automatizado
+Resultado: 398 mg/dl
+Valor de referência: Até 150
+Liberado em 2026-02-15. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

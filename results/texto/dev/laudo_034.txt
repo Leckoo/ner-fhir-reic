@@ -1,0 +1,21 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 2244324 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4952
+Paciente: Ana Souza Nascimento: 1972-04-07
+Data: 2026-03-05 Solicitante: Dr(a). Exemplo
+TRANSAMINASE OXALACÉTICA
+Material: Sangue Método: Automatizado
+Resultado: 73 U/L
+Valor de referência: < 40
+TIREOTROFINA
+Material: Sangue Método: Automatizado
+Resultado: 0,92 µUI/mL
+Valor de referência: 0,40 a 4,00
+RDW
+Material: Sangue Método: Automatizado
+Resultado: 11,2 %
+Valor de referência: 11,5 - 14,5
+CT
+Material: Sangue Método: Automatizado
+Resultado: 256 mg/dl
+Valor de referência: Até 190
+Liberado em 2026-03-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

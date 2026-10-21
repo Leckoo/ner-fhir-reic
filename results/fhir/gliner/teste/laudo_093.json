@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:e5bdedf8-9670-566e-bb8b-ca6ed85475d8",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1963-02-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:454d64ac-d075-5690-9b3b-a1b6b3c88b44",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e5bdedf8-9670-566e-bb8b-ca6ed85475d8"
+    },
+    "effectiveDateTime": "2026-05-27",
+    "valueQuantity": {
+     "value": 0.4
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aa9f6056-cb46-53aa-a918-249d06ec9533",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e5bdedf8-9670-566e-bb8b-ca6ed85475d8"
+    },
+    "effectiveDateTime": "2026-05-27",
+    "result": [
+     {
+      "reference": "urn:uuid:454d64ac-d075-5690-9b3b-a1b6b3c88b44"
+     }
+    ]
+   }
+  }
+ ]
+}

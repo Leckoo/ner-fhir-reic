@@ -1,0 +1,63 @@
+{
+  "id": "laudo_109",
+  "paciente": "Hugo Reis",
+  "nascimento": "1968-01-10",
+  "data": "2026-01-03",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Triglicerídeos",
+      "rotulo_visto": true,
+      "valor": 287.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "287",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "WBC",
+      "rotulo_visto": true,
+      "valor": 13.9,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "13,9",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 – 11,0"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 14.2,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,2",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol",
+      "rotulo_visto": true,
+      "valor": 196.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "196",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "< 190"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"1,51\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 – 1,20\"\n    },\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"234\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"34,8\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"494\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"Potássio\",\n      \"valor\": \"5,5\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    }\n  ]\n}",
+ "latencia_s": 2.060480833053589,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 370,
+ "tokens_saida": 294,
+ "tokens_total": 664
+}

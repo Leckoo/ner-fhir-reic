@@ -1,0 +1,76 @@
+{
+  "id": "laudo_083",
+  "paciente": "Vânia Lopes",
+  "nascimento": "1959-09-11",
+  "data": "2026-08-01",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLAQUETOGRAMA",
+      "rotulo_visto": false,
+      "valor": 345.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "345",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE ERITROCITOS",
+      "rotulo_visto": false,
+      "valor": 3.33,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,33",
+      "texto_unidade": "milhoes/mm³",
+      "texto_faixa": "4,20 - 5,40"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 14.1,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,1",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "rotulo_visto": true,
+      "valor": 24.5,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "24,5",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "ALANINA AMINOTRANSFERASE",
+      "rotulo_visto": false,
+      "valor": 102.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "102",
+      "texto_unidade": "U/L",
+      "texto_faixa": "ATE 41"
+    }
+  ]
+}

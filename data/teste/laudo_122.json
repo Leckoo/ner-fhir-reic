@@ -1,0 +1,76 @@
+{
+  "id": "laudo_122",
+  "paciente": "João Batista Moura",
+  "nascimento": "2006-03-06",
+  "data": "2026-01-16",
+  "layout": "legado",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "HEMACIAS",
+      "rotulo_visto": true,
+      "valor": 3.46,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3.46",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4.20 a 5.40"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE LEUCOCITOS",
+      "rotulo_visto": false,
+      "valor": 12.3,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "12.300",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 – 11.000"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TRANSAMINASE OXALACETICA",
+      "rotulo_visto": true,
+      "valor": 56.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "56",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TIROTROPINA",
+      "rotulo_visto": false,
+      "valor": 5.99,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "5.99",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 a 4.00"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA",
+      "rotulo_visto": false,
+      "valor": 33.6,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "33.6",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32.0 a 36.0"
+    }
+  ]
+}

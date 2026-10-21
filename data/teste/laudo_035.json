@@ -1,0 +1,89 @@
+{
+  "id": "laudo_035",
+  "paciente": "Elisa Prado",
+  "nascimento": "1954-09-07",
+  "data": "2026-05-27",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 95.8,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "95,8",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 a 100,0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 90.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "90",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 17.5,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "17,5",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 – 16,0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de sódio",
+      "rotulo_visto": false,
+      "valor": 140.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "140",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 27.7,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "27,7",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "rotulo_visto": true,
+      "valor": 33.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "33",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45"
+    }
+  ]
+}

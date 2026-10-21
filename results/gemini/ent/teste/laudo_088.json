@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TRANSAMINASE GLUTAMICO-OXALOACETICA\",\n      \"valor\": \"17\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"POTASSIO NO SORO\",\n      \"valor\": \"4,3\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS\",\n      \"valor\": \"15,5\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"9,3\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 – 11,0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"3,69\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 – 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 3.830723524093628,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 434,
+ "tokens_saida": 317,
+ "tokens_total": 751
+}

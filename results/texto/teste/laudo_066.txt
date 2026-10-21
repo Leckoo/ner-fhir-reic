@@ -1,0 +1,29 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 8643144 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9914
+Paciente: Natália Gomes Nascimento: 1993-03-02
+Data: 2026-06-09 Solicitante: Dr(a). Exemplo
+GLICOSE EM JEJUM
+Material: Sangue Método: Automatizado
+Resultado: 85 mg/dL
+Valor de referência: 70 – 99
+CONTAGEM DE PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 253 x10³/µL
+Valor de referência: 150 a 450
+TIREOTROFINA
+Material: Sangue Método: Automatizado
+Resultado: 7.27 mUI/L
+Valor de referência: 0.40 - 4.00
+TRANSAMINASE PIRÚVICA
+Material: Sangue Método: Automatizado
+Resultado: 116 U/L
+Valor de referência: < 41
+COLESTEROLEMIA
+Material: Sangue Método: Automatizado
+Resultado: 233 mg/dl
+Valor de referência: Até 190
+MCH
+Material: Sangue Método: Automatizado
+Resultado: 26.8 pg
+Valor de referência: 27.0 – 32.0
+Liberado em 2026-06-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

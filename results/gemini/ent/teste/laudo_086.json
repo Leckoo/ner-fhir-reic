@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"189\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"17\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"2.77\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0.60 - 1.20\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"8.07\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 – 4.00\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"80\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"7.8\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4.0 - 11.0\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"127\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    }\n  ]\n}",
+ "latencia_s": 5.9086713790893555,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 392,
+ "tokens_saida": 391,
+ "tokens_total": 783
+}

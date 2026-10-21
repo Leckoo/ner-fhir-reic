@@ -1,0 +1,246 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "1943-09-02"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b38cdf08-f752-5548-a06f-85f5a532da68",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-05-06",
+    "valueQuantity": {
+     "value": 8.9
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4
+      },
+      "high": {
+       "value": 4.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7051359e-28c5-52d1-ba14-62a6438a5ac7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-05-06",
+    "valueQuantity": {
+     "value": 14.0
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0
+      },
+      "high": {
+       "value": 11.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:821e872c-f419-5951-9515-1c95f96a2d0c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-05-06",
+    "valueQuantity": {
+     "value": 159.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7b71b82b-3c45-5b4d-9193-a17def09efd7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-05-06",
+    "valueQuantity": {
+     "value": 163.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3222af38-240d-58be-a101-b21a93dca68a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:dc5abf9e-d13b-50e0-a93b-d843fac17ff9"
+    },
+    "effectiveDateTime": "2026-05-06",
+    "result": [
+     {
+      "reference": "urn:uuid:b38cdf08-f752-5548-a06f-85f5a532da68"
+     },
+     {
+      "reference": "urn:uuid:7051359e-28c5-52d1-ba14-62a6438a5ac7"
+     },
+     {
+      "reference": "urn:uuid:821e872c-f419-5951-9515-1c95f96a2d0c"
+     },
+     {
+      "reference": "urn:uuid:7b71b82b-3c45-5b4d-9193-a17def09efd7"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"106\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"49\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"POTÁSSIO\",\n      \"valor\": \"5,3\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"136\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"13\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE PIRÚVICA\",\n      \"valor\": \"99\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    }\n  ]\n}",
+ "latencia_s": 9.844619989395142,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 464,
+ "tokens_saida": 326,
+ "tokens_total": 790
+}

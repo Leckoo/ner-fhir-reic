@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 4260188 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8859
+Paciente: Elisa Prado Nascimento: 1996-10-15
+Data: 2026-08-16 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Glicemia de jejum 189 mg/dL 70 - 99
+Uréia 17 mg/dL 15 - 45
+CREA 2.77 mg/dL 0.60 - 1.20
+TSH 8.07 µUI/mL 0.40 – 4.00
+Glicose 80 mg/dl 70 - 99
+WBC 7.8 mil/mm³ 4.0 - 11.0
+Na 127 mmol/L 136 – 145
+Liberado em 2026-08-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

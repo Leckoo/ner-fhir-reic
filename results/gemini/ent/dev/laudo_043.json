@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"92\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"467\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"COLESTEROL TOTAL\",\n      \"valor\": \"254\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"CREATININA\",\n      \"valor\": \"0,54\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS - GLOBAL\",\n      \"valor\": \"7,3\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 a 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 3.5998244285583496,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 411,
+ "tokens_saida": 287,
+ "tokens_total": 698
+}

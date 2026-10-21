@@ -1,0 +1,102 @@
+{
+  "id": "laudo_077",
+  "paciente": "Patrícia Ramos",
+  "nascimento": "1988-06-11",
+  "data": "2026-05-04",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 28.6,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "28,6",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "rotulo_visto": true,
+      "valor": 140.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "140",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatininemia",
+      "rotulo_visto": false,
+      "valor": 1.31,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,31",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 – 1,20"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetograma",
+      "rotulo_visto": false,
+      "valor": 416.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "416",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 - 450"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 6.0,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,0",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 a 5,1"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "rotulo_visto": true,
+      "valor": 16.0,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "16,0",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 – 14,5"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicemia de jejum",
+      "rotulo_visto": true,
+      "valor": 70.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "70",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    }
+  ]
+}

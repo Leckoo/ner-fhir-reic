@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"2,23\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5,1\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"0,62\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 - 4,00\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"242\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"5,99\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 – 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 6.362233400344849,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 372,
+ "tokens_saida": 295,
+ "tokens_total": 667
+}

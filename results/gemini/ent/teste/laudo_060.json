@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"89\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"SGPT\",\n      \"valor\": \"54\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"27,8\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"270a 32,0\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrito\",\n      \"valor\": \"42,2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"66\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Colesterol sérico\",\n      \"valor\": \"180\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 10.26407265663147,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 359,
+ "tokens_saida": 322,
+ "tokens_total": 681
+}

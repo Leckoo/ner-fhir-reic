@@ -1,0 +1,13 @@
+LABSUL DIAGNOSTICOS (FICTICIO)
+CNES 4931945 - RESP. TECNICO: DR(A). FULANO DE TAL - CRBM 3429
+PACIENTE: VANIA LOPES NASCIMENTO: 1944-03-24
+DATA: 2026-01-24 SOLICITANTE: DR(A). EXEMPLO
+HEMATOCRITO ................: 47.1 % (VR: 36.0 a 48.0)
+ALT ........................: 82 U/L (VR: ATE 41)
+COLESTEROL .................: 308 mg/dL (VR: ATE 190)
+HB .........................: 16.8 g/ dL (VR: 12.0 - 16.0)
+MCHC .......................: 33.4 g/dL (VR: 32.0 - 36.0)
+TG .........................: 90 mg/dl (VR: < 150)
+RDW-CV .....................: 11.3 % (VR: 11.5 a 14.5)
+POTASSIO ...................: 3.1 mEq/L (VR: 3.5 - 5.1)
+LIBERADO EM 2026-01-24. ASSINADO ELETRONICAMENTE. INTERPRETACAO A CRITERIO MEDICO. PAG. 1 DE 1

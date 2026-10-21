@@ -1,0 +1,20 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4483195 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6200
+Paciente: Bruno Lima Nascimento: 1941-02-14
+Data: 2026-05-01 Solicitante: Dr(a). Exemplo
+HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 40,2 %
+Valor de referência: 36,0 — 48,0
+RDW
+Material: Sangue Método: Automatizado
+Resultado: 16,2 %
+Valor de referência: 11,5 a 14,5
+WBC
+Resultado: 14,9 mil/mm?
+Valor de referência: 4,0 — 1 1,0
+cT
+Material: Sangue Método: Automatizado
+Resultado: 262 mg/dl
+Valor de referência: < 190
+Liberado em 2026-05-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

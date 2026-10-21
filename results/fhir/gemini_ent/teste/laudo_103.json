@@ -1,0 +1,401 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Diego Rocha"
+     }
+    ],
+    "birthDate": "1956-07-17"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bcb79110-82c3-5593-8316-a3fa912c6076",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 10.1,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:def77836-461f-5a85-845a-ab2f66a7b14a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 2.29,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c44fd432-052c-55b1-ac54-afd59d22a523",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 26.5,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 270.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a110647b-3933-56a3-b4a9-a25ea088ad4c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Determinação do hematócrito"
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 41.4,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c853737c-40cc-5094-b36d-81749b6f39ab",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 130.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2c24750e-91e9-5273-a669-1137b86971bf",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 3.91
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5ac85fb0-4084-58dc-8279-3ea9bad02b22",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "valueQuantity": {
+     "value": 3.62
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4
+      },
+      "high": {
+       "value": 4.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:31e9ea63-1195-5d12-a06c-84b7e6380760",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2987e0c-4f1e-546b-a812-fa78ae986cb4"
+    },
+    "effectiveDateTime": "2026-07-12",
+    "result": [
+     {
+      "reference": "urn:uuid:bcb79110-82c3-5593-8316-a3fa912c6076"
+     },
+     {
+      "reference": "urn:uuid:def77836-461f-5a85-845a-ab2f66a7b14a"
+     },
+     {
+      "reference": "urn:uuid:c44fd432-052c-55b1-ac54-afd59d22a523"
+     },
+     {
+      "reference": "urn:uuid:a110647b-3933-56a3-b4a9-a25ea088ad4c"
+     },
+     {
+      "reference": "urn:uuid:c853737c-40cc-5094-b36d-81749b6f39ab"
+     },
+     {
+      "reference": "urn:uuid:2c24750e-91e9-5273-a669-1137b86971bf"
+     },
+     {
+      "reference": "urn:uuid:5ac85fb0-4084-58dc-8279-3ea9bad02b22"
+     }
+    ]
+   }
+  }
+ ]
+}

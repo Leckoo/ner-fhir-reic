@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"28,4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS - GLOBAL\",\n      \"valor\": \"3.500\",\n      \"unidade\": \"/mmº\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"1,85\",\n      \"unidade\": \"uUI/mL\",\n      \"faixa\": \"0,40 a 4,00\"\n    },\n    {\n      \"exame\": \"TRIGLICERÍDEOS\",\n      \"valor\": \"356\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"27\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"30,4\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"NA\",\n      \"valor\": \"149\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 — 145\"\n    }\n  ]\n}",
+ "latencia_s": 1.8557069301605225,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 514,
+ "tokens_saida": 398,
+ "tokens_total": 912
+}

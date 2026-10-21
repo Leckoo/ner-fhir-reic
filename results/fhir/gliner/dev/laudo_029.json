@@ -1,0 +1,152 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:6a57dd99-a07e-5546-9a03-f9e54e9bbd63",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Patrícia Ramos"
+     }
+    ],
+    "birthDate": "1949-10-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:96cf5846-021f-5e39-8cab-79c213e21972",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6a57dd99-a07e-5546-9a03-f9e54e9bbd63"
+    },
+    "effectiveDateTime": "2026-03-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:85980513-1d12-50ea-8a88-29f44162bd4d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6a57dd99-a07e-5546-9a03-f9e54e9bbd63"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:056e4887-00d4-59a4-95d8-b06792ce8b3e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6a57dd99-a07e-5546-9a03-f9e54e9bbd63"
+    },
+    "effectiveDateTime": "2026-03-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:929945c1-38e6-5002-92a7-e2255c385fcb",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6a57dd99-a07e-5546-9a03-f9e54e9bbd63"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "result": [
+     {
+      "reference": "urn:uuid:96cf5846-021f-5e39-8cab-79c213e21972"
+     },
+     {
+      "reference": "urn:uuid:85980513-1d12-50ea-8a88-29f44162bd4d"
+     },
+     {
+      "reference": "urn:uuid:056e4887-00d4-59a4-95d8-b06792ce8b3e"
+     }
+    ]
+   }
+  }
+ ]
+}

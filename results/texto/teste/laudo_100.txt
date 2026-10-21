@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 5931350 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6879
+Paciente: Marcos Antônio Vieira Nascimento: 1943-12-06
+Data: 2026-08-26 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+RBC 5,53 x10^6/µL 4,20 - 5,40
+AST 71 U/L < 40
+K 5,8 mmol/L 3,5 - 5,1
+Plaquetograma 135.000 /mm³ 150.000 - 450.000
+Liberado em 2026-08-26. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:8b8e28cd-b578-571a-b95c-56b218260d0f",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Bruno Lima"
+     }
+    ],
+    "birthDate": "1992-02-17"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f04c0a92-354b-53e8-9014-6a8ec6fc664b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:8b8e28cd-b578-571a-b95c-56b218260d0f"
+    },
+    "effectiveDateTime": "2026-05-01",
+    "valueQuantity": {
+     "value": 27.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e16236c5-14ea-5fd3-a5c9-369199f6c9e1",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:8b8e28cd-b578-571a-b95c-56b218260d0f"
+    },
+    "effectiveDateTime": "2026-05-01",
+    "result": [
+     {
+      "reference": "urn:uuid:f04c0a92-354b-53e8-9014-6a8ec6fc664b"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 6174415 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2051
+Paciente: Otávio Pereira Nascimento: 1957-09-21
+Data: 2026-09-16 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Plaquetograma 111 x10³/µL 150 a 450
+Determinação do hematócrito 42.9 % 36.0 - 48.0
+MCV 89.3 fl 80.0 – 100.0
+Glicose de jejum 179 mg/dL 70 - 99
+Colesterol total 175 mg/dL Até 190
+Leucócitos - Global 16.600 /mm³ 4.000 - 11.000
+Liberado em 2026-09-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

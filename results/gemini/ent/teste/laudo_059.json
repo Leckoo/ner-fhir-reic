@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"111\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"Determinação do hematócrito\",\n      \"valor\": \"42.9\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36.0 - 48.0\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"89.3\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 – 100.0\"\n    },\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"179\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"175\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"16.600\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 - 11.000\"\n    }\n  ]\n}",
+ "latencia_s": 4.47099232673645,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 395,
+ "tokens_saida": 354,
+ "tokens_total": 749
+}

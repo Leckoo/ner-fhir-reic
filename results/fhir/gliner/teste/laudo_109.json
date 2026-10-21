@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:f3efe1f4-c889-5b0e-b910-8aa1839a800a",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Hugo Reis"
+     }
+    ],
+    "birthDate": "1968-01-10"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5a6398f1-eb7c-599c-a818-d608a9a193c5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f3efe1f4-c889-5b0e-b910-8aa1839a800a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "valueQuantity": {
+     "value": 14.2
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1d71f8ab-bfd5-58d9-84f9-dcceda2a572e",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:f3efe1f4-c889-5b0e-b910-8aa1839a800a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "result": [
+     {
+      "reference": "urn:uuid:5a6398f1-eb7c-599c-a818-d608a9a193c5"
+     }
+    ]
+   }
+  }
+ ]
+}

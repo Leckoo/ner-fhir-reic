@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6578260 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5465
+Paciente: Fábio Nunes Nascimento: 1965-07-05
+Data: 2026-03-01 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Contagem de plaquetas 433 x10³/µL 150 – 450
+Determinação do hematócrit 42,0 % 36,0 - 48,0
+TG 46 mg/dL Até 150
+WBC 13.500 /mm³ 4.000 – 11.000
+Colesterol sérico 157 mg/dL Até 190
+TSH 3,68 mUI/L 0,40 a 4,00
+Glicose em jejum 247 mg/dl 70 a 99
+Liberado em 2026-03-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

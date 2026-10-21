@@ -1,0 +1,10 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 2069822 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8230
+Paciente: Otávio Pereira Nascimento: 1952-08-11
+Data: 2026-02-12 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Triglicerídeos 362 mg/dL Até 150
+Glicose em jejum 237 mg/dl 70 - 99
+Transaminase glutâmico pir 10 U/L < 41
+Concentração de hemoglobin 32.2 g/dL 32.0 a 36.0
+Liberado em 2026-02-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

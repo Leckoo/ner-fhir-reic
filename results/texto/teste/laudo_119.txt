@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 1488837 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2014
+Paciente: Gabriela Melo Nascimento: 1944-02-16
+Data: 2026-03-12 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Creatininemia 0,65 mg/dl 0,60 – 1,20
+K 4,0 mEq/L 3,5 - 5,1
+MCH 33,2 pg 27,0 a 32,0
+Leucócitos 9.000 /mm³ 4.000 – 11.000
+MCV 79,3 fL 80,0 - 100,0
+MCHC 31,6 g/dl 32,0 - 36,0
+Na 138 mmol/L 136 – 145
+Liberado em 2026-03-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

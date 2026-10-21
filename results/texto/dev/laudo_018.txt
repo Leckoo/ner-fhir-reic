@@ -1,0 +1,21 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 6064028 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1560
+Paciente: Diego Rocha Nascimento: 1966-07-28
+Data: 2026-03-02 Solicitante: Dr(a). Exemplo
+HCT
+Material: Sangue Método: Automatizado
+Resultado: 30,7 %
+Valor de referência: 36,0 - 48,0
+HEMÁCIAS
+Material: Sangue Método: Automatizado
+Resultado: 4,86 x10^6/µL
+Valor de referência: 4,20 - 5,40
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 148 mEq/L
+Valor de referência: 136 - 145
+POTÁSSIO
+Material: Sangue Método: Automatizado
+Resultado: 3,1 mEq/L
+Valor de referência: 3,5 - 5,1
+Liberado em 2026-03-02. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

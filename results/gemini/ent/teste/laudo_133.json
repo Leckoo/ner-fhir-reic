@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HB\",\n      \"valor\": \"9,9\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"32,5\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"POTÁSSIO\",\n      \"valor\": \"4,2\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 a 5,1\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"79,9\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITRÓCITOS\",\n      \"valor\": \"6,31\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"30,2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 – 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 4.149997234344482,
+ "tentativas": 4,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 491,
+ "tokens_saida": 356,
+ "tokens_total": 847
+}

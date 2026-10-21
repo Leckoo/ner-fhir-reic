@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"48\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"101.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 – 450.000\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5.5\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3.5 - 5.1\"\n    },\n    {\n      \"exame\": \"CREATININA\",\n      \"valor\": \"1.10\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0.60 - 1.20\"\n    }\n  ]\n}",
+ "latencia_s": 6.529416799545288,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 412,
+ "tokens_saida": 239,
+ "tokens_total": 651
+}

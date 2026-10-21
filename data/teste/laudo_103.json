@@ -1,0 +1,102 @@
+{
+  "id": "laudo_103",
+  "paciente": "Diego Rocha",
+  "nascimento": "1956-07-17",
+  "data": "2026-07-12",
+  "layout": "tabela",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 10.1,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "10.1",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12.0 - 16.0"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatininemia",
+      "rotulo_visto": false,
+      "valor": 2.29,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "2.29",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0.60 - 1.20"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "rotulo_visto": true,
+      "valor": 26.5,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "26.5",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 a 32.0"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 41.4,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "41.4",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 – 48.0"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "rotulo_visto": true,
+      "valor": 130.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "130",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Hemácias",
+      "rotulo_visto": true,
+      "valor": 3.91,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3.91",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4.20 – 5.40"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 3.62,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3.62",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 a 4.00"
+    }
+  ]
+}

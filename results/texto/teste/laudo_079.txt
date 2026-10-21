@@ -1,0 +1,14 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7667480 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4670
+Paciente: Elisa Prado Nascimento: 1983-09-18
+Data: 2026-09-28 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+AST 105 U/L Até 40
+Creatininemia 1,47 mg/dl 0,60 - 1,20
+Contagem de eritrócitos 3,88 x10^6/µL 4,20 a 5,40
+Dosagem de hemoglobina 9,6 g/dL 12,0 – 16,0
+MCH 33,4 pg 27,0 – 32,0
+Contagem de plaquetas 149 mil/mm³ 150 – 450
+VCM 96,5 fl 80,0 – 100,0
+TSH 9,62 µUI/mL 0,40 a 4,00
+Liberado em 2026-09-28. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

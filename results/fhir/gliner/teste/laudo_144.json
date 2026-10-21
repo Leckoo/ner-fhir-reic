@@ -1,0 +1,176 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "ELISA PRADO"
+     }
+    ],
+    "birthDate": "2005-02-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4618a960-5b15-5140-8cff-91de34cf35a0",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6"
+    },
+    "effectiveDateTime": "2026-04-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f502ac0f-836d-5cfc-be38-1b1fa63b59aa",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CONTAGEM DE ERITROCITOS"
+    },
+    "subject": {
+     "reference": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6"
+    },
+    "effectiveDateTime": "2026-04-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:def1d0ce-613e-5311-a697-34d9b4a2ef46",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6"
+    },
+    "effectiveDateTime": "2026-04-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2a9ec878-b477-5041-ad6a-c070f2aef460",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6"
+    },
+    "effectiveDateTime": "2026-04-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2cc0fc1f-ae2d-5e5e-b1d3-aba6916ea66a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9ec12a0f-d6f9-57ab-8bfd-a7586dfd7ca6"
+    },
+    "effectiveDateTime": "2026-04-09",
+    "result": [
+     {
+      "reference": "urn:uuid:4618a960-5b15-5140-8cff-91de34cf35a0"
+     },
+     {
+      "reference": "urn:uuid:f502ac0f-836d-5cfc-be38-1b1fa63b59aa"
+     },
+     {
+      "reference": "urn:uuid:def1d0ce-613e-5311-a697-34d9b4a2ef46"
+     },
+     {
+      "reference": "urn:uuid:2a9ec878-b477-5041-ad6a-c070f2aef460"
+     }
+    ]
+   }
+  }
+ ]
+}

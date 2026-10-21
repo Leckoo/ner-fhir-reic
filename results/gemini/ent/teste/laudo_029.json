@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"POTÁSSIO NO SORO\",\n      \"valor\": \"2.8\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3.5 - 5.1\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"397\",\n      \"unidade\": \"mil/mm?\",\n      \"faixa\": \"150 — 450\"\n    },\n    {\n      \"exame\": \"TRIGLICERÍDEOS\",\n      \"valor\": \"65\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"126\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"HEMÁCIAS\",\n      \"valor\": \"4.55\",\n      \"unidade\": \"x1046/uL\",\n      \"faixa\": \"4.20 a 5.40\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"49\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    }\n  ]\n}",
+ "latencia_s": 14.93797755241394,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 483,
+ "tokens_saida": 349,
+ "tokens_total": 832
+}

@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 5508565 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5704
+Paciente: Carla Dias Nascimento: 1995-04-27
+Data: 2026-07-22 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Leucócitos 13,5 mil/mm³ 4,0 - 11,0
+ALT 96 U/L < 41
+Kalemia 3,2 mmol/L 3,5 a 5,1
+RDW-CV 11,8 % 11,5 a 14,5
+Dosagem de creatinina 1,82 mg/dL 0,60 a 1,20
+Liberado em 2026-07-22. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,158 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:474691cf-3778-53b3-8825-91e5d7d91608",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "HUGO REIS"
+     }
+    ],
+    "birthDate": "1969-03-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e72c5495-6ab4-517b-abc9-cd421f5b40a7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:474691cf-3778-53b3-8825-91e5d7d91608"
+    },
+    "effectiveDateTime": "2026-04-27",
+    "valueQuantity": {
+     "value": 55.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aadab223-c4df-5faa-a8f4-b3d4ff26a055",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:474691cf-3778-53b3-8825-91e5d7d91608"
+    },
+    "effectiveDateTime": "2026-04-27",
+    "valueQuantity": {
+     "value": 13.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aa83413a-59d8-5abe-8984-7b70fdced32d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:474691cf-3778-53b3-8825-91e5d7d91608"
+    },
+    "effectiveDateTime": "2026-04-27",
+    "valueQuantity": {
+     "value": 35.8
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aa1e9528-4656-564a-a292-1f9216e95eda",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:474691cf-3778-53b3-8825-91e5d7d91608"
+    },
+    "effectiveDateTime": "2026-04-27",
+    "result": [
+     {
+      "reference": "urn:uuid:e72c5495-6ab4-517b-abc9-cd421f5b40a7"
+     },
+     {
+      "reference": "urn:uuid:aadab223-c4df-5faa-a8f4-b3d4ff26a055"
+     },
+     {
+      "reference": "urn:uuid:aa83413a-59d8-5abe-8984-7b70fdced32d"
+     }
+    ]
+   }
+  }
+ ]
+}

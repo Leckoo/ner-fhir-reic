@@ -1,0 +1,13 @@
+LABSUL DIAGNOSTICOS (FICTICIO)
+CNES 3845783 - RESP. TECNICO: DR(A). FULANO DE TAL - CRBM 8653
+PACIENTE: TIAGO MONTEIRO NASCIMENTO: 2005-04-15
+DATA: 2026-01-09 SOLICITANTE: DR(A). EXEMPLO
+SODIO ......................: 141 mEq/L (VR: 136 – 145)
+CT .........................: 314 mg/dl (VR: < 190)
+GLICOSE ....................: 248 mg/dl (VR: 70 a 99)
+MCHC .......................: 32,8 g/dL (VR: 32,0 – 36,0)
+TRIGLICERIDEOS .............: 322 mg/dl (VR: ATE 150)
+TSH ........................: 3,56 µUI/mL (VR: 0,40 - 4,00)
+GLICOSE EM JEJUM ...........: 226 mg/dl (VR: 70 – 99)
+PLT ........................: 274 x10³/µL (VR: 150 - 450)
+LIBERADO EM 2026-01-09. ASSINADO ELETRONICAMENTE. INTERPRETACAO A CRITERIO MEDICO. PAG. 1 DE 1

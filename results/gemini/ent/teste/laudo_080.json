@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"82\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"LEUCOCITOS\",\n      \"valor\": \"9,1\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"12,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"CREATININA\",\n      \"valor\": \"1,82\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"36\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"35,6\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"TRIGLICERIDES\",\n      \"valor\": \"106\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    }\n  ]\n}",
+ "latencia_s": 13.626589298248291,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 473,
+ "tokens_saida": 412,
+ "tokens_total": 885
+}

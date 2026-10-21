@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 5486766 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6758
+Paciente: Sílvia Araújo Nascimento: 1965-01-02
+Data: 2026-08-12 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Ht 42,7 % 36,0 a 48,0
+Concentração de hemoglobin 30,9 g/dL 32,0 a 36,0
+Kalemia 4,4 mmol/L 3,5 - 5,1
+TG 69 mg/dl Até 150
+CREA 2,69 mg/dL 0,60 – 1,20
+Leucócitos - Global 16.800 /mm³ 4.000 a 11.000
+Liberado em 2026-08-12. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,86 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:0aedfff6-694b-5bd4-80e6-8df6ecf37eab",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Patrícia Ramos"
+     }
+    ],
+    "birthDate": "1945-08-01"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ae956f98-617e-5dff-b8e3-180e19719ea1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:0aedfff6-694b-5bd4-80e6-8df6ecf37eab"
+    },
+    "effectiveDateTime": "2026-06-08",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0cf06bcb-0ae2-5b2a-83b1-f7f413b0d565",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:0aedfff6-694b-5bd4-80e6-8df6ecf37eab"
+    },
+    "effectiveDateTime": "2026-06-08",
+    "result": [
+     {
+      "reference": "urn:uuid:ae956f98-617e-5dff-b8e3-180e19719ea1"
+     }
+    ]
+   }
+  }
+ ]
+}

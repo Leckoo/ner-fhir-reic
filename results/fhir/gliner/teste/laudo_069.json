@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Íris Campos"
+     }
+    ],
+    "birthDate": "1991-08-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2e097290-2337-5464-abd8-ab17797407d1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 0.4
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:450cccb0-e1b7-5abc-bc89-42c3729e8b82",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "result": [
+     {
+      "reference": "urn:uuid:2e097290-2337-5464-abd8-ab17797407d1"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Sódio no soro\",\n      \"valor\": \"127\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"0,47\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"30,8\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"URE\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"71,0\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 – 100,0\"\n    },\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"77\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    }\n  ]\n}",
+ "latencia_s": 12.838460922241211,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 380,
+ "tokens_saida": 341,
+ "tokens_total": 721
+}

@@ -1,0 +1,102 @@
+{
+  "id": "laudo_094",
+  "paciente": "Otávio Pereira",
+  "nascimento": "1969-05-02",
+  "data": "2026-08-14",
+  "layout": "legado",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HB",
+      "rotulo_visto": true,
+      "valor": 17.0,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "17.0",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12.0 – 16.0"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE ERITROCITOS",
+      "rotulo_visto": false,
+      "valor": 4.51,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4.51",
+      "texto_unidade": "milhoes/mm³",
+      "texto_faixa": "4.20 - 5.40"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UREIA",
+      "rotulo_visto": true,
+      "valor": 57.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "57",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 – 45"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "PLT",
+      "rotulo_visto": true,
+      "valor": 377.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "377",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "DOSAGEM DE TRIGLICERIDEOS",
+      "rotulo_visto": false,
+      "valor": 64.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "64",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "ATE 150"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICOSE DE JEJUM",
+      "rotulo_visto": true,
+      "valor": 242.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "242",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "HORMONIO TIROTROFICO",
+      "rotulo_visto": false,
+      "valor": 0.34,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0.34",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 - 4.00"
+    }
+  ]
+}

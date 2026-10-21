@@ -1,0 +1,29 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7096478 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6769
+Paciente: Diego Rocha Nascimento: 1991-04-26
+Data: 2026-06-05 Solicitante: Dr(a). Exemplo
+MCHC
+Material: Sangue Método: Automatizado
+Resultado: 31,6 g/dl
+Valor de referência: 32,0 - 36,0
+CONTAGEM DE LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 8,7 mil/mm³
+Valor de referência: 4,0 - 11,0
+VOLUME CORPUSCULAR MÉDIO
+Material: Sangue Método: Automatizado
+Resultado: 76,4 fl
+Valor de referência: 80,0 – 100,0
+HT
+Material: Sangue Método: Automatizado
+Resultado: 30,6 %
+Valor de referência: 36,0 – 48,0
+URE
+Material: Sangue Método: Automatizado
+Resultado: 72 mg/dL
+Valor de referência: 15 - 45
+GLI
+Material: Sangue Método: Automatizado
+Resultado: 191 mg/dL
+Valor de referência: 70 a 99
+Liberado em 2026-06-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:328c276b-c1f3-5f13-8d83-1c0d18f7e3fc",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Diego Rocha"
+     }
+    ],
+    "birthDate": "1944-05-20"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:807d4652-2b75-5404-aa78-7b345ca8ff92",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:328c276b-c1f3-5f13-8d83-1c0d18f7e3fc"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:62ea8929-dfe2-592a-9864-c7715736260c",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:328c276b-c1f3-5f13-8d83-1c0d18f7e3fc"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "result": [
+     {
+      "reference": "urn:uuid:807d4652-2b75-5404-aa78-7b345ca8ff92"
+     }
+    ]
+   }
+  }
+ ]
+}

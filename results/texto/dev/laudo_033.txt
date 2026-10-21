@@ -1,0 +1,14 @@
+LabSul Diagnósticos (fictício)
+CNES 5278352 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5133
+Paciente: Tiago Monteiro Nascimento: 1990-08-04
+Data: 2026-02-08 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Hematócrito 53.8 % 36.0 - 48.0
+Uréia 68 mg/dl 15 a 45
+RBC 6.45 x10^6/µL 4.20 – 5.40
+MCV 104.7 fl 80.0 - 100.0
+Potássio 5.4 mEq/L 3.5 a 5.1
+Dosagem de hemoglobina 12.2 g/dl 12.0 a 16.0
+PLT 197.000 /mm³ 150.000 a 450.000
+Sódio 135 mEq/L 136 a 145
+Liberado em 2026-02-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

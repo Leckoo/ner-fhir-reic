@@ -1,0 +1,77 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d5d0b90e-0158-5ed0-a321-532d59b8b695",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Íris Campos"
+     }
+    ],
+    "birthDate": "1966-03-13"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a362e177-8599-5b21-ab84-0b71df9118a1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sódio no soro"
+    },
+    "subject": {
+     "reference": "urn:uuid:d5d0b90e-0158-5ed0-a321-532d59b8b695"
+    },
+    "effectiveDateTime": "2026-08-06"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e9fcd397-c0bd-58de-813f-32afd3c96cdf",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d5d0b90e-0158-5ed0-a321-532d59b8b695"
+    },
+    "effectiveDateTime": "2026-08-06",
+    "result": [
+     {
+      "reference": "urn:uuid:a362e177-8599-5b21-ab84-0b71df9118a1"
+     }
+    ]
+   }
+  }
+ ]
+}

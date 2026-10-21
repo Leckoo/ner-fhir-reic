@@ -1,0 +1,102 @@
+{
+  "id": "laudo_090",
+  "paciente": "Rafael Conceição",
+  "nascimento": "1988-04-15",
+  "data": "2026-03-09",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 4.6,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "4,6",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 a 5,1"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Leucócitos - Global",
+      "rotulo_visto": true,
+      "valor": 4.2,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "4,2",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 - 11,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TGL",
+      "rotulo_visto": false,
+      "valor": 284.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "284",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Na",
+      "rotulo_visto": true,
+      "valor": 131.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "131",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 - 145"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "rotulo_visto": true,
+      "valor": 158.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "158",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 72.5,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "72,5",
+      "texto_unidade": "fL",
+      "texto_faixa": "80,0 a 100,0"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 17.6,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "17,6",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 a 16,0"
+    }
+  ]
+}

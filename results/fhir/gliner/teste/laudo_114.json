@@ -1,0 +1,188 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "BRUNO LIMA"
+     }
+    ],
+    "birthDate": "2004-02-28"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0591a026-5a25-58ea-91a8-6f0fecdd9c21",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69"
+    },
+    "effectiveDateTime": "2026-07-26"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8c4f3e30-a9ee-5fe9-b2f1-9fd46caa256b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69"
+    },
+    "effectiveDateTime": "2026-07-26",
+    "valueQuantity": {
+     "value": 9.1
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ca844306-d459-55c6-a1c6-de47568ac929",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69"
+    },
+    "effectiveDateTime": "2026-07-26",
+    "valueQuantity": {
+     "value": 35.7
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a20021e6-18c7-5f28-864a-c71c5012454b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69"
+    },
+    "effectiveDateTime": "2026-07-26"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1f3befb6-6e1c-5b4a-aea0-d8ce1953b968",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d56df4ad-fad8-55c2-8a6b-4f8523eeff69"
+    },
+    "effectiveDateTime": "2026-07-26",
+    "result": [
+     {
+      "reference": "urn:uuid:0591a026-5a25-58ea-91a8-6f0fecdd9c21"
+     },
+     {
+      "reference": "urn:uuid:8c4f3e30-a9ee-5fe9-b2f1-9fd46caa256b"
+     },
+     {
+      "reference": "urn:uuid:ca844306-d459-55c6-a1c6-de47568ac929"
+     },
+     {
+      "reference": "urn:uuid:a20021e6-18c7-5f28-864a-c71c5012454b"
+     }
+    ]
+   }
+  }
+ ]
+}

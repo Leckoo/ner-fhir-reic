@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"103.5\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 – 100.0\"\n    },\n    {\n      \"exame\": \"CT\",\n      \"valor\": \"146\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"13.500\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"147\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14.6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 a 14.5\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"30.9\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32.0 a 36.0\"\n    }\n  ]\n}",
+ "latencia_s": 17.096264600753784,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 389,
+ "tokens_saida": 346,
+ "tokens_total": 735
+}

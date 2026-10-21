@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 6960980 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9251
+Paciente: Elisa Prado Nascimento: 1950-10-09
+Data: 2026-03-06 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+CREA 1,51 mg/dL 0,60 – 1,20
+Glicose de jejum 234 mg/dl 70 a 99
+MCHC 34,8 g/dL 32,0 - 36,0
+Contagem de plaquetas 494 x10³/µL 150 – 450
+Potássio 5,5 mEq/L 3,5 - 5,1
+Liberado em 2026-03-06. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

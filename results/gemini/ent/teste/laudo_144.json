@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"16\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"5.33\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4.20 – 5.40\"\n    },\n    {\n      \"exame\": \"AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS\",\n      \"valor\": \"13.2\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 - 14.5\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"132\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    }\n  ]\n}",
+ "latencia_s": 2.3286688327789307,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 387,
+ "tokens_saida": 246,
+ "tokens_total": 633
+}

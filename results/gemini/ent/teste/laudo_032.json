@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Ureia\",\n      \"valor\": \"56\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 – 45\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"86\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"13.500\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"Dosagem de colesterol tota\",\n      \"valor\": \"147\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"119\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    }\n  ]\n}",
+ "latencia_s": 5.9172539710998535,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 360,
+ "tokens_saida": 290,
+ "tokens_total": 650
+}

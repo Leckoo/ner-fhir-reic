@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:2abd75df-dd20-5bac-9233-9c6a180cbc5c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Vânia Lopes"
+     }
+    ],
+    "birthDate": "1972-04-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a9c9e1d9-022d-512b-8e6d-4385dacdaef6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "m3édia"
+    },
+    "subject": {
+     "reference": "urn:uuid:2abd75df-dd20-5bac-9233-9c6a180cbc5c"
+    },
+    "effectiveDateTime": "2026-01-21",
+    "valueQuantity": {
+     "value": 32.0,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:03b119f4-cf60-578e-b521-53062f3399fa",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:2abd75df-dd20-5bac-9233-9c6a180cbc5c"
+    },
+    "effectiveDateTime": "2026-01-21",
+    "result": [
+     {
+      "reference": "urn:uuid:a9c9e1d9-022d-512b-8e6d-4385dacdaef6"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"131.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 - 450.000\"\n    },\n    {\n      \"exame\": \"Hemoglobina corpuscular mé\",\n      \"valor\": \"30,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"75\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"Colesterol total\",\n      \"valor\": \"317\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"3,6\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3,5 – 5,1\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"142\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"Leucócitos - Global\",\n      \"valor\": \"4.100\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 a 11.000\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"31,3\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 – 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 5.858680963516235,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 444,
+ "tokens_saida": 468,
+ "tokens_total": 912
+}

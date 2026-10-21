@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 5125504 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4405
+Paciente: Natália Gomes Nascimento: 1962-04-10
+Data: 2026-06-24 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+CREA 2,23 mg/dL 0,60 a 1,20
+K 5,1 mmol/L 3,5 - 5,1
+Tireotrofina 0,62 µUI/mL 0,40 - 4,00
+Glicose 242 mg/dL 70 – 99
+Hemácias 5,99 x10^6/µL 4,20 – 5,40
+Liberado em 2026-06-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMATÓCRITO\",\n      \"valor\": \"35,8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"12,5\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS\",\n      \"valor\": \"11,5\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 a 11,0\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"6,34\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 – 5,40\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"32,5\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"82\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"224.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"VOLUME CORPUSCULAR MÉDIO\",\n      \"valor\": \"76,8\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 – 100,0\"\n    }\n  ]\n}",
+ "latencia_s": 6.362476110458374,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 575,
+ "tokens_saida": 477,
+ "tokens_total": 1052
+}

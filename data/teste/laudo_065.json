@@ -1,0 +1,102 @@
+{
+  "id": "laudo_065",
+  "paciente": "Elisa Prado",
+  "nascimento": "1949-04-04",
+  "data": "2026-07-28",
+  "layout": "colunas",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Hormônio tireoestimulante",
+      "rotulo_visto": false,
+      "valor": 4.94,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "4,94",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 - 4,00"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "rotulo_visto": true,
+      "valor": 213.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "213",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 – 99"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "rotulo_visto": true,
+      "valor": 6.2,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,2",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 – 5,1"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "rotulo_visto": true,
+      "valor": 6.23,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "6,23",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 a 5,40"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "rotulo_visto": true,
+      "valor": 30.8,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "30,8",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 – 48,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TGL",
+      "rotulo_visto": false,
+      "valor": 250.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "250",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "rotulo_visto": true,
+      "valor": 35.0,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "35,0",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0"
+    }
+  ]
+}

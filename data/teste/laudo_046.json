@@ -1,0 +1,89 @@
+{
+  "id": "laudo_046",
+  "paciente": "Rafael Conceição",
+  "nascimento": "1983-12-10",
+  "data": "2026-08-17",
+  "layout": "tabela",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 6.2,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,2",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 a 5,1"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase oxalacética",
+      "rotulo_visto": true,
+      "valor": 24.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "24",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Eritrócitos",
+      "rotulo_visto": true,
+      "valor": 4.1,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4,10",
+      "texto_unidade": "milhões/mm³",
+      "texto_faixa": "4,20 a 5,40"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 11.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "11,9",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 a 16,0"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 90.1,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "90,1",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 - 100,0"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol",
+      "rotulo_visto": true,
+      "valor": 201.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "201",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    }
+  ]
+}

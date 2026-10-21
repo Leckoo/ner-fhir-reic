@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"126\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"136.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 a 450.000\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"47\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    },\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"86\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"3,99\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 – 5,40\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"31,3\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 3.221937894821167,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 454,
+ "tokens_saida": 357,
+ "tokens_total": 811
+}

@@ -1,0 +1,122 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Íris Campos"
+     }
+    ],
+    "birthDate": "1999-08-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fdacebc6-371a-5fd0-a7e9-53bc5ad141be",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "effectiveDateTime": "2026-04-03",
+    "valueQuantity": {
+     "value": 14.1
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:89ef3dc4-184b-5669-b8a5-704ab07e7e67",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "effectiveDateTime": "2026-04-03",
+    "valueQuantity": {
+     "value": 1.77
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c3c08441-39ca-563e-9bc7-09df6ab26d18",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "effectiveDateTime": "2026-04-03",
+    "result": [
+     {
+      "reference": "urn:uuid:fdacebc6-371a-5fd0-a7e9-53bc5ad141be"
+     },
+     {
+      "reference": "urn:uuid:89ef3dc4-184b-5669-b8a5-704ab07e7e67"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"14,0\",\n      \"unidade\": \"qg/ dz\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"75\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"141\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"31,2\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"17,0\",\n      \"unidade\": \"3\",\n      \"faixa\": \"11;:5: = 18,8\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5,9\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5:= '5;1\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"131\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"Leucócitos\",\n      \"valor\": \"6,0\",\n      \"unidade\": \"mil/mmº\",\n      \"faixa\": \"4,0 a 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 16.349633932113647,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 416,
+ "tokens_saida": 439,
+ "tokens_total": 855
+}

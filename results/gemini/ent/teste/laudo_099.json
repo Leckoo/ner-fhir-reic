@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"30,8\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"92,7\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"SODIO NO SORO\",\n      \"valor\": \"128\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"GLICOSE\",\n      \"valor\": \"171\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"RDW\",\n      \"valor\": \"16,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"164\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"107\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 – 450\"\n    }\n  ]\n}",
+ "latencia_s": 7.325071334838867,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 470,
+ "tokens_saida": 408,
+ "tokens_total": 878
+}

@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 4775340 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2442
+Paciente: Íris Campos Nascimento: 1979-05-16
+Data: 2026-05-16 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Potássio 5.5 mmol/L 3.5 – 5.1
+CREA 0.55 mg/dL 0.60 - 1.20
+Transaminase pirúvica 99 U/L Até 41
+WBC 9.900 /mm³ 4.000 - 11.000
+Glicemia de jejum 229 mg/dL 70 – 99
+Liberado em 2026-05-16. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

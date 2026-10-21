@@ -1,0 +1,18 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+
+CNES 5648680 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1803
+
+Paciente: Marcos Antônio Vieira Nascimento: 1963-02-05
+
+Data: 2026-05-27 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+Sódio 132 mmol/L 136 - 145
+
+Ht 40.7 4 36.0 - 48.0
+
+Tireotrofina 5.45 qUI/mL 0.40 - 4.00
+
+RDW-CV PDS 13.5 — 14,3
+
+Liberado em 2026-05-27. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

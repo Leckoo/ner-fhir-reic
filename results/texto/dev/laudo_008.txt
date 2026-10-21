@@ -1,0 +1,10 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 5923936 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3069
+Paciente: Ana Souza Nascimento: 1949-05-18
+Data: 2026-04-13 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Eritrócitos 4,64 milhões/mm³ 4,20 a 5,40
+Hemoglobina 16,0 g/ dL 12,0 - 16,0
+TGO 28 U/L Até 40
+Glicose 118 mg/dl 70 – 99
+Liberado em 2026-04-13. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

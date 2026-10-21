@@ -1,0 +1,14 @@
+LabSul Diagnósticos (fictício)
+CNES 5161451 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7361
+Paciente: Fábio Nunes Nascimento: 2002-08-10
+Data: 2026-09-08 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Creatinina 1,93 mg/dl 0,60 a 1,20
+Ht 28,5 4% 36,0 - 48,0
+Contagem de eritrócitos 5,65 x10"6/pL 4,20 - 5,40
+CHCM 32,3 g/dl 32,0 - 36,0
+Na 136 mEq/L 136 a 145
+Plaquetas 332 x10º/pL 150 a 450
+TSH ultra sensível 8,95 mUI/L 0,40 - 4,00
+Colesterol total 123 mg/dL < 190
+Liberado em 2026-09-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

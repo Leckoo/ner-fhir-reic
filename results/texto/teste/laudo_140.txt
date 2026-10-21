@@ -1,0 +1,18 @@
+LabSul Diagnósticos (fictício)
+
+CNES 1135070 - Resp. Técnico: Dr(a). Fulano de Tal — CRBM 5046
+
+Paciente: João Batista Moura Nascimento: 1970-03-05
+
+Data: 2026-04-02 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+Glicose no soro 190 mg/dl 70 a 99
+
+Eritrócitos 3,15 milhões/mm' 4,20 a 5,40
+
+Dosagem de triglicerídeos 291 mg/dL < 150
+
+Amplitude de distribuição 17,3 &% 11,58: — 14;5
+
+Liberado em 2026-04-02. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

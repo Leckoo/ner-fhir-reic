@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HEMACIAS\",\n      \"valor\": \"3.46\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4.20 a 5.40\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE LEUCOCITOS\",\n      \"valor\": \"12.300\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"4.000 – 11.000\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE OXALACETICA\",\n      \"valor\": \"56\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"TIROTROPINA\",\n      \"valor\": \"5.99\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 a 4.00\"\n    },\n    {\n      \"exame\": \"CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA\",\n      \"valor\": \"33.6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32.0 a 36.0\"\n    }\n  ]\n}",
+ "latencia_s": 1.4844918251037598,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 438,
+ "tokens_saida": 322,
+ "tokens_total": 760
+}

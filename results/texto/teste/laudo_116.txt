@@ -1,0 +1,25 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 4118684 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 7925
+Paciente: Diego Rocha Nascimento: 1946-03-14
+Data: 2026-08-21 Solicitante: Dr(a). Exemplo
+TRIGLICERÍDEOS
+Material: Sangue Método: Automatizado
+Resultado: 168 mg/dl
+Valor de referência: < 150
+CHCM
+Material: Sangue Método: Automatizado
+Resultado: 36,8 g/dl
+Valor de referência: 32,0 - 36,0
+TRANSAMINASE PIRÚVICA
+Material: Sangue Método: Automatizado
+Resultado: 114 U/L
+Valor de referência: < 41
+GLICOSE
+Material: Sangue Método: Automatizado
+Resultado: 210 mg/dl
+Valor de referência: 70 - 99
+CREA
+Material: Sangue Método: Automatizado
+Resultado: 0,71 mg/dL
+Valor de referência: 0,60 - 1,20
+Liberado em 2026-08-21. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

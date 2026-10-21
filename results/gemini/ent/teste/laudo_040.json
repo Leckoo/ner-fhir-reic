@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"17,1\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 – 16,0\"\n    },\n    {\n      \"exame\": \"TRIGLICERÍDEOS\",\n      \"valor\": \"115\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"PLAQUETAS\",\n      \"valor\": \"260\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"152\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    }\n  ]\n}",
+ "latencia_s": 7.465077638626099,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 405,
+ "tokens_saida": 234,
+ "tokens_total": 639
+}

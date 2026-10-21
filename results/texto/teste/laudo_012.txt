@@ -1,0 +1,13 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 5315564 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6386
+Paciente: Íris Campos Nascimento: 1981-06-21
+Data: 2026-08-05 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+TSH 8,04 µUI/mL 0,40 a 4,00
+ALT 25 U/L < 41
+RDW 15,9 % 11,5 a 14,5
+HCM 34,9 pg 27,0 a 32,0
+Sódio no soro 139 mmol/L 136 – 145
+Dosagem de creatinina 2,26 mg/dL 0,60 a 1,20
+Contagem de eritrócitos 5,05 milhões/mm³ 4,20 – 5,40
+Liberado em 2026-08-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

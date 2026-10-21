@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"307\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"137\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"UR\",\n      \"valor\": \"14\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"11,7\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"9,52\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 – 4,00\"\n    },\n    {\n      \"exame\": \"Glicose de jejum\",\n      \"valor\": \"157\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"133\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    }\n  ]\n}",
+ "latencia_s": 5.349003553390503,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 384,
+ "tokens_saida": 382,
+ "tokens_total": 766
+}

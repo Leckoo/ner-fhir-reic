@@ -1,0 +1,11 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 7299548 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1122
+Paciente: Natália Gomes Nascimento: 1973-07-11
+Data: 2026-03-24 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+Leucócitos 16.3 x10³/µL 4.0 - 11.0
+Tireotrofina 9.17 mUI/L 0.40 – 4.00
+Dosagem de potássio 2.9 mmol/L 3.5 a 5.1
+Dosagem de creatinina 0.68 mg/dl 0.60 a 1.20
+HCM 28.2 pg 27.0 - 32.0
+Liberado em 2026-03-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

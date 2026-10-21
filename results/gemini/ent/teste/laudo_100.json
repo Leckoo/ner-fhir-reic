@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"5,53\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"71\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 40\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5,8\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"3,5 - 5,1\"\n    },\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"135.000\",\n      \"unidade\": \"/mm³\",\n      \"faixa\": \"150.000 - 450.000\"\n    }\n  ]\n}",
+ "latencia_s": 4.137335777282715,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 345,
+ "tokens_saida": 238,
+ "tokens_total": 583
+}

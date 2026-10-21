@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"28,0\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 - 32,0\"\n    },\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"1,62\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 - 1,20\"\n    },\n    {\n      \"exame\": \"Transaminase pirúvica\",\n      \"valor\": \"52\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"CHCM\",\n      \"valor\": \"32,2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 a 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 6.222013473510742,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 337,
+ "tokens_saida": 229,
+ "tokens_total": 566
+}

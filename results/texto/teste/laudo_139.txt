@@ -1,0 +1,21 @@
+LabSul Diagnósticos (fictício)
+CNES 9440258 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8335
+Paciente: Fábio Nunes Nascimento: 1940-04-21
+Data: 2026-05-20 Solicitante: Dr(a). Exemplo
+ALT
+Material: Sangue Método: Automatizado
+Resultado: 40 U/L
+Valor de referência: < 41
+TGO
+Material: Sangue Método: Automatizado
+Resultado: 53 U/L
+Valor de referência: < 40
+RDW-CV
+Material: Sangue Método: Automatizado
+Resultado: 12,4 %
+Valor de referência: 11,5 - 14,5
+UREIA
+Material: Sangue Método: Automatizado
+Resultado: 60 mg/dl
+Valor de referência: 15 - 45
+Liberado em 2026-05-20. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

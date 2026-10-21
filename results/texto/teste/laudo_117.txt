@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 3293152 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1006
+Paciente: Ana Souza Nascimento: 1955-10-15
+Data: 2026-06-23 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+CREA 0,95 mg/dl 0,60 - 1,20
+Concentração de hemoglobin 36,4 g/dL 32,0 a 36,0
+TGO 10 U/L < 40
+TSH 4,77 mUI/L 0,40 a 4,00
+HGB 16,5 g/dl 12,0 - 16,0
+Dosagem de triglicerídeos 346 mg/dL Até 150
+Liberado em 2026-06-23. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

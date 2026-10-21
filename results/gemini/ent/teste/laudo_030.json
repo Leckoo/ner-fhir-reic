@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"5.97\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4.20 a 5.40\"\n    },\n    {\n      \"exame\": \"Transaminase glutâmico pirúvica\",\n      \"valor\": \"29\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"Dosagem de hemoglobina\",\n      \"valor\": \"16.9\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12.0 - 16.0\"\n    },\n    {\n      \"exame\": \"Concentração de hemoglobina corpuscul3a5r .m7édia\",\n      \"valor\": null,\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32.0 a 36.0\"\n    },\n    {\n      \"exame\": \"Hormônio tirotrófico\",\n      \"valor\": \"4.46\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0.40 – 4.00\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"97.4\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80.0 – 100.0\"\n    }\n  ]\n}",
+ "latencia_s": 4.648752927780151,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 417,
+ "tokens_saida": 381,
+ "tokens_total": 798
+}

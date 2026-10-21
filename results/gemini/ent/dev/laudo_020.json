@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"85,9\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"35,1\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"GLICEMIA DE JEJUM\",\n      \"valor\": \"160\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"TIREOTROFINA\",\n      \"valor\": \"7,06\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0,40 – 4,00\"\n    },\n    {\n      \"exame\": \"NA\",\n      \"valor\": \"155\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"GLI\",\n      \"valor\": \"118\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 – 99\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"28,8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 - 48,0\"\n    },\n    {\n      \"exame\": \"LEUCÓCITOS - GLOBAL\",\n      \"valor\": \"11,0\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 a 11,0\"\n    }\n  ]\n}",
+ "latencia_s": 8.272351264953613,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 560,
+ "tokens_saida": 459,
+ "tokens_total": 1019
+}

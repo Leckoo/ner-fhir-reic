@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"13,1\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 - 14,5\"\n    },\n    {\n      \"exame\": \"Sódio no soro\",\n      \"valor\": \"134\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"25,4\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"31,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 a 36,0\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"69\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"TGP\",\n      \"valor\": \"56\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"5,60\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0,40 – 4,00\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"281\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    }\n  ]\n}",
+ "latencia_s": 6.223385810852051,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 411,
+ "tokens_saida": 445,
+ "tokens_total": 856
+}

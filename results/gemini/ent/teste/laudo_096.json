@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"CREA\",\n      \"valor\": \"1,78\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"3,15\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"UREIA\",\n      \"valor\": \"61\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"VCM\",\n      \"valor\": \"84,3\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 – 100,0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"14,4\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"12,0 - 16,0\"\n    }\n  ]\n}",
+ "latencia_s": 11.925150156021118,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 417,
+ "tokens_saida": 296,
+ "tokens_total": 713
+}

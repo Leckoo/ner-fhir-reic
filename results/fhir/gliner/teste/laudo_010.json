@@ -1,0 +1,83 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:a8d0757f-31e6-5d62-bfe5-651056d51e82",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Lúcia Ferreira"
+     }
+    ],
+    "birthDate": "1962-01-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a0416a8d-9330-5bd1-b062-ddf0f8976f1e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a8d0757f-31e6-5d62-bfe5-651056d51e82"
+    },
+    "effectiveDateTime": "2026-01-13"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:812bb244-5f30-52d5-ab3a-8343a5f61fdf",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a8d0757f-31e6-5d62-bfe5-651056d51e82"
+    },
+    "effectiveDateTime": "2026-01-13",
+    "result": [
+     {
+      "reference": "urn:uuid:a0416a8d-9330-5bd1-b062-ddf0f8976f1e"
+     }
+    ]
+   }
+  }
+ ]
+}

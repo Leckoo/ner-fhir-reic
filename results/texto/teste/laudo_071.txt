@@ -1,0 +1,10 @@
+LabSul Diagnósticos (fictício)
+CNES 6075450 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2078
+Paciente: Elisa Prado Nascimento: 1955-02-07
+Data: 2026-04-19 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+K 5,9 mEq/L 3,5 - 5,1
+Hematócrito 42,8 % 36,0 a 48,0
+AST 8 U/L Até 40
+CREA 0,47 mg/dL 0,60 a 1,20
+Liberado em 2026-04-19. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,122 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:641e2558-d745-52ce-8eb1-70c72450a6be",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "2005-05-11"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8d4388b8-bf65-520c-997f-32b47013eca9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:641e2558-d745-52ce-8eb1-70c72450a6be"
+    },
+    "effectiveDateTime": "2026-01-21",
+    "valueQuantity": {
+     "value": 7.97,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d5e6f946-5468-5ed0-bdd0-d57a5c7898cf",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:641e2558-d745-52ce-8eb1-70c72450a6be"
+    },
+    "effectiveDateTime": "2026-01-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:13ac2f07-0f92-5729-a525-4a7b05aa0c4e",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:641e2558-d745-52ce-8eb1-70c72450a6be"
+    },
+    "effectiveDateTime": "2026-01-21",
+    "result": [
+     {
+      "reference": "urn:uuid:8d4388b8-bf65-520c-997f-32b47013eca9"
+     },
+     {
+      "reference": "urn:uuid:d5e6f946-5468-5ed0-bdd0-d57a5c7898cf"
+     }
+    ]
+   }
+  }
+ ]
+}

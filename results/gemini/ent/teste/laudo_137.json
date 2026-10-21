@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"ALT\",\n      \"valor\": \"46\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 41\"\n    },\n    {\n      \"exame\": \"MCV\",\n      \"valor\": \"104,0\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"155\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Amplitude de distribuição dos eritrócitos\",\n      \"valor\": \"14,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"26\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 a 45\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"35,2\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 – 36,0\"\n    }\n  ]\n}",
+ "latencia_s": 12.572672843933105,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 376,
+ "tokens_saida": 338,
+ "tokens_total": 714
+}

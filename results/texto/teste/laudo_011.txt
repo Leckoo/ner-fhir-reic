@@ -1,0 +1,29 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 8197225 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9323
+Paciente: Lúcia Ferreira Nascimento: 2002-06-27
+Data: 2026-08-09 Solicitante: Dr(a). Exemplo
+DETERMINAÇÃO DO HEMATÓCRITO
+Material: Sangue Método: Automatizado
+Resultado: 37,9 %
+Valor de referência: 36,0 – 48,0
+CALEMIA
+Material: Sangue Método: Automatizado
+Resultado: 6,0 mEq/L
+Valor de referência: 3,5 – 5,1
+MCH
+Material: Sangue Método: Automatizado
+Resultado: 34,2 pg
+Valor de referência: 27,0 – 32,0
+HGB
+Material: Sangue Método: Automatizado
+Resultado: 11,9 g/dl
+Valor de referência: 12,0 - 16,0
+ASPARTATO AMINOTRANSFERASE
+Material: Sangue Método: Automatizado
+Resultado: 116 U/L
+Valor de referência: < 40
+DOSAGEM DE UREIA
+Material: Sangue Método: Automatizado
+Resultado: 12 mg/dL
+Valor de referência: 15 a 45
+Liberado em 2026-08-09. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,12 @@
+LabSul Diagnósticos (fictício)
+CNES 8961139 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1333
+Paciente: Natália Gomes Nascimento: 1979-07-08
+Data: 2026-02-04 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Contagem de eritrócitos 5.97 x10^6/µL 4.20 a 5.40
+Transaminase glutâmico pirúvica 29 U/L Até 41
+Dosagem de hemoglobina 16.9 g/dL 12.0 - 16.0
+Concentração de hemoglobina corpuscul3a5r .m7édia g/dL 32.0 a 36.0
+Hormônio tirotrófico 4.46 mUI/L 0.40 – 4.00
+Volume corpuscular médio 97.4 fL 80.0 – 100.0
+Liberado em 2026-02-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

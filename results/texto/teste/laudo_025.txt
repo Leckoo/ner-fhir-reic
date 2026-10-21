@@ -1,0 +1,21 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 2733938 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4405
+Paciente: Elisa Prado Nascimento: 1964-09-09
+Data: 2026-03-05 Solicitante: Dr(a). Exemplo
+URE
+Material: Sangue Método: Automatizado
+Resultado: 48 mg/dl
+Valor de referência: 15 – 45
+PLAQUETOGRAMA
+Material: Sangue Método: Automatizado
+Resultado: 101.000 /mm³
+Valor de referência: 150.000 – 450.000
+K
+Material: Sangue Método: Automatizado
+Resultado: 5.5 mmol/L
+Valor de referência: 3.5 - 5.1
+CREATININA
+Material: Sangue Método: Automatizado
+Resultado: 1.10 mg/dL
+Valor de referência: 0.60 - 1.20
+Liberado em 2026-03-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"70,5\",\n      \"unidade\": \"fL\",\n      \"faixa\": \"80,0 - 100,0\"\n    },\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"2,35\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Amplitude de distribuição dos eritrócitos\",\n      \"valor\": \"14,9\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5a 14,5\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"5,2\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"35a5,1\"\n    }\n  ]\n}",
+ "latencia_s": 3.9858264923095703,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 348,
+ "tokens_saida": 238,
+ "tokens_total": 586
+}

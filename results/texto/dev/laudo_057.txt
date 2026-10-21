@@ -1,0 +1,25 @@
+LabSul Diagnósticos (fictício)
+CNES 3227895 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 4861
+Paciente: Vânia Lopes Nascimento: 2001-11-09
+Data: 2026-09-23 Solicitante: Dr(a). Exemplo
+CT
+Material: Sangue Método: Automatizado
+Resultado: 313 mg/dl
+Valor de referência: Até 190
+CREATININA
+Material: Sangue Método: Automatizado
+Resultado: 0,78 mg/dL
+Valor de referência: 0,60 a 1,20
+TGO
+Material: Sangue Método: Automatizado
+Resultado: 83 U/L
+Valor de referência: < 40
+UR
+Material: Sangue Método: Automatizado
+Resultado: 55 mg/dl
+Valor de referência: 15 a 45
+TGP
+Material: Sangue Método: Automatizado
+Resultado: 11 U/L
+Valor de referência: < 41
+Liberado em 2026-09-23. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

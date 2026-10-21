@@ -1,0 +1,110 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:e0fa53ad-adcf-58b8-ad01-7da2274181db",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "1972-12-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:657828f2-09e6-5d6d-8bbf-4907d0802047",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Alanina aminotransferase"
+    },
+    "subject": {
+     "reference": "urn:uuid:e0fa53ad-adcf-58b8-ad01-7da2274181db"
+    },
+    "effectiveDateTime": "2026-08-10",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f08db162-79ce-5021-b5a5-cc79539924fe",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VCM 76"
+    },
+    "subject": {
+     "reference": "urn:uuid:e0fa53ad-adcf-58b8-ad01-7da2274181db"
+    },
+    "effectiveDateTime": "2026-08-10",
+    "valueQuantity": {
+     "value": 100.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b62b1899-d6e6-585d-a6b0-12854471ab57",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e0fa53ad-adcf-58b8-ad01-7da2274181db"
+    },
+    "effectiveDateTime": "2026-08-10",
+    "result": [
+     {
+      "reference": "urn:uuid:657828f2-09e6-5d6d-8bbf-4907d0802047"
+     },
+     {
+      "reference": "urn:uuid:f08db162-79ce-5021-b5a5-cc79539924fe"
+     }
+    ]
+   }
+  }
+ ]
+}

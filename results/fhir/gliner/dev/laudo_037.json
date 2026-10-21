@@ -1,0 +1,119 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Natália Gomes"
+     }
+    ],
+    "birthDate": "1965-04-12"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:47e7afbc-6a09-5647-84c6-5a2504710c00",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-09-12"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6c3b4c36-d960-5571-8d72-b65c845c74c9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-09-12",
+    "valueQuantity": {
+     "value": 5.57
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9960242d-2f21-5eb9-a516-b59ab03de9b0",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-09-12",
+    "result": [
+     {
+      "reference": "urn:uuid:47e7afbc-6a09-5647-84c6-5a2504710c00"
+     },
+     {
+      "reference": "urn:uuid:6c3b4c36-d960-5571-8d72-b65c845c74c9"
+     }
+    ]
+   }
+  }
+ ]
+}

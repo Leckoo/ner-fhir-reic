@@ -1,0 +1,179 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "VANIA LOPES"
+     }
+    ],
+    "birthDate": "1959-09-11"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d9764fc9-a3d9-57b6-9573-f1e91de0a108",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CONTAGEM DE ERITROCITOS"
+    },
+    "subject": {
+     "reference": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6"
+    },
+    "effectiveDateTime": "2026-08-01",
+    "valueQuantity": {
+     "value": 3.33
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:020c0994-18a8-5b49-ae2f-34f7f1e68803",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6"
+    },
+    "effectiveDateTime": "2026-08-01",
+    "valueQuantity": {
+     "value": 14.1
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d33feda2-f02c-5594-be12-b78ae3aed13b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6"
+    },
+    "effectiveDateTime": "2026-08-01",
+    "valueQuantity": {
+     "value": 24.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c1889a06-bee8-509e-9480-fcfd960c8aa2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "ALANINA AMINOTRANSFERASE"
+    },
+    "subject": {
+     "reference": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6"
+    },
+    "effectiveDateTime": "2026-08-01"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8f3cf832-1e62-5fe2-8cfb-d21613db2528",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:c7215f30-c2e7-5dcc-a41d-bbdeae8b1ca6"
+    },
+    "effectiveDateTime": "2026-08-01",
+    "result": [
+     {
+      "reference": "urn:uuid:d9764fc9-a3d9-57b6-9573-f1e91de0a108"
+     },
+     {
+      "reference": "urn:uuid:020c0994-18a8-5b49-ae2f-34f7f1e68803"
+     },
+     {
+      "reference": "urn:uuid:d33feda2-f02c-5594-be12-b78ae3aed13b"
+     },
+     {
+      "reference": "urn:uuid:c1889a06-bee8-509e-9480-fcfd960c8aa2"
+     }
+    ]
+   }
+  }
+ ]
+}

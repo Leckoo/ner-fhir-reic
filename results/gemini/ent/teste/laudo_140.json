@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicose no soro\",\n      \"valor\": \"190\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"3,15\",\n      \"unidade\": \"milhões/mm'\",\n      \"faixa\": \"4,20 a 5,40\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"291\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 150\"\n    },\n    {\n      \"exame\": \"Amplitude de distribuição\",\n      \"valor\": \"17,3\",\n      \"unidade\": \"&%\",\n      \"faixa\": \"11,58: — 14;5\"\n    }\n  ]\n}",
+ "latencia_s": 10.32604193687439,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 346,
+ "tokens_saida": 238,
+ "tokens_total": 584
+}

@@ -1,0 +1,76 @@
+{
+  "id": "laudo_128",
+  "paciente": "Bruno Lima",
+  "nascimento": "1984-02-23",
+  "data": "2026-06-24",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 104.7,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "104,7",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 a 100,0"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "rotulo_visto": true,
+      "valor": 34.0,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "34,0",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TRIGLICERIDES",
+      "rotulo_visto": true,
+      "valor": 342.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "342",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "ATE 150"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE LEUCOCITOS",
+      "rotulo_visto": false,
+      "valor": 14.4,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "14,4",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "4,0 – 11,0"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "COLESTEROL SERICO",
+      "rotulo_visto": false,
+      "valor": 256.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "256",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "< 190"
+    }
+  ]
+}

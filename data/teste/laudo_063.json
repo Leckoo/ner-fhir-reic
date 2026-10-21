@@ -1,0 +1,89 @@
+{
+  "id": "laudo_063",
+  "paciente": "Vânia Lopes",
+  "nascimento": "1942-06-04",
+  "data": "2026-05-09",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "AMPLITUDE DE DISTRIBUICAO DOS ERITROCITOS",
+      "rotulo_visto": false,
+      "valor": 14.3,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "14,3",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "DOSAGEM DE SODIO",
+      "rotulo_visto": false,
+      "valor": 141.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "141",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 - 145"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCV",
+      "rotulo_visto": true,
+      "valor": 78.3,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "78,3",
+      "texto_unidade": "fL",
+      "texto_faixa": "80,0 - 100,0"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICEMIA DE JEJUM",
+      "rotulo_visto": true,
+      "valor": 218.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "218",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UREIA",
+      "rotulo_visto": true,
+      "valor": 50.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "50",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HEMOGLOBINA CORPUSCULAR MEDIA",
+      "rotulo_visto": false,
+      "valor": 28.5,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "28,5",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 - 32,0"
+    }
+  ]
+}

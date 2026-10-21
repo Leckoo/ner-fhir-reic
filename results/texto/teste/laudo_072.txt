@@ -1,0 +1,10 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 2562412 - Resp, Técnico: Dr(a). Fulano de Tal - CREM 9200
+Paciente: Fábio Nunes Nascimento: 1977-07-07
+Data: 2026-09-24 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+MCHC 31,2 g/dl 32,0 a 36,0
+Contagem de eritrócitos 3,88 milhões/mm' 4,20 - 5,40
+Hemoglobina corpuscular mé 28,5 pg 27,0 - 32,0
+TGL 121 mg/dl < 150
+Liberado em 2026-09-24. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

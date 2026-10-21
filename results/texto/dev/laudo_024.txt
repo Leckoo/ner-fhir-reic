@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 2990560 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 5347
+Paciente: Rafael Conceição Nascimento: 1994-02-03
+Data: 2026-07-23 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+RDW-CV 14.4 % 11.5 a 14.5
+MCH 34.0 pg 27.0 a 32.0
+WBC 17.300 /mm³ 4.000 a 11.000
+Hb 12.8 g/ dL 12.0 a 16.0
+Volume corpuscular médio 95.7 fL 80.0 – 100.0
+Liberado em 2026-07-23. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

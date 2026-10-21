@@ -1,0 +1,11 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 3320022 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3050
+Paciente: Bruno Lima Nascimento: 2010-12-23
+Data: 2026-06-27 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+CHCM 35,4 g/dl 32,0 - 36,0
+GLI 164 mg/dl 70 — 99
+cr 122 mg/dl < 190
+TGP 75 U/L < 41
+HCT 29,7 & 36,0 - 48,0
+Liberado em 2026-06-27. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

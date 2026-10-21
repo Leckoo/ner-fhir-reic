@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"LEUCÓCITOS\",\n      \"valor\": \"14,1\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 – 11,0\"\n    },\n    {\n      \"exame\": \"RBC\",\n      \"valor\": \"4,29\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"HEMATÓCRITO\",\n      \"valor\": \"34,4\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"TRANSAMINASE OXALACÉTICA\",\n      \"valor\": \"23\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"28,9\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 - 32,0\"\n    },\n    {\n      \"exame\": \"SÓDIO\",\n      \"valor\": \"135\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 – 145\"\n    },\n    {\n      \"exame\": \"TRIGLICÉRIDES\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE PLAQUETAS\",\n      \"valor\": \"480\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    }\n  ]\n}",
+ "latencia_s": 36.051573514938354,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 557,
+ "tokens_saida": 462,
+ "tokens_total": 1019
+}

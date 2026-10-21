@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 3017127 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 9115
+Paciente: Patrícia Ramos Nascimento: 1988-06-11
+Data: 2026-05-04 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+MCH 28,6 pg 27,0 a 32,0
+Na 140 mEq/L 136 a 145
+Creatininemia 1,31 mg/dL 0,60 - 1,20
+Plaquetograma 416 x10*/pL 150 - 450
+K 6,0 mEq/L 3,5 a 5,1
+RDW 16,0 + 11,5 - 14,5
+Glicemia de jejum 70 mg/dL 70 - 99
+Liberado em 2026-05-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

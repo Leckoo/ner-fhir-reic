@@ -1,0 +1,14 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 5424365 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 2579
+Paciente: Gabriela Melo Nascimento: 1942-03-21
+Data: 2026-08-23 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+RDW-CV 13,1 % 11,5 - 14,5
+Sódio no soro 134 mEq/L 136 a 145
+MCH 25,4 pg 27,0 – 32,0
+MCHC 31,6 g/dL 32,0 a 36,0
+AST 69 U/L Até 40
+TGP 56 U/L Até 41
+TSH 5,60 mUI/L 0,40 – 4,00
+Dosagem de triglicerídeos 281 mg/dl Até 150
+Liberado em 2026-08-23. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

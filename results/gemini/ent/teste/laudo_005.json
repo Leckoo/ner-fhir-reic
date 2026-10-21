@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Na\",\n      \"valor\": \"133\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 a 145\"\n    },\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"225\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"PLT\",\n      \"valor\": \"121\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 a 450\"\n    },\n    {\n      \"exame\": \"Contagem de eritrócitos\",\n      \"valor\": \"5,73\",\n      \"unidade\": \"milhões/mm³\",\n      \"faixa\": \"4,20 – 5,40\"\n    }\n  ]\n}",
+ "latencia_s": 4.65772271156311,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 348,
+ "tokens_saida": 239,
+ "tokens_total": 587
+}

@@ -1,0 +1,12 @@
+Laboratório Exemplo de Análises Clínicas
+CNES 6197409 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1799
+Paciente: Diego Rocha Nascimento: 1985-10-14
+Data: 2026-08-08 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Sódio no soro 127 mEq/L 136 - 145
+Creatinina 0,47 mg/dL 0,60 - 1,20
+HCM 30,8 pg 27,0 a 32,0
+URE 68 mg/dl 15 a 45
+Volume corpuscular médio 71,0 fL 80,0 – 100,0
+Glicemia de jejum 77 mg/dl 70 – 99
+Liberado em 2026-08-08. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

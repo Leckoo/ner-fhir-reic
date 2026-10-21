@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"erugio ciersria miar jairo mus eaas\",\n      \"valor\": \"106,7\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80,0 a 100,0\"\n    },\n    {\n      \"exame\": \"CHCM eres crepes vimento poser esd\",\n      \"valor\": \"34\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"TRIGLICERIDES\",\n      \"valor\": \"342\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"ATE 150\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE LEUCOCITOS\",\n      \"valor\": \"14,4\",\n      \"unidade\": \"x10º/nL\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"COLESTEROL SERICO\",\n      \"valor\": \"256\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"< 190\"\n    }\n  ]\n}",
+ "latencia_s": 8.167037725448608,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 427,
+ "tokens_saida": 312,
+ "tokens_total": 739
+}

@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:1c4140cb-59ff-5e06-a9de-4b72ae13fe70",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Carla Dias"
+     }
+    ],
+    "birthDate": "1955-08-22"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c0f38b6f-53b8-54f5-a92f-11869911d53e",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1c4140cb-59ff-5e06-a9de-4b72ae13fe70"
+    },
+    "effectiveDateTime": "2026-03-09"
+   }
+  }
+ ]
+}

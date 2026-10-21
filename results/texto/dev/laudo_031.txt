@@ -1,0 +1,13 @@
+LABORATORIO EXEMPLO DE ANALISES CLINICAS
+CNES 1200358 - RESP. TECNICO: DR(A). FULANO DE TAL - CRBM 7162
+PACIENTE: LUCIA FERREIRA NASCIMENTO: 1970-11-20
+DATA: 2026-08-26 SOLICITANTE: DR(A). EXEMPLO
+MCH ........................: 33,1 pg (VR: 27,0 a 32,0)
+HCT ........................: 41,0 % (VR: 36,0 a 48,0)
+GLICOSE DE JEJUM ...........: 135 mg/dL (VR: 70 a 99)
+VCM ........................: 81,7 fL (VR: 80,0 - 100,0)
+CHCM .......................: 35,2 g/dl (VR: 32,0 - 36,0)
+PLT ........................: 405.000 /mm³ (VR: 150.000 – 450.000)
+TSH ........................: 4,46 mUI/L (VR: 0,40 – 4,00)
+COLESTEROL TOTAL ...........: 305 mg/dl (VR: ATE 190)
+LIBERADO EM 2026-08-26. ASSINADO ELETRONICAMENTE. INTERPRETACAO A CRITERIO MEDICO. PAG. 1 DE 1

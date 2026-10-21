@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:e7f0eeb0-7ddd-5bd3-91ce-921e92ee6a3e",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Vânia Lopes"
+     }
+    ],
+    "birthDate": "2002-02-12"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d87d0602-75a1-5fd6-9b05-738adabbcfe5",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:e7f0eeb0-7ddd-5bd3-91ce-921e92ee6a3e"
+    },
+    "effectiveDateTime": "2026-05-24"
+   }
+  }
+ ]
+}

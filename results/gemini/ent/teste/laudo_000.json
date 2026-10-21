@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TGO\",\n      \"valor\": \"84\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"400\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Contagem de leucócitos\",\n      \"valor\": \"9,3\",\n      \"unidade\": \"mil/mm³\",\n      \"faixa\": \"4,0 – 11,0\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"16,6\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12,0 - 16,0\"\n    },\n    {\n      \"exame\": \"Eritrócitos\",\n      \"valor\": \"4,40\",\n      \"unidade\": \"x10^6/µL\",\n      \"faixa\": \"4,20 – 5,40\"\n    },\n    {\n      \"exame\": \"HCT\",\n      \"valor\": \"39,5\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 – 48,0\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"34,1\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 – 32,0\"\n    }\n  ]\n}",
+ "latencia_s": 6.24604606628418,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 407,
+ "tokens_saida": 404,
+ "tokens_total": 811
+}

@@ -1,0 +1,63 @@
+{
+  "id": "laudo_093",
+  "paciente": "Marcos Antônio Vieira",
+  "nascimento": "1963-02-05",
+  "data": "2026-05-27",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio",
+      "rotulo_visto": true,
+      "valor": 132.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "132",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 – 145"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Ht",
+      "rotulo_visto": true,
+      "valor": 40.7,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "40.7",
+      "texto_unidade": "%",
+      "texto_faixa": "36.0 - 48.0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 5.45,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "5.45",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 – 4.00"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 17.1,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "17.1",
+      "texto_unidade": "%",
+      "texto_faixa": "11.5 – 14.5"
+    }
+  ]
+}

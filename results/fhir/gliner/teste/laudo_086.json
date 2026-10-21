@@ -1,0 +1,113 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:8261c8a7-9cae-5305-b356-2daf5b5e6f3c",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Elisa Prado"
+     }
+    ],
+    "birthDate": "1996-10-15"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:19136c97-f281-526c-88dd-d30625c18604",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LabSul Diagnósticos"
+    },
+    "subject": {
+     "reference": "urn:uuid:8261c8a7-9cae-5305-b356-2daf5b5e6f3c"
+    },
+    "effectiveDateTime": "2026-08-16"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a110ae76-f4b6-538c-9e26-4d5938aaf26c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:8261c8a7-9cae-5305-b356-2daf5b5e6f3c"
+    },
+    "effectiveDateTime": "2026-08-16",
+    "valueQuantity": {
+     "value": 8.07
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9ce51a71-1133-5749-972e-ec34d03c2fa4",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:8261c8a7-9cae-5305-b356-2daf5b5e6f3c"
+    },
+    "effectiveDateTime": "2026-08-16",
+    "result": [
+     {
+      "reference": "urn:uuid:19136c97-f281-526c-88dd-d30625c18604"
+     },
+     {
+      "reference": "urn:uuid:a110ae76-f4b6-538c-9e26-4d5938aaf26c"
+     }
+    ]
+   }
+  }
+ ]
+}

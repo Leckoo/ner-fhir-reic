@@ -1,0 +1,224 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "João Batista Moura"
+     }
+    ],
+    "birthDate": "1970-03-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cdfcb652-3f55-5d7c-a76d-b73fa6a72c59",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0"
+    },
+    "effectiveDateTime": "2026-04-02",
+    "valueQuantity": {
+     "value": 190.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cf0a6049-e6ff-5ea6-a9be-44143c87054c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0"
+    },
+    "effectiveDateTime": "2026-04-02",
+    "valueQuantity": {
+     "value": 3.15
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2
+      },
+      "high": {
+       "value": 5.4
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b8f87af1-e753-5136-91d6-45165837905d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de triglicerídeos"
+    },
+    "subject": {
+     "reference": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0"
+    },
+    "effectiveDateTime": "2026-04-02",
+    "valueQuantity": {
+     "value": 291.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bdf42298-a93c-5382-9d6b-4e04b3b3dbb4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Amplitude de distribuição"
+    },
+    "subject": {
+     "reference": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0"
+    },
+    "effectiveDateTime": "2026-04-02",
+    "valueQuantity": {
+     "value": 17.3
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7a6fbe66-b3b5-509c-b37b-aafe65c3b9de",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a6fd163b-de31-5572-af98-6e1d7e33ede0"
+    },
+    "effectiveDateTime": "2026-04-02",
+    "result": [
+     {
+      "reference": "urn:uuid:cdfcb652-3f55-5d7c-a76d-b73fa6a72c59"
+     },
+     {
+      "reference": "urn:uuid:cf0a6049-e6ff-5ea6-a9be-44143c87054c"
+     },
+     {
+      "reference": "urn:uuid:b8f87af1-e753-5136-91d6-45165837905d"
+     },
+     {
+      "reference": "urn:uuid:bdf42298-a93c-5382-9d6b-4e04b3b3dbb4"
+     }
+    ]
+   }
+  }
+ ]
+}

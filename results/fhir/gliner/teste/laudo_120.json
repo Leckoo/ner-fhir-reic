@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:8ac5c020-0f96-5656-a106-4c169f19516e",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Hugo Reis"
+     }
+    ],
+    "birthDate": "2008-06-08"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d0ccb642-e614-5d23-b758-f656113c2fa6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LabSul Diagnósticos"
+    },
+    "subject": {
+     "reference": "urn:uuid:8ac5c020-0f96-5656-a106-4c169f19516e"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 11.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7670e0d9-f3d0-5c3a-8374-fb54b35571eb",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:8ac5c020-0f96-5656-a106-4c169f19516e"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "result": [
+     {
+      "reference": "urn:uuid:d0ccb642-e614-5d23-b758-f656113c2fa6"
+     }
+    ]
+   }
+  }
+ ]
+}

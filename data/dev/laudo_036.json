@@ -1,0 +1,107 @@
+{
+  "id": "laudo_036",
+  "paciente": "Gabriela Melo",
+  "nascimento": "2006-03-27",
+  "data": "2026-07-22",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE PLAQUETAS",
+      "valor": 192.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "192",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 – 450"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HB",
+      "valor": 15.0,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "15,0",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12,0 – 16,0"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VOLUME CORPUSCULAR MEDIO",
+      "valor": 99.9,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "99,9",
+      "texto_unidade": "fL",
+      "texto_faixa": "80,0 - 100,0"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "valor": 12.9,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "12,9",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UR",
+      "valor": 25.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "25",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 a 45"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICOSE DE JEJUM",
+      "valor": 153.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "153",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 - 99"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "LEUCOCITOS - GLOBAL",
+      "valor": 15.2,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "15.200",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 - 11.000"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGP",
+      "valor": 16.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "16",
+      "texto_unidade": "U/L",
+      "texto_faixa": "ATE 41"
+    }
+  ]
+}

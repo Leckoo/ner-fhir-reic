@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Lúcia Ferreira"
+     }
+    ],
+    "birthDate": "2010-01-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c3c08441-39ca-563e-9bc7-09df6ab26d18",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "effectiveDateTime": "2026-06-12"
+   }
+  }
+ ]
+}

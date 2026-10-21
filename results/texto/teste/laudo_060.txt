@@ -1,0 +1,13 @@
+LabSul Diagnósticos (fictício)
+CNES 1390378 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6494
+Paciente: Rafael Conceição Nascimento: 1973-08-18
+Data: 2026-01-03 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+TGO 89 U/L Até 40
+SGPT 54 U/L Até 41
+HCM 27,8 pg 270a 32,0
+Determinação do hematócrito 42,2 % 36,0 a 48,0
+Glicose 66 mg/dl 70 - 99
+Colesterol sérico 180 mg/dL < 190
+
+Liberado em 2026-01-03. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

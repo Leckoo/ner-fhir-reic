@@ -1,0 +1,152 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:7f901c7b-b2ed-59e4-8244-24225aef65c8",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Elisa Prado"
+     }
+    ],
+    "birthDate": "1983-09-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3f165b59-df27-50b5-9401-bc5f7cdbe773",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7f901c7b-b2ed-59e4-8244-24225aef65c8"
+    },
+    "effectiveDateTime": "2026-09-28",
+    "valueQuantity": {
+     "value": 0.6
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:aea78275-9c28-5f05-b8ce-7a4b167968c9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "VCM 96"
+    },
+    "subject": {
+     "reference": "urn:uuid:7f901c7b-b2ed-59e4-8244-24225aef65c8"
+    },
+    "effectiveDateTime": "2026-09-28",
+    "valueQuantity": {
+     "value": 100.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bc5529a2-4251-5442-b6ef-d6d7e2b6430f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7f901c7b-b2ed-59e4-8244-24225aef65c8"
+    },
+    "effectiveDateTime": "2026-09-28",
+    "valueQuantity": {
+     "value": 9.62
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3f9aea19-7928-567f-9108-3edfd9c3f577",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7f901c7b-b2ed-59e4-8244-24225aef65c8"
+    },
+    "effectiveDateTime": "2026-09-28",
+    "result": [
+     {
+      "reference": "urn:uuid:3f165b59-df27-50b5-9401-bc5f7cdbe773"
+     },
+     {
+      "reference": "urn:uuid:aea78275-9c28-5f05-b8ce-7a4b167968c9"
+     },
+     {
+      "reference": "urn:uuid:bc5529a2-4251-5442-b6ef-d6d7e2b6430f"
+     }
+    ]
+   }
+  }
+ ]
+}

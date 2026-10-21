@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"AMPLITUDE DE DISTRIBUIÇÃO DOS ERITRÓCITOS\",\n      \"valor\": \"14,7\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 — 14,5\"\n    },\n    {\n      \"exame\": \"HT\",\n      \"valor\": \"39,6\",\n      \"unidade\": \"%\",\n      \"faixa\": \"36,0 a 48,0\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"50\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    },\n    {\n      \"exame\": \"WBC\",\n      \"valor\": \"14.200\",\n      \"unidade\": \"/mmº\",\n      \"faixa\": \"4.000 - 11.000\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"33,8\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32,0 - 36,0\"\n    },\n    {\n      \"exame\": \"GLICOSE DE JEJUM\",\n      \"valor\": \"226\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    }\n  ]\n}",
+ "latencia_s": 14.414891481399536,
+ "tentativas": 3,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 488,
+ "tokens_saida": 351,
+ "tokens_total": 839
+}

@@ -1,0 +1,48 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:721f6050-35d4-5fe4-8ab8-9f7e04034e82",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Ana Souza"
+     }
+    ],
+    "birthDate": "1949-05-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b49cc672-22e0-5f5c-ac3a-fca5520906a7",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:721f6050-35d4-5fe4-8ab8-9f7e04034e82"
+    },
+    "effectiveDateTime": "2026-04-13"
+   }
+  }
+ ]
+}

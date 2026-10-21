@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"PLAQUETOGRAMA\",\n      \"valor\": \"345\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"CONTAGEM DE ERITROCITOS\",\n      \"valor\": \"3,33\",\n      \"unidade\": \"milhoes/mm³\",\n      \"faixa\": \"4,20 - 5,40\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14,1\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 – 14,5\"\n    },\n    {\n      \"exame\": \"HCM\",\n      \"valor\": \"24,5\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27,0 a 32,0\"\n    },\n    {\n      \"exame\": \"ALANINA AMINOTRANSFERASE\",\n      \"valor\": \"102\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"ATE 41\"\n    }\n  ]\n}",
+ "latencia_s": 6.632770299911499,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 418,
+ "tokens_saida": 302,
+ "tokens_total": 720
+}

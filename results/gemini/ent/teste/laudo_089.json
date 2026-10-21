@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Triglicerídeos\",\n      \"valor\": \"362\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Glicose em jejum\",\n      \"valor\": \"237\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Transaminase glutâmico pir\",\n      \"valor\": \"10\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"Concentração de hemoglobin\",\n      \"valor\": \"32.2\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"32.0 a 36.0\"\n    }\n  ]\n}",
+ "latencia_s": 5.780452489852905,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 341,
+ "tokens_saida": 231,
+ "tokens_total": 572
+}

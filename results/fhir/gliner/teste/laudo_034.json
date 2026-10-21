@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:6269137e-77ef-5cf6-be3c-cb828bc68661",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Hugo Reis"
+     }
+    ],
+    "birthDate": "1977-07-28"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4b4f3459-4f6f-529a-8925-e9e1f0d74cad",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sangue"
+    },
+    "subject": {
+     "reference": "urn:uuid:6269137e-77ef-5cf6-be3c-cb828bc68661"
+    },
+    "effectiveDateTime": "2026-03-16",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1085797a-5bb7-5a6b-a47f-0c7bb43c0aff",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6269137e-77ef-5cf6-be3c-cb828bc68661"
+    },
+    "effectiveDateTime": "2026-03-16",
+    "result": [
+     {
+      "reference": "urn:uuid:4b4f3459-4f6f-529a-8925-e9e1f0d74cad"
+     }
+    ]
+   }
+  }
+ ]
+}

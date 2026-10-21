@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"TSH ultra sensível\",\n      \"valor\": \"3.41\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 a 4.00\"\n    },\n    {\n      \"exame\": \"HGB\",\n      \"valor\": \"14.0\",\n      \"unidade\": \"g/dL\",\n      \"faixa\": \"12.0 a 16.0\"\n    },\n    {\n      \"exame\": \"Uréia\",\n      \"valor\": \"48\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"15 - 45\"\n    },\n    {\n      \"exame\": \"MCH\",\n      \"valor\": \"33.6\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27.0 - 32.0\"\n    },\n    {\n      \"exame\": \"AST\",\n      \"valor\": \"42\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"Até 40\"\n    }\n  ]\n}",
+ "latencia_s": 8.888309240341187,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 351,
+ "tokens_saida": 282,
+ "tokens_total": 633
+}

@@ -1,0 +1,33 @@
+LabSul Diagnósticos (fictício)
+CNES 9947383 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8590
+Paciente: Sílvia Araújo Nascimento: 2002-02-19
+Data: 2026-07-01 Solicitante: Dr(a). Exemplo
+PLT
+Material: Sangue Método: Automatizado
+Resultado: 371.000 /mm³
+Valor de referência: 150.000 – 450.000
+URE
+Material: Sangue Método: Automatizado
+Resultado: 22 mg/dL
+Valor de referência: 15 - 45
+TGL
+Material: Sangue Método: Automatizado
+Resultado: 326 mg/dL
+Valor de referência: < 150
+SÓDIO NO SORO
+Material: Sangue Método: Automatizado
+Resultado: 135 mEq/L
+Valor de referência: 136 – 145
+LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 4,7 mil/mm³
+Valor de referência: 4,0 a 11,0
+HT
+Material: Sangue Método: Automatizado
+Resultado: 54,0 %
+Valor de referência: 36,0 – 48,0
+TRANSAMINASE GLUTÂMICO PIRÚVICA
+Material: Sangue Método: Automatizado
+Resultado: 51 U/L
+Valor de referência: < 41
+Liberado em 2026-07-01. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

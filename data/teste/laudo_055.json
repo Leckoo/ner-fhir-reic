@@ -1,0 +1,76 @@
+{
+  "id": "laudo_055",
+  "paciente": "Íris Campos",
+  "nascimento": "1973-12-11",
+  "data": "2026-03-18",
+  "layout": "legado",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "HCM",
+      "rotulo_visto": true,
+      "valor": 35.0,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "35,0",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 – 32,0"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 31.9,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "31,9",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "32,0 - 36,0"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLICEMIA DE JEJUM",
+      "rotulo_visto": true,
+      "valor": 214.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "214",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HEMOGLOBINA",
+      "rotulo_visto": true,
+      "valor": 17.1,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "17,1",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "12,0 a 16,0"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "CONTAGEM DE PLAQUETAS",
+      "rotulo_visto": true,
+      "valor": 242.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "242",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 a 450"
+    }
+  ]
+}

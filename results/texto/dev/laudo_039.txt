@@ -1,0 +1,33 @@
+LabSul Diagnósticos (fictício)
+CNES 8652466 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6487
+Paciente: Íris Campos Nascimento: 1952-05-24
+Data: 2026-04-07 Solicitante: Dr(a). Exemplo
+HT
+Material: Sangue Método: Automatizado
+Resultado: 51,2 %
+Valor de referência: 36,0 a 48,0
+SÓDIO
+Material: Sangue Método: Automatizado
+Resultado: 149 mEq/L
+Valor de referência: 136 – 145
+GLICOSE
+Material: Sangue Método: Automatizado
+Resultado: 248 mg/dL
+Valor de referência: 70 - 99
+RDW
+Material: Sangue Método: Automatizado
+Resultado: 15,9 %
+Valor de referência: 11,5 – 14,5
+RBC
+Material: Sangue Método: Automatizado
+Resultado: 3,65 milhões/mm³
+Valor de referência: 4,20 a 5,40
+PLAQUETAS
+Material: Sangue Método: Automatizado
+Resultado: 327 x10³/µL
+Valor de referência: 150 – 450
+CHCM
+Material: Sangue Método: Automatizado
+Resultado: 33,2 g/dl
+Valor de referência: 32,0 a 36,0
+Liberado em 2026-04-07. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Hemoglobina corpuscular mé\",\n      \"valor\": \"32.3\",\n      \"unidade\": \"pg\",\n      \"faixa\": \"27.0 a 32.0\"\n    },\n    {\n      \"exame\": \"Potássio\",\n      \"valor\": \"4.5\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"345 8,1\"\n    },\n    {\n      \"exame\": \"Tireotrofina\",\n      \"valor\": \"2.56\",\n      \"unidade\": \"mUI/L\",\n      \"faixa\": \"0.40 - 4.00\"\n    },\n    {\n      \"exame\": \"Hemácias\",\n      \"valor\": \"3.23\",\n      \"unidade\": \"milhões/mm'\",\n      \"faixa\": \"4.20 a 5.40\"\n    }\n  ]\n}",
+ "latencia_s": 5.646021127700806,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 348,
+ "tokens_saida": 242,
+ "tokens_total": 590
+}

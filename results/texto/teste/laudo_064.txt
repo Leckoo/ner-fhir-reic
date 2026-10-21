@@ -1,0 +1,21 @@
+Centro de Análises Vale do Rio Pardo (fictício)
+CNES 7975540 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 1605
+Paciente: Elisa Prado Nascimento: 1951-12-15
+Data: 2026-07-11 Solicitante: Dr(a). Exemplo
+CONTAGEM DE LEUCÓCITOS
+Material: Sangue Método: Automatizado
+Resultado: 10,8 mil/mm³
+Valor de referência: 4,0 a 11,0
+ALT
+Material: Sangue Método: Automatizado
+Resultado: 124 U/L
+Valor de referência: Até 41
+CT
+Material: Sangue Método: Automatizado
+Resultado: 187 mg/dl
+Valor de referência: < 190
+DOSAGEM DE UREIA
+Material: Sangue Método: Automatizado
+Resultado: 72 mg/dL
+Valor de referência: 15 - 45
+Liberado em 2026-07-11. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

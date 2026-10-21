@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 6784167 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 6234
+Paciente: Marcos Antônio Vieira Nascimento: 1951-02-21
+Data: 2026-01-04 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Colesterolemia 1783 mg/dl Até 190
+Contagem de leucócitos 17,3 mil/mm3 4,0- 11,0
+Hemácias 5.27 milhões/mm? 4,20 a 5,40
+Triglicérides 144 mg/dL < 150
+
+Liberado em 2026-01-04. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

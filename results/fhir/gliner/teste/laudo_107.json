@@ -1,0 +1,80 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:772037f3-100a-58a4-bb05-71593aac82e8",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "1965-07-05"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1584b5a7-5f74-5333-bd2a-622582c91c79",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Determinação do hematócrit"
+    },
+    "subject": {
+     "reference": "urn:uuid:772037f3-100a-58a4-bb05-71593aac82e8"
+    },
+    "effectiveDateTime": "2026-03-01",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b1ef439e-6db9-5142-bcad-c5bf8cf2b544",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:772037f3-100a-58a4-bb05-71593aac82e8"
+    },
+    "effectiveDateTime": "2026-03-01",
+    "result": [
+     {
+      "reference": "urn:uuid:1584b5a7-5f74-5333-bd2a-622582c91c79"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Plaquetograma\",\n      \"valor\": \"350\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"Colesterolemia\",\n      \"valor\": \"260\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 190\"\n    },\n    {\n      \"exame\": \"Amplitude de distribuição dos eritrócitos\",\n      \"valor\": \"13,0\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 – 14,5\"\n    },\n    {\n      \"exame\": \"Glicose\",\n      \"valor\": \"182\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"70 - 99\"\n    },\n    {\n      \"exame\": \"Leucócitos\",\n      \"valor\": \"7,2\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"Alanina aminotransferase\",\n      \"valor\": \"115\",\n      \"unidade\": \"U/L\",\n      \"faixa\": \"< 41\"\n    },\n    {\n      \"exame\": \"Triglicérides\",\n      \"valor\": \"244\",\n      \"unidade\": \"mg/dL\",\n      \"faixa\": \"Até 150\"\n    },\n    {\n      \"exame\": \"Dosagem de ureia\",\n      \"valor\": \"68\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"15 – 45\"\n    }\n  ]\n}",
+ "latencia_s": 8.766641616821289,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 418,
+ "tokens_saida": 449,
+ "tokens_total": 867
+}

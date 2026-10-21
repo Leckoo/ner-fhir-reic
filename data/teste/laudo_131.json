@@ -1,0 +1,76 @@
+{
+  "id": "laudo_131",
+  "paciente": "Tiago Monteiro",
+  "nascimento": "1981-08-21",
+  "data": "2026-06-07",
+  "layout": "colunas",
+  "separador_decimal": ".",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH ultra sensível",
+      "rotulo_visto": false,
+      "valor": 3.41,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3.41",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0.40 a 4.00"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 14.0,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "14.0",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12.0 a 16.0"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "rotulo_visto": true,
+      "valor": 48.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "48",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 - 45"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 33.6,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "33.6",
+      "texto_unidade": "pg",
+      "texto_faixa": "27.0 - 32.0"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "rotulo_visto": true,
+      "valor": 42.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "42",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40"
+    }
+  ]
+}

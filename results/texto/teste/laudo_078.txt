@@ -1,0 +1,11 @@
+LabSul Diagnósticos (fictício)
+CNES 3555188 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 3346
+Paciente: Gabriela Melo Nascimento: 2002-01-28
+Data: 2026-07-06 Solicitante: Dr(a). Exemplo
+Exame Resultado Unidade Referência
+Ht 36,5 % 36,0 a 48,0
+GLI 124 mg/dL 70 – 99
+Ureia 52 mg/dL 15 - 45
+Hemácias 5,78 milhões/mm³ 4,20 - 5,40
+CT 248 mg/dL < 190
+Liberado em 2026-07-06. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

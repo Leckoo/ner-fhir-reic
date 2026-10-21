@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Colesterol\",\n      \"valor\": \"295\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"Até 190\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"14,3\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11,5 a 14,5\"\n    },\n    {\n      \"exame\": \"Contagem de leucócitos\",\n      \"valor\": \"7,5\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"4,0 - 11,0\"\n    },\n    {\n      \"exame\": \"Creatinina\",\n      \"valor\": \"2,18\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"0,60 a 1,20\"\n    },\n    {\n      \"exame\": \"Sódio\",\n      \"valor\": \"140\",\n      \"unidade\": \"mmol/L\",\n      \"faixa\": \"136 - 145\"\n    },\n    {\n      \"exame\": \"Contagem de plaquetas\",\n      \"valor\": \"299\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 – 450\"\n    },\n    {\n      \"exame\": \"Dosagem de triglicerídeos\",\n      \"valor\": \"214\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"< 150\"\n    }\n  ]\n}",
+ "latencia_s": 7.107724189758301,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 407,
+ "tokens_saida": 403,
+ "tokens_total": 810
+}

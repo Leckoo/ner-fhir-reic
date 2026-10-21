@@ -1,0 +1,119 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1990-08-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5a6472fb-32d6-5dd9-8299-a50e5def8120",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-02-08"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4a85a66b-2ee7-5f91-a4fa-f47a4b0d06e4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-02-08",
+    "valueQuantity": {
+     "value": 197.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:50d10147-b25a-5770-a2ac-8c15a917e037",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d6605e68-aaee-5e7d-a768-f07360b126de"
+    },
+    "effectiveDateTime": "2026-02-08",
+    "result": [
+     {
+      "reference": "urn:uuid:5a6472fb-32d6-5dd9-8299-a50e5def8120"
+     },
+     {
+      "reference": "urn:uuid:4a85a66b-2ee7-5f91-a4fa-f47a4b0d06e4"
+     }
+    ]
+   }
+  }
+ ]
+}

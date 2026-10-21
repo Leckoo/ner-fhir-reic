@@ -1,0 +1,18 @@
+Laboratório Exemplo de Análises Clínicas
+
+CNES 2849638 - Resp. Técnico: Dr(a). Fulano de Tal - CRBM 8391
+
+Paciente: Ana Souza Nascimento: 1961-12-02
+
+Data: 2026-03-05 Solicitante: Dr(a). Exemplo
+Resultado Valores de Referência
+
+Hemoglobina corpuscular mé 32.3 pg 27.0 a 32.0
+
+Potássio 4.5 mmol/L 345 8,1
+
+Tireotrofina 2.56 mUI/L 0.40 - 4.00
+
+Hemácias 3.23 milhões/mm' 4.20 a 5.40
+
+Liberado em 2026-03-05. Assinado eletronicamente. Interpretação a critério médico. Pág. 1 de 1

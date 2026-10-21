@@ -1,0 +1,63 @@
+{
+  "id": "laudo_095",
+  "paciente": "Otávio Pereira",
+  "nascimento": "1965-10-10",
+  "data": "2026-07-01",
+  "layout": "blocos",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Uréia",
+      "rotulo_visto": true,
+      "valor": 82.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "82",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "15 – 45"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 11.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "11,9",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 – 16,0"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 7.53,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "7,53",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 a 4,00"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "AST",
+      "rotulo_visto": true,
+      "valor": 118.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "118",
+      "texto_unidade": "U/L",
+      "texto_faixa": "< 40"
+    }
+  ]
+}

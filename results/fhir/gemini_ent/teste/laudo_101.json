@@ -1,0 +1,292 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Rafael Conceição"
+     }
+    ],
+    "birthDate": "1984-04-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:80f9630f-f5ef-5d26-b80b-7d6c5b403601",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Determinação do hematócrit"
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 54.6,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7a3cd90a-b82e-5c28-bc2b-ba302f2adc6a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 6.45,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:47d37c6d-fbf3-54a2-b8e8-165ed8479b12",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Sódio no soro"
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 148.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:73e57fc8-2a53-5cc2-b384-8867e2afb325",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Colesterolemia"
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 247.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:daa9baef-4b42-5734-9dbe-dfb526308c0b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "valueQuantity": {
+     "value": 6.26
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2
+      },
+      "high": {
+       "value": 5.4
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:65e27ac0-888a-5f5b-ba32-fd48883fab98",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:820d92d5-a379-56a5-847d-7c8d33046b94"
+    },
+    "effectiveDateTime": "2026-06-24",
+    "result": [
+     {
+      "reference": "urn:uuid:80f9630f-f5ef-5d26-b80b-7d6c5b403601"
+     },
+     {
+      "reference": "urn:uuid:7a3cd90a-b82e-5c28-bc2b-ba302f2adc6a"
+     },
+     {
+      "reference": "urn:uuid:47d37c6d-fbf3-54a2-b8e8-165ed8479b12"
+     },
+     {
+      "reference": "urn:uuid:73e57fc8-2a53-5cc2-b384-8867e2afb325"
+     },
+     {
+      "reference": "urn:uuid:daa9baef-4b42-5734-9dbe-dfb526308c0b"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "texto": "{\n  \"exames\": [\n    {\n      \"exame\": \"Glicemia de jejum\",\n      \"valor\": \"145\",\n      \"unidade\": \"mg/dl\",\n      \"faixa\": \"70 a 99\"\n    },\n    {\n      \"exame\": \"Plaquetas\",\n      \"valor\": \"424\",\n      \"unidade\": \"x10³/µL\",\n      \"faixa\": \"150 - 450\"\n    },\n    {\n      \"exame\": \"Volume corpuscular médio\",\n      \"valor\": \"77.4\",\n      \"unidade\": \"fl\",\n      \"faixa\": \"80.0 – 100.0\"\n    },\n    {\n      \"exame\": \"MCHC\",\n      \"valor\": \"33.5\",\n      \"unidade\": \"g/dl\",\n      \"faixa\": \"32.0 a 36.0\"\n    },\n    {\n      \"exame\": \"TSH\",\n      \"valor\": \"0.56\",\n      \"unidade\": \"µUI/mL\",\n      \"faixa\": \"0.40 a 4.00\"\n    },\n    {\n      \"exame\": \"K\",\n      \"valor\": \"6.1\",\n      \"unidade\": \"mEq/L\",\n      \"faixa\": \"3.5 – 5.1\"\n    },\n    {\n      \"exame\": \"RDW-CV\",\n      \"valor\": \"13.8\",\n      \"unidade\": \"%\",\n      \"faixa\": \"11.5 – 14.5\"\n    }\n  ]\n}",
+ "latencia_s": 8.084285974502563,
+ "tentativas": 2,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 409,
+ "tokens_saida": 403,
+ "tokens_total": 812
+}
