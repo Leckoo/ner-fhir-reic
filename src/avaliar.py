@@ -96,7 +96,7 @@ def ic(ds, fn):
 def validacao(metodo, conj):
     f = RES / "validacao" / f"{metodo}_{conj}.csv"
     if not f.exists(): return None
-    return {r["doc"]: r["valido"] == "1" for r in csv.DictReader(open(f))}
+    return {r["doc"]: r["valido"] == "1" for r in csv.DictReader(open(f, encoding="utf-8"))}
 
 PARES = [("gliner_hib", "regex"), ("gliner_hib", "gemini_ent"), ("regex", "gemini_ent")]
 
