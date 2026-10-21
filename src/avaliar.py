@@ -39,11 +39,11 @@ def rodar(metodo, conj):
         if metodo.startswith("gemini"):  # latência = da chamada registrada (cache não distorce)
             lat = r["latencia_s"] + (lat if lat < r["latencia_s"] else 0)
             meta = {"chamadas": r["tentativas"], "tokens": r.get("tokens_total") or 0, "modelo": r.get("modelo")}
-        (out_f / f"{pdf.stem}.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=1))
+        (out_f / f"{pdf.stem}.json").write_text(json.dumps(bundle, ensure_ascii=False, indent=1), encoding="utf-8")
         preds[pdf.stem] = {**ext, "latencia_s": lat, **meta}
         print(f"{metodo} {conj} {pdf.stem} obs={len(ext['observacoes'])} {lat:.2f}s", flush=True)
     (RES / "pred").mkdir(parents=True, exist_ok=True)
-    (RES / "pred" / f"{metodo}_{conj}.json").write_text(json.dumps(preds, ensure_ascii=False, indent=1))
+    (RES / "pred" / f"{metodo}_{conj}.json").write_text(json.dumps(preds, ensure_ascii=False, indent=1), encoding="utf-8")
 
 # ---------- métricas ----------
 def nt(s): return re.sub(r"[^0-9a-z%/*^]", "", norm(str(s))) if s not in (None, "") else None
@@ -105,7 +105,7 @@ def diferencas(conj, gabs):
     ids = sorted(gabs); D = {}
     for m in {x for p in PARES for x in p}:
         pf = RES / "pred" / f"{m}_{conj}.json"
-        if pf.exists(): pr = json.loads(pf.read_text()); D[m] = [por_doc(gabs[i], pr[i], m) for i in ids]
+        if pf.exists(): pr = json.loads(pf.read_text(encoding="utf-8")); D[m] = [por_doc(gabs[i], pr[i], m) for i in ids]
     acc = lambda ds: (lambda t: t[0] / t[1] if t[1] else 0)(soma(ds, "loinc"))
     fc = lambda ds: f1(soma(ds, "completa"))[2]
     def rnv(ds):  # recall da observação completa nos rótulos NÃO vistos
@@ -120,18 +120,18 @@ def diferencas(conj, gabs):
                 bs.append(fn([D[a][i] for i in ix]) - fn([D[b][i] for i in ix]))
             bs.sort(); pv = min(1.0, 2 * min(sum(x <= 0 for x in bs), sum(x >= 0 for x in bs)) / B)
             L.append([a, b, nome, f"{obs:+.3f}", f"{bs[25]:+.3f}", f"{bs[974]:+.3f}", f"{pv:.3f}"])
-    csv.writer(open(RES / f"diferencas_{conj}.csv", "w", newline="")).writerows(
+    csv.writer(open(RES / f"diferencas_{conj}.csv", "w", newline="", encoding="utf-8")).writerows(
         [["metodo_a", "metodo_b", "metrica", "diferenca_a_menos_b", "ic95_inf", "ic95_sup", "p_bootstrap_bilateral"]] + L)
     return L
 
 def metricas(conj):
-    gabs = {p.stem: json.loads(p.with_suffix(".json").read_text()) for p in docs(conj)}
+    gabs = {p.stem: json.loads(p.with_suffix(".json").read_text(encoding="utf-8")) for p in docs(conj)}
     campos = ["exame", "valor", "unidade", "faixa", "completa", "s_exame", "s_valor", "s_unidade", "s_faixa"]
     linhas_c, linhas_f, linhas_v, linhas_cond = [], [], [], []
     for m in METODOS:
         pf = RES / "pred" / f"{m}_{conj}.json"
         if not pf.exists(): continue
-        preds = json.loads(pf.read_text()); ids = sorted(gabs)
+        preds = json.loads(pf.read_text(encoding="utf-8")); ids = sorted(gabs)
         ds = [por_doc(gabs[i], preds[i], m) for i in ids]
         for k in campos:
             if k not in ds[0]: continue
@@ -157,7 +157,7 @@ def metricas(conj):
                          [("escaneado", lambda g: g["escaneado"]), ("digital", lambda g: not g["escaneado"])]:
             sd = [d for i, d in zip(ids, ds) if sel(gabs[i])]
             if sd: linhas_cond.append([m, nome, len(sd), f"{f1(soma(sd, 'completa'))[2]:.3f}"])
-    w = lambda n, h, L: csv.writer(open(RES / n, "w", newline="")).writerows([h] + L)
+    w = lambda n, h, L: csv.writer(open(RES / n, "w", newline="", encoding="utf-8")).writerows([h] + L)
     w(f"campos_{conj}.csv", ["metodo", "campo", "docs", "precisao", "recall", "f1", "ic95_inf", "ic95_sup"], linhas_c)
     w(f"fhir_custo_{conj}.csv", ["metodo", "docs", "acuracia_loinc", "ic95_inf", "ic95_sup", "pct_validos_hl7", "ic95_inf", "ic95_sup",
                                  "latencia_media_s", "chamadas_por_laudo", "tokens_por_laudo", "modelo"], linhas_f)
@@ -199,7 +199,7 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
         for l in ld:
             t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.001' if l[6] == '0.000' else l[6]}".replace(".", ",") + r"\\")
         t.append(r"\bottomrule\end{tabular}\end{table}")
-    (RES / ("tabelas.tex" if conj == "teste" else f"tabelas_{conj}.tex")).write_text("\n".join(t) + "\n")
+    (RES / ("tabelas.tex" if conj == "teste" else f"tabelas_{conj}.tex")).write_text("\n".join(t) + "\n", encoding="utf-8")
 
 def figura(conj, lc):
     import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt

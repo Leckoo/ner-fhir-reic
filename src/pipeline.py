@@ -83,13 +83,13 @@ def extrair_texto(pdf, cache_dir=None):
     pdf = pathlib.Path(pdf)
     if cache_dir:
         c = pathlib.Path(cache_dir) / (pdf.stem + ".txt")
-        if c.exists(): return c.read_text()
+        if c.exists(): return c.read_text(encoding="utf-8")
     with pdfplumber.open(pdf) as p:
         txt = "\n".join(pg.extract_text() or "" for pg in p.pages)
     if len(txt.strip()) < 20:  # PDF só imagem (escaneado) -> OCR
         txt = ocr(pdf)
     if cache_dir:
-        pathlib.Path(cache_dir).mkdir(parents=True, exist_ok=True); c.write_text(txt)
+        pathlib.Path(cache_dir).mkdir(parents=True, exist_ok=True); c.write_text(txt, encoding="utf-8")
     return txt
 
 def ocr(pdf):
