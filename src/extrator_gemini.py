@@ -4,6 +4,21 @@
    normalização e ligação LOINC do pipeline (comparação justa com o GLiNER).
 Respostas ficam em cache (results/gemini/<variante>/<conjunto>/<id>.json) para reprodutibilidade
 sem novas chamadas. A chave vem de GEMINI_API_KEY e nunca é impressa nem gravada."""
+
+def _carregar_env():
+    """Se GEMINI_API_KEY não estiver no ambiente, lê do arquivo .env na raiz do projeto."""
+    import os, pathlib
+    if os.environ.get("GEMINI_API_KEY"):
+        return
+    f = pathlib.Path(__file__).resolve().parent.parent / ".env"
+    if f.exists():
+        for linha in f.read_text(encoding="utf-8").splitlines():
+            k, _, v = linha.partition("=")
+            if k.strip() and v.strip() and not k.strip().startswith("#"):
+                os.environ.setdefault(k.strip(), v.strip().strip('"'))
+
+
+_carregar_env()
 import os, json, time, pathlib, re
 from pipeline import ligar_loinc, montar_obs, cabecalho, dedup
 
