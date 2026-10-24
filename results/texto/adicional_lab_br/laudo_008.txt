@@ -1,0 +1,35 @@
+NOME: Bruno Lima IDADE: 69 anos
+CONVENIO: Plano Fictício Saúde DN: 13/07/1957
+DR.(a): Exemplo Solicitante ID/LOGIN: 439843
+CRM: 13924/SC
+DATA: 23/09/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Check-up anual.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW 17,4 % 11,5 a 14,5 %
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Leucócitos 7,6 x10³/µL 4,0 a 11,0 x10³/µL
+Neutrófilos 42 % 3.192 /mm³ 40 a 70 % 1.600 a 7.700 /mm³
+Bastonetes 5 % 380 /mm³ 0 a 5 % 0 a 550 /mm³
+Segmentados 46 % 3.496 /mm³ 40 a 65 % 1.600 a 7.150 /mm³
+Eosinófilos 2 % 152 /mm³ 1 a 5 % 40 a 550 /mm³
+Basófilos 1 % 76 /mm³ 0 a 2 % 0 a 220 /mm³
+Linfócitos 38 % 2.888 /mm³ 20 a 40 % 800 a 4.400 /mm³
+Monócitos 4 % 304 /mm³ 2 a 10 % 80 a 1.100 /mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicose de jejum 106 mg/dl 70 a 99 mg/dl
+Na 133 mEq/L 136 a 145 mEq/L
+CREA 0,65 mg/dL 0,60 a 1,20 mg/dL
+K 3,1 mEq/L 3,5 a 5,1 mEq/L
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 57845 - RQE 71702
+Cidade Exemplo, 23 de setembro de 2026.
+Diretor Técnico - CRM/SC 87803 - RQE 44091 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:10

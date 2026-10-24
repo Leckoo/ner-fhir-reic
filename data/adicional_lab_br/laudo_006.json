@@ -1,0 +1,81 @@
+{
+  "id": "laudo_006",
+  "paciente": "Patrícia Ramos",
+  "nascimento": "2001-10-17",
+  "data": "2026-03-12",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio",
+      "rotulo_visto": true,
+      "valor": 5.5,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "5,5",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 a 5,1 mEq/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "rotulo_visto": true,
+      "valor": 32.7,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "32,7",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0 g/dl",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 3.22,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3,22",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 a 4,00 mUI/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Colesterol total",
+      "rotulo_visto": true,
+      "valor": 152.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "152",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "Até 190 mg/dL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 104.6,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "104,6",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 a 100,0 fl",
+      "secao": "ERITROGRAMA"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "name": [
+     {
+      "text": "ELISA PRADO"
+     }
+    ],
+    "birthDate": "1985-05-07"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:11111111-1111-1111-1111-111111111111",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 6.22,
+     "unit": "10*12/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*12/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*12/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*12/L"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*12/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*12/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:22222222-2222-2222-2222-222222222222",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 14.0,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 11.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:33333333-3333-3333-3333-333333333333",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "21000-5",
+       "display": "Erythrocyte distribution width [Ratio] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 17.6,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:44444444-4444-4444-4444-444444444444",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 151,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:55555555-5555-5555-5555-555555555555",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 1.56,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:66666666-6666-6666-6666-666666666666",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCHC [Mass/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "valueQuantity": {
+     "value": 32.5,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:77777777-7777-7777-7777-777777777777",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    "effectiveDateTime": "2026-03-13",
+    "result": [
+     {
+      "reference": "urn:uuid:11111111-1111-1111-1111-111111111111"
+     },
+     {
+      "reference": "urn:uuid:22222222-2222-2222-2222-222222222222"
+     },
+     {
+      "reference": "urn:uuid:33333333-3333-3333-3333-333333333333"
+     },
+     {
+      "reference": "urn:uuid:44444444-4444-4444-4444-444444444444"
+     },
+     {
+      "reference": "urn:uuid:55555555-5555-5555-5555-555555555555"
+     },
+     {
+      "reference": "urn:uuid:66666666-6666-6666-6666-666666666666"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f5bce385-a8f2-5c82-a138-3a575d97d4f6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: Elisa Prado IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 42.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:967f4d4b-7f9d-5138-ac44-e4376c61e9a9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 49.1,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2f855802-45da-5920-bab5-0acc5412cb3d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Plaquetograma"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 309.0,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 450.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3c0707c1-4fcd-55e8-8885-68798b777e17",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Hormônio tireoestimulante"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 6.07,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:816528d1-c3ad-5c5c-b367-1aa99cb69935",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de potássio"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 6.5,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e1542f1d-4373-5743-8568-2d8d07ad10d3",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/RS"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 75342.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:45ff5915-7e53-5006-b568-6af648f8d91d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 4.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f1b23383-86ed-5ce7-900f-a92eb6aee25b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício)"
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5bc01c1b-cb23-5155-892b-c3314ca56600",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:767d8be0-8a9f-5afe-86c5-a2f935aa5d0c"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:f5bce385-a8f2-5c82-a138-3a575d97d4f6"
+     },
+     {
+      "reference": "urn:uuid:967f4d4b-7f9d-5138-ac44-e4376c61e9a9"
+     },
+     {
+      "reference": "urn:uuid:2f855802-45da-5920-bab5-0acc5412cb3d"
+     },
+     {
+      "reference": "urn:uuid:3c0707c1-4fcd-55e8-8885-68798b777e17"
+     },
+     {
+      "reference": "urn:uuid:816528d1-c3ad-5c5c-b367-1aa99cb69935"
+     },
+     {
+      "reference": "urn:uuid:e1542f1d-4373-5743-8568-2d8d07ad10d3"
+     },
+     {
+      "reference": "urn:uuid:45ff5915-7e53-5006-b568-6af648f8d91d"
+     },
+     {
+      "reference": "urn:uuid:f1b23383-86ed-5ce7-900f-a92eb6aee25b"
+     }
+    ]
+   }
+  }
+ ]
+}

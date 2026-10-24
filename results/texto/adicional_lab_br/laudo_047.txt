@@ -1,0 +1,24 @@
+NOME: Íris Campos IDADE: 47 anos
+CONVENIO: Particular DN: 19/01/1979
+DR.(a): Exemplo Solicitante ID/LOGIN: 134967
+CRM: 30280/PR
+DATA: 14/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HCT 49,0 % 36,0 a 48,0 %
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+TGP 35 U/L Até 41 U/L
+Hormônio tirotrófico 3,60 µUI/mL 0,40 a 4,00 µUI/mL
+Potássio 4,0 mmol/L 3,5 a 5,1 mmol/L
+Observações: Valores de referência conforme idade e sexo. Confirmar resultado a critério médico.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/PR 44607 - RQE 33351
+Cidade Exemplo, 14 de agosto de 2026.
+Diretor Técnico - CRM/PR 50515 - RQE 3705 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 11:11

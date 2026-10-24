@@ -1,0 +1,67 @@
+{
+  "id": "laudo_004",
+  "paciente": "João Batista Moura",
+  "nascimento": "1958-11-21",
+  "data": "2026-03-05",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 41.4,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "41,4",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase pirúvica",
+      "rotulo_visto": true,
+      "valor": 52.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "52",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41 U/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "CHCM",
+      "rotulo_visto": true,
+      "valor": 32.6,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "32,6",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0 g/dl",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio no soro",
+      "rotulo_visto": false,
+      "valor": 153.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "153",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145 mEq/L",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

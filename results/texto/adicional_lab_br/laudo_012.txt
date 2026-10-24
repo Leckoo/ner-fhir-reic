@@ -1,0 +1,25 @@
+NOME: Vânia Lopes IDADE: 18 anos
+CONVENIO: Particular DN: 28/01/2008
+DR.(a): Exemplo Solicitante ID/LOGIN: 979047
+CRM: 82828/PR
+DATA: 18/04/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Controle de diabetes.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW 15,6 % 11,5 a 14,5 %
+Hb 12,0 g/dL 12,0 a 16,0 g/dL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Creatininemia 1,19 mg/dL 0,60 a 1,20 mg/dL
+Transaminase glutâmico pirúvica 143 U/L Até 41 U/L
+Glicose 219 mg/dl 70 a 99 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/PR 2568 - RQE 97435
+Cidade Exemplo, 18 de abril de 2026.
+Diretor Técnico - CRM/PR 54554 - RQE 80616 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 16:26

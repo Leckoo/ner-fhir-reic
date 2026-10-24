@@ -1,0 +1,26 @@
+NOME: Vânia Lopes IDADE: 45 anos
+CONVENIO: Plano Fictício Saúde DN: 10/08/1981
+DR.(a): Exemplo Solicitante ID/LOGIN: 456849
+CRM: 24541/SP
+DATA: 07/09/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Concentração de hemoglobina corpuscular médk6,8 g/dL 32.0 a 36,0 g/dL
+Hematócrito 40,3 % 36,0 a 48,0 %
+Hb Ha g/dl 12,0 a 16,0 g/dl
+Volume corpuscular médio 100,5 fL 80.0 a 100,0 fL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+ALT 99 U/L Até 41 U/L
+Ureia 83 mg/dl 15 a 45 mg/dl
+TSH Is mU/L 0,40 a 4,00 mU/L
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SP 26332 - RQE 94890
+Cidade Exemplo, 07 de setembro de 2026.
+Diretor Técnico - CRM/SP 12167 - RQE 51050 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel H:12

@@ -1,0 +1,27 @@
+NOME: Bruno Lima IDADE: 35 anos
+CONVENIO: Convênio Exemplo DN: 21/09/1991
+DR.(a): Exemplo Solicitante ID/LOGIN: 923002
+CRM: 86040/PR
+DATA: 22/07/2026
+EXAME: EXAMES LABORATORIAIS
+—mmNr[ [rr
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Dosagem de hemoglobina 12,5 g/dL 12,0 a 16,0 g/dL
+Contagem de eritrócitos 4,57 x10"6/uL 4,20 a 5,40 x10"6/uL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Potássio no soro 3,7 mmol/L 3,5 a 5,1 mmol/L
+UR 70 mg/dl 15a 45 mg/dl
+Transaminase glutâmico oxalacética 37 U/L Até 40 U/L
+Nota: Eritrograma sem alterações morfológicas.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente,
+Dr(a). Ciclana Fictícia
+CRM/PR 79952 - RQE 48407
+Cidade Exemplo, 22 de julho de 2026.
+Diretor Técnico - CRM/PR 11852 - RQE 47506 - Dr(a). Beltrano Exemplo
+—— eee ee
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 14:55

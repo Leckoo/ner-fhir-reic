@@ -1,0 +1,81 @@
+{
+  "id": "laudo_011",
+  "paciente": "Elisa Prado",
+  "nascimento": "1954-07-07",
+  "data": "2026-07-03",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Hormônio tireoestimulante",
+      "rotulo_visto": false,
+      "valor": 0.37,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "0,37",
+      "texto_unidade": "mUI/L",
+      "texto_faixa": "0,40 a 4,00 mUI/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "CREA",
+      "rotulo_visto": true,
+      "valor": 1.52,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,52",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0,60 a 1,20 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "MCH",
+      "rotulo_visto": true,
+      "valor": 28.1,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "28,1",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0 pg",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 40.2,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "40,2",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "VCM",
+      "rotulo_visto": true,
+      "valor": 100.0,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "100,0",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 a 100,0 fl",
+      "secao": "ERITROGRAMA"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+NOME: Tiago Monteiro IDADE: 23 anos
+CONVENIO: Convênio Exemplo DN: 16/10/2003
+DR.(a): Exemplo Solicitante ID/LOGIN: 456401
+CRM: 84289/SC
+DATA: 17/01/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Check-up anual.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Ht 30,0 % 36,0 a 48,0 %
+MCV 95,8 fl 80,0 a 100,0 fl
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Leucócitos - Global 2,2 x10³/µL 4,0 a 11,0 x10³/µL
+Neutrófilos 47 % 1.034 /mm³ 40 a 70 % 1.600 a 7.700 /mm³
+Bastonetes 5 % 110 /mm³ 0 a 5 % 0 a 550 /mm³
+Segmentados 53 % 1.166 /mm³ 40 a 65 % 1.600 a 7.150 /mm³
+Eosinófilos 3 % 66 /mm³ 1 a 5 % 40 a 550 /mm³
+Basófilos 0 % 0 /mm³ 0 a 2 % 0 a 220 /mm³
+Linfócitos 34 % 748 /mm³ 20 a 40 % 800 a 4.400 /mm³
+Monócitos 8 % 176 /mm³ 2 a 10 % 80 a 1.100 /mm³
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 154.000 /mm³ 150.000 a 450.000 /mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Na 151 mmol/L 136 a 145 mmol/L
+TGO 82 U/L Até 40 U/L
+Triglicerídeos 255 mg/dl Até 150 mg/dl
+Glicemia de jejum 128 mg/dl 70 a 99 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/SC 21897 - RQE 98142
+Cidade Exemplo, 17 de janeiro de 2026.
+Diretor Técnico - CRM/SC 28036 - RQE 51726 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 17:16

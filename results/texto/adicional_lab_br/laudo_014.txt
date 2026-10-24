@@ -1,0 +1,29 @@
+NOME: João Batista Moura IDADE: 28 anos
+CONVENIO: Convênio Exemplo DN: 17/10/1998
+DR(a): Exemplo Solicitante ID/LOGIN: 387927
+CRM: 99081/PR
+DATA: 01/06/2026
+EXAME: EXAMES LABORATORIAIS
+e
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Acompanhamento ambulatorial.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HGB 1,9 g/ dL 12,0 a 16,0 g/ dl
+Determinação do hematócrito 31,2 % 36,0 a 48,0 %
+RDW-CV 16,4 Go 11,5 a 14,5 %
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 494 mil/mm? 150 a 450 mil/mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+TSH 3,47 uU/mL 0,40 a 4,00 gUI/mL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/PR 52039 - RQE 28321
+Cidade Exemplo, 01 de junho de 2026.
+Diretor Técnico - CRM/PR 77430 - RQE 50655 - Dr(a). Ciclana Fictícia
+PU erre E Lea E f E
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Ideli 13:26

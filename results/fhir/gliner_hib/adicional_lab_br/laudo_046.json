@@ -1,0 +1,187 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:36ee3d4f-9fa6-59fb-a590-edcaffaf4540",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "valueQuantity": {
+     "value": 10.6,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fb13e339-90b7-5cef-af9d-92cd36612282",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "valueQuantity": {
+     "value": 261.0
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0
+      },
+      "high": {
+       "value": 450.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dc36183d-7cd5-5f40-89f0-77f1d18903f8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "valueQuantity": {
+     "value": 9.93
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4
+      },
+      "high": {
+       "value": 4.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c582a999-160a-55c3-a51b-baace5bb72ec",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:1d47b689-48c7-5498-91c4-bf15154d5a1c"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:36ee3d4f-9fa6-59fb-a590-edcaffaf4540"
+     },
+     {
+      "reference": "urn:uuid:fb13e339-90b7-5cef-af9d-92cd36612282"
+     },
+     {
+      "reference": "urn:uuid:dc36183d-7cd5-5f40-89f0-77f1d18903f8"
+     }
+    ]
+   }
+  }
+ ]
+}

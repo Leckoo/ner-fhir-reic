@@ -1,0 +1,25 @@
+NOME: Gabriela Melo IDADE: 85 anos
+CONVENIO: Plano Fictício Saúde DN: 17/02/1941
+DR.(a): Exemplo Solicitante ID/LOGIN: 284755
+CRM: 27708/MG
+DATA: 16/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+PLT 453 x10³/µL 150 a 450 x10³/µL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Dosagem de glicose 126 mg/dl 70 a 99 mg/dl
+Uréia 88 mg/dL 15 a 45 mg/dL
+Transaminase pirúvica 122 U/L Até 41 U/L
+Natremia 145 mmol/L 136 a 145 mmol/L
+Observações: Resultados liberados após conferência. Série branca sem atipias ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/MG 51144 - RQE 66777
+Cidade Exemplo, 16 de agosto de 2026.
+Diretor Técnico - CRM/MG 93813 - RQE 1802 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 18:10

@@ -1,0 +1,167 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:fdacebc6-371a-5fd0-a7e9-53bc5ad141be",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "valueQuantity": {
+     "value": 87.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:89ef3dc4-184b-5669-b8a5-704ab07e7e67",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "valueQuantity": {
+     "value": 33.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1af5b767-5b2e-53b7-b021-6f3a62627650",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "TGO 12"
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "valueQuantity": {
+     "value": 40.0,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c3c08441-39ca-563e-9bc7-09df6ab26d18",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af3b2f12-cf7d-5ee8-96ef-b435f7c05ecd"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:fdacebc6-371a-5fd0-a7e9-53bc5ad141be"
+     },
+     {
+      "reference": "urn:uuid:89ef3dc4-184b-5669-b8a5-704ab07e7e67"
+     },
+     {
+      "reference": "urn:uuid:1af5b767-5b2e-53b7-b021-6f3a62627650"
+     }
+    ]
+   }
+  }
+ ]
+}

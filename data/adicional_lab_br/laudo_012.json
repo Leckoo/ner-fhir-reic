@@ -1,0 +1,81 @@
+{
+  "id": "laudo_012",
+  "paciente": "Vânia Lopes",
+  "nascimento": "2008-01-28",
+  "data": "2026-04-18",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW",
+      "rotulo_visto": true,
+      "valor": 15.6,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "15,6",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Hb",
+      "rotulo_visto": true,
+      "valor": 12.0,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12,0",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 a 16,0 g/dL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatininemia",
+      "rotulo_visto": false,
+      "valor": 1.19,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,19",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 a 1,20 mg/dL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "1742-6",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase glutâmico pirúvica",
+      "rotulo_visto": false,
+      "valor": 143.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 41.0,
+      "texto_valor": "143",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 41 U/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose",
+      "rotulo_visto": true,
+      "valor": 219.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "219",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99 mg/dl",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

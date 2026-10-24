@@ -1,0 +1,81 @@
+{
+  "id": "laudo_009",
+  "paciente": "Sílvia Araújo",
+  "nascimento": "2001-08-11",
+  "data": "2026-06-03",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Creatininemia",
+      "rotulo_visto": false,
+      "valor": 1.05,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "1,05",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "0,60 a 1,20 mg/dL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "rotulo_visto": true,
+      "valor": 449.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "449.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000 /mm³",
+      "secao": "PLAQUETAS"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 160.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "160",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99 mg/dL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TGL",
+      "rotulo_visto": false,
+      "valor": 281.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "281",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase glutâmico oxalacética",
+      "rotulo_visto": false,
+      "valor": 61.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "61",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40 U/L",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

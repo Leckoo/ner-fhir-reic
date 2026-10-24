@@ -1,0 +1,5 @@
+metodo,rotulo,obs_gabarito,recall_obs_completa,pares_por_valor,acuracia_loinc
+regex,visto,193,0.803,179,0.989
+regex,nao_visto,95,0.105,86,0.128
+gliner_hib,visto,193,0.580,137,0.942
+gliner_hib,nao_visto,95,0.284,59,0.475

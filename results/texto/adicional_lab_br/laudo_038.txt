@@ -1,0 +1,25 @@
+NOME: Lúcia Ferreira IDADE: 79 anos
+CONVENIO: Convênio Exemplo DN: 01/12/1947
+DR.(a): Exemplo Solicitante ID/LOGIN: 491302
+CRM: 55364/PR
+DATA: 10/08/2026
+EXAME: EXAMES LABORATORIAIS
+terem
+XA AB TORIA
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Volume corpuscular médio 91,4 fi 80,0 a 100,0 f1
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicose em jejum 87 mg/dl 70 a 99 mg/dl
+K 33 mEq/L 3,5 45,1 mEyL
+TGO 12 UL Até 40 U/L
+Nota: Eritrograma sem alterações morfológicas.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/PR 45642 - RQE 71303
+Cidade Exemplo, 10 de agosto de 2026.
+Diretor Técnico - CRM/PR 94980 - RQE 60182 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Ideli 15:05

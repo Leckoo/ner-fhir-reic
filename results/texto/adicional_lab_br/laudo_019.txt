@@ -1,0 +1,30 @@
+NOME: Sílvia Araújo IDADE: 20 anos
+CONVENTO: Plano Fictício Saúde DN: 07/06/2006
+DR.(a): Exemplo Solicitante ID/LOGIN: 525314
+CRM: 61752/RS
+DATA: 14/05/2026
+EXAME: EXAMES LABORATORIAIS
+———e————eeeee er
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCH 34,8 pg 27,03 32,0 pg
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 384 mil/mm 150 a 450 mil/mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicose em jejum 174 mg/dl 70 a 99 mg/dl
+Hormônio tirotrófico 115 mUI/L 0,40 a 4,00 mUT/L
+Kalemia 5,9 mEg/L 3,5 a 5,1 mEqyL
+Glicose 152 mg/dl 70 a 99 mg/dl
+Observações: Resultados liberados após conferência.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/RS 23820 - RQE 46025
+Cidade Exemplo, 14 de maio de 2026.
+Diretor Técnico - CRM/RS 47546 - RQE 16354 - Dr(a). Ciclana Fictícia
+eee eee
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 17:08

@@ -1,0 +1,67 @@
+{
+  "id": "laudo_038",
+  "paciente": "Lúcia Ferreira",
+  "nascimento": "1947-12-01",
+  "data": "2026-08-10",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 87.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "87",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "Volume corpuscular médio",
+      "rotulo_visto": true,
+      "valor": 91.4,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "91,4",
+      "texto_unidade": "fl",
+      "texto_faixa": "80,0 a 100,0 fl",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "K",
+      "rotulo_visto": true,
+      "valor": 3.3,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3,3",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "3,5 a 5,1 mEq/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "TGO",
+      "rotulo_visto": true,
+      "valor": 112.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "112",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40 U/L",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+NOME: Hugo Reis IDADE: 52 anos
+CONVENIO: Particular DN: 16/05/1974
+DR.(a): Exemplo Solicitante ID/LOGIN: 893528
+CRM: 55470/SC
+DATA: 25/05/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Hb 17,1 g/ dL 12,0 a 16,0 g/ dL
+CHCM 35,0 g/dL 32,0 a 36,0 g/dL
+RDW 15,0 % 11,5 a 14,5 %
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetograma 344 x10³/µL 150 a 450 x10³/µL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Na 131 mEq/L 136 a 145 mEq/L
+Dosagem de potássio 6,4 mEq/L 3,5 a 5,1 mEq/L
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SC 85755 - RQE 12181
+Cidade Exemplo, 25 de maio de 2026.
+Diretor Técnico - CRM/SC 71454 - RQE 57383 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 14:40

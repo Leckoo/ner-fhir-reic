@@ -1,0 +1,30 @@
+NOME: Natália Gomes IDADE: 82 anos
+CONVENIO: Plano Fictício Saúde DN: 02/03/1944
+DR.(a): Exemplo Solicitante ID/LOGIN: 704993
+CRM: 94783/PR
+DATA: 10/07/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Controle de diabetes.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Volume corpuscular médio 84,8 fL 80,0 a 100,0 fL
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetograma 135 mil/mm³ 150 a 450 mil/mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicemia de jejum 158 mg/dL 70 a 99 mg/dL
+K 4,8 mEq/L 3,5 a 5,1 mEq/L
+Hormônio tireoestimulante 2,65 mUI/L 0,40 a 4,00 mUI/L
+SGOT 24 U/L Até 40 U/L
+Colesterol 125 mg/dl Até 190 mg/dl
+Observações: Resultados liberados após conferência.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/PR 72691 - RQE 56177
+Cidade Exemplo, 10 de julho de 2026.
+Diretor Técnico - CRM/PR 68236 - RQE 90767 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:24

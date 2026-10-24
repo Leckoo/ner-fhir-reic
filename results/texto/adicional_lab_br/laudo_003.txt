@@ -1,0 +1,28 @@
+NOME: Elisa Prado IDADE: 63 anos
+CONVENIO: Convênio Exemplo DN: 19/01/1963
+DR.(a): Exemplo Solicitante ID/LOGIN: 695648
+CRM: 86150/SC
+DATA: 23/01/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Check-up anual.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW 14,5 % 11,Sa 14,5 %
+Concentração de hemoglobina corpuscular médã6,6 g/di 32,0 a 36,0 g/dl
+Determinação do hematócrito 34,1 GF 36.0 a 48,0 %
+VCM 98.1 fi 80.0 a 100,0 fl
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Natremia 135 mmol/L 136 a 145 mmol/L
+Glicemia de jejum 150 mg/dL 70 a 99 mg/dL
+Glicose 183 mg/dL 70 a 99 mg/dL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SC 22096 - RQE 75321
+Cidade Exemplo, 23 de janeiro de 2026.
+Diretor Técnico - CRM/SC 77327 - RQE 26033 - Dr(a). Ciclana Fictícia
+SRS SE Pes SS AT E TS DS A SS AS
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 15:05

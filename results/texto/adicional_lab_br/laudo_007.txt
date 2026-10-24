@@ -1,0 +1,31 @@
+NOME: Vânia Lopes IDADE: 61 anos
+CONVENIO: Particular DN: 01/09/1965
+DR.(a): Exemplo Solicitante ID/LOGIN: 466166
+CRM: 86739/SC
+DATA: 01/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Check-up anual.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Hb 10,4 g/dl 12,0 a 16,0 g/dl
+Contagem de eritrócitos 6,17 x10^6/µL 4,20 a 5,40 x10^6/µL
+MCV 83,1 fl 80,0 a 100,0 fl
+Concentração de hemoglobina corpuscular méd3ia2,0 g/dL 32,0 a 36,0 g/dL
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 485 mil/mm³ 150 a 450 mil/mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+URE 77 mg/dL 15 a 45 mg/dL
+Dosagem de glicose 173 mg/dl 70 a 99 mg/dl
+Tireotrofina 0,29 mUI/L 0,40 a 4,00 mUI/L
+Observações: Valores de referência conforme idade e sexo.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 79187 - RQE 33093
+Cidade Exemplo, 01 de agosto de 2026.
+Diretor Técnico - CRM/SC 49852 - RQE 94974 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:02

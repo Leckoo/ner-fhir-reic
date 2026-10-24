@@ -41,3 +41,15 @@ def test_teste_congelado():
     d = RAIZ / "data" / "teste"
     for l in (d / "SHA256SUMS").read_text(encoding="utf-8").splitlines():
         h, nome = l.split(); assert hashlib.sha256((d / nome).read_bytes()).hexdigest() == h, nome
+
+def test_lab_br_adicional():
+    """5º layout (conjunto adicional): hash próprio confere, layout correto, sem nomes de instituições reais."""
+    d = RAIZ / "data" / "adicional_lab_br"
+    for l in (d / "SHA256SUMS").read_text(encoding="utf-8").splitlines():
+        h, nome = l.split(); assert hashlib.sha256((d / nome).read_bytes()).hexdigest() == h, nome
+    g = json.loads((d / "laudo_000.json").read_text(encoding="utf-8")); assert g["layout"] == "lab_br"
+    src = (RAIZ / "src" / "gerar_lab_br.py").read_text(encoding="utf-8").lower()
+    for proibido in ("hospital", "einstein", "fleury", "dasa", "pardini"):
+        assert proibido not in src, proibido
+    e = extrair_regex("Hemácias 4,47 milhões/mm³ 4,20 a 5,40 milhões/mm³")["observacoes"][0]
+    assert (e["loinc"], e["valor"], e["ref_low"], e["ref_high"]) == ("789-8", 4.47, 4.2, 5.4)

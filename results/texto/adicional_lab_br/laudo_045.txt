@@ -1,0 +1,38 @@
+NOME: Vânia Lopes IDADE: 49 anos
+CONVENIO: Convênio Exemplo DN: 15/12/1977
+DR.(a): Exemplo Solicitante ID/LOGIN: 474935
+CRM: 70144/SC
+DATA: 22/01/2026
+EXAME: EXAMES LABORATORIAIS
+DO SE SEE e
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: | Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HGB 11,5 g/dL 12,0 a 16,0 g/dL
+Determinação do hematócrito 33.0 % 36,0 a 48,0 %
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de leucócitos 14,6 x10%uL 4,0 a 11,0 x10%yL
+Neutrófilos 64 % 9.344 /mm? 40 a 70 % 1.600 a 7.700 /mm?
+Bastonetes 4% 584 mm? 0a5% 0a 550 /mm
+Segmentados 54 % 7.884 Imm? 40 a 65 % 1.600 a 7.150 /mm?
+Eosinófilos 1% 146 /mm? la5S% 40a 550 /mm?
+Basófilos 0% O/mm? 042% 0a 220 /mm?
+Linfócitos 20 % 2.920 /mm? 20 a 40 % 800 a 4.400 /mm?
+Monócitos 3% 438 mm? 2a10% 80a 1.100 /mm
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Triglicérides 298 mg/dL Até 150 mg/dL
+Sódio 125 mmol/L 136 a 145 mmol/L
+Glicose 164 mg/dL 70 a 99 mg/dL
+CREA 2,33 mg/dl 0,60 a 1,20 mg/dl
+Nota: Plaquetas com morfologia normal ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 85307 - RQE 19325
+Cidade Exemplo, 22 de janeiro de 2026.
+Diretor Técnico - CRM/SC 30276 - RQE 5720 - Dr(a). Ciclana Fictícia
+E a ER SO O a SP SD En
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 15:06

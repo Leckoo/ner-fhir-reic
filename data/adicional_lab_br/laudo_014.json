@@ -1,0 +1,81 @@
+{
+  "id": "laudo_014",
+  "paciente": "João Batista Moura",
+  "nascimento": "1998-10-17",
+  "data": "2026-06-01",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 11.9,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "11,9",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12,0 a 16,0 g/ dL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 31.2,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "31,2",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "TSH",
+      "rotulo_visto": true,
+      "valor": 3.47,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "3,47",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00 µUI/mL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "rotulo_visto": true,
+      "valor": 494.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "494",
+      "texto_unidade": "mil/mm³",
+      "texto_faixa": "150 a 450 mil/mm³",
+      "secao": "PLAQUETAS"
+    },
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "RDW-CV",
+      "rotulo_visto": true,
+      "valor": 16.4,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "16,4",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5 %",
+      "secao": "ERITROGRAMA"
+    }
+  ]
+}

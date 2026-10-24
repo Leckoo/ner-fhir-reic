@@ -1,0 +1,367 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ada9029c-fd4e-544d-a235-5733492df32f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: João Batista Moura IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 28.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:beedf970-ee48-5774-be40-e1b800969e65",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 1.9,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d6662c3c-1149-5a89-b229-51e2dee87eb2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Determinação do hematócrito"
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 31.2,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8327f868-ceb0-5b07-9cc4-0ecbacce0e02",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 16.4
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5
+      },
+      "high": {
+       "value": 14.5
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:28417ef9-5a7a-5eb5-8bc1-e1297f3e26c7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 494.0
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0
+      },
+      "high": {
+       "value": 450.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c6db2f04-711c-5748-9726-9cb3ebee22f0",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 3.47
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4
+      },
+      "high": {
+       "value": 4.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:279b6e7f-179c-54a3-8228-0879cd42beed",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/PR"
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 52039.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8d6834cd-a991-51ed-bcf5-3d130a972e5f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7251bc2f-2098-54e9-8b2b-c5d9d0b2d4d4",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:66b8c140-81b0-55ef-9531-b93dec8d4891"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:ada9029c-fd4e-544d-a235-5733492df32f"
+     },
+     {
+      "reference": "urn:uuid:beedf970-ee48-5774-be40-e1b800969e65"
+     },
+     {
+      "reference": "urn:uuid:d6662c3c-1149-5a89-b229-51e2dee87eb2"
+     },
+     {
+      "reference": "urn:uuid:8327f868-ceb0-5b07-9cc4-0ecbacce0e02"
+     },
+     {
+      "reference": "urn:uuid:28417ef9-5a7a-5eb5-8bc1-e1297f3e26c7"
+     },
+     {
+      "reference": "urn:uuid:c6db2f04-711c-5748-9726-9cb3ebee22f0"
+     },
+     {
+      "reference": "urn:uuid:279b6e7f-179c-54a3-8228-0879cd42beed"
+     },
+     {
+      "reference": "urn:uuid:8d6834cd-a991-51ed-bcf5-3d130a972e5f"
+     }
+    ]
+   }
+  }
+ ]
+}

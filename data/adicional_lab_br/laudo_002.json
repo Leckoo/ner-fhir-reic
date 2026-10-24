@@ -1,0 +1,67 @@
+{
+  "id": "laudo_002",
+  "paciente": "Hugo Reis",
+  "nascimento": "1992-11-17",
+  "data": "2026-09-19",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "788-0",
+      "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+      "rotulo": "Amplitude de distribuição dos eritrócitos",
+      "rotulo_visto": false,
+      "valor": 12.8,
+      "unidade": "%",
+      "ref_low": 11.5,
+      "ref_high": 14.5,
+      "texto_valor": "12,8",
+      "texto_unidade": "%",
+      "texto_faixa": "11,5 a 14,5 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de triglicerídeos",
+      "rotulo_visto": false,
+      "valor": 287.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "287",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "785-6",
+      "display": "MCH [Entitic mass] by Automated count",
+      "rotulo": "Hemoglobina corpuscular média",
+      "rotulo_visto": false,
+      "valor": 26.7,
+      "unidade": "pg",
+      "ref_low": 27.0,
+      "ref_high": 32.0,
+      "texto_valor": "26,7",
+      "texto_unidade": "pg",
+      "texto_faixa": "27,0 a 32,0 pg",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose no soro",
+      "rotulo_visto": false,
+      "valor": 205.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "205",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99 mg/dL",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

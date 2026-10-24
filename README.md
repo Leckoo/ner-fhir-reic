@@ -12,6 +12,14 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
   `c3c25703cb5e0773d7002405bbb0f4c171563e0e33164cd8369b204600f31d79`), `REGRAS_SHA256` com o hash das regras/gerador.
   O `run_all.sh` não regenera o teste, só confere o hash (o ReportLab grava data de criação no PDF, então regenerar não
   daria bytes idênticos).
+- `data/adicional_lab_br/`: **conjunto adicional** (5º layout `lab_br`), 50 laudos, seed 2027, gerado por
+  `src/gerar_lab_br.py` (o `gerar_laudos.py` e os 4 layouts não mudam). Segue o padrão comum de laudos de laboratórios
+  brasileiros (`data/layout-lab_br-estrutura.md`, síntese em `data/laudos-publicos-br.md`): cabeçalho em grade, título
+  sublinhado, Material/Método, Eritrograma, Leucograma (% e absoluto; diferencial fora do catálogo LOINC, logo fora do
+  gabarito), Plaquetas, Bioquímica, Conclusão/Observações, rodapé com assinatura e responsável técnico. Tudo fictício,
+  sem logotipo nem nome de instituição real; vírgula decimal sempre. Mesmas regras de variação do teste (incl. rótulos
+  não vistos). Hash próprio em `SHA256SUMS`; NÃO entra no teste de 150. Métricas: `results/*_adicional_lab_br.csv`
+  (`cd src && ../.venv/bin/python avaliar.py metricas adicional_lab_br`).
 - Histórico: (1) uma versão do teste sem rótulos fora do dicionário (hash `102e496e…`) foi substituída, ver R2b;
   (2) em 20/10 os `display` LOINC foram corrigidos para os nomes oficiais (conferidos pelo Scraper,
   `paper-reic/loinc-verificacao.md`) só nos gabaritos JSON, sem mudar os PDFs; os Bundles em `results/fhir/` foram regenerados.

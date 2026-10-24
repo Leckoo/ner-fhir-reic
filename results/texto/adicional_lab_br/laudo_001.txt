@@ -1,0 +1,22 @@
+NOME: Elisa Prado IDADE: 85 anos
+CONVENIO: Particular DN: 01/03/1941
+DR.(a): Exemplo Solicitante ID/LOGIN: 427395
+CRM: 21900/SC
+DATA: 11/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Soro
+Método: Automatizado - enzimático colorimétrico
+Dados clínicos: Jejum informado pelo paciente.
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicose em jejum 216 mg/dl 70 a 99 mg/dl
+Dosagem de creatinina 0,88 mg/dl 0,60 a 1,20 mg/dl
+Dosagem de sódio 139 mmol/L 136 a 145 mmol/L
+GLI 101 mg/dL 70 a 99 mg/dL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SC 18729 - RQE 34023
+Cidade Exemplo, 11 de agosto de 2026.
+Diretor Técnico - CRM/SC 94125 - RQE 80527 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 17:17

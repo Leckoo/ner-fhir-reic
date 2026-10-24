@@ -1,0 +1,7 @@
+metodo,condicao,docs,f1_obs_completa
+regex,layout=lab_br,50,0.412
+regex,escaneado,22,0.320
+regex,digital,28,0.478
+gliner_hib,layout=lab_br,50,0.488
+gliner_hib,escaneado,22,0.375
+gliner_hib,digital,28,0.577

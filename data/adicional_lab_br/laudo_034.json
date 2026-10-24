@@ -1,0 +1,81 @@
+{
+  "id": "laudo_034",
+  "paciente": "Ana Souza",
+  "nascimento": "1997-11-07",
+  "data": "2026-08-06",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "RBC",
+      "rotulo_visto": true,
+      "valor": 3.62,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "3,62",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 a 5,40 x10^6/µL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose de jejum",
+      "rotulo_visto": true,
+      "valor": 142.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "142",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99 mg/dL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "6690-2",
+      "display": "Leukocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de leucócitos",
+      "rotulo_visto": false,
+      "valor": 14.1,
+      "unidade": "10*3/uL",
+      "ref_low": 4.0,
+      "ref_high": 11.0,
+      "texto_valor": "14.100",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "4.000 a 11.000 /mm³",
+      "secao": "LEUCOGRAMA"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Dosagem de hemoglobina",
+      "rotulo_visto": true,
+      "valor": 13.2,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "13,2",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12,0 a 16,0 g/ dL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de plaquetas",
+      "rotulo_visto": true,
+      "valor": 385.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "385",
+      "texto_unidade": "x10³/µL",
+      "texto_faixa": "150 a 450 x10³/µL",
+      "secao": "PLAQUETAS"
+    }
+  ]
+}

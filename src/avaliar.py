@@ -153,7 +153,7 @@ def metricas(conj):
         for visto in (True, False):
             s = [sum(d["sub"][visto][j] for d in ds) for j in range(4)]
             if s[0]: linhas_v.append([m, "visto" if visto else "nao_visto", s[0], f"{s[1]/s[0]:.3f}", s[2], f"{s[3]/s[2]:.3f}" if s[2] else "NA"])
-        for nome, sel in [("layout=" + l, lambda g, l=l: g["layout"] == l) for l in ("tabela", "colunas", "blocos", "legado")] + \
+        for nome, sel in [("layout=" + l, lambda g, l=l: g["layout"] == l) for l in ("tabela", "colunas", "blocos", "legado", "lab_br")] + \
                          [("escaneado", lambda g: g["escaneado"]), ("digital", lambda g: not g["escaneado"])]:
             sd = [d for i, d in zip(ids, ds) if sel(gabs[i])]
             if sd: linhas_cond.append([m, nome, len(sd), f"{f1(soma(sd, 'completa'))[2]:.3f}"])

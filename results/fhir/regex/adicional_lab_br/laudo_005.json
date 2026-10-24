@@ -1,0 +1,411 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8443df4d-67fa-5780-beb1-09a816877773",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: Gabriela Melo IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 85.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:5d8aa41d-fa5e-5be9-a725-e752b25e77e6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 453.0,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 450.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c4ce59f8-930a-5911-8924-9773b1e006c6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de glicose"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 126.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:16c735ff-021d-5322-85f1-bd10d8a14d27",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 88.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 15.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 45.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3691bf6d-1435-557b-af33-9b97fcf75a5a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1742-6",
+       "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 122.0,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 41.0,
+       "unit": "U/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "U/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:26701c5a-7c54-57ff-8bde-6e2181aa94ee",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Natremia"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 145.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:954cf151-215c-5527-b9d5-757e757c1fb4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/MG"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 51144.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:edc09f41-9dfc-5921-b82f-8f8e288254c7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 16.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:60d90775-4f2d-53ad-98a0-fb6b0df148fe",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício)"
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7a409ad7-2020-57d0-8ad2-2f936db3212c",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:69660c70-de9a-5f5e-8e18-20dc83fa227c"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:8443df4d-67fa-5780-beb1-09a816877773"
+     },
+     {
+      "reference": "urn:uuid:5d8aa41d-fa5e-5be9-a725-e752b25e77e6"
+     },
+     {
+      "reference": "urn:uuid:c4ce59f8-930a-5911-8924-9773b1e006c6"
+     },
+     {
+      "reference": "urn:uuid:16c735ff-021d-5322-85f1-bd10d8a14d27"
+     },
+     {
+      "reference": "urn:uuid:3691bf6d-1435-557b-af33-9b97fcf75a5a"
+     },
+     {
+      "reference": "urn:uuid:26701c5a-7c54-57ff-8bde-6e2181aa94ee"
+     },
+     {
+      "reference": "urn:uuid:954cf151-215c-5527-b9d5-757e757c1fb4"
+     },
+     {
+      "reference": "urn:uuid:edc09f41-9dfc-5921-b82f-8f8e288254c7"
+     },
+     {
+      "reference": "urn:uuid:60d90775-4f2d-53ad-98a0-fb6b0df148fe"
+     }
+    ]
+   }
+  }
+ ]
+}

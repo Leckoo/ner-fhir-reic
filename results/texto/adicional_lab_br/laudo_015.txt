@@ -1,0 +1,35 @@
+NOME: Marcos Antônio Vieira IDADE: 85 anos
+CONVENIO: Plano Fictício Saúde DN: 08/08/1941
+DR.(a): Exemplo Solicitante ID/LOGIN: 622715
+CRM: 91730/PR
+DATA: 16/04/2026
+EXAME: EXAMES LABORATORIAIS
+—mõ1111...:(((W[22
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Dosagem de hemoglobina 13,6 g/dl 12,0 a 16,0 g/dl
+Hemácias 3,92 milhões/mm? 4,20 a 5,40 milhões/mm?
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Leucócitos 14,8 x10%yL 4,0 a 11,0 x10%yL
+Neutrófilos 45 % 6.660 /mm? 40 a 70 % 1.600 a 7.700 /mm?
+Bastonetes 0% O/mm' 0a5% 0a 550 mm
+Segmentados 44 % 6.512 /mm? 40 a 65 % 1.600 a 7.150 /mm
+Eosinófilos 3% 444 /mm' laS% 404550 /mm?
+Basófilos 0% 0O/mm 042% 0a 220 /mm
+Linfócitos 21% 3.108 /mm' 20 a 40 % 800 a 4.400 /mm?
+Monócitos 5 % 740 mm? 2410% 80a 1.100 /mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Natremia 148 mmol/L 136 a 145 mmol/L
+cT 195 mg/dl Até 190 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/PR 83664 - RQE 61726
+Cidade Exemplo, 16 de abril de 2026.
+Diretor Técnico - CRM/PR 38669 - RQE 44843 - Dr(a). Fulano de Tal
+———————eee
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 16:02

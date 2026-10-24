@@ -1,0 +1,81 @@
+{
+  "id": "laudo_033",
+  "paciente": "Bruno Lima",
+  "nascimento": "1991-09-21",
+  "data": "2026-07-22",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Potássio no soro",
+      "rotulo_visto": false,
+      "valor": 3.7,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "3,7",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 a 5,1 mmol/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "UR",
+      "rotulo_visto": true,
+      "valor": 70.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "70",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "Dosagem de hemoglobina",
+      "rotulo_visto": true,
+      "valor": 12.5,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "12,5",
+      "texto_unidade": "g/dL",
+      "texto_faixa": "12,0 a 16,0 g/dL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "789-8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count",
+      "rotulo": "Contagem de eritrócitos",
+      "rotulo_visto": false,
+      "valor": 4.57,
+      "unidade": "10*6/uL",
+      "ref_low": 4.2,
+      "ref_high": 5.4,
+      "texto_valor": "4,57",
+      "texto_unidade": "x10^6/µL",
+      "texto_faixa": "4,20 a 5,40 x10^6/µL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "1920-8",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+      "rotulo": "Transaminase glutâmico oxalacética",
+      "rotulo_visto": false,
+      "valor": 37.0,
+      "unidade": "U/L",
+      "ref_low": null,
+      "ref_high": 40.0,
+      "texto_valor": "37",
+      "texto_unidade": "U/L",
+      "texto_faixa": "Até 40 U/L",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}
