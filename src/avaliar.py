@@ -204,12 +204,12 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
 def figura(conj, lc):
     import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
     ks = ["exame", "valor", "unidade", "faixa", "completa"]; ms = [m for m in METODOS if any(l[0] == m for l in lc)]
-    C = {(l[0], l[1]): l for l in lc}; fig, ax = plt.subplots(figsize=(7, 3.2)); w = 0.8 / max(len(ms), 1)
+    C = {(l[0], l[1]): l for l in lc}; fig, ax = plt.subplots(figsize=(7, 3.6)); w = 0.8 / max(len(ms), 1)
     for j, m in enumerate(ms):
         y = [float(C[(m, k)][5]) for k in ks]; e = [[y[i] - float(C[(m, k)][6]) for i, k in enumerate(ks)], [float(C[(m, k)][7]) - y[i] for i, k in enumerate(ks)]]
         ax.bar([i + j * w for i in range(len(ks))], y, w, yerr=e, capsize=2, label=NOME[m])
     ax.set_xticks([i + w * (len(ms) - 1) / 2 for i in range(len(ks))]); ax.set_xticklabels(["Exame", "Valor", "Unidade", "Faixa", "Obs. completa"])
-    ax.set_ylabel("F1"); ax.set_ylim(0, 1.05); ax.legend(fontsize=7, loc="lower left"); fig.tight_layout()
+    ax.set_ylabel("F1"); ax.set_ylim(0, 1.05); ax.legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.14), ncol=3, frameon=False); fig.tight_layout()
     fig.savefig(RES / f"f1_campos_{conj}.png", dpi=200); fig.savefig(RES / f"f1_campos_{conj}.pdf")
 
 if __name__ == "__main__":
