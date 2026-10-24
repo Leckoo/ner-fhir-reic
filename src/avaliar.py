@@ -98,7 +98,7 @@ def validacao(metodo, conj):
     if not f.exists(): return None
     return {r["doc"]: r["valido"] == "1" for r in csv.DictReader(open(f, encoding="utf-8"))}
 
-PARES = [("gliner_hib", "regex"), ("gliner_hib", "gemini_ent"), ("regex", "gemini_ent")]
+PARES = [("gliner_hib", "regex"), ("gliner_hib", "gemini_ent"), ("regex", "gemini_ent"), ("gemini_e2e", "gliner_hib")]
 
 def diferencas(conj, gabs):
     """Bootstrap PAREADO (mesmos laudos reamostrados para os dois métodos) da diferença de acurácia LOINC e de F1."""

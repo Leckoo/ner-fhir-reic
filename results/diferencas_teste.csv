@@ -8,3 +8,6 @@ gliner_hib,gemini_ent,recall_nao_vistos,+0.185,+0.143,+0.228,0.000
 regex,gemini_ent,acuracia_loinc,+0.028,+0.017,+0.040,0.000
 regex,gemini_ent,f1_obs_completa,+0.024,+0.013,+0.035,0.000
 regex,gemini_ent,recall_nao_vistos,+0.080,+0.050,+0.115,0.000
+gemini_e2e,gliner_hib,acuracia_loinc,-0.128,-0.172,-0.087,0.000
+gemini_e2e,gliner_hib,f1_obs_completa,-0.083,-0.129,-0.040,0.002
+gemini_e2e,gliner_hib,recall_nao_vistos,+0.297,+0.230,+0.360,0.000
