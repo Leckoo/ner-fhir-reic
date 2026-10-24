@@ -1,0 +1,26 @@
+NOME: Sílvia Araújo IDADE: 25 anos
+CONVENIO: Plano Fictício Saúde DN: 11/08/2001
+DR.(a): Exemplo Solicitante ID/LOGIN: 352689
+CRM: 41016/MG
+DATA: 03/06/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Uso de medicação contínua informado.
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetas 449.000 /mm³ 150.000 a 450.000 /mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Creatininemia 1,05 mg/dL 0,60 a 1,20 mg/dL
+Glicose em jejum 160 mg/dL 70 a 99 mg/dL
+TGL 281 mg/dl Até 150 mg/dl
+Transaminase glutâmico oxalacética 61 U/L Até 40 U/L
+Nota: Confirmar resultado a critério médico. Plaquetas com morfologia normal ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/MG 41975 - RQE 91856
+Cidade Exemplo, 03 de junho de 2026.
+Diretor Técnico - CRM/MG 50919 - RQE 62916 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 15:52

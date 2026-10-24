@@ -1,0 +1,28 @@
+NOME: Diego Rocha IDADE: 72 anos
+CONVENIO: Particular DN: 22/04/1954
+DR.(a): Exemplo Solicitante ID/LOGIN: 185134
+CRM: 90781/PR
+DATA: 04/07/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCHC 33,8 g/dl 32,0 a 36,0 g/dl
+Hemoglobina corpuscular média 25,4 pg 27,0 a 32,0 pg
+HGB 12,9 g/dL 12,0 a 16,0 g/dL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Tireotrofina 0,14 mUI/L 0,40 a 4,00 mUI/L
+Sódio 134 mmol/L 136 a 145 mmol/L
+SGPT 77 U/L Até 41 U/L
+Ureia 19 mg/dL 15 a 45 mg/dL
+CREA 0,56 mg/dl 0,60 a 1,20 mg/dl
+Observações: Plaquetas com morfologia normal ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/PR 70476 - RQE 81105
+Cidade Exemplo, 04 de julho de 2026.
+Diretor Técnico - CRM/PR 82234 - RQE 52973 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:30

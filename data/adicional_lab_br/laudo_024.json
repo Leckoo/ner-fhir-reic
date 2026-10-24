@@ -1,0 +1,67 @@
+{
+  "id": "laudo_024",
+  "paciente": "João Batista Moura",
+  "nascimento": "1955-02-26",
+  "data": "2026-05-26",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "787-2",
+      "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCV",
+      "rotulo_visto": true,
+      "valor": 101.1,
+      "unidade": "fL",
+      "ref_low": 80.0,
+      "ref_high": 100.0,
+      "texto_valor": "101,1",
+      "texto_unidade": "fL",
+      "texto_faixa": "80,0 a 100,0 fL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Sódio no soro",
+      "rotulo_visto": false,
+      "valor": 146.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "146",
+      "texto_unidade": "mEq/L",
+      "texto_faixa": "136 a 145 mEq/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2093-3",
+      "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de colesterol total",
+      "rotulo_visto": false,
+      "valor": 312.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 190.0,
+      "texto_valor": "312",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 190 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 35.0,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35,0",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0 g/dl",
+      "secao": "ERITROGRAMA"
+    }
+  ]
+}

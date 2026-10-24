@@ -1,0 +1,39 @@
+NOME: Elisa Prado IDADE: 51 anos
+CONVENIO: Plano Fictício Saúde DN: 12/01/1975
+DR.(a): Exemplo Solicitante ID/LOGIN: 778784
+CRM: 49471/SP
+DATA: 07/09/2026
+EXAME: EXAMES LABORATORIAIS
+————————eeee
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: — Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Amplitude de distribuição dos eritrócitos H,2 % 11,5 a 14,5 %
+MCV 97,2 fi 80,0 a 100,0 11
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+WBC 13.300 mm? 4.000 a 11.000 /mm?
+Neutrófilos 44 % 5.852 mm 40 a 70 % 1.600 a 7.700 /mm?
+Bastonetes 2% 266 mm 045% 04550 /mm'
+Segmentados 61% 8.113 /mm' 404 65 % 1.600 a 7.150 /mm*
+Eosinófilos 3% 399 mm? la5S% 404 550 mm?
+Basófilos 0% 0Omm' 092% 04220 mm
+Linfócitos 39 % 5.187 mm 20 a 40 % 800 a 4.400 /mm?
+Monócitos 6% 798 mm 24 10% 80 a 1.100 /mm?
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas HS mil/mm? 150 a 450 mil/mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Creatinina 1,51 mg/dL 0,60 a 1,20 mg/dL
+cr 285 mg/dL Até 190 mg/dL
+Nota: Resultado confirmado em nova dosagem.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SP 62867 - RQE 79351
+Cidade Exemplo, 07 de setembro de 2026.
+Diretor Técnico - CRM/SP 69682 - RQE 1721 - Dr(a). Ciclana Fictícia
+——————————————e
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 16:33

@@ -1,0 +1,29 @@
+NOME: Diego Rocha IDADE: 85 anos
+CONVENIO: Convênio Exemplo DN: 11/11/1941
+DR.(a): Exemplo Solicitante ID/LOGIN: 194031
+CRM: 84450/SP
+DATA: 15/02/2026
+EXAME: EXAMES LABORATORIAIS
+api a aci ag dia iai ii e aa Ap o
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: | Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+CHCM 32,1 g/dl 32,0 a 36,0 g/dl
+HCM 34,3 pg 27,0 a 32,0 pg
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Uréia 44 mg/dl 15 a 45 mg/dl
+Alanina aminotransferase 142 UL Até 41 U/L
+CREA 2,65 mg/dL 0,60 a 1,20 mg/dL
+Tireotrofina 6,18 mUVL 0,40 a 4,00 mUIAL
+Dosagem de triglicerídeos 138 mg/dL Até 150 mg/dL
+Observações: Confirmar resultado a critério médico.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/SP 55890 - RQE 9945
+Cidade Exemplo, 15 de fevereiro de 2026.
+Diretor Técnico - CRM/SP 65346 - RQE 31125 - Dr(a). Ciclana Fictícia
+EE SE ad
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 14:02

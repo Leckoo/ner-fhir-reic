@@ -1,0 +1,67 @@
+{
+  "id": "laudo_039",
+  "paciente": "Ana Souza",
+  "nascimento": "2006-03-15",
+  "data": "2026-03-09",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "786-4",
+      "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+      "rotulo": "MCHC",
+      "rotulo_visto": true,
+      "valor": 35.6,
+      "unidade": "g/dL",
+      "ref_low": 32.0,
+      "ref_high": 36.0,
+      "texto_valor": "35,6",
+      "texto_unidade": "g/dl",
+      "texto_faixa": "32,0 a 36,0 g/dl",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Determinação do hematócrito",
+      "rotulo_visto": false,
+      "valor": 29.3,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "29,3",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "3091-6",
+      "display": "Urea [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de ureia",
+      "rotulo_visto": false,
+      "valor": 14.0,
+      "unidade": "mg/dL",
+      "ref_low": 15.0,
+      "ref_high": 45.0,
+      "texto_valor": "14",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "15 a 45 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de triglicerídeos",
+      "rotulo_visto": false,
+      "valor": 268.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "268",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150 mg/dl",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

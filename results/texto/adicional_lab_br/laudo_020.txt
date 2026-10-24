@@ -1,0 +1,26 @@
+NOME: Natália Gomes IDADE: 84 anos
+CONVENIO: Particular DN: 14/07/1942
+DR.(a): Exemplo Solicitante ID/LOGIN: 656611
+CRM: 72379/SP
+DATA: 07/04/2026
+EXAME: EXAMES LABORATORIAIS
+E SD O RD E SE
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: — Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Controle de diabetes.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCV 82,7 fl 80,0 a 100,0 fl
+MCH 24,0 pg 27,0 a 32,0 pg
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Dosagem de triglicerídeos 367 mg/dl Até 150 mg/dl
+K 47 mEq/L 3,54 5,1 mEgL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SP 87183 - RQE 34690
+Cidade Exemplo, 07 de abril de 2026.
+Diretor Técnico - CRM/SP 32906 - RQE 4846 - Dr(a). Ciclana Fictícia
+a O Sd EU a SERES 2
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 18:36

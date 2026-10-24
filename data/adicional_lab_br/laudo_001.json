@@ -1,0 +1,67 @@
+{
+  "id": "laudo_001",
+  "paciente": "Elisa Prado",
+  "nascimento": "1941-03-01",
+  "data": "2026-08-11",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "1558-6",
+      "display": "Fasting glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "Glicose em jejum",
+      "rotulo_visto": true,
+      "valor": 216.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "216",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "70 a 99 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2160-0",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de creatinina",
+      "rotulo_visto": false,
+      "valor": 0.88,
+      "unidade": "mg/dL",
+      "ref_low": 0.6,
+      "ref_high": 1.2,
+      "texto_valor": "0,88",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "0,60 a 1,20 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2951-2",
+      "display": "Sodium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de sódio",
+      "rotulo_visto": false,
+      "valor": 139.0,
+      "unidade": "mmol/L",
+      "ref_low": 136.0,
+      "ref_high": 145.0,
+      "texto_valor": "139",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "136 a 145 mmol/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2345-7",
+      "display": "Glucose [Mass/volume] in Serum or Plasma",
+      "rotulo": "GLI",
+      "rotulo_visto": true,
+      "valor": 101.0,
+      "unidade": "mg/dL",
+      "ref_low": 70.0,
+      "ref_high": 99.0,
+      "texto_valor": "101",
+      "texto_unidade": "mg/dL",
+      "texto_faixa": "70 a 99 mg/dL",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+NOME: Natália Gomes IDADE: 64 anos
+CONVENIO: Particular DN: 20/09/1962
+DR.(a): Exemplo Solicitante ID/LOGIN: 282500
+CRM: 87378/RS
+DATA: 05/07/2026
+EXAME: EXAMES LABORATORIAIS
+iii eee ee
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Jejum informado pelo paciente.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW 14,7 % 11,5a 14,5 %
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicemia 64 mg/dl 70 a 99 mg/dl
+TSH ultra sensível 9,12 mUI/L 0,40 a 4,00 mUVL
+Colesterol total 143 mg/dl Até 190 mg/dl
+Observações: Eritrograma sem alterações morfológicas. Valores de referência conforme idade e sexo.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/RS 77469 - RQE 8508
+Cidade Exemplo, 05 de julho de 2026.
+Diretor Técnico - CRM/RS 97990 - RQE 80234 - Drí a). Fulano de Tal
+í de
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 11:22

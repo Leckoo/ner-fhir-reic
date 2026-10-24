@@ -1,0 +1,67 @@
+{
+  "id": "laudo_040",
+  "paciente": "Elisa Prado",
+  "nascimento": "1984-06-02",
+  "data": "2026-08-04",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": false,
+  "observacoes": [
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetograma",
+      "rotulo_visto": false,
+      "valor": 309.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "309.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000 /mm³",
+      "secao": "PLAQUETAS"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Hormônio tireoestimulante",
+      "rotulo_visto": false,
+      "valor": 6.07,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "6,07",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00 µUI/mL",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "2823-3",
+      "display": "Potassium [Moles/volume] in Serum or Plasma",
+      "rotulo": "Dosagem de potássio",
+      "rotulo_visto": false,
+      "valor": 6.5,
+      "unidade": "mmol/L",
+      "ref_low": 3.5,
+      "ref_high": 5.1,
+      "texto_valor": "6,5",
+      "texto_unidade": "mmol/L",
+      "texto_faixa": "3,5 a 5,1 mmol/L",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "rotulo_visto": true,
+      "valor": 49.1,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "49,1",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    }
+  ]
+}

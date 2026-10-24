@@ -1,0 +1,25 @@
+NOME: João Batista Moura IDADE: 68 anos
+CONVENIO: Convênio Exemplo DN: 21/11/1958
+DR.(a): Exemplo Solicitante ID/LOGIN: 529433
+CRM: 31675/RS
+DATA: 05/03/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+AN TOO LADIURALURIALS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Determinação do hematócrito 41,4 (o 36,0 a 48,0 %
+CHCM 32,6 g/dl 32,0 a 36,0 g/dl
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Transaminase pirúvica 52 U/L Até 41 U/L
+Sódio no soro 153 mEg/L 136 a 145 mEg/L
+Nota: Série branca sem atipias ao esfregaço. Amostra levemente hemolisada.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente,
+Dr(a). Beltrano Exemplo
+CRM/RS 88425 - RQE 48267
+Cidade Exemplo, 05 de março de 2026.
+Diretor Técnico - CRM/RS 45242 - RQE 78257 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Ide l 12:43

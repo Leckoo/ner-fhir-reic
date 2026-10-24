@@ -1,0 +1,4 @@
+metodo_a,metodo_b,metrica,diferenca_a_menos_b,ic95_inf,ic95_sup,p_bootstrap_bilateral
+gliner_hib,regex,acuracia_loinc,+0.092,+0.038,+0.145,0.004
+gliner_hib,regex,f1_obs_completa,+0.076,+0.031,+0.121,0.004
+gliner_hib,regex,recall_nao_vistos,+0.179,+0.071,+0.291,0.000

@@ -1,0 +1,24 @@
+NOME: Ana Souza IDADE: 20 anos
+CONVENIO: Convênio Exemplo DN: 15/03/2006
+DR.(a): Exemplo Solicitante ID/LOGIN: 265515
+CRM: 58103/RS
+DATA: 09/03/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCHC 35,6 g/dl 32,0 a 36,0 g/dl
+Determinação do hematócrito 29,3 % 36,0 a 48,0 %
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Dosagem de ureia 14 mg/dl 15 a 45 mg/dl
+Dosagem de triglicerídeos 268 mg/dl Até 150 mg/dl
+Nota: Confirmar resultado a critério médico. Resultado confirmado em nova dosagem.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/RS 17438 - RQE 29138
+Cidade Exemplo, 09 de março de 2026.
+Diretor Técnico - CRM/RS 20416 - RQE 17035 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 16:37

@@ -1,0 +1,38 @@
+NOME: Carla Dias IDADE: 43 anos
+CONVENIO: Convênio Exemplo DN: 16/09/1983
+DR.(a): Exemplo Solicitante ID/LOGIN: 536625
+CRM: 68971/RS
+DATA: 16/05/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de eritrócitos 3,18 milhões/mm³ 4,20 a 5,40 milhões/mm³
+HCM 33,2 pg 27,0 a 32,0 pg
+Concentração de hemoglobina corpuscular méd3ia2,3 g/dL 32,0 a 36,0 g/dL
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de leucócitos 6,5 x10³/µL 4,0 a 11,0 x10³/µL
+Neutrófilos 41 % 2.665 /mm³ 40 a 70 % 1.600 a 7.700 /mm³
+Bastonetes 1 % 65 /mm³ 0 a 5 % 0 a 550 /mm³
+Segmentados 61 % 3.965 /mm³ 40 a 65 % 1.600 a 7.150 /mm³
+Eosinófilos 1 % 65 /mm³ 1 a 5 % 40 a 550 /mm³
+Basófilos 0 % 0 /mm³ 0 a 2 % 0 a 220 /mm³
+Linfócitos 37 % 2.405 /mm³ 20 a 40 % 800 a 4.400 /mm³
+Monócitos 7 % 455 /mm³ 2 a 10 % 80 a 1.100 /mm³
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetograma 274 x10³/µL 150 a 450 x10³/µL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicemia de jejum 104 mg/dL 70 a 99 mg/dL
+CT 180 mg/dl Até 190 mg/dl
+Nota: Valores de referência conforme idade e sexo. Amostra levemente hemolisada.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/RS 29596 - RQE 88056
+Cidade Exemplo, 16 de maio de 2026.
+Diretor Técnico - CRM/RS 76197 - RQE 30886 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 18:59

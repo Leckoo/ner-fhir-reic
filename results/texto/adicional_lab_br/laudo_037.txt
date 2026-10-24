@@ -1,0 +1,35 @@
+NOME: Otávio Pereira IDADE: 83 anos
+CONVENIO: Convênio Exemplo DN: 23/06/1943
+DR.(a): Exemplo Solicitante ID/LOGIN: 323004
+CRM: 13351/SP
+DATA: 16/02/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: | Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Volume corpuscular médio 102,7 ft 80,0 a 100,0 fl
+Contagem de eritrócitos 3,44 x1026/uL 4.20 a 5,40 x 10º6/uL
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de leucócitos 4,5 mil/mm? 4,0 a 11,0 mil/mm?
+Neutrófilos 50 % 2.250 /mmº 40 4 70 % 1.600 a 7.700 /mm?
+Bastonetes 1% 45 mm 0a5% 0a 550 /mm?
+Segmentados 59 % 2.655 Imm? 40 a 65 % 1.600 a 7.150 /mm?
+Eosinófilos 2% 90 mm? laS% 40 a 550 /mm?
+Basófilos 0% Olmm? 042% 0a 220 /mm?
+Linfócitos 36 % 1.620 mm? 20 a 40 % 800 a 4.400 /mm?
+Monócitos 8 % 360 mm? 2a 10% 80 a 1.100 /mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+UR 29 mg/dl 15 a 45 mg/dl
+Creatinina 2,69 mg/dl 0,60 a 1,20 mg/dl
+Transaminase glutâmico-oxaloacética 72 UL Até 40 U/L
+Sódio 41 mEq/L 136 a 145 mEq/L
+Valores de referência: bula do fabricante dos reagentes € literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SP 66909 - RQE 4532
+Cidade Exemplo, 16 de fevereiro de 2026.
+Diretor Técnico - CRM/SP 49849 - RQE 57583 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) I de 1 15:54

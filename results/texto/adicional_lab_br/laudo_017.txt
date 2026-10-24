@@ -1,0 +1,25 @@
+NOME: Natália Gomes IDADE: 58 anos
+CONVENIO: Convênio Exemplo DN: 05/11/1968
+DR.(a): Exemplo Solicitante ID/LOGIN: 242095
+CRM: 79274/SC
+DATA: 19/07/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCV 88,0 fL 80,0 a 100,0 fL
+CHCM 31,3 g/dL 32,0 a 36,0 g/dL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Na 133 mmol/L 136 a 145 mmol/L
+Glicose de jejum 61 mg/dL 70 a 99 mg/dL
+SGOT 84 U/L Até 40 U/L
+Glicose 158 mg/dl 70 a 99 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 4634 - RQE 45370
+Cidade Exemplo, 19 de julho de 2026.
+Diretor Técnico - CRM/SC 19634 - RQE 1069 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 16:54

@@ -1,0 +1,27 @@
+NOME: João Batista Moura IDADE: 24 anos
+CONVENIO: Particular DN: 08/09/2002
+DR.(a): Exemplo Solicitante ID/LOGIN: 214394
+CRM: 85261/MG
+DATA: 06/05/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HCM 31,8 pg 27,0 a 32,0 pg
+Determinação do hematócrito 47,7 % 36,0 a 48,0 %
+RBC 5,04 x10^6/µL 4,20 a 5,40 x10^6/µL
+HGB 16,1 g/dL 12,0 a 16,0 g/dL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Alanina aminotransferase 97 U/L Até 41 U/L
+UR 38 mg/dl 15 a 45 mg/dl
+Glicose em jejum 179 mg/dl 70 a 99 mg/dl
+Nota: Resultado confirmado em nova dosagem. Valores de referência conforme idade e sexo.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/MG 1679 - RQE 59950
+Cidade Exemplo, 06 de maio de 2026.
+Diretor Técnico - CRM/MG 33751 - RQE 16029 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 16:14

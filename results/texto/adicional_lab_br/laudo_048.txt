@@ -1,0 +1,29 @@
+NOME: Lúcia Ferreira IDADE: 21 anos
+CONVENIO: Particular DN: 03/04/2005
+DR.(a): Exemplo Solicitante ID/LOGIN: 431682
+CRM: 78108/SP
+DATA: 18/09/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Uso de medicação contínua informado.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Determinação do hematócrito 35,6 % 36,0 a 48,0 %
+Volume corpuscular médio 94,8 fL 80,0 a 100,0 fL
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 497 mil/mm³ 150 a 450 mil/mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Colesterol total 148 mg/dL Até 190 mg/dL
+ALT 79 U/L Até 41 U/L
+Glicemia 165 mg/dL 70 a 99 mg/dL
+Triglicerídeos 238 mg/dl Até 150 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SP 52407 - RQE 33568
+Cidade Exemplo, 18 de setembro de 2026.
+Diretor Técnico - CRM/SP 40943 - RQE 12466 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 15:43

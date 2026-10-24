@@ -1,0 +1,38 @@
+NOME: Ana Souza IDADE: 62 anos
+CONVENIO: Convênio Exemplo DN: 26/11/1964
+DR.(a): Exemplo Solicitante ID/LOGIN: 198843
+CRM: 83654/SP
+DATA: 28/06/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: | Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Investigação de anemia.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Concentração de hemoglobina corpuscular médk6,5 g/dl 32,0 a 36,0 g/dl
+RDW I4,1 % 11,5 a 14,5 %
+Hemoglobina corpuscular média 25,9 pg 27,02 32,0 pg
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Leucócitos 11,6 x10%/uL 4,0 a 11,0 x10%/uL
+Neutrófilos 64% 7.424 Imm? 40 a 70 % 1.600 a 7.700 /mmê
+Bastonetes 1% 116 /mm? 045% 0a 550 /mm
+Segmentados 65 % 7.540 /mm? 40 a 65 % 1.600 a 7.150 /mm?
+Eosinófilos 4% 464 /mm' la5% 404 550 /mm
+Basófilos 2% 232 mm 042% 04220 /mm'
+Linfócitos 28 % 3.248 Imm? 20 a 40 % 800 a 4.400 /mmº
+Monócitos 8 % 928 /mm? 2a10% 80a 1.100 /mm
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Dosagem de triglicerídeos 105 mg/dl Até 150 mg/dl
+Transaminase glutâmico pirúvica 33 U/L Até 41 U/L
+Glicose 222 mg/dl 70 a 99 mg/dl
+Glicose em jejum 143 mg/dL 70 a 99 mg/dL
+Nota: Resultados liberados após conferência. Série branca sem atípias ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/SP 47129 - RQE 44635
+Cidade Exemplo, 28 de junho de 2026.
+Diretor Técnico - CRM/SP 17860 - RQE 6059 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 16:29

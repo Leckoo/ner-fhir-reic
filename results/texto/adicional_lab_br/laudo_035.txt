@@ -1,0 +1,36 @@
+NOME: Ana Souza IDADE: 76 anos
+CONVENIO: Particular DN: 28/12/1950
+DR.(a): Exemplo Solicitante ID/LOGIN: 352160
+CRM: 31473/SC
+DATA: 10/07/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Controle de diabetes.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW-CV 12,6 % 11,5 a 14,5 %
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de leucócitos 15,5 mil/mm³ 4,0 a 11,0 mil/mm³
+Neutrófilos 40 % 6.200 /mm³ 40 a 70 % 1.600 a 7.700 /mm³
+Bastonetes 1 % 155 /mm³ 0 a 5 % 0 a 550 /mm³
+Segmentados 62 % 9.610 /mm³ 40 a 65 % 1.600 a 7.150 /mm³
+Eosinófilos 4 % 620 /mm³ 1 a 5 % 40 a 550 /mm³
+Basófilos 0 % 0 /mm³ 0 a 2 % 0 a 220 /mm³
+Linfócitos 34 % 5.270 /mm³ 20 a 40 % 800 a 4.400 /mm³
+Monócitos 3 % 465 /mm³ 2 a 10 % 80 a 1.100 /mm³
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetas 339 mil/mm³ 150 a 450 mil/mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+TGO 76 U/L Até 40 U/L
+Potássio no soro 6,3 mmol/L 3,5 a 5,1 mmol/L
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 3303 - RQE 30300
+Cidade Exemplo, 10 de julho de 2026.
+Diretor Técnico - CRM/SC 10893 - RQE 83488 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 13:12

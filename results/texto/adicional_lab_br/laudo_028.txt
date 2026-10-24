@@ -1,0 +1,35 @@
+NOME: Íris Campos IDADE: 28 anos
+CONVENIO: Plano Fictício Saúde DN: 22/07/1998
+DR.(a): Exemplo Solicitante ID/LOGIN: 999557
+CRM: 98301/PR
+DATA: 18/01/2026
+EXAME: EXAMES LABORATORIAIS
+ei seia
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Jejum informado pelo paciente.
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+WBC 15,8 mil/mm? 4,0 a 11,0 mil/mm?
+Neutrófilos 69 % 10.902 /mm? 404 70 % 1.600 a 7.700 /mm3
+Bastonetes 1% 158 /mm? 0a5S% 0a 550 /mm?
+Segmentados 64 % 10.112 /mm? 402 65 % 1.600 a 7.150 /mm?
+Eosinófilos 3% 474 mm? la5S% 404 550 mm?
+Basófilos 1% 158 /mm? 042% 0a 220 mm
+Linfócitos 25 % 3.950 /mm3 20 a 40 % 800 a 4.400 /mm?
+Monócitos 3% 474 mm? 2a 10% 80a 1.100 /mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Potássio 5,2 mmol/L 3,5 a 5,1 mmol/L
+Tirotropina 0,30 mU/L 0,40 a 4,00 mUI/L
+Glicose 109 mg/dL 70 a 99 mg/dL
+Triglicérides + mg/dl Até 150 mg/dl
+Ureia 62 mg/dl 15 a 45 mg/dl
+Observações: Plaquetas com morfologia normal ao esfregaço. Valores de referência conforme idade e sexo.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/PR 94797 - RQE 98754
+Cidade Exemplo, 18 de janeiro de 2026.
+Diretor Técnico - CRM/PR 5376 - RQE 26883 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Ide l 13:32

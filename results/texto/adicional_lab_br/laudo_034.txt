@@ -1,0 +1,37 @@
+NOME: Ana Souza IDADE: 29 anos
+CONVENIO: Convênio Exemplo DN: 07/11/1997
+DR.(a): Exemplo Solicitante ID/LOGIN: 729968
+CRM: 36549/SC
+DATA: 06/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Check-up anual.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RBC 3,62 x10^6/µL 4,20 a 5,40 x10^6/µL
+Dosagem de hemoglobina 13,2 g/ dL 12,0 a 16,0 g/ dL
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de leucócitos 14.100 /mm³ 4.000 a 11.000 /mm³
+Neutrófilos 51 % 7.191 /mm³ 40 a 70 % 1.600 a 7.700 /mm³
+Bastonetes 3 % 423 /mm³ 0 a 5 % 0 a 550 /mm³
+Segmentados 48 % 6.768 /mm³ 40 a 65 % 1.600 a 7.150 /mm³
+Eosinófilos 5 % 705 /mm³ 1 a 5 % 40 a 550 /mm³
+Basófilos 1 % 141 /mm³ 0 a 2 % 0 a 220 /mm³
+Linfócitos 23 % 3.243 /mm³ 20 a 40 % 800 a 4.400 /mm³
+Monócitos 7 % 987 /mm³ 2 a 10 % 80 a 1.100 /mm³
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Contagem de plaquetas 385 x10³/µL 150 a 450 x10³/µL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Glicose de jejum 142 mg/dL 70 a 99 mg/dL
+Nota: Valores de referência conforme idade e sexo. Amostra lipêmica.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 59345 - RQE 78899
+Cidade Exemplo, 06 de agosto de 2026.
+Diretor Técnico - CRM/SC 32780 - RQE 16286 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:42

@@ -1,0 +1,24 @@
+NOME: Patrícia Ramos IDADE: 25 anos
+CONVENIO: Particular DN: 17/10/2001
+DR.(a): Exemplo Solicitante ID/LOGIN: 156795
+CRM: 91256/SC
+DATA: 12/03/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+CHCM 32,7 g/dl 32,0 a 36,0 g/dl
+Volume corpuscular médio 104,6 fl 80,0 a 100,0 fl
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Potássio 5,5 mEq/L 3,5 a 5,1 mEq/L
+Tireotrofina 3,22 mUI/L 0,40 a 4,00 mUI/L
+Colesterol total 152 mg/dL Até 190 mg/dL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/SC 64381 - RQE 98086
+Cidade Exemplo, 12 de março de 2026.
+Diretor Técnico - CRM/SC 65169 - RQE 51283 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 12:32

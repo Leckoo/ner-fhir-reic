@@ -1,0 +1,423 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2",
+   "resource": {
+    "resourceType": "Patient"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:706edb9e-d34b-59f1-a8fb-ff3e72a1870f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: Patrícia Ramos IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 25.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b7256dab-a191-5266-907a-eeef4ec61e94",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 32.7,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ad3d6f8b-fc91-5a23-8bad-a8241a1cb955",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 104.6,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:62d76800-4148-5b52-9c4b-51cf5e12ddca",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 5.5,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:abad3b71-3ae7-5964-a2b2-e8b2bb3f6c45",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 3.22,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f0ffff95-d939-5781-9023-89f8d8f8fd12",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 152.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d33395b2-7f45-592f-b8dc-1a6cb83cf455",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/SC"
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 64381.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cad577dc-7861-5aa4-b314-fb0c50305f3e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 12.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:81136389-f5c0-51e7-b3ab-43bd7d78d405",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício)"
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ff6e54bb-ef94-525c-9b63-9bb47c11b9a6",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:38448082-96f8-5098-b8ef-18416298c3b2"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:706edb9e-d34b-59f1-a8fb-ff3e72a1870f"
+     },
+     {
+      "reference": "urn:uuid:b7256dab-a191-5266-907a-eeef4ec61e94"
+     },
+     {
+      "reference": "urn:uuid:ad3d6f8b-fc91-5a23-8bad-a8241a1cb955"
+     },
+     {
+      "reference": "urn:uuid:62d76800-4148-5b52-9c4b-51cf5e12ddca"
+     },
+     {
+      "reference": "urn:uuid:abad3b71-3ae7-5964-a2b2-e8b2bb3f6c45"
+     },
+     {
+      "reference": "urn:uuid:f0ffff95-d939-5781-9023-89f8d8f8fd12"
+     },
+     {
+      "reference": "urn:uuid:d33395b2-7f45-592f-b8dc-1a6cb83cf455"
+     },
+     {
+      "reference": "urn:uuid:cad577dc-7861-5aa4-b314-fb0c50305f3e"
+     },
+     {
+      "reference": "urn:uuid:81136389-f5c0-51e7-b3ab-43bd7d78d405"
+     }
+    ]
+   }
+  }
+ ]
+}

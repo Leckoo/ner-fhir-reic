@@ -1,0 +1,81 @@
+{
+  "id": "laudo_046",
+  "paciente": "Vânia Lopes",
+  "nascimento": "1948-09-06",
+  "data": "2026-09-06",
+  "layout": "lab_br",
+  "separador_decimal": ",",
+  "escaneado": true,
+  "observacoes": [
+    {
+      "loinc": "2571-8",
+      "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+      "rotulo": "TGL",
+      "rotulo_visto": false,
+      "valor": 318.0,
+      "unidade": "mg/dL",
+      "ref_low": null,
+      "ref_high": 150.0,
+      "texto_valor": "318",
+      "texto_unidade": "mg/dl",
+      "texto_faixa": "Até 150 mg/dl",
+      "secao": "BIOQUÍMICA"
+    },
+    {
+      "loinc": "718-7",
+      "display": "Hemoglobin [Mass/volume] in Blood",
+      "rotulo": "HGB",
+      "rotulo_visto": true,
+      "valor": 10.6,
+      "unidade": "g/dL",
+      "ref_low": 12.0,
+      "ref_high": 16.0,
+      "texto_valor": "10,6",
+      "texto_unidade": "g/ dL",
+      "texto_faixa": "12,0 a 16,0 g/ dL",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "4544-3",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "rotulo": "Hematócrito",
+      "rotulo_visto": true,
+      "valor": 53.9,
+      "unidade": "%",
+      "ref_low": 36.0,
+      "ref_high": 48.0,
+      "texto_valor": "53,9",
+      "texto_unidade": "%",
+      "texto_faixa": "36,0 a 48,0 %",
+      "secao": "ERITROGRAMA"
+    },
+    {
+      "loinc": "777-3",
+      "display": "Platelets [#/volume] in Blood by Automated count",
+      "rotulo": "Plaquetas",
+      "rotulo_visto": true,
+      "valor": 261.0,
+      "unidade": "10*3/uL",
+      "ref_low": 150.0,
+      "ref_high": 450.0,
+      "texto_valor": "261.000",
+      "texto_unidade": "/mm³",
+      "texto_faixa": "150.000 a 450.000 /mm³",
+      "secao": "PLAQUETAS"
+    },
+    {
+      "loinc": "3016-3",
+      "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+      "rotulo": "Tireotrofina",
+      "rotulo_visto": true,
+      "valor": 9.93,
+      "unidade": "u[IU]/mL",
+      "ref_low": 0.4,
+      "ref_high": 4.0,
+      "texto_valor": "9,93",
+      "texto_unidade": "µUI/mL",
+      "texto_faixa": "0,40 a 4,00 µUI/mL",
+      "secao": "BIOQUÍMICA"
+    }
+  ]
+}

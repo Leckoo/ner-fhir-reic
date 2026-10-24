@@ -1,0 +1,27 @@
+NOME: Vânia Lopes IDADE: 78 anos
+CONVENIO: Plano Fictício Saúde DN: 06/09/1948
+DR.(a): Exemplo Solicitante ID/LOGIN: 478133
+CRM: 28388/SC
+DATA: 06/09/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Jejum informado pelo paciente.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HGB 10,6 g/ dL 12.0 a 16.0 g/ dL
+Hematócrito 53,9 (a 36,0 a 48,0 %
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetas 261.000 mm? 150.000 a 450.000 /mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+TGL 318 mg/dl Até 150 mg/dl
+Tireotrofina 9,93 HU/mL 0,40 a 4,00 uUl/mL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/SC 33797 - RQE 39125
+Cidade Exemplo, 06 de setembro de 2026.
+Diretor Técnico - CRM/SC 40364 - RQE 29115 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 14:59

@@ -1,0 +1,29 @@
+NOME: Carla Dias IDADE: 39 anos
+CONVENIO: Convênio Exemplo DN: 22/02/1987
+DR.(a): Exemplo Solicitante ID/LOGIN: 852870
+CRM: 14712/MG
+DATA: 16/02/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Acompanhamento ambulatorial.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Contagem de eritrócitos 3,32 x10^6/µL 4,20 a 5,40 x10^6/µL
+MCH 26,7 pg 27,0 a 32,0 pg
+Hematócrito 31,5 % 36,0 a 48,0 %
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Dosagem de ureia 71 mg/dL 15 a 45 mg/dL
+Triglicerídeos 87 mg/dl Até 150 mg/dl
+Glicose 103 mg/dl 70 a 99 mg/dl
+Sódio 147 mEq/L 136 a 145 mEq/L
+AST 113 U/L Até 40 U/L
+Nota: Plaquetas com morfologia normal ao esfregaço. Amostra levemente hemolisada.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Ciclana Fictícia
+CRM/MG 15268 - RQE 99115
+Cidade Exemplo, 16 de fevereiro de 2026.
+Diretor Técnico - CRM/MG 2268 - RQE 25561 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 11:55

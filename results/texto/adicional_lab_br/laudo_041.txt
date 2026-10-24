@@ -1,0 +1,36 @@
+NOME: Fábio Nunes IDADE: 72 anos
+CONVENIO: Particular DN: 10/04/1954
+DR.(a): Exemplo Solicitante ID/LOGIN: 174979
+CRM: 75648/SP
+DATA: 21/01/2026
+EXAME; EXAMES LABORATORIAIS
+ia ee me
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+HCM 242 pe 27,0 a 32,0 pg
+Hb 15.2 g/ dL 12,0 a 16,0 g/ dL
+Determinação do hematócrito 50,5 % 36,0 a 48,0 %
+Leucograma:
+Analito Resultado Unidade Valores de Referência
+WBC 3,8 x10/yL 4,0 a 11,0 x10%yL
+Neutrófilos 63% 2.394 mm 404 70 % 1.600 a 7.700 mm?
+Bastonetes 2% 76 mm 045% 04550 /mm
+Segmentados 48 % 1.824 mm? 40465 % 1.600 a 7.150 /mm*
+Eosinófilos 4% 152mm laS% 40 a 550 mm?
+Basófilos 0% 0Omm? 042% 04220 mm?
+Linfócitos 24% 912 /mm' 20 a 40 % SO0 a 4.400 mm?
+Monócitos 9% 342 mm 22 10% 80a 1.100 mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Transaminase pirúvica 68 UL Até 41 U/L
+Dosagem de colesterol total 159 mg/dL Até 190 mg/dL
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SP 40571 - RQE 28342
+Cidade Exemplo, 21 de janeiro de 2026.
+Diretor Técnico - CRM/SP 68250 - RQE 82431 - Dr(a). Ciclana Fictícia
+ESPARTA ARE ITQ PE CSA O Sa SA
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Idel 15:36

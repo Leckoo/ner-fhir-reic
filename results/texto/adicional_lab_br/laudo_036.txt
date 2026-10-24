@@ -1,0 +1,27 @@
+NOME: Diego Rocha IDADE: 79 anos
+CONVENIO: Particular DN: 15/01/1947
+DR.(a): Exemplo Solicitante ID/LOGIN: 906504
+CRM: 38759/RS
+DATA: 23/03/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RBC 4,22 x10^6/µL 4,20 a 5,40 x10^6/µL
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+PLT 389.000 /mm³ 150.000 a 450.000 /mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+AST 114 U/L Até 40 U/L
+Glicose de jejum 233 mg/dL 70 a 99 mg/dL
+Colesterol total 237 mg/dL Até 190 mg/dL
+Sódio 138 mmol/L 136 a 145 mmol/L
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/RS 9087 - RQE 43774
+Cidade Exemplo, 23 de março de 2026.
+Diretor Técnico - CRM/RS 74243 - RQE 98072 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 14:18

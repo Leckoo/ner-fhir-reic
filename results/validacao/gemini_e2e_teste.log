@@ -1,140 +1,305 @@
-FHIR Validation tool Version 7.0.2 (Git# de3463393298). Built 2026-10-15T16:42:38.193Z (5 days old)
-  Java:   21.0.12.1 from /usr/lib/jvm/java-21-openjdk-amd64 on amd64 (64bit). 4002MB available
-  Paths:  Current = /workspace/projetos/ner-fhir/src, Package Cache = /home/box/.fhir/packages
-  Params: /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_000.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_001.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_002.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_003.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_004.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_005.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_006.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_007.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_008.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_009.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_010.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_011.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_012.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_013.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_014.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_015.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_016.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_017.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_018.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_019.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_020.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_021.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_022.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_023.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_024.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_025.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_026.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_027.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_028.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_029.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_030.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_031.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_032.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_033.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_034.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_035.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_036.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_037.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_038.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_039.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_040.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_041.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_042.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_043.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_044.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_045.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_046.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_047.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_048.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_049.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_050.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_051.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_052.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_053.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_054.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_055.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_056.json /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_057.json -version 5.0 -output /workspace/projetos/ner-fhir/results/validacao/gemini_e2e_teste_operationoutcomes.json
-  Locale: /
-  Jurisdiction: None specified (locale = )
-  Note that exceptions and validation failures may happen in the absence of a locale
-Loading
-  Loading FHIR v5.0 from hl7.fhir.r5.core#5.0.0
-  Load hl7.terminology.r5#6.2.0 - 4288 resources (00:03.142)
-  Load hl7.fhir.uv.extensions.r5#5.2.0 - 759 resources (00:00.016)
-  Loaded FHIR - 8001 resources (00:00.000)
-  Terminology Cache at /tmp/default-tx-cache/r5
-  Terminology server https://tx.fhir.org - Version Connected to Terminology Server at https://tx.fhir.org (00:01.871)
-  Load hl7.terminology#7.4.0 - 4181 resources (00:01.235)
-  Package Summary: [hl7.fhir.r5.core#5.0.0, hl7.fhir.xver-extensions#0.1.0, hl7.terminology.r5#6.2.0, hl7.fhir.uv.extensions.r5#5.2.0, hl7.terminology#7.4.0]
-  Get set... 
-  ...go! (00:00.398)
-Cached new session. Cache size = 1
-Sources to validate: /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_000.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_001.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_002.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_003.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_004.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_005.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_006.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_007.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_008.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_009.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_010.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_011.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_012.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_013.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_014.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_015.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_016.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_017.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_018.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_019.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_020.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_021.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_022.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_023.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_024.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_025.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_026.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_027.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_028.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_029.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_030.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_031.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_032.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_033.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_034.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_035.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_036.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_037.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_038.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_039.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_040.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_041.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_042.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_043.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_044.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_045.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_046.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_047.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_048.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_049.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_050.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_051.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_052.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_053.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_054.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_055.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_056.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_057.json
+ni_e2e/teste/laudo_075.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_076.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_077.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_078.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_079.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_080.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_081.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_082.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_083.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_084.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_085.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_086.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_087.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_088.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_089.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_090.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_091.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_092.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_093.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_094.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_095.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_096.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_097.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_098.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_099.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_100.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_101.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_102.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_103.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_104.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_105.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_106.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_107.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_108.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_109.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_110.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_111.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_112.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_113.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_114.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_115.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_116.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_117.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_118.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_119.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_120.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_121.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_122.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_123.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_124.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_125.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_126.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_127.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_128.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_129.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_130.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_131.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_132.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_133.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_134.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_135.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_136.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_137.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_138.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_139.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_140.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_141.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_142.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_143.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_144.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_145.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_146.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_147.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_148.json/workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_149.json
 Validating
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_000.json
- 00:00.513
+ 00:03.878
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_001.json
- 00:00.063
+ 00:02.907
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_002.json
- 00:00.683
+ 00:01.297
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_003.json
- 00:00.037
+ 00:01.293
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_004.json
- 00:01.805
+ 00:03.558
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_005.json
- 00:00.054
+ 00:01.307
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_006.json
- 00:00.065
+ 00:00.984
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_007.json
- 00:00.061
+ 00:00.692
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_008.json
- 00:00.064
+ 00:00.043
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_009.json
- 00:00.032
+ 00:00.030
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_010.json
- 00:00.035
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_011.json
- 00:00.373
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_012.json
- 00:00.356
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_013.json
- 00:00.049
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_014.json
- 00:00.360
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_015.json
- 00:00.345
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_016.json
- 00:00.351
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_017.json
- 00:00.672
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_018.json
- 00:00.337
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_019.json
- 00:00.022
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_020.json
- 00:00.034
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_021.json
- 00:00.661
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_022.json
- 00:00.021
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_023.json
- 00:00.021
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_024.json
- 00:00.016
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_025.json
- 00:00.341
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_026.json
- 00:00.025
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_027.json
- 00:00.344
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_028.json
- 00:01.620
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_029.json
- 00:00.342
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_030.json
- 00:00.346
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_031.json
- 00:00.340
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_032.json
- 00:00.022
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_033.json
- 00:00.346
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_034.json
  00:00.040
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_011.json
+ 00:00.988
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_012.json
+ 00:00.656
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_013.json
+ 00:00.348
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_014.json
+ 00:00.345
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_015.json
+ 00:00.351
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_016.json
+ 00:02.258
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_017.json
+ 00:01.014
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_018.json
+ 00:00.342
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_019.json
+ 00:00.030
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_020.json
+ 00:00.379
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_021.json
+ 00:00.990
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_022.json
+ 00:00.056
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_023.json
+ 00:00.028
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_024.json
+ 00:00.022
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_025.json
+ 00:00.354
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_026.json
+ 00:01.018
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_027.json
+ 00:00.346
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_028.json
+ 00:01.979
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_029.json
+ 00:00.368
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_030.json
+ 00:00.391
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_031.json
+ 00:00.365
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_032.json
+ 00:00.027
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_033.json
+ 00:00.365
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_034.json
+ 00:00.672
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_035.json
- 00:01.939
+ 00:02.033
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_036.json
- 00:00.350
+ 00:00.380
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_037.json
- 00:00.034
+ 00:00.043
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_038.json
- 00:00.018
+ 00:00.033
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_039.json
- 00:00.654
+ 00:00.663
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_040.json
- 00:00.018
+ 00:00.034
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_041.json
- 00:00.022
+ 00:00.347
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_042.json
- 00:00.342
+ 00:01.323
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_043.json
- 00:00.026
+ 00:00.371
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_044.json
- 00:00.342
+ 00:00.339
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_045.json
- 00:00.026
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_046.json
- 00:00.022
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_047.json
- 00:00.023
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_048.json
- 00:00.340
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_049.json
- 00:00.343
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_050.json
- 00:00.656
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_051.json
- 00:00.017
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_052.json
- 00:00.656
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_053.json
- 00:00.023
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_054.json
- 00:00.026
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_055.json
- 00:00.018
-  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_056.json
  00:00.342
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_046.json
+ 00:00.655
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_047.json
+ 00:00.031
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_048.json
+ 00:00.350
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_049.json
+ 00:00.340
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_050.json
+ 00:00.970
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_051.json
+ 00:00.029
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_052.json
+ 00:00.966
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_053.json
+ 00:00.338
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_054.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_055.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_056.json
+ 00:00.646
   Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_057.json
+ 00:00.020
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_058.json
+ 00:00.661
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_059.json
+ 00:00.340
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_060.json
+ 00:00.333
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_061.json
+ 00:00.653
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_062.json
+ 00:00.650
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_063.json
+ 00:00.649
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_064.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_065.json
+ 00:00.329
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_066.json
  00:00.021
-Done. Times: Loading: 00:06.719, validation: 00:17.095 (#58). Memory = 373Mb
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_067.json
+ 00:00.335
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_068.json
+ 00:00.338
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_069.json
+ 00:00.339
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_070.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_071.json
+ 00:00.021
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_072.json
+ 00:00.332
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_073.json
+ 00:00.332
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_074.json
+ 00:00.663
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_075.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_076.json
+ 00:00.023
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_077.json
+ 00:00.333
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_078.json
+ 00:00.018
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_079.json
+ 00:01.588
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_080.json
+ 00:00.340
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_081.json
+ 00:00.026
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_082.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_083.json
+ 00:00.336
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_084.json
+ 00:00.352
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_085.json
+ 00:00.027
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_086.json
+ 00:00.022
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_087.json
+ 00:00.336
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_088.json
+ 00:00.032
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_089.json
+ 00:00.649
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_090.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_091.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_092.json
+ 00:00.021
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_093.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_094.json
+ 00:00.018
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_095.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_096.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_097.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_098.json
+ 00:00.333
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_099.json
+ 00:00.332
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_100.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_101.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_102.json
+ 00:00.033
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_103.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_104.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_105.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_106.json
+ 00:00.018
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_107.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_108.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_109.json
+ 00:00.329
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_110.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_111.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_112.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_113.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_114.json
+ 00:00.331
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_115.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_116.json
+ 00:00.338
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_117.json
+ 00:00.014
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_118.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_119.json
+ 00:00.330
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_120.json
+ 00:00.328
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_121.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_122.json
+ 00:00.329
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_123.json
+ 00:00.332
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_124.json
+ 00:00.024
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_125.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_126.json
+ 00:00.333
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_127.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_128.json
+ 00:00.328
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_129.json
+ 00:00.335
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_130.json
+ 00:00.345
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_131.json
+ 00:00.648
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_132.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_133.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_134.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_135.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_136.json
+ 00:00.019
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_137.json
+ 00:00.643
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_138.json
+ 00:00.016
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_139.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_140.json
+ 00:00.331
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_141.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_142.json
+ 00:00.020
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_143.json
+ 00:00.014
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_144.json
+ 00:00.021
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_145.json
+ 00:00.015
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_146.json
+ 00:00.020
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_147.json
+ 00:00.333
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_148.json
+ 00:00.017
+  Validate /workspace/projetos/ner-fhir/results/fhir/gemini_e2e/teste/laudo_149.json
+ 00:00.334
+Done. Times: Loading: 00:11.767, validation: 00:57.624 (#150). Memory = 415Mb
 
-Done. Times: Loading: 00:06.719, validation: 00:17.095 (#58). Max Memory = 3Gb
+Done. Times: Loading: 00:11.767, validation: 00:57.624 (#150). Max Memory = 3Gb

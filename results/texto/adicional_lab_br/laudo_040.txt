@@ -1,0 +1,27 @@
+NOME: Elisa Prado IDADE: 42 anos
+CONVENIO: Convênio Exemplo DN: 02/06/1984
+DR.(a): Exemplo Solicitante ID/LOGIN: 634461
+CRM: 71250/RS
+DATA: 04/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Investigação de anemia.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Hematócrito 49,1 % 36,0 a 48,0 %
+Plaquetas:
+Analito Resultado Unidade Valores de Referência
+Plaquetograma 309.000 /mm³ 150.000 a 450.000 /mm³
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Hormônio tireoestimulante 6,07 µUI/mL 0,40 a 4,00 µUI/mL
+Dosagem de potássio 6,5 mmol/L 3,5 a 5,1 mmol/L
+Observações: Amostra lipêmica. Resultados liberados após conferência.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/RS 75342 - RQE 71200
+Cidade Exemplo, 04 de agosto de 2026.
+Diretor Técnico - CRM/RS 44364 - RQE 85221 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 11:42

@@ -1,0 +1,29 @@
+NOME: Elisa Prado IDADE: 83 anos
+CONVENIO: Convênio Exemplo DN: 02/05/1943
+DR.(a): Exemplo Solicitante ID/LOGIN: 178906
+CRM: 32607/MG
+DATA: 07/09/2026
+EXAME: EXAMES LABORATORIAIS
+iii erre ia a
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+RDW 11,7 % 11,5a 14,5 %
+RBC 3,12 milhões/mm? 4,20 a 5,40 milhões/mm?
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+CREA 1,87 mg/dl 0,60 a 1,20 mg/dl
+Triglicérides 255 mg/dl Até 150 mg/dl
+Glicemia de jejum 96 mg/dL 70 a 99 mg/dL
+cr 288 mg/dL Até 190 mg/dL
+Glicemia 183 mg/dl 70 a 99 mg/dl
+Transaminase glutâmico pirúvica 23 U/L Até 41 UML
+Observações: Plaquetas com morfologia normal ao esfregaço.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/MG 61044 - RQE 9208
+Cidade Exemplo, 07 de setembro de 2026.
+Diretor Técnico - CRM/MG 36883 - RQE 79126 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) Ide 1 11:46

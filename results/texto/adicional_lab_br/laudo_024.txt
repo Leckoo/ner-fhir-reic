@@ -1,0 +1,24 @@
+NOME: João Batista Moura IDADE: 71 anos
+CONVENIO: Plano Fictício Saúde DN: 26/02/1955
+DR.(a): Exemplo Solicitante ID/LOGIN: 905381
+CRM: 14912/MG
+DATA: 26/05/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Dados clínicos: Uso de medicação contínua informado.
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCV 101,1 fL 80,0 a 100,0 fL
+MCHC 35,0 g/dl 32,0 a 36,0 g/dl
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+Sódio no soro 146 mEq/L 136 a 145 mEq/L
+Dosagem de colesterol total 312 mg/dl Até 190 mg/dl
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/MG 30343 - RQE 43763
+Cidade Exemplo, 26 de maio de 2026.
+Diretor Técnico - CRM/MG 66608 - RQE 51766 - Dr(a). Ciclana Fictícia
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 14:17

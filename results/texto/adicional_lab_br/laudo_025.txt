@@ -1,0 +1,29 @@
+NOME: Vânia Lopes IDADE: 45 anos
+CONVENIO: Particular DN: 19/07/1981
+DR.(a): Exemplo Solicitante ID/LOGIN: 708274
+CRM: 35741/SC
+DATA: 07/08/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+SANTO LADURA LUNRIAIS
+Material: Sangue total (EDTA) e soro
+Método:  Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+Volume corpuscular médio 94,1 fL 80,0 a 100,0 fL
+Dosagem de hemoglobina 10,8 g/dL 12,0 a 16,0 g/dL
+RBC 5,67 x1016/uL 4,20 a 5,40 x10"6/uL
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+TGP 141 U/L Até 41 U/L
+Glicose em jejum 216 mg/dL 70 a 99 mg/dL
+Na 142 mEq/L 136 a 145 mEg/L
+Uréia 54 mg/dL 15 a 45 mg/dL
+Kalemia 3,2 mEg/L 3,5 a 5,1 mEq/L
+Observações: Amostra lipêmica. Amostra levemente hemolisada.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Beltrano Exemplo
+CRM/SC 67442 - RQE 74150
+Cidade Exemplo, 07 de agosto de 2026.
+Diretor Técnico - CRM/SC 28522 - RQE 15150 - Dr(a). Fulano de Tal
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) I de | 17:39

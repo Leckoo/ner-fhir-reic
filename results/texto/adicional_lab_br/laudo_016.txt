@@ -1,0 +1,24 @@
+NOME: Tiago Monteiro IDADE: 76 anos
+CONVENIO: Particular DN: 26/02/1950
+DR.(a): Exemplo Solicitante ID/LOGIN: 416599
+CRM: 78951/SC
+DATA: 08/06/2026
+EXAME: EXAMES LABORATORIAIS
+EXAMES LABORATORIAIS
+Material: Sangue total (EDTA) e soro
+Método: Automatizado - citometria de fluxo e impedância; bioquímica por método enzimático colorimétrico
+Eritrograma:
+Analito Resultado Unidade Valores de Referência
+MCV 91,6 fl 80,0 a 100,0 fl
+Bioquímica:
+Analito Resultado Unidade Valores de Referência
+ALT 92 U/L Até 41 U/L
+CREA 2,72 mg/dL 0,60 a 1,20 mg/dL
+Sódio no soro 137 mmol/L 136 a 145 mmol/L
+Nota: Valores de referência conforme idade e sexo. Amostra lipêmica.
+Valores de referência: bula do fabricante dos reagentes e literatura técnica vigente.
+Dr(a). Fulano de Tal
+CRM/SC 13122 - RQE 29417
+Cidade Exemplo, 08 de junho de 2026.
+Diretor Técnico - CRM/SC 75756 - RQE 6803 - Dr(a). Beltrano Exemplo
+LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício) 1 de 1 18:02

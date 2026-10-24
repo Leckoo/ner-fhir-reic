@@ -1,0 +1,56 @@
+/workspace/projetos/ner-fhir/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/workspace/projetos/ner-fhir/.venv/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py:190: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1780.87it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gliner_hib adicional_lab_br laudo_000 obs=7 10.37s
+gliner_hib adicional_lab_br laudo_001 obs=2 0.44s
+gliner_hib adicional_lab_br laudo_002 obs=3 0.58s
+gliner_hib adicional_lab_br laudo_003 obs=6 0.54s
+gliner_hib adicional_lab_br laudo_004 obs=3 0.44s
+gliner_hib adicional_lab_br laudo_005 obs=5 0.43s
+gliner_hib adicional_lab_br laudo_006 obs=4 0.41s
+gliner_hib adicional_lab_br laudo_007 obs=6 0.57s
+gliner_hib adicional_lab_br laudo_008 obs=11 0.83s
+gliner_hib adicional_lab_br laudo_009 obs=5 0.55s
+gliner_hib adicional_lab_br laudo_010 obs=11 0.71s
+gliner_hib adicional_lab_br laudo_011 obs=6 0.51s
+gliner_hib adicional_lab_br laudo_012 obs=5 0.46s
+gliner_hib adicional_lab_br laudo_013 obs=4 0.47s
+gliner_hib adicional_lab_br laudo_014 obs=4 0.48s
+gliner_hib adicional_lab_br laudo_015 obs=6 0.67s
+gliner_hib adicional_lab_br laudo_016 obs=4 0.42s
+gliner_hib adicional_lab_br laudo_017 obs=6 0.40s
+gliner_hib adicional_lab_br laudo_018 obs=8 0.49s
+gliner_hib adicional_lab_br laudo_019 obs=3 0.46s
+gliner_hib adicional_lab_br laudo_020 obs=4 0.44s
+gliner_hib adicional_lab_br laudo_021 obs=3 0.42s
+gliner_hib adicional_lab_br laudo_022 obs=7 0.49s
+gliner_hib adicional_lab_br laudo_023 obs=5 0.46s
+gliner_hib adicional_lab_br laudo_024 obs=3 0.39s
+gliner_hib adicional_lab_br laudo_025 obs=7 0.47s
+gliner_hib adicional_lab_br laudo_026 obs=8 0.72s
+gliner_hib adicional_lab_br laudo_027 obs=9 0.97s
+gliner_hib adicional_lab_br laudo_028 obs=8 0.72s
+gliner_hib adicional_lab_br laudo_029 obs=8 0.46s
+gliner_hib adicional_lab_br laudo_030 obs=8 0.52s
+gliner_hib adicional_lab_br laudo_031 obs=6 0.50s
+gliner_hib adicional_lab_br laudo_032 obs=5 0.50s
+gliner_hib adicional_lab_br laudo_033 obs=4 0.53s
+gliner_hib adicional_lab_br laudo_034 obs=9 0.63s
+gliner_hib adicional_lab_br laudo_035 obs=8 0.68s
+gliner_hib adicional_lab_br laudo_036 obs=5 0.50s
+gliner_hib adicional_lab_br laudo_037 obs=8 0.66s
+gliner_hib adicional_lab_br laudo_038 obs=3 0.47s
+gliner_hib adicional_lab_br laudo_039 obs=3 0.47s
+gliner_hib adicional_lab_br laudo_040 obs=3 0.43s
+gliner_hib adicional_lab_br laudo_041 obs=7 0.64s
+gliner_hib adicional_lab_br laudo_042 obs=4 0.41s
+gliner_hib adicional_lab_br laudo_043 obs=4 0.45s
+gliner_hib adicional_lab_br laudo_044 obs=8 0.66s
+gliner_hib adicional_lab_br laudo_045 obs=9 0.71s
+gliner_hib adicional_lab_br laudo_046 obs=3 0.41s
+gliner_hib adicional_lab_br laudo_047 obs=4 0.40s
+gliner_hib adicional_lab_br laudo_048 obs=5 0.43s
+gliner_hib adicional_lab_br laudo_049 obs=5 0.41s

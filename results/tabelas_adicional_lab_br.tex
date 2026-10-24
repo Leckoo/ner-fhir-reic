@@ -1,0 +1,43 @@
+% Gerado por src/avaliar.py — conjunto adicional_lab_br
+\begin{table}[ht]\centering\small
+\caption{F1 por campo (normalizado e ligado ao LOINC) no teste, IC 95\% por \textit{bootstrap}.}\label{tab:campos}
+\begin{tabular}{lccccc}\toprule
+Método & Exame (LOINC) & Valor & Unidade & Faixa de ref. & Obs. completa\\\midrule
+Regex + dicionário & 0,50 [0,46; 0,54] & 0,47 [0,44; 0,51] & 0,43 [0,39; 0,48] & 0,48 [0,44; 0,52] & 0,41 [0,36; 0,46]\\
+GLiNER (exame) + regras & 0,59 [0,53; 0,64] & 0,55 [0,50; 0,61] & 0,51 [0,46; 0,57] & 0,57 [0,52; 0,62] & 0,49 [0,43; 0,55]\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{F1 do reconhecimento de trechos (texto normalizado), antes da ligação.}\label{tab:spans}
+\begin{tabular}{lcccc}\toprule
+Método & Exame & Valor & Unidade & Faixa\\\midrule
+Regex + dicionário & 0,66 [0,63; 0,70] & 0,68 [0,65; 0,71] & 0,62 [0,58; 0,66] & 0,67 [0,63; 0,70]\\
+GLiNER (exame) + regras & 0,59 [0,54; 0,64] & 0,70 [0,65; 0,75] & 0,72 [0,68; 0,77] & 0,72 [0,68; 0,77]\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Acurácia LOINC, conformidade HL7 R5, latência e custo por laudo.}\label{tab:fhir}
+\begin{tabular}{lcccc}\toprule
+Método & Acur. LOINC & Válidos HL7 (\%) & Latência (s) & Chamadas / \textit{tokens}\\\midrule
+Regex + dicionário & 0,709 [0,656; 0,761] & -- & 0,001 & 0,00 / 0\\
+GLiNER (exame) + regras & 0,801 [0,750; 0,851] & -- & 0,724 & 0,00 / 0\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Rótulos vistos vs.\ não vistos no dicionário: recall da observação completa e acurácia LOINC.}\label{tab:vistos}
+\begin{tabular}{llccc}\toprule
+Método & Rótulo & Obs. & Recall obs. & Acur. LOINC\\\midrule
+Regex + dicionário & visto & 193 & 0,803 & 0,989\\
+Regex + dicionário & nao visto & 95 & 0,105 & 0,128\\
+GLiNER (exame) + regras & visto & 193 & 0,580 & 0,942\\
+GLiNER (exame) + regras & nao visto & 95 & 0,284 & 0,475\\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\small
+\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, 1000 reamostragens): método A $-$ método B.}\label{tab:dif}
+\begin{tabular}{llccc}\toprule
+A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule
+GLiNER (exame) + regras -- Regex + dicionário & acuracia loinc & +0,092 & [+0,038; +0,145] & 0,004\\
+GLiNER (exame) + regras -- Regex + dicionário & f1 obs completa & +0,076 & [+0,031; +0,121] & 0,004\\
+GLiNER (exame) + regras -- Regex + dicionário & recall nao vistos & +0,179 & [+0,071; +0,291] & $<$0,001\\
+\bottomrule\end{tabular}\end{table}

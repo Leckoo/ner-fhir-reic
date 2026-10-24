@@ -23,3 +23,9 @@ gemini_ent,layout=blocos,37,0.675
 gemini_ent,layout=legado,36,0.630
 gemini_ent,escaneado,41,0.508
 gemini_ent,digital,109,0.701
+gemini_e2e,layout=tabela,35,0.541
+gemini_e2e,layout=colunas,42,0.514
+gemini_e2e,layout=blocos,37,0.608
+gemini_e2e,layout=legado,36,0.512
+gemini_e2e,escaneado,41,0.501
+gemini_e2e,digital,109,0.557
