@@ -1,90 +1,11 @@
-regex exame 60 0.969 0.964 0.966 0.921 0.997
-regex valor 60 0.969 0.964 0.966 0.921 0.997
-regex unidade 60 0.924 0.919 0.922 0.866 0.964
-regex faixa 60 0.955 0.950 0.953 0.906 0.987
-regex completa 60 0.919 0.914 0.916 0.860 0.962
-regex s_exame 60 0.969 0.964 0.966 0.921 0.997
-regex s_valor 60 0.983 0.978 0.980 0.955 1.000
-regex s_unidade 60 0.936 0.930 0.933 0.891 0.967
-regex s_faixa 60 0.980 0.975 0.978 0.956 0.994
-gliner exame 60 0.732 0.198 0.311 0.213 0.403
-gliner valor 60 0.247 0.067 0.105 0.059 0.154
-gliner unidade 60 0.010 0.003 0.004 0.000 0.013
-gliner faixa 60 0.000 0.000 0.000 0.000 0.000
-gliner completa 60 0.000 0.000 0.000 0.000 0.000
-gliner s_exame 60 0.649 0.175 0.276 0.186 0.366
-gliner s_valor 60 0.268 0.072 0.114 0.068 0.165
-gliner s_unidade 60 0.022 0.003 0.005 0.000 0.015
-gliner s_faixa 60 0.000 0.000 0.000 0.000 0.000
-gliner_hib exame 60 0.917 0.766 0.835 0.792 0.871
-gliner_hib valor 60 0.910 0.760 0.829 0.788 0.867
-gliner_hib unidade 60 0.887 0.741 0.807 0.762 0.848
-gliner_hib faixa 60 0.903 0.755 0.822 0.777 0.862
-gliner_hib completa 60 0.880 0.735 0.801 0.756 0.843
-gliner_hib s_exame 60 0.863 0.721 0.786 0.739 0.826
-gliner_hib s_valor 60 0.937 0.783 0.853 0.814 0.887
-gliner_hib s_unidade 60 0.930 0.777 0.847 0.801 0.886
-gliner_hib s_faixa 60 0.977 0.816 0.889 0.858 0.916
-gemini_ent exame 60 0.980 0.964 0.972 0.933 0.997
-gemini_ent valor 60 0.980 0.964 0.972 0.933 0.997
-gemini_ent unidade 60 0.938 0.922 0.930 0.884 0.967
-gemini_ent faixa 60 0.969 0.953 0.961 0.921 0.990
-gemini_ent completa 60 0.932 0.916 0.924 0.877 0.964
-gemini_ent s_exame 60 0.977 0.961 0.969 0.923 0.997
-gemini_ent s_valor 60 0.994 0.978 0.986 0.970 0.999
-gemini_ent s_unidade 60 0.952 0.936 0.944 0.908 0.974
-gemini_ent s_faixa 60 0.994 0.978 0.986 0.973 0.996
-gemini_e2e exame 60 0.659 0.593 0.625 0.575 0.675
-gemini_e2e valor 60 0.635 0.571 0.601 0.548 0.654
-gemini_e2e unidade 60 0.573 0.515 0.543 0.486 0.599
-gemini_e2e faixa 60 0.635 0.571 0.601 0.548 0.654
-gemini_e2e completa 60 0.570 0.513 0.540 0.483 0.594
-regex 60 0.986 0.958 1.000 100.0 100.0 100.0 0.000 0.00 0 
-gliner 60 0.923 0.783 1.000 100.0 100.0 100.0 8.619 0.00 0 
-gliner_hib 60 0.972 0.952 0.989 100.0 100.0 100.0 14.110 0.00 0 
-gemini_ent 60 0.986 0.958 1.000 100.0 100.0 100.0 8.960 1.30 761 gemini-3.1-flash-lite
-gemini_e2e 60 0.647 0.599 0.696 5.0 0.0 11.7 16.503 1.50 3374 gemini-3.1-flash-lite
-regex visto 359 0.914 351 0.986
-gliner visto 359 0.000 26 0.923
-gliner_hib visto 359 0.735 281 0.972
-gemini_ent visto 359 0.916 351 0.986
-gemini_e2e visto 359 0.513 317 0.647
-regex layout=tabela 12 0.941
-regex layout=colunas 15 0.911
-regex layout=blocos 19 0.956
-regex layout=legado 14 0.851
-regex escaneado 17 0.677
-regex digital 43 1.000
-gliner layout=tabela 12 0.000
-gliner layout=colunas 15 0.000
-gliner layout=blocos 19 0.000
-gliner layout=legado 14 0.000
-gliner escaneado 17 0.000
-gliner digital 43 0.000
-gliner_hib layout=tabela 12 0.787
-gliner_hib layout=colunas 15 0.735
-gliner_hib layout=blocos 19 0.858
-gliner_hib layout=legado 14 0.805
-gliner_hib escaneado 17 0.624
-gliner_hib digital 43 0.863
-gemini_ent layout=tabela 12 0.941
-gemini_ent layout=colunas 15 0.916
-gemini_ent layout=blocos 19 0.956
-gemini_ent layout=legado 14 0.877
-gemini_ent escaneado 17 0.703
-gemini_ent digital 43 1.000
-gemini_e2e layout=tabela 12 0.533
-gemini_e2e layout=colunas 15 0.503
-gemini_e2e layout=blocos 19 0.584
-gemini_e2e layout=legado 14 0.521
-gemini_e2e escaneado 17 0.512
-gemini_e2e digital 43 0.549
-gliner_hib regex acuracia_loinc -0.014 -0.035 +0.008 0.216
-gliner_hib regex f1_obs_completa -0.115 -0.146 -0.082 0.000
-gliner_hib regex recall_nao_vistos +0.000 +0.000 +0.000 1.000
-gliner_hib gemini_ent acuracia_loinc -0.014 -0.035 +0.008 0.214
-gliner_hib gemini_ent f1_obs_completa -0.123 -0.155 -0.092 0.000
-gliner_hib gemini_ent recall_nao_vistos +0.000 +0.000 +0.000 1.000
-regex gemini_ent acuracia_loinc +0.000 -0.000 +0.000 1.000
-regex gemini_ent f1_obs_completa -0.008 -0.019 +0.000 0.094
-regex gemini_ent recall_nao_vistos +0.000 +0.000 +0.000 1.000
+Traceback (most recent call last):
+  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 253, in <module>
+    else: metricas(sys.argv[2])
+          ~~~~~~~~^^^^^^^^^^^^^
+  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 203, in metricas
+    tabelas_tex(conj, linhas_c, linhas_f, linhas_v, ldif); figura(conj, linhas_c)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 225, in tabelas_tex
+    t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[19]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
+                                                                                          ~^^^^
+IndexError: list index out of range

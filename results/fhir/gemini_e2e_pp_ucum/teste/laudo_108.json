@@ -1,0 +1,340 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "73a9d60c-1f93-56e7-8ed9-5991b4abfb23",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1948-05-09"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d34bbd33-e773-53e7-8350-f077e3b60ded",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2339-0"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 88,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70,
+       "unit": "mg/dL"
+      },
+      "high": {
+       "value": 99,
+       "unit": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9cf5c3bf-6e18-5cb9-9ea4-81ff1d203ca6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11580-8"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 2.89,
+     "unit": "uIU/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "uIU/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "uIU/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "uIU/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:14b5a685-f065-5013-a795-ce23ebbaf0e4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 17.6,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f4b6096c-8571-5ee2-9995-69b74667c6ea",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 31.3,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:12ea689a-9a60-534d-a246-1ebab938f849",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 65,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 40,
+       "unit": "U/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:76de8adb-41b1-51a6-afe1-dfe2bf824bea",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "effectiveDateTime": "2026-01-20",
+    "valueQuantity": {
+     "value": 2.53,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:de57a089-fec5-5aeb-ad73-cb258c4ca63a",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:73a9d60c-1f93-56e7-8ed9-5991b4abfb23"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:d34bbd33-e773-53e7-8350-f077e3b60ded"
+     },
+     {
+      "reference": "urn:uuid:9cf5c3bf-6e18-5cb9-9ea4-81ff1d203ca6"
+     },
+     {
+      "reference": "urn:uuid:14b5a685-f065-5013-a795-ce23ebbaf0e4"
+     },
+     {
+      "reference": "urn:uuid:f4b6096c-8571-5ee2-9995-69b74667c6ea"
+     },
+     {
+      "reference": "urn:uuid:12ea689a-9a60-534d-a246-1ebab938f849"
+     },
+     {
+      "reference": "urn:uuid:76de8adb-41b1-51a6-afe1-dfe2bf824bea"
+     }
+    ]
+   }
+  }
+ ]
+}

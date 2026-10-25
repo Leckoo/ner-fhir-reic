@@ -1,0 +1,150 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:13db26a6-28eb-53f9-a192-5801bda01dd4",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "PATRICIA RAMOS"
+     }
+    ],
+    "birthDate": "2000-01-21"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:63b5b3eb-6787-5dee-a940-84c5fd622ff4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOT"
+    },
+    "subject": {
+     "reference": "urn:uuid:13db26a6-28eb-53f9-a192-5801bda01dd4"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "valueQuantity": {
+     "value": 36.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:99da6ddf-bf21-5227-9cb6-526d4ac2fc25",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "f1"
+    },
+    "subject": {
+     "reference": "urn:uuid:13db26a6-28eb-53f9-a192-5801bda01dd4"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "valueQuantity": {
+     "value": 80.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:64e8e7b1-45c4-5fa5-84ac-ed5e405d6ae8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "SBOTO"
+    },
+    "subject": {
+     "reference": "urn:uuid:13db26a6-28eb-53f9-a192-5801bda01dd4"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "valueQuantity": {
+     "value": 44448.0
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0
+      },
+      "high": {
+       "value": 145.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:df0d69f7-cc6c-58a9-a746-cde954551ec8",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:13db26a6-28eb-53f9-a192-5801bda01dd4"
+    },
+    "effectiveDateTime": "2026-01-04",
+    "result": [
+     {
+      "reference": "urn:uuid:63b5b3eb-6787-5dee-a940-84c5fd622ff4"
+     },
+     {
+      "reference": "urn:uuid:99da6ddf-bf21-5227-9cb6-526d4ac2fc25"
+     },
+     {
+      "reference": "urn:uuid:64e8e7b1-45c4-5fa5-84ac-ed5e405d6ae8"
+     }
+    ]
+   }
+  }
+ ]
+}

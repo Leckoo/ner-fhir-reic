@@ -1,0 +1,7 @@
+familia,rotulos,ocorrencias,regex_recall_obs_completa,gliner_hib_recall_obs_completa,gliner_llm_recall_obs_completa,regex_loinc_certo,gliner_hib_loinc_certo,gliner_llm_loinc_certo,rotulos_zero_em_todos
+prefixo 'Dosagem de',7,17,0.000,0.882,0.882,0.000,0.882,0.882,1
+sigla,4,6,0.000,0.000,0.333,0.000,0.000,0.333,2
+sinônimo/descritivo,23,72,0.139,0.167,0.514,0.153,0.181,0.583,6
+corte_prefixo_regex,,17,0,17,,,,,
+corte_prefixo_gliner_hib,,15,15,0,,,,,
+corte_prefixo_gliner_llm,,15,15,0,,,,,

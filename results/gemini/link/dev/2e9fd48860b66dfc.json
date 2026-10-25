@@ -1,0 +1,11 @@
+{
+ "texto": "{\n  \"loinc\": \"nenhum\"\n}",
+ "latencia_s": 9.882368564605713,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 860,
+ "tokens_saida": 13,
+ "tokens_total": 873,
+ "rotulo": "Laboratório Exemplo de Análises Clínicas",
+ "rotulo_norm": "laboratorio exemplo de analises clinicas"
+}

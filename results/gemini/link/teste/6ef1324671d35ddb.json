@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"2093-3\"}",
+ "latencia_s": 0.6252701282501221,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 855,
+ "tokens_saida": 12,
+ "tokens_total": 867,
+ "rotulo": "COLESTEROLEMIA",
+ "rotulo_norm": "colesterolemia"
+}

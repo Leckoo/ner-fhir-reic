@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"785-6\"}",
+ "latencia_s": 0.696918249130249,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 856,
+ "tokens_saida": 11,
+ "tokens_total": 867,
+ "rotulo": "Hemoglobina corpuscular média",
+ "rotulo_norm": "hemoglobina corpuscular media"
+}

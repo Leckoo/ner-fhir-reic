@@ -1,0 +1,245 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Ana Souza"
+     }
+    ],
+    "birthDate": "1961-12-02"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cfb42cbe-b4cd-56d3-8367-727018badd88",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "valueQuantity": {
+     "value": 32.3,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 27.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4a8124a4-8946-5c74-9f22-6b4bca949b58",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "valueQuantity": {
+     "value": 4.5,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2fe59373-2ff9-51b2-802a-acd5fb3a69bf",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "valueQuantity": {
+     "value": 2.56,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:be4fdc23-9563-594b-948a-859bc7ce0acb",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "valueQuantity": {
+     "value": 3.23
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2
+      },
+      "high": {
+       "value": 5.4
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:60503533-78e9-517a-9bdb-a9d99271bd0f",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6123dfd4-8d82-5473-b087-7c56f6623fc7"
+    },
+    "effectiveDateTime": "2026-03-05",
+    "result": [
+     {
+      "reference": "urn:uuid:cfb42cbe-b4cd-56d3-8367-727018badd88"
+     },
+     {
+      "reference": "urn:uuid:4a8124a4-8946-5c74-9f22-6b4bca949b58"
+     },
+     {
+      "reference": "urn:uuid:2fe59373-2ff9-51b2-802a-acd5fb3a69bf"
+     },
+     {
+      "reference": "urn:uuid:be4fdc23-9563-594b-948a-859bc7ce0acb"
+     }
+    ]
+   }
+  }
+ ]
+}

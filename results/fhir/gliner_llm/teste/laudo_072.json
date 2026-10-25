@@ -1,0 +1,105 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:16d9e635-8b55-5eb0-8093-2b648f2ddc92",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Fábio Nunes"
+     }
+    ],
+    "birthDate": "1977-07-07"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8343f988-5df4-599a-99ed-406ac15b5785",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:16d9e635-8b55-5eb0-8093-2b648f2ddc92"
+    },
+    "effectiveDateTime": "2026-09-24",
+    "valueQuantity": {
+     "value": 28.5,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 27.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:807f9e78-ecdd-510d-8ad8-c493359de48c",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:16d9e635-8b55-5eb0-8093-2b648f2ddc92"
+    },
+    "effectiveDateTime": "2026-09-24",
+    "result": [
+     {
+      "reference": "urn:uuid:8343f988-5df4-599a-99ed-406ac15b5785"
+     }
+    ]
+   }
+  }
+ ]
+}

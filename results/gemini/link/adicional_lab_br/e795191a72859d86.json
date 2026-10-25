@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"1742-6\"}",
+ "latencia_s": 0.5627210140228271,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 855,
+ "tokens_saida": 12,
+ "tokens_total": 867,
+ "rotulo": "SGPT 77",
+ "rotulo_norm": "sgpt 77"
+}

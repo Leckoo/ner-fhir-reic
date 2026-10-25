@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"777-3\"}",
+ "latencia_s": 5.203374147415161,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 855,
+ "tokens_saida": 11,
+ "tokens_total": 866,
+ "rotulo": "PLAQUETOGRAMA",
+ "rotulo_norm": "plaquetograma"
+}

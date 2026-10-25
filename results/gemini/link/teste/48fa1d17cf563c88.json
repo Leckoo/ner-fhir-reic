@@ -1,0 +1,11 @@
+{
+ "texto": "{\n  \"loinc\": \"2823-3\"\n}",
+ "latencia_s": 0.8243758678436279,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 857,
+ "tokens_saida": 17,
+ "tokens_total": 874,
+ "rotulo": "POTÁSSIO NO SORO",
+ "rotulo_norm": "potassio no soro"
+}

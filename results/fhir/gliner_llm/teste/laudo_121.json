@@ -1,0 +1,258 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Carla Dias"
+     }
+    ],
+    "birthDate": "1949-02-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e5395a1b-01a0-50de-9ef8-123f0422eca6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LabSul Diagnósticos"
+    },
+    "subject": {
+     "reference": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "valueQuantity": {
+     "value": 5.11,
+     "unit": "10*6/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*6/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2f3e2443-90dd-5baa-8519-600a17885a07",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "valueQuantity": {
+     "value": 17.5,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:a2e37f5b-593a-5868-8b1b-bafc22a6943e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "valueQuantity": {
+     "value": 29.4,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 27.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7c7a5aea-19f4-5e6e-b02a-fadd42185b3d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "valueQuantity": {
+     "value": 76.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b04cd988-1c98-530e-a434-d0119e13fcd0",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:28651e18-53d0-5c75-a728-ba1c5e036d73"
+    },
+    "effectiveDateTime": "2026-08-09",
+    "result": [
+     {
+      "reference": "urn:uuid:e5395a1b-01a0-50de-9ef8-123f0422eca6"
+     },
+     {
+      "reference": "urn:uuid:2f3e2443-90dd-5baa-8519-600a17885a07"
+     },
+     {
+      "reference": "urn:uuid:a2e37f5b-593a-5868-8b1b-bafc22a6943e"
+     },
+     {
+      "reference": "urn:uuid:7c7a5aea-19f4-5e6e-b02a-fadd42185b3d"
+     }
+    ]
+   }
+  }
+ ]
+}

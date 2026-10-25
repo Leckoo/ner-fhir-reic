@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"789-8\"}",
+ "latencia_s": 1.3350377082824707,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 853,
+ "tokens_saida": 11,
+ "tokens_total": 864,
+ "rotulo": "RBC 3",
+ "rotulo_norm": "rbc 3"
+}

@@ -31,7 +31,13 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
   (dicionário de `exames.py` + correspondência aproximada difflib ≥0,85), baseline **regex**, montagem do Bundle R5
   (`Patient`, `Observation` com LOINC, `valueQuantity` UCUM e `referenceRange`, `DiagnosticReport`).
 - `extrator_gliner.py`: **gliner** (GLiNER `urchade/gliner_multi-v2.1` zero-shot com 4 rótulos) e **gliner_hib**
-  (GLiNER só para o nome do exame + regras posicionais para valor/unidade/faixa).
+  (GLiNER só para o nome do exame + regras posicionais para valor/unidade/faixa). O gliner puro usa os rótulos em inglês
+  "analyte", "measured value", "unit", "reference values", inferência linha a linha (linhas não vazias, lote 16, flat_ner),
+  limiar 0,3; o híbrido usa só "analyte" com limiar 0,1 (varredura no dev).
+- `ligacao_llm.py`: **gliner_llm** = gliner_hib + Gemini como **reserva** da ligação LOINC: só quando dicionário e difflib
+  não acham código, o rótulo vai ao Gemini com o catálogo dos 20 códigos e saída JSON com `enum` (20 códigos ou
+  "nenhum"). Cache por rótulo normalizado em `results/gemini/link/<conjunto>/` (sem chave no repo; `GEMINI_API_KEY`
+  só pelo ambiente). Método acrescentado depois da análise de erros (post hoc).
 - `extrator_gemini.py`: `gemini-3.1-flash-lite`, temperatura 0, saída JSON. **gemini_e2e** gera o Bundle FHIR direto
   (LOINC pela memória do modelo); **gemini_ent** extrai trechos e passa pela MESMA ligação do pipeline.
   Respostas em cache em `results/gemini/` (rodar de novo não gasta cota). ~14 req/min, retry em 503, modelo fixo.
@@ -39,12 +45,24 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
   Válido = sem issue `error`/`fatal`.
 - `avaliar.py`: P/R/F1 por campo (ligado: exame/LOINC, valor, unidade, faixa, observação completa; trechos: exame,
   valor, unidade, faixa por texto normalizado), acurácia LOINC (pares pelo valor), vistos × não vistos, por layout e
-  digital × escaneado, latência, chamadas e tokens; IC 95% por bootstrap (1000 reamostragens de laudos, seed 12345).
+  digital × escaneado, latência (média e mediana), chamadas e tokens; acurácia LOINC condicional (sobre pares pelo
+  valor) e absoluta (sobre todas as observações do gabarito); IC 95% por bootstrap (10000 reamostragens de laudos,
+  seed 12345). Diferenças pareadas (`diferencas_<conj>.csv`): família declarada de 6 pares × 3 métricas = 18 testes,
+  Bonferroni α = 0,05/18 ≈ 0,0028 (p mínimo não nulo = 2/10000).
+- `sensibilidade_e2e.py`: validade HL7 do gemini_e2e após pós-processamento sem API (`display` do catálogo e UUIDs
+  válidos; + unidade UCUM). Saída `results/sensibilidade_e2e_teste.csv`.
+- `erros_nao_vistos.py`: erros por rótulo não visto × método, por família (prefixo "Dosagem de", sigla,
+  sinônimo/descritivo), cortes de prefixo. Saída `results/erros_nao_vistos[_resumo]_<conj>.csv`.
+- `fp_lab_br.py`: origem dos falsos positivos no lab_br (cabeçalho/rodapé, diferencial do leucograma, linha de
+  resultado...). Saída `results/fp_origem_adicional_lab_br.csv`.
 
 ## Saídas (`results/`)
 `campos_teste.csv`, `fhir_custo_teste.csv`, `vistos_naovistos_teste.csv`, `por_condicao_teste.csv`, `tabelas.tex`,
 `f1_campos_teste.png/.pdf`, `exemplo_bundle.json` (Listagem 1), `validacao/`, `fhir/<método>/<conjunto>/`, `pred/`.
 Os mesmos arquivos com sufixo `_dev` são do conjunto de desenvolvimento.
+
+No lab_br nenhum Bundle dos métodos determinísticos é válido (0/50): o cabeçalho em grade (`NOME:`, `DN: dd/mm/aaaa`)
+não é reconhecido por `pipeline.cabecalho`, que gera `Patient` vazio (bdl-3a/bdl-5). Registrado como achado, sem ajuste.
 
 Latência: tempo de extração a partir do texto já extraído (a extração de texto/OCR é comum a todos os métodos e não entra).
 

@@ -17,6 +17,12 @@ gliner_hib,layout=blocos,19,0.858
 gliner_hib,layout=legado,14,0.805
 gliner_hib,escaneado,17,0.624
 gliner_hib,digital,43,0.863
+gliner_llm,layout=tabela,12,0.787
+gliner_llm,layout=colunas,15,0.735
+gliner_llm,layout=blocos,19,0.858
+gliner_llm,layout=legado,14,0.805
+gliner_llm,escaneado,17,0.624
+gliner_llm,digital,43,0.863
 gemini_ent,layout=tabela,12,0.941
 gemini_ent,layout=colunas,15,0.916
 gemini_ent,layout=blocos,19,0.956

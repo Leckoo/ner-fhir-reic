@@ -1,0 +1,11 @@
+{
+ "texto": "{\n  \"loinc\": \"1742-6\"\n}",
+ "latencia_s": 0.5219879150390625,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 854,
+ "tokens_saida": 17,
+ "tokens_total": 871,
+ "rotulo": "ALT 92",
+ "rotulo_norm": "alt 92"
+}

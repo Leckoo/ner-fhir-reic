@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"nenhum\"}",
+ "latencia_s": 11.4221031665802,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 854,
+ "tokens_saida": 8,
+ "tokens_total": 862,
+ "rotulo": "LabSul Diagnósticos",
+ "rotulo_norm": "labsul diagnosticos"
+}

@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"789-8\"}",
+ "latencia_s": 3.6046929359436035,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 860,
+ "tokens_saida": 11,
+ "tokens_total": 871,
+ "rotulo": "CONTAGEM DE ERITRÓCITOS",
+ "rotulo_norm": "contagem de eritrocitos"
+}

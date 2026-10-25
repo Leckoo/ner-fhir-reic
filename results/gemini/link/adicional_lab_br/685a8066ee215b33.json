@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"1920-8\"}",
+ "latencia_s": 0.7565631866455078,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 860,
+ "tokens_saida": 12,
+ "tokens_total": 872,
+ "rotulo": "Transaminase glutâmico-oxaloacética",
+ "rotulo_norm": "transaminase glutamico-oxaloacetica"
+}

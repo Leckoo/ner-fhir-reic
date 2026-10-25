@@ -1,0 +1,4 @@
+etapa,validos,total,pct_validos,ic95_inf,ic95_sup,bundles_display,bundles_ucum,bundles_loinc_inexistente,bundles_uuid,bundles_outros,f1_obs_completa,acuracia_loinc
+gemini_e2e,11,150,7.3,3.3,12.0,136,47,15,14,0,0.542,0.652
+gemini_e2e_pp_display_uuid,94,150,62.7,54.7,70.0,0,47,15,0,0,0.542,0.652
+gemini_e2e_pp_ucum,115,150,76.7,70.0,83.3,0,25,15,0,0,0.572,0.652

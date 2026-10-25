@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"6690-2\"}",
+ "latencia_s": 2.7102720737457275,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 856,
+ "tokens_saida": 12,
+ "tokens_total": 868,
+ "rotulo": "Contagem de leucócitos",
+ "rotulo_norm": "contagem de leucocitos"
+}

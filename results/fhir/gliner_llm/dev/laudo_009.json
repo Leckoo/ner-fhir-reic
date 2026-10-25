@@ -1,0 +1,255 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Bruno Lima"
+     }
+    ],
+    "birthDate": "2010-12-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:510ef873-f686-54b2-bdd2-017708335ce2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26"
+    },
+    "effectiveDateTime": "2026-06-27",
+    "valueQuantity": {
+     "value": 35.4,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b38aa721-1c7b-55cb-848a-287aa23f6c38",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26"
+    },
+    "effectiveDateTime": "2026-06-27",
+    "valueQuantity": {
+     "value": 164.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:62fb2ad8-bfe8-590c-b681-716680ff1b12",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26"
+    },
+    "effectiveDateTime": "2026-06-27",
+    "valueQuantity": {
+     "value": 122.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f3c5cbff-5476-59e4-8aa4-c921ec137ae7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26"
+    },
+    "effectiveDateTime": "2026-06-27",
+    "valueQuantity": {
+     "value": 29.7
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0
+      },
+      "high": {
+       "value": 48.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0e9ce5d4-53f5-5e54-9cb5-29e3a33450e3",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:29f1fb2c-3178-5bcf-8f67-d485893c0d26"
+    },
+    "effectiveDateTime": "2026-06-27",
+    "result": [
+     {
+      "reference": "urn:uuid:510ef873-f686-54b2-bdd2-017708335ce2"
+     },
+     {
+      "reference": "urn:uuid:b38aa721-1c7b-55cb-848a-287aa23f6c38"
+     },
+     {
+      "reference": "urn:uuid:62fb2ad8-bfe8-590c-b681-716680ff1b12"
+     },
+     {
+      "reference": "urn:uuid:f3c5cbff-5476-59e4-8aa4-c921ec137ae7"
+     }
+    ]
+   }
+  }
+ ]
+}

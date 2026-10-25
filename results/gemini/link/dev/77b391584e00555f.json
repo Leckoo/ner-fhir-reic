@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"nenhum\"}",
+ "latencia_s": 0.7082934379577637,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 860,
+ "tokens_saida": 8,
+ "tokens_total": 868,
+ "rotulo": "Centro de Análises Vale do Rio Pardo",
+ "rotulo_norm": "centro de analises vale do rio pardo"
+}

@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"3091-6\"}",
+ "latencia_s": 1.2448515892028809,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 856,
+ "tokens_saida": 12,
+ "tokens_total": 868,
+ "rotulo": "Uréia no soro",
+ "rotulo_norm": "ureia no soro"
+}

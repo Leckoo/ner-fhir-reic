@@ -1,0 +1,35 @@
+rotulo,familia,loinc,ocorrencias,regex_obs_completa,regex_loinc_certo,gliner_hib_obs_completa,gliner_hib_loinc_certo,gliner_llm_obs_completa,gliner_llm_loinc_certo,zero_em_todos
+Determinação do hematócrito,sinônimo/descritivo,4544-3,10,0,0,8,8,8,8,0
+Dosagem de triglicerídeos,prefixo 'Dosagem de',2571-8,6,0,0,6,6,6,6,0
+Plaquetograma,sinônimo/descritivo,777-3,6,0,0,0,0,0,0,1
+Concentração de hemoglobina corpuscular média,sinônimo/descritivo,786-4,5,0,0,0,0,0,0,1
+Contagem de eritrócitos,sinônimo/descritivo,789-8,5,0,0,0,0,0,0,1
+Contagem de leucócitos,sinônimo/descritivo,6690-2,5,0,0,0,0,1,1,0
+Hemoglobina corpuscular média,sinônimo/descritivo,785-6,4,0,0,0,0,2,4,0
+Amplitude de distribuição dos eritrócitos,sinônimo/descritivo,788-0,3,0,0,0,0,0,0,1
+Dosagem de colesterol total,prefixo 'Dosagem de',2093-3,3,0,0,2,2,2,2,0
+Glicemia,sinônimo/descritivo,2345-7,3,0,0,0,0,0,0,1
+Hormônio tireoestimulante,sinônimo/descritivo,3016-3,3,0,0,0,0,3,3,0
+Kalemia,sinônimo/descritivo,2823-3,3,0,0,0,0,3,3,0
+Natremia,sinônimo/descritivo,2951-2,3,0,0,0,0,3,3,0
+Sódio no soro,sinônimo/descritivo,2951-2,3,3,3,0,0,3,3,0
+Transaminase glutâmico pirúvica,sinônimo/descritivo,1742-6,3,0,0,0,0,3,3,0
+Alanina aminotransferase,sinônimo/descritivo,1742-6,2,0,0,0,0,1,2,0
+Creatininemia,sinônimo/descritivo,2160-0,2,2,2,2,2,2,2,0
+Dosagem de glicose,prefixo 'Dosagem de',2345-7,2,0,0,2,2,2,2,0
+Dosagem de potássio,prefixo 'Dosagem de',2823-3,2,0,0,2,2,2,2,0
+Dosagem de ureia,prefixo 'Dosagem de',3091-6,2,0,0,2,2,2,2,0
+Hormônio tirotrófico,sinônimo/descritivo,3016-3,2,0,0,0,0,1,1,0
+Potássio no soro,sinônimo/descritivo,2823-3,2,2,2,0,0,2,2,0
+SGOT,sigla,1920-8,2,0,0,0,0,1,1,0
+TGL,sigla,2571-8,2,0,0,0,0,0,0,1
+Tirotropina,sinônimo/descritivo,3016-3,2,1,2,1,2,1,2,0
+Transaminase glutâmico oxalacética,sinônimo/descritivo,1920-8,2,0,0,0,0,2,2,0
+Colesterolemia,sinônimo/descritivo,2093-3,1,0,0,0,0,0,0,1
+Dosagem de creatinina,prefixo 'Dosagem de',2160-0,1,0,0,1,1,1,1,0
+Dosagem de sódio,prefixo 'Dosagem de',2951-2,1,0,0,0,0,0,0,1
+Glicose no soro,sinônimo/descritivo,2345-7,1,1,1,0,0,1,1,0
+SGPT,sigla,1742-6,1,0,0,0,0,0,0,1
+Transaminase glutâmico-oxaloacética,sinônimo/descritivo,1920-8,1,0,0,0,0,0,1,0
+TSH ultra sensível,sinônimo/descritivo,3016-3,1,1,1,1,1,1,1,0
+URE,sigla,3091-6,1,0,0,0,0,1,1,0

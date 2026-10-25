@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"nenhum\"}",
+ "latencia_s": 11.338016986846924,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 852,
+ "tokens_saida": 8,
+ "tokens_total": 860,
+ "rotulo": "NRO",
+ "rotulo_norm": "nro"
+}

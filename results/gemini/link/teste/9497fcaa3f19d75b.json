@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"718-7\"}",
+ "latencia_s": 0.6630690097808838,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 854,
+ "tokens_saida": 11,
+ "tokens_total": 865,
+ "rotulo": "Hb 13",
+ "rotulo_norm": "hb 13"
+}

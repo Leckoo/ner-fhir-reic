@@ -1,0 +1,215 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:85fad07d-92aa-58a2-8f47-808f9d3741e5",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1946-06-12"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ccbf795f-2875-5c67-8d24-d0766a1718a2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:85fad07d-92aa-58a2-8f47-808f9d3741e5"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 0.0,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:34a6ac2b-a853-5dc2-a5ed-77cbef5f61fc",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:85fad07d-92aa-58a2-8f47-808f9d3741e5"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 155.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3bc6bd21-0c4e-5260-8b7f-5f4fed4b321e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:85fad07d-92aa-58a2-8f47-808f9d3741e5"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "valueQuantity": {
+     "value": 26.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 15.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 45.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:21e25861-fcaf-56b1-be85-35b0ab9b3c04",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:85fad07d-92aa-58a2-8f47-808f9d3741e5"
+    },
+    "effectiveDateTime": "2026-05-25",
+    "result": [
+     {
+      "reference": "urn:uuid:ccbf795f-2875-5c67-8d24-d0766a1718a2"
+     },
+     {
+      "reference": "urn:uuid:34a6ac2b-a853-5dc2-a5ed-77cbef5f61fc"
+     },
+     {
+      "reference": "urn:uuid:3bc6bd21-0c4e-5260-8b7f-5f4fed4b321e"
+     }
+    ]
+   }
+  }
+ ]
+}

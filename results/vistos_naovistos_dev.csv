@@ -2,5 +2,6 @@ metodo,rotulo,obs_gabarito,recall_obs_completa,pares_por_valor,acuracia_loinc
 regex,visto,359,0.914,351,0.986
 gliner,visto,359,0.000,26,0.923
 gliner_hib,visto,359,0.735,281,0.972
+gliner_llm,visto,359,0.735,281,0.972
 gemini_ent,visto,359,0.916,351,0.986
 gemini_e2e,visto,359,0.513,317,0.647

@@ -1,0 +1,11 @@
+{
+ "texto": "{\n  \"loinc\": \"2345-7\"\n}",
+ "latencia_s": 2.4739444255828857,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 856,
+ "tokens_saida": 17,
+ "tokens_total": 873,
+ "rotulo": "Glicose no soro",
+ "rotulo_norm": "glicose no soro"
+}

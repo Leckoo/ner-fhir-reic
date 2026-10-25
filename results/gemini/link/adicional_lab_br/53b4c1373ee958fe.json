@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"3016-3\"}",
+ "latencia_s": 0.5902278423309326,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 857,
+ "tokens_saida": 12,
+ "tokens_total": 869,
+ "rotulo": "Hormônio tireoestimulante",
+ "rotulo_norm": "hormonio tireoestimulante"
+}

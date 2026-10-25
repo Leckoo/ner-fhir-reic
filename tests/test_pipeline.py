@@ -34,7 +34,7 @@ def test_rotulos_ocultos_fora_do_dicionario():
     from rotulos_ocultos import OCULTOS
     for loinc, rs in OCULTOS.items():
         for r in rs: assert norm(r) not in DIC, r
-    for f in ["pipeline.py", "extrator_gliner.py", "extrator_gemini.py", "avaliar.py"]:
+    for f in ["pipeline.py", "extrator_gliner.py", "extrator_gemini.py", "ligacao_llm.py", "avaliar.py"]:
         assert "rotulos_ocultos" not in (RAIZ / "src" / f).read_text(encoding="utf-8")
 
 def test_teste_congelado():
@@ -53,3 +53,15 @@ def test_lab_br_adicional():
         assert proibido not in src, proibido
     e = extrair_regex("Hemácias 4,47 milhões/mm³ 4,20 a 5,40 milhões/mm³")["observacoes"][0]
     assert (e["loinc"], e["valor"], e["ref_low"], e["ref_high"]) == ("789-8", 4.47, 4.2, 5.4)
+
+def test_pos_processamento_e2e_display_uuid():
+    from sensibilidade_e2e import corrigir_display, corrigir_uuid, RE_UUID
+    b = {"resourceType": "Bundle", "entry": [
+        {"fullUrl": "urn:uuid:obs-1", "resource": {"resourceType": "Observation", "id": "obs-1",
+         "code": {"coding": [{"system": "http://loinc.org", "code": "718-7", "display": "Hemoglobina"}]},
+         "subject": {"reference": "urn:uuid:pat-1"}}},
+        {"fullUrl": "urn:uuid:pat-1", "resource": {"resourceType": "Patient", "id": "pat-1"}}]}
+    b = corrigir_uuid(corrigir_display(b), "x")
+    assert b["entry"][0]["resource"]["code"]["coding"][0]["display"] == "Hemoglobin [Mass/volume] in Blood"
+    assert all(RE_UUID.match(e["fullUrl"]) for e in b["entry"])
+    assert b["entry"][0]["resource"]["subject"]["reference"] == b["entry"][1]["fullUrl"]

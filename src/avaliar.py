@@ -1,16 +1,17 @@
 """Roda os extratores e calcula as métricas.
-  python avaliar.py rodar <metodo> <conjunto>    metodo: regex | gliner | gemini_ent | gemini_e2e
+  python avaliar.py rodar <metodo> <conjunto>    metodo: regex | gliner | gliner_hib | gliner_llm | gemini_ent | gemini_e2e
   python avaliar.py metricas <conjunto>          tabelas em results/ (+ IC 95% bootstrap por documento)"""
-import json, sys, time, pathlib, csv, random, re
+import json, sys, time, pathlib, csv, random, re, statistics
 from collections import Counter
 from pipeline import extrair_texto, extrair_regex, para_fhir, norm
 
 BASE = pathlib.Path(__file__).parent.parent
 RES = BASE / "results"
-METODOS = ["regex", "gliner", "gliner_hib", "gemini_ent", "gemini_e2e"]
+METODOS = ["regex", "gliner", "gliner_hib", "gliner_llm", "gemini_ent", "gemini_e2e"]
 NOME = {"regex": "Regex + dicionário", "gliner": "GLiNER zero-shot", "gliner_hib": "GLiNER (exame) + regras", "gemini_ent": "Gemini (entidades) + ligação",
-        "gemini_e2e": "Gemini FHIR direto"}
-B, SEED = 1000, 12345
+        "gemini_e2e": "Gemini FHIR direto", "gliner_llm": "Híbrido + LLM reserva"}
+B, SEED = 10000, 12345
+I_LO, I_HI = int(0.025 * B), int(0.975 * B) - 1   # IC 95% percentil
 
 def docs(conj):
     return sorted((BASE / "data" / conj).glob("laudo_*.pdf"))
@@ -35,7 +36,10 @@ def rodar(metodo, conj):
         elif metodo == "gemini_e2e":
             from extrator_gemini import extrair_gemini_e2e
             ext, bundle, r = extrair_gemini_e2e(texto, pdf.stem, conj)
+        elif metodo == "gliner_llm":
+            ext, meta = gliner_llm(texto, pdf.stem, conj); bundle = para_fhir(ext, pdf.stem)
         lat = time.time() - t0
+        if metodo == "gliner_llm": lat = meta.pop("latencia_s")
         if metodo.startswith("gemini"):  # latência = da chamada registrada (cache não distorce)
             lat = r["latencia_s"] + (lat if lat < r["latencia_s"] else 0)
             meta = {"chamadas": r["tentativas"], "tokens": r.get("tokens_total") or 0, "modelo": r.get("modelo")}
@@ -44,6 +48,32 @@ def rodar(metodo, conj):
         print(f"{metodo} {conj} {pdf.stem} obs={len(ext['observacoes'])} {lat:.2f}s", flush=True)
     (RES / "pred").mkdir(parents=True, exist_ok=True)
     (RES / "pred" / f"{metodo}_{conj}.json").write_text(json.dumps(preds, ensure_ascii=False, indent=1), encoding="utf-8")
+
+_BASE_HIB = {}
+def gliner_llm(texto, doc_id, conj):
+    """Método (a): extração do híbrido (reaproveita results/pred/gliner_hib_<conj>.json se existir, que é a mesma saída
+    determinística do extrator) + LLM só para ligar ao LOINC os rótulos fora do dicionário.
+    Latência = latência do híbrido + latência registrada das chamadas de ligação deste laudo (sem cache entre laudos);
+    chamadas/tokens = os das ligações deste laudo (chamadas incluem retentativas)."""
+    from ligacao_llm import ligar_llm
+    from pipeline import montar_obs, dedup
+    if conj not in _BASE_HIB:
+        f = RES / "pred" / f"gliner_hib_{conj}.json"
+        _BASE_HIB[conj] = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    base = _BASE_HIB[conj].get(doc_id)
+    if base is None:
+        from extrator_gliner import extrair_gliner_hib
+        t0 = time.time(); base = {**extrair_gliner_hib(texto), "latencia_s": time.time() - t0}
+    obs, lat, cham, tok, vistos = [], base["latencia_s"], 0, 0, set()
+    for o in base["observacoes"]:
+        if o.get("loinc") is None and o.get("texto_exame"):
+            lig, r = ligar_llm(o["texto_exame"], conj)
+            if r["rotulo_norm"] not in vistos:  # mesmo rótulo duas vezes no laudo = 1 chamada
+                vistos.add(r["rotulo_norm"]); lat += r["latencia_s"]; cham += r["tentativas"]; tok += r.get("tokens_total") or 0
+            if lig: o = montar_obs(lig, o.get("texto_valor"), o.get("texto_unidade"), o.get("texto_faixa"), o["texto_exame"])
+        obs.append(o)
+    ext = {k: base.get(k) for k in ("paciente", "data", "nascimento")}
+    return {**ext, "observacoes": dedup(obs)}, {"latencia_s": lat, "chamadas": cham, "tokens": tok, "modelo": "gemini-3.1-flash-lite"}
 
 # ---------- métricas ----------
 def nt(s): return re.sub(r"[^0-9a-z%/*^]", "", norm(str(s))) if s not in (None, "") else None
@@ -80,7 +110,7 @@ def por_doc(gab, pred, metodo):
         cand = [o for o in pred["observacoes"] if r4(o.get("valor")) == r4(g["valor"])]
         if cand and pv[r4(g["valor"])] == 1:
             n += 1; s[2] += 1; c = cand[0].get("loinc") == g["loinc"]; ok += c; s[3] += c
-    d["loinc"] = (ok, n); d["sub"] = sub
+    d["loinc"] = (ok, n); d["loinc_abs"] = (ok, len(gab["observacoes"])); d["sub"] = sub
     return d
 
 def f1(t):
@@ -91,14 +121,16 @@ def soma(ds, k): return tuple(map(sum, zip(*[d[k] for d in ds])))
 
 def ic(ds, fn):
     rng = random.Random(SEED); vals = sorted(fn([rng.choice(ds) for _ in ds]) for _ in range(B))
-    return vals[int(0.025 * B)], vals[int(0.975 * B) - 1]
+    return vals[I_LO], vals[I_HI]
 
 def validacao(metodo, conj):
     f = RES / "validacao" / f"{metodo}_{conj}.csv"
     if not f.exists(): return None
     return {r["doc"]: r["valido"] == "1" for r in csv.DictReader(open(f, encoding="utf-8"))}
 
-PARES = [("gliner_hib", "regex"), ("gliner_hib", "gemini_ent"), ("regex", "gemini_ent"), ("gemini_e2e", "gliner_hib")]
+# Família de comparações (Bonferroni): 6 pares x 3 métricas = 18 testes; os 4 primeiros pares são os da versão anterior.
+PARES = [("gliner_hib", "regex"), ("gliner_hib", "gemini_ent"), ("regex", "gemini_ent"), ("gemini_e2e", "gliner_hib"),
+         ("gliner_llm", "gliner_hib"), ("gliner_llm", "gemini_e2e")]
 
 def diferencas(conj, gabs):
     """Bootstrap PAREADO (mesmos laudos reamostrados para os dois métodos) da diferença de acurácia LOINC e de F1."""
@@ -119,7 +151,7 @@ def diferencas(conj, gabs):
                 ix = [rng.randrange(n) for _ in range(n)]
                 bs.append(fn([D[a][i] for i in ix]) - fn([D[b][i] for i in ix]))
             bs.sort(); pv = min(1.0, 2 * min(sum(x <= 0 for x in bs), sum(x >= 0 for x in bs)) / B)
-            L.append([a, b, nome, f"{obs:+.3f}", f"{bs[25]:+.3f}", f"{bs[974]:+.3f}", f"{pv:.3f}"])
+            L.append([a, b, nome, f"{obs:+.3f}", f"{bs[I_LO]:+.3f}", f"{bs[I_HI]:+.3f}", f"{pv:.4f}"])
     csv.writer(open(RES / f"diferencas_{conj}.csv", "w", newline="", encoding="utf-8")).writerows(
         [["metodo_a", "metodo_b", "metrica", "diferenca_a_menos_b", "ic95_inf", "ic95_sup", "p_bootstrap_bilateral"]] + L)
     return L
@@ -143,13 +175,16 @@ def metricas(conj):
         if val:
             vv = [val.get(i, False) for i in ids]; pv = sum(vv) / len(vv)
             rng = random.Random(SEED); bs = sorted(sum(rng.choice(vv) for _ in vv) / len(vv) for _ in range(B))
-            vtxt = [f"{100*pv:.1f}", f"{100*bs[25]:.1f}", f"{100*bs[974]:.1f}"]
+            vtxt = [f"{100*pv:.1f}", f"{100*bs[I_LO]:.1f}", f"{100*bs[I_HI]:.1f}"]
         else: vtxt = ["NA", "NA", "NA"]
         lat = [preds[i]["latencia_s"] for i in ids]
         cham = sum(preds[i].get("chamadas", 0) for i in ids); tok = sum(preds[i].get("tokens", 0) for i in ids)
         modelo = next((preds[i].get("modelo") for i in ids if preds[i].get("modelo")), "")
+        acc_abs = lambda s: (lambda t: t[0] / t[1] if t[1] else 0)(soma(s, "loinc_abs")); alo, ahi = ic(ds, acc_abs)
         linhas_f.append([m, len(ids), f"{acc(ds):.3f}", f"{lo:.3f}", f"{hi:.3f}", *vtxt, f"{sum(lat)/len(lat):.3f}",
-                         f"{cham/len(ids):.2f}", f"{tok/len(ids):.0f}", modelo])
+                         f"{cham/len(ids):.2f}", f"{tok/len(ids):.0f}", modelo, f"{acc_abs(ds):.3f}", f"{alo:.3f}", f"{ahi:.3f}",
+                         soma(ds, "loinc")[0], soma(ds, "loinc")[1], soma(ds, "loinc_abs")[1],
+                         f"{statistics.median(lat):.3f}"])
         for visto in (True, False):
             s = [sum(d["sub"][visto][j] for d in ds) for j in range(4)]
             if s[0]: linhas_v.append([m, "visto" if visto else "nao_visto", s[0], f"{s[1]/s[0]:.3f}", s[2], f"{s[3]/s[2]:.3f}" if s[2] else "NA"])
@@ -160,7 +195,8 @@ def metricas(conj):
     w = lambda n, h, L: csv.writer(open(RES / n, "w", newline="", encoding="utf-8")).writerows([h] + L)
     w(f"campos_{conj}.csv", ["metodo", "campo", "docs", "precisao", "recall", "f1", "ic95_inf", "ic95_sup"], linhas_c)
     w(f"fhir_custo_{conj}.csv", ["metodo", "docs", "acuracia_loinc", "ic95_inf", "ic95_sup", "pct_validos_hl7", "ic95_inf", "ic95_sup",
-                                 "latencia_media_s", "chamadas_por_laudo", "tokens_por_laudo", "modelo"], linhas_f)
+                                 "latencia_media_s", "chamadas_por_laudo", "tokens_por_laudo", "modelo",
+                                 "acuracia_loinc_absoluta", "abs_ic95_inf", "abs_ic95_sup", "loinc_corretos", "pares_por_valor", "obs_gabarito", "latencia_mediana_s"], linhas_f)
     w(f"vistos_naovistos_{conj}.csv", ["metodo", "rotulo", "obs_gabarito", "recall_obs_completa", "pares_por_valor", "acuracia_loinc"], linhas_v)
     w(f"por_condicao_{conj}.csv", ["metodo", "condicao", "docs", "f1_obs_completa"], linhas_cond)
     ldif = diferencas(conj, gabs)
@@ -183,10 +219,10 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
         if (m, "s_exame") in C: t.append(NOME[m] + " & " + " & ".join(fmt(C.get((m, k))) for k in ("s_exame", "s_valor", "s_unidade", "s_faixa")) + r"\\")
     t += [r"\bottomrule\end{tabular}\end{table}", "",
           r"\begin{table}[ht]\centering\small", r"\caption{Acurácia LOINC, conformidade HL7 R5, latência e custo por laudo.}\label{tab:fhir}",
-          r"\begin{tabular}{lcccc}\toprule", r"Método & Acur. LOINC & Válidos HL7 (\%) & Latência (s) & Chamadas / \textit{tokens}\\\midrule"]
+          r"\begin{tabular}{lcccc}\toprule", r"Método & Acur. LOINC & Válidos HL7 (\%) & Latência média (mediana), s & Chamadas / \textit{tokens}\\\midrule"]
     for l in lf:
         val = f"{l[5]} [{l[6]}; {l[7]}]" if l[5] != "NA" else "--"
-        t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {l[8]} & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
+        t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[19]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
     t += [r"\bottomrule\end{tabular}\end{table}", "",
           r"\begin{table}[ht]\centering\small", r"\caption{Rótulos vistos vs.\ não vistos no dicionário: recall da observação completa e acurácia LOINC.}\label{tab:vistos}",
           r"\begin{tabular}{llccc}\toprule", r"Método & Rótulo & Obs. & Recall obs. & Acur. LOINC\\\midrule"]
@@ -194,10 +230,10 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
     t.append(r"\bottomrule\end{tabular}\end{table}")
     if ld:
         t += ["", r"\begin{table}[ht]\centering\small",
-              r"\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, 1000 reamostragens): método A $-$ método B.}\label{tab:dif}",
+              r"\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, " + str(B) + r" reamostragens): método A $-$ método B.}\label{tab:dif}",
               r"\begin{tabular}{llccc}\toprule", r"A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule"]
         for l in ld:
-            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.001' if l[6] == '0.000' else l[6]}".replace(".", ",") + r"\\")
+            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.001' if float(l[6]) < 0.001 else f'{float(l[6]):.3f}'}".replace(".", ",") + r"\\")
         t.append(r"\bottomrule\end{tabular}\end{table}")
     (RES / ("tabelas.tex" if conj == "teste" else f"tabelas_{conj}.tex")).write_text("\n".join(t) + "\n", encoding="utf-8")
 

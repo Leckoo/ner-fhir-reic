@@ -1,0 +1,380 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Vânia Lopes"
+     }
+    ],
+    "birthDate": "1980-09-02"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b94d33ca-4723-5360-8ffa-0153e1ec8e26",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 0.98,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:514e8eb3-bf83-51c1-97ca-eaa3fc038e6a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 54.1,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:71a6bf1c-7fa1-5f1e-8699-f12003e10722",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 9.0,
+     "unit": "10*6/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*6/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1875a0aa-b1ac-5f2f-a470-aefb94f29b65",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 1.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:31a216f7-d4c5-5a4d-9c75-a706b67bb02f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 15.7,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0dfc58b0-15cd-51d2-afc0-ae3a3fc9182f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "valueQuantity": {
+     "value": 1.0,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:57fafdb0-5226-516a-b2dd-5c997cb3a360",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:7bf61c56-33e0-5dc4-9e60-e79d6ee06d66"
+    },
+    "effectiveDateTime": "2026-08-25",
+    "result": [
+     {
+      "reference": "urn:uuid:b94d33ca-4723-5360-8ffa-0153e1ec8e26"
+     },
+     {
+      "reference": "urn:uuid:514e8eb3-bf83-51c1-97ca-eaa3fc038e6a"
+     },
+     {
+      "reference": "urn:uuid:71a6bf1c-7fa1-5f1e-8699-f12003e10722"
+     },
+     {
+      "reference": "urn:uuid:1875a0aa-b1ac-5f2f-a470-aefb94f29b65"
+     },
+     {
+      "reference": "urn:uuid:31a216f7-d4c5-5a4d-9c75-a706b67bb02f"
+     },
+     {
+      "reference": "urn:uuid:0dfc58b0-15cd-51d2-afc0-ae3a3fc9182f"
+     }
+    ]
+   }
+  }
+ ]
+}

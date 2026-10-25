@@ -1,0 +1,371 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1974-12-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:622fd3b6-9952-54cc-9ffb-5edf1d340a52",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 30.7,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:63015dc9-da06-5607-8a10-15e230253e52",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 30.9
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0
+      },
+      "high": {
+       "value": 48.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7642377f-e4e1-56c8-8735-58b949a42dc1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 18.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c3bedbc6-6d13-5156-9f63-f2c81ad93e1b",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 199.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0fac0498-22bc-50a6-870f-d1cbe56e94d2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 82.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 15.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 45.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:584ac957-560f-5056-ae07-c80b4f292d42",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "valueQuantity": {
+     "value": 3.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 1.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f7a4da98-9592-52be-86ae-37def5a7beb0",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:9f6414e6-a384-58e8-bc5d-cbedd13cd274"
+    },
+    "effectiveDateTime": "2026-02-04",
+    "result": [
+     {
+      "reference": "urn:uuid:622fd3b6-9952-54cc-9ffb-5edf1d340a52"
+     },
+     {
+      "reference": "urn:uuid:63015dc9-da06-5607-8a10-15e230253e52"
+     },
+     {
+      "reference": "urn:uuid:7642377f-e4e1-56c8-8735-58b949a42dc1"
+     },
+     {
+      "reference": "urn:uuid:c3bedbc6-6d13-5156-9f63-f2c81ad93e1b"
+     },
+     {
+      "reference": "urn:uuid:0fac0498-22bc-50a6-870f-d1cbe56e94d2"
+     },
+     {
+      "reference": "urn:uuid:584ac957-560f-5056-ae07-c80b4f292d42"
+     }
+    ]
+   }
+  }
+ ]
+}

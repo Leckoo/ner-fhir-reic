@@ -1,0 +1,11 @@
+{
+ "texto": "{\n  \"loinc\": \"788-0\"\n}",
+ "latencia_s": 2.0478055477142334,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 857,
+ "tokens_saida": 16,
+ "tokens_total": 873,
+ "rotulo": "RDW-CV 16",
+ "rotulo_norm": "rdw-cv 16"
+}

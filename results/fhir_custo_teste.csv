@@ -1,6 +1,7 @@
-metodo,docs,acuracia_loinc,ic95_inf,ic95_sup,pct_validos_hl7,ic95_inf,ic95_sup,latencia_media_s,chamadas_por_laudo,tokens_por_laudo,modelo
-regex,150,0.734,0.702,0.765,100.0,100.0,100.0,0.001,0.00,0,
-gliner,150,0.539,0.429,0.632,100.0,100.0,100.0,11.653,0.00,0,
-gliner_hib,150,0.780,0.751,0.811,100.0,100.0,100.0,10.257,0.00,0,
-gemini_ent,150,0.707,0.675,0.736,100.0,100.0,100.0,8.308,1.30,763,gemini-3.1-flash-lite
-gemini_e2e,150,0.652,0.616,0.682,7.3,3.3,11.3,12.762,1.25,3385,gemini-3.1-flash-lite
+metodo,docs,acuracia_loinc,ic95_inf,ic95_sup,pct_validos_hl7,ic95_inf,ic95_sup,latencia_media_s,chamadas_por_laudo,tokens_por_laudo,modelo,acuracia_loinc_absoluta,abs_ic95_inf,abs_ic95_sup,loinc_corretos,pares_por_valor,obs_gabarito,latencia_mediana_s
+regex,150,0.734,0.704,0.763,100.0,100.0,100.0,0.001,0.00,0,,0.715,0.683,0.745,636,866,890,0.001
+gliner,150,0.539,0.436,0.636,100.0,100.0,100.0,11.653,0.00,0,,0.054,0.039,0.071,48,89,890,5.795
+gliner_hib,150,0.780,0.748,0.811,100.0,100.0,100.0,10.257,0.00,0,,0.609,0.573,0.645,542,695,890,5.257
+gliner_llm,150,0.938,0.919,0.955,100.0,100.0,100.0,14.704,1.14,990,gemini-3.1-flash-lite,0.729,0.693,0.764,649,692,890,8.454
+gemini_ent,150,0.707,0.675,0.737,100.0,100.0,100.0,8.308,1.30,763,gemini-3.1-flash-lite,0.693,0.661,0.724,617,873,890,6.537
+gemini_e2e,150,0.652,0.619,0.683,7.3,3.3,12.0,12.762,1.25,3385,gemini-3.1-flash-lite,0.574,0.535,0.612,511,784,890,9.460

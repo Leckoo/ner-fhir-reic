@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"2951-2\"}",
+ "latencia_s": 0.8047621250152588,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 852,
+ "tokens_saida": 12,
+ "tokens_total": 864,
+ "rotulo": "Natremia",
+ "rotulo_norm": "natremia"
+}

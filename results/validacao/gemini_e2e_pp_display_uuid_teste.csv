@@ -1,0 +1,151 @@
+doc,valido,n_erros,erros
+laudo_000,1,0,
+laudo_001,1,0,
+laudo_002,1,0,
+laudo_003,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_004,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_005,1,0,
+laudo_006,1,0,
+laudo_007,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_008,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_009,1,0,
+laudo_010,1,0,
+laudo_011,1,0,
+laudo_012,0,4,Unknown code '11567-7' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_013,1,0,
+laudo_014,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_015,0,1,Unknown code '28540-5' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_016,0,1,Unknown code '30341-3' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_017,0,3,Unknown code 'uUI/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_018,1,0,
+laudo_019,1,0,
+laudo_020,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_021,0,3,Unknown code 'mUI/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_022,1,0,
+laudo_023,1,0,
+laudo_024,1,0,
+laudo_025,1,0,
+laudo_026,1,0,
+laudo_027,1,0,
+laudo_028,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_029,1,0,
+laudo_030,0,3,Unknown code 'mUI/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_031,1,0,
+laudo_032,1,0,
+laudo_033,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_034,0,1,Unknown code '1632-2' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_035,1,0,
+laudo_036,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_037,1,0,
+laudo_038,0,3,Unknown code 'uUI/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_039,1,0,
+laudo_040,1,0,
+laudo_041,1,0,
+laudo_042,1,0,
+laudo_043,0,3,Unknown code 'mUI/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_044,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_045,1,0,
+laudo_046,1,0,
+laudo_047,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_048,1,0,
+laudo_049,1,0,
+laudo_050,1,0,
+laudo_051,1,0,
+laudo_052,1,0,
+laudo_053,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_054,1,0,
+laudo_055,1,0,
+laudo_056,1,0,
+laudo_057,1,0,
+laudo_058,0,1,Unknown code '10836-0' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_059,1,0,
+laudo_060,1,0,
+laudo_061,0,2,Unknown code '787-8' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code '789-4' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_062,0,5,Unknown code '785-2' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code '787-8' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_063,0,1,Unknown code '21040-6' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_064,1,0,
+laudo_065,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_066,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_067,1,0,
+laudo_068,1,0,
+laudo_069,0,4,Unknown code '1632-2' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_070,1,0,
+laudo_071,1,0,
+laudo_072,1,0,
+laudo_073,1,0,
+laudo_074,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_075,1,0,
+laudo_076,1,0,
+laudo_077,1,0,
+laudo_078,1,0,
+laudo_079,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_080,1,0,
+laudo_081,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_082,1,0,
+laudo_083,1,0,
+laudo_084,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_085,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_086,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_087,1,0,
+laudo_088,1,0,
+laudo_089,1,0,
+laudo_090,1,0,
+laudo_091,1,0,
+laudo_092,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_093,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_094,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_095,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_096,1,0,
+laudo_097,1,0,
+laudo_098,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_099,1,0,
+laudo_100,1,0,
+laudo_101,0,1,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_102,1,0,
+laudo_103,1,0,
+laudo_104,1,0,
+laudo_105,1,0,
+laudo_106,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_107,0,1,Unknown code 'mUI/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_108,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_109,1,0,
+laudo_110,1,0,
+laudo_111,1,0,
+laudo_112,1,0,
+laudo_113,0,4,Unknown code '11567-7' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_114,0,1,Unknown code '20602-3' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_115,1,0,
+laudo_116,1,0,
+laudo_117,1,0,
+laudo_118,1,0,
+laudo_119,1,0,
+laudo_120,1,0,
+laudo_121,1,0,
+laudo_122,0,4,Unknown code '28540-5' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_123,0,4,Unknown code '1632-8' in the CodeSystem 'http://loinc.org' version '2.83' | Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_124,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_125,1,0,
+laudo_126,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_127,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_128,1,0,
+laudo_129,1,0,
+laudo_130,1,0,
+laudo_131,0,1,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_132,1,0,
+laudo_133,1,0,
+laudo_134,1,0,
+laudo_135,0,1,Unknown code '28540-5' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_136,1,0,
+laudo_137,1,0,
+laudo_138,0,3,Unknown code 'mIU/L' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_139,1,0,
+laudo_140,0,1,Unknown code '30362-9' in the CodeSystem 'http://loinc.org' version '2.83'
+laudo_141,1,0,
+laudo_142,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_143,1,0,
+laudo_144,1,0,
+laudo_145,1,0,
+laudo_146,0,3,Unknown code 'uIU/mL' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+laudo_147,1,0,
+laudo_148,1,0,
+laudo_149,1,0,

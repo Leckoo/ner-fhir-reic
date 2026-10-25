@@ -1,0 +1,10 @@
+familia,rotulos,ocorrencias,regex_recall_obs_completa,gliner_recall_obs_completa,gliner_hib_recall_obs_completa,gliner_llm_recall_obs_completa,gemini_ent_recall_obs_completa,gemini_e2e_recall_obs_completa,regex_loinc_certo,gliner_loinc_certo,gliner_hib_loinc_certo,gliner_llm_loinc_certo,gemini_ent_loinc_certo,gemini_e2e_loinc_certo,rotulos_zero_em_todos
+prefixo 'Dosagem de',6,37,0.000,0.000,0.811,0.811,0.000,0.649,0.000,0.000,0.811,0.811,0.000,0.757,0
+sigla,5,24,0.083,0.000,0.083,0.625,0.083,0.625,0.083,0.000,0.083,0.625,0.083,0.625,0
+sinônimo/descritivo,27,215,0.172,0.000,0.167,0.591,0.070,0.516,0.172,0.042,0.177,0.614,0.070,0.595,3
+corte_prefixo_regex,,37,0,37,,,,,,,,,,,
+corte_prefixo_gliner,,0,0,0,,,,,,,,,,,
+corte_prefixo_gliner_hib,,30,30,0,,,,,,,,,,,
+corte_prefixo_gliner_llm,,30,30,0,,,,,,,,,,,
+corte_prefixo_gemini_ent,,37,0,37,,,,,,,,,,,
+corte_prefixo_gemini_e2e,,0,0,0,,,,,,,,,,,

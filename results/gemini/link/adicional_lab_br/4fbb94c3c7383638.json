@@ -1,0 +1,11 @@
+{
+ "texto": "{\"loinc\": \"1920-8\"}",
+ "latencia_s": 18.574623107910156,
+ "tentativas": 1,
+ "modelo": "gemini-3.1-flash-lite",
+ "tokens_entrada": 855,
+ "tokens_saida": 12,
+ "tokens_total": 867,
+ "rotulo": "SGOT 84",
+ "rotulo_norm": "sgot 84"
+}

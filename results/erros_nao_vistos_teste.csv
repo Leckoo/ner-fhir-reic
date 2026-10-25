@@ -1,0 +1,39 @@
+rotulo,familia,loinc,ocorrencias,regex_obs_completa,regex_loinc_certo,gliner_obs_completa,gliner_loinc_certo,gliner_hib_obs_completa,gliner_hib_loinc_certo,gliner_llm_obs_completa,gliner_llm_loinc_certo,gemini_ent_obs_completa,gemini_ent_loinc_certo,gemini_e2e_obs_completa,gemini_e2e_loinc_certo,zero_em_todos
+CONCENTRACAO DE HEMOGLOBINA CORPUSCULAR MEDIA,sinônimo/descritivo,786-4,21,0,0,0,0,0,0,0,0,0,0,0,0,1
+Plaquetograma,sinônimo/descritivo,777-3,21,0,0,0,0,0,0,3,4,0,0,18,18,0
+Contagem de eritrócitos,sinônimo/descritivo,789-8,17,0,0,0,0,2,2,7,8,0,0,7,17,0
+Determinação do hematócrito,sinônimo/descritivo,4544-3,17,0,0,0,4,15,17,15,17,0,0,10,10,0
+Hemoglobina corpuscular média,sinônimo/descritivo,785-6,14,0,0,0,0,0,0,11,11,0,0,8,8,0
+Alanina aminotransferase,sinônimo/descritivo,1742-6,12,0,0,0,0,0,0,12,11,0,0,10,9,0
+Amplitude de distribuição dos eritrócitos,sinônimo/descritivo,788-0,12,0,0,0,0,0,0,0,0,0,0,0,0,1
+Contagem de leucócitos,sinônimo/descritivo,6690-2,12,0,0,0,0,0,0,4,5,0,0,11,12,0
+Creatininemia,sinônimo/descritivo,2160-0,11,11,11,0,3,11,11,11,11,11,11,10,10,0
+Dosagem de triglicerídeos,prefixo 'Dosagem de',2571-8,11,0,0,0,0,9,9,9,9,0,0,10,10,0
+Colesterolemia,sinônimo/descritivo,2093-3,10,0,0,0,0,0,0,4,4,0,0,9,9,0
+Sódio no soro,sinônimo/descritivo,2951-2,10,7,7,0,0,0,0,10,10,0,0,4,9,0
+TGL,sigla,2571-8,10,0,0,0,0,0,0,2,2,0,0,9,9,0
+Dosagem de ureia,prefixo 'Dosagem de',3091-6,7,0,0,0,0,7,7,7,7,0,0,0,0,0
+Transaminase glutâmico pirúvica,sinônimo/descritivo,1742-6,7,0,0,0,0,0,0,5,5,0,0,7,7,0
+URE,sigla,3091-6,7,0,0,0,0,0,0,7,7,0,0,0,0,0
+HORMONIO TIREOESTIMULANTE,sinônimo/descritivo,3016-3,6,0,0,0,0,0,0,5,6,0,0,0,0,0
+Colesterol sérico,sinônimo/descritivo,2093-3,5,5,5,0,0,0,0,5,5,0,0,5,5,0
+Dosagem de colesterol total,prefixo 'Dosagem de',2093-3,5,0,0,0,0,2,2,2,2,0,0,5,5,0
+Dosagem de creatinina,prefixo 'Dosagem de',2160-0,5,0,0,0,0,5,5,5,5,0,0,4,4,0
+DOSAGEM DE SODIO,prefixo 'Dosagem de',2951-2,5,0,0,0,0,3,3,3,3,0,0,2,5,0
+Dosagem de potássio,prefixo 'Dosagem de',2823-3,4,0,0,0,0,4,4,4,4,0,0,3,4,0
+GLICEMIA,sinônimo/descritivo,2345-7,4,0,0,0,0,0,0,3,3,0,0,0,0,0
+Hormônio tirotrófico,sinônimo/descritivo,3016-3,4,0,0,0,0,0,0,4,4,0,0,0,0,0
+Potássio no soro,sinônimo/descritivo,2823-3,4,2,2,0,0,0,0,4,4,0,0,4,4,0
+SGPT,sigla,1742-6,4,0,0,0,0,0,0,3,3,0,0,4,4,0
+Tirotropina,sinônimo/descritivo,3016-3,4,4,4,0,1,4,4,4,4,4,4,0,0,0
+TSH ultra sensível,sinônimo/descritivo,3016-3,4,3,3,0,1,4,4,4,4,0,0,0,0,0
+Calemia,sinônimo/descritivo,2823-3,3,0,0,0,0,0,0,0,0,0,0,2,3,0
+Glicose no soro,sinônimo/descritivo,2345-7,3,2,2,0,0,0,0,3,3,0,0,0,0,0
+Kalemia,sinônimo/descritivo,2823-3,3,0,0,0,0,0,0,3,3,0,0,3,3,0
+Transaminase glutâmico-oxaloacética,sinônimo/descritivo,1920-8,3,0,0,0,0,0,0,3,3,0,0,1,1,0
+Uréia no soro,sinônimo/descritivo,3091-6,3,3,3,0,0,0,0,3,3,0,0,0,0,0
+CRE,sigla,2160-0,2,2,2,0,0,2,2,2,2,2,2,1,1,0
+Natremia,sinônimo/descritivo,2951-2,2,0,0,0,0,0,0,2,2,0,0,1,2,0
+TRANSAMINASE GLUTAMICO OXALACETICA,sinônimo/descritivo,1920-8,2,0,0,0,0,0,0,2,2,0,0,1,1,0
+Aspartato aminotransferase,sinônimo/descritivo,1920-8,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+SGOT,sigla,1920-8,1,0,0,0,0,0,0,1,1,0,0,1,1,0

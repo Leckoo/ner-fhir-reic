@@ -1,0 +1,425 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2",
+   "resource": {
+    "resourceType": "Patient",
+    "id": "57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2",
+    "name": [
+     {
+      "text": "Natália Gomes"
+     }
+    ],
+    "birthDate": "1950-11-22"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3ae635c8-390c-57f1-aa39-93a338782807",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "3ae635c8-390c-57f1-aa39-93a338782807",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 37.0,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:92b22e8a-1de4-57f4-88e7-48409042e0f5",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "92b22e8a-1de4-57f4-88e7-48409042e0f5",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6299-2"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 38.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 15.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 45.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:371e1948-8e75-5005-ba26-93b1a4d59825",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "371e1948-8e75-5005-ba26-93b1a4d59825",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2339-0"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 64.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:772a098f-c6fe-530f-8b8f-7d588efa2122",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "772a098f-c6fe-530f-8b8f-7d588efa2122",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 10.2,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 11.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ef4062dd-4720-5745-a862-8acde4747dfe",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "ef4062dd-4720-5745-a862-8acde4747dfe",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 1.58,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6c4c70c8-24fc-5357-8824-0fe1eada83cc",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "6c4c70c8-24fc-5357-8824-0fe1eada83cc",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 202.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f56915c7-75fe-553c-a50f-b10c59391da3",
+   "resource": {
+    "resourceType": "Observation",
+    "id": "f56915c7-75fe-553c-a50f-b10c59391da3",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "effectiveDateTime": "2026-06-03",
+    "valueQuantity": {
+     "value": 3.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e32fe07b-9ac4-5f1f-aa4e-6eb024c46950",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "id": "e32fe07b-9ac4-5f1f-aa4e-6eb024c46950",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:57fcd8f4-3e23-59a5-bcf9-8550a6b03ac2"
+    },
+    "result": [
+     {
+      "reference": "urn:uuid:3ae635c8-390c-57f1-aa39-93a338782807"
+     },
+     {
+      "reference": "urn:uuid:92b22e8a-1de4-57f4-88e7-48409042e0f5"
+     },
+     {
+      "reference": "urn:uuid:371e1948-8e75-5005-ba26-93b1a4d59825"
+     },
+     {
+      "reference": "urn:uuid:772a098f-c6fe-530f-8b8f-7d588efa2122"
+     },
+     {
+      "reference": "urn:uuid:ef4062dd-4720-5745-a862-8acde4747dfe"
+     },
+     {
+      "reference": "urn:uuid:6c4c70c8-24fc-5357-8824-0fe1eada83cc"
+     },
+     {
+      "reference": "urn:uuid:f56915c7-75fe-553c-a50f-b10c59391da3"
+     }
+    ]
+   }
+  }
+ ]
+}

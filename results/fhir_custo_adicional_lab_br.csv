@@ -1,3 +1,4 @@
-metodo,docs,acuracia_loinc,ic95_inf,ic95_sup,pct_validos_hl7,ic95_inf,ic95_sup,latencia_media_s,chamadas_por_laudo,tokens_por_laudo,modelo
-regex,50,0.709,0.656,0.761,NA,NA,NA,0.001,0.00,0,
-gliner_hib,50,0.801,0.750,0.851,NA,NA,NA,0.724,0.00,0,
+metodo,docs,acuracia_loinc,ic95_inf,ic95_sup,pct_validos_hl7,ic95_inf,ic95_sup,latencia_media_s,chamadas_por_laudo,tokens_por_laudo,modelo,acuracia_loinc_absoluta,abs_ic95_inf,abs_ic95_sup,loinc_corretos,pares_por_valor,obs_gabarito,latencia_mediana_s
+regex,50,0.709,0.656,0.763,0.0,0.0,0.0,0.001,0.00,0,,0.653,0.601,0.707,188,265,288,0.001
+gliner_hib,50,0.801,0.746,0.852,0.0,0.0,0.0,0.724,0.00,0,,0.545,0.485,0.603,157,196,288,0.485
+gliner_llm,50,0.969,0.943,0.990,0.0,0.0,0.0,10.103,2.22,1921,gemini-3.1-flash-lite,0.653,0.599,0.703,188,194,288,3.399

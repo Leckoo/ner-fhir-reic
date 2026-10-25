@@ -5,3 +5,6 @@ regex,digital,28,0.478
 gliner_hib,layout=lab_br,50,0.488
 gliner_hib,escaneado,22,0.375
 gliner_hib,digital,28,0.577
+gliner_llm,layout=lab_br,50,0.585
+gliner_llm,escaneado,22,0.458
+gliner_llm,digital,28,0.683

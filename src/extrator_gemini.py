@@ -52,7 +52,9 @@ def _cliente():
         _cli[0] = genai.Client(http_options=types.HttpOptions(timeout=90_000))   # lê GEMINI_API_KEY do ambiente
     return _cli[0]
 
-def chamar(prompt, tentativas=8):
+def chamar(prompt, tentativas=8, schema=None):
+    """Uma requisição ao Gemini. 'tentativas' no retorno conta TODAS as tentativas (inclui retentativas após 503/429).
+    schema: esquema JSON opcional (saída restrita, p. ex. enum de códigos)."""
     from google.genai import types
     espera = 10
     for t in range(tentativas):
@@ -61,7 +63,8 @@ def chamar(prompt, tentativas=8):
         _ult[0] = time.time(); t0 = time.time()
         try:
             r = _cliente().models.generate_content(model=MODELO, contents=prompt,
-                config=types.GenerateContentConfig(temperature=TEMPERATURA, response_mime_type="application/json"))
+                config=types.GenerateContentConfig(temperature=TEMPERATURA, response_mime_type="application/json",
+                                                   **({"response_json_schema": schema} if schema else {})))
             u = r.usage_metadata
             return {"texto": r.text, "latencia_s": time.time() - t0, "tentativas": t + 1,
                     "modelo": getattr(r, "model_version", None) or MODELO,
@@ -90,6 +93,10 @@ def extrair_gemini_e2e(texto, doc_id, conj):
     """Retorna (extração para métricas, Bundle gerado pelo LLM como está, meta da chamada)."""
     r = _cache("e2e", conj, doc_id, PROMPT_E2E + texto)
     b = _json(r["texto"]) or {}
+    return {**cabecalho(texto), "observacoes": obs_de_bundle(b)}, b, r
+
+def obs_de_bundle(b):
+    """Lê as Observations de um Bundle gerado pelo LLM (mesmo protocolo de avaliação do pipeline)."""
     obs = []
     for e in b.get("entry", []) if isinstance(b, dict) else []:
         res = e.get("resource", {}) if isinstance(e, dict) else {}
@@ -101,7 +108,7 @@ def extrair_gemini_e2e(texto, doc_id, conj):
         obs.append({"loinc": cods[0].get("code") if cods else None, "display": cods[0].get("display") if cods else None,
                     "valor": vq.get("value"), "unidade": vq.get("code") or vq.get("unit"),
                     "ref_low": g("low"), "ref_high": g("high"), "texto_exame": res.get("code", {}).get("text")})
-    return {**cabecalho(texto), "observacoes": obs}, b, r
+    return obs
 
 def extrair_gemini_ent(texto, doc_id, conj):
     r = _cache("ent", conj, doc_id, PROMPT_ENT + texto)

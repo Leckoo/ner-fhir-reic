@@ -1,0 +1,387 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Íris Campos"
+     }
+    ],
+    "birthDate": "1991-08-04"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2e097290-2337-5464-abd8-ab17797407d1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 166.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:cd732e5b-2eb6-5da8-93a7-b87baf422e5c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 6.04
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4
+      },
+      "high": {
+       "value": 4.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:1b439020-c2b1-5551-8a90-a7406e2fd9ee",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 230.0
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0
+      },
+      "high": {
+       "value": 450.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:40c6099f-56d1-5e2f-85be-fbf471994aa1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 6.24,
+     "unit": "10*6/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*6/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      },
+      "high": {
+       "value": 5.4,
+       "unit": "10*6/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*6/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:819652e9-f5a8-5d78-b739-aabbfd4ad581",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1742-6",
+       "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 17.0
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 41.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:21213af9-1570-591c-8e3b-d85314fc5647",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 111.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:05504c4e-f46c-587d-80e9-4c45223b2da5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "valueQuantity": {
+     "value": 70.0,
+     "unit": "U/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "U/L"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 40.0,
+       "unit": "U/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "U/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:450cccb0-e1b7-5abc-bc89-42c3729e8b82",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:b2f57969-67b7-5a10-ace2-a4503dac1936"
+    },
+    "effectiveDateTime": "2026-01-06",
+    "result": [
+     {
+      "reference": "urn:uuid:2e097290-2337-5464-abd8-ab17797407d1"
+     },
+     {
+      "reference": "urn:uuid:cd732e5b-2eb6-5da8-93a7-b87baf422e5c"
+     },
+     {
+      "reference": "urn:uuid:1b439020-c2b1-5551-8a90-a7406e2fd9ee"
+     },
+     {
+      "reference": "urn:uuid:40c6099f-56d1-5e2f-85be-fbf471994aa1"
+     },
+     {
+      "reference": "urn:uuid:819652e9-f5a8-5d78-b739-aabbfd4ad581"
+     },
+     {
+      "reference": "urn:uuid:21213af9-1570-591c-8e3b-d85314fc5647"
+     },
+     {
+      "reference": "urn:uuid:05504c4e-f46c-587d-80e9-4c45223b2da5"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Gabriela Melo"
+     }
+    ],
+    "birthDate": "2007-12-20"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0903e1f7-cc47-5db6-a518-0db19e42795c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "777-3",
+       "display": "Platelets [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "valueQuantity": {
+     "value": 424.0,
+     "unit": "10*3/uL",
+     "system": "http://unitsofmeasure.org",
+     "code": "10*3/uL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 150.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      },
+      "high": {
+       "value": 450.0,
+       "unit": "10*3/uL",
+       "system": "http://unitsofmeasure.org",
+       "code": "10*3/uL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:07494a0a-336a-5e0d-ba8b-231dfd699515",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3016-3",
+       "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "valueQuantity": {
+     "value": 0.56,
+     "unit": "u[IU]/mL",
+     "system": "http://unitsofmeasure.org",
+     "code": "u[IU]/mL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.4,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      },
+      "high": {
+       "value": 4.0,
+       "unit": "u[IU]/mL",
+       "system": "http://unitsofmeasure.org",
+       "code": "u[IU]/mL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f3ae7b75-5884-5599-a6db-5b4a31b4bfa3",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "valueQuantity": {
+     "value": 3.5
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:bb2f1db9-c11c-5a27-a7b3-e506bf05ffa8",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "valueQuantity": {
+     "value": 13.8,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:634447c7-027b-51d4-9afc-59d18a78a158",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:56906438-ca84-5f09-97f0-cde0575ac7f2"
+    },
+    "effectiveDateTime": "2026-01-16",
+    "result": [
+     {
+      "reference": "urn:uuid:0903e1f7-cc47-5db6-a518-0db19e42795c"
+     },
+     {
+      "reference": "urn:uuid:07494a0a-336a-5e0d-ba8b-231dfd699515"
+     },
+     {
+      "reference": "urn:uuid:f3ae7b75-5884-5599-a6db-5b4a31b4bfa3"
+     },
+     {
+      "reference": "urn:uuid:bb2f1db9-c11c-5a27-a7b3-e506bf05ffa8"
+     }
+    ]
+   }
+  }
+ ]
+}

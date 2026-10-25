@@ -1,0 +1,264 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Rafael Conceição"
+     }
+    ],
+    "birthDate": "1973-08-18"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9d4fb95b-82d0-5c30-aa17-3a19e534358f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "785-6",
+       "display": "MCH [Entitic mass] by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "valueQuantity": {
+     "value": 27.8,
+     "unit": "pg",
+     "system": "http://unitsofmeasure.org",
+     "code": "pg"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 270.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      },
+      "high": {
+       "value": 32.0,
+       "unit": "pg",
+       "system": "http://unitsofmeasure.org",
+       "code": "pg"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f47692e4-2c0f-54d6-95c6-8c0ca2e094b2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4544-3",
+       "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "valueQuantity": {
+     "value": 42.2,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7842c5a4-d39c-59a0-8aea-2b26bed3e6e7",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "valueQuantity": {
+     "value": 66.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4e0c4f00-5ea1-51a3-af8a-269a8a26d400",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "valueQuantity": {
+     "value": 180.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6e9d2efd-f68c-58aa-8555-7a29cab31435",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:6eec1e87-671b-5777-bb5d-efa0b82f1f4a"
+    },
+    "effectiveDateTime": "2026-01-03",
+    "result": [
+     {
+      "reference": "urn:uuid:9d4fb95b-82d0-5c30-aa17-3a19e534358f"
+     },
+     {
+      "reference": "urn:uuid:f47692e4-2c0f-54d6-95c6-8c0ca2e094b2"
+     },
+     {
+      "reference": "urn:uuid:7842c5a4-d39c-59a0-8aea-2b26bed3e6e7"
+     },
+     {
+      "reference": "urn:uuid:4e0c4f00-5ea1-51a3-af8a-269a8a26d400"
+     }
+    ]
+   }
+  }
+ ]
+}
