@@ -6,3 +6,4 @@ __pycache__/
 *.key
 tools/*.jar
 *.bak
+.env.*

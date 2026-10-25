@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Reproduz tudo. Requisitos: python3, Java 17+, tesseract-ocr + tesseract-ocr-por, GEMINI_API_KEY (só se não houver cache).
+# Validador FHIR fixado na versão 7.0.2 (resultados do artigo).
 # Uso: ./run_all.sh [--sem-gemini]
 set -euo pipefail; cd "$(dirname "$0")"
 PY=.venv/bin/python
 [ -x "$PY" ] || { python3 -m venv .venv && .venv/bin/pip install -r requirements.txt; }
-[ -f tools/validator_cli.jar ] || { mkdir -p tools && curl -sSL -o tools/validator_cli.jar https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar; }
+[ -f tools/validator_cli.jar ] || { mkdir -p tools && curl -sSL -o tools/validator_cli.jar https://github.com/hapifhir/org.hl7.fhir.core/releases/download/7.0.2/validator_cli.jar; }
 # 1) dados: dev (seed 1) é regenerável; o teste (seed 2026) é CONGELADO e só é conferido pelo hash.
 [ -d data/dev ] || (cd src && ../$PY gerar_laudos.py dev 60 1)
 [ -d data/teste ] || (cd src && ../$PY gerar_laudos.py teste 150 2026)

@@ -5,11 +5,14 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
 ## Dados
 - `data/REGRAS_VARIACAO.md`: regras de variação (4 layouts, sinônimos, vírgula/ponto, unidades alternativas, faixas
   "a"/"-"/"–"/"Até"/"<", ruído de digitalização **simulado (hipótese)** com OCR Tesseract `por`). Escritas antes dos dados.
+- `data/fontes-referencias.md`: links e citações das fontes públicas consultadas (sem cópia de conteúdo de terceiros).
 - `data/variantes-reais-fontes.md` → `src/rotulos_ocultos.py`: 39 rótulos reais fora do dicionário, usados **só no teste**
   (RDW-SD excluído: LOINC 21000-5). Nenhum extrator importa essa lista (teste automatizado garante).
 - `data/dev/`: 60 laudos, seed 1 (único conjunto usado para ajustes).
 - `data/teste/`: 150 laudos, seed 2026, **congelado**. `SHA256SUMS` (sha256 do próprio arquivo:
-  `c3c25703cb5e0773d7002405bbb0f4c171563e0e33164cd8369b204600f31d79`), `REGRAS_SHA256` com o hash das regras/gerador.
+  `c3c25703cb5e0773d7002405bbb0f4c171563e0e33164cd8369b204600f31d79`), `REGRAS_SHA256` com o hash das regras/gerador
+  (o hash de `gerar_laudos.py` foi atualizado em 25/10/2026: a única mudança depois do congelamento foi gravar o JSON com
+  `encoding="utf-8"`, commit "Ler e gravar arquivos em UTF-8"; o hash original era `807abb1e…`).
   O `run_all.sh` não regenera o teste, só confere o hash (o ReportLab grava data de criação no PDF, então regenerar não
   daria bytes idênticos).
 - `data/adicional_lab_br/`: **conjunto adicional** (5º layout `lab_br`), 50 laudos, seed 2027, gerado por
@@ -32,7 +35,7 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
 - `extrator_gemini.py`: `gemini-3.1-flash-lite`, temperatura 0, saída JSON. **gemini_e2e** gera o Bundle FHIR direto
   (LOINC pela memória do modelo); **gemini_ent** extrai trechos e passa pela MESMA ligação do pipeline.
   Respostas em cache em `results/gemini/` (rodar de novo não gasta cota). ~14 req/min, retry em 503, modelo fixo.
-- `validar.py`: validador oficial HL7 (`tools/validator_cli.jar`, `-version 5.0`, terminologia via tx.fhir.org).
+- `validar.py`: validador oficial HL7 **versão 7.0.2** (`tools/validator_cli.jar`, baixado pelo `run_all.sh` da release 7.0.2; `-version 5.0` = FHIR R5, terminologia via tx.fhir.org).
   Válido = sem issue `error`/`fatal`.
 - `avaliar.py`: P/R/F1 por campo (ligado: exame/LOINC, valor, unidade, faixa, observação completa; trechos: exame,
   valor, unidade, faixa por texto normalizado), acurácia LOINC (pares pelo valor), vistos × não vistos, por layout e
@@ -55,3 +58,8 @@ cd src
 ```
 
 Rodar `avaliar.py rodar gemini_* ...` também reaproveita o cache e só chama a API para laudos ainda não processados.
+
+## Licença
+- Código: MIT (`LICENSE`), © 2026 Leonardo Antonio Patatt.
+- Dados sintéticos (`data/dev`, `data/teste`, `data/adicional_lab_br`) e resultados (`results/`): CC-BY 4.0
+  (https://creativecommons.org/licenses/by/4.0/). Todos os laudos são fictícios, gerados por código; não há dado de paciente real.
