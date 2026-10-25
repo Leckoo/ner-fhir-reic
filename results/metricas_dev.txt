@@ -1,11 +1,116 @@
-Traceback (most recent call last):
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 253, in <module>
-    else: metricas(sys.argv[2])
-          ~~~~~~~~^^^^^^^^^^^^^
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 203, in metricas
-    tabelas_tex(conj, linhas_c, linhas_f, linhas_v, ldif); figura(conj, linhas_c)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 225, in tabelas_tex
-    t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[19]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
-                                                                                          ~^^^^
-IndexError: list index out of range
+regex exame 60 0.969 0.964 0.966 0.921 0.997
+regex valor 60 0.969 0.964 0.966 0.921 0.997
+regex unidade 60 0.924 0.919 0.922 0.867 0.964
+regex faixa 60 0.955 0.950 0.953 0.906 0.987
+regex completa 60 0.919 0.914 0.916 0.860 0.962
+regex s_exame 60 0.969 0.964 0.966 0.921 0.997
+regex s_valor 60 0.983 0.978 0.980 0.955 1.000
+regex s_unidade 60 0.936 0.930 0.933 0.892 0.967
+regex s_faixa 60 0.980 0.975 0.978 0.956 0.994
+gliner exame 60 0.732 0.198 0.311 0.212 0.405
+gliner valor 60 0.247 0.067 0.105 0.058 0.156
+gliner unidade 60 0.010 0.003 0.004 0.000 0.014
+gliner faixa 60 0.000 0.000 0.000 0.000 0.000
+gliner completa 60 0.000 0.000 0.000 0.000 0.000
+gliner s_exame 60 0.649 0.175 0.276 0.186 0.363
+gliner s_valor 60 0.268 0.072 0.114 0.067 0.165
+gliner s_unidade 60 0.022 0.003 0.005 0.000 0.015
+gliner s_faixa 60 0.000 0.000 0.000 0.000 0.000
+gliner_hib exame 60 0.917 0.766 0.835 0.792 0.871
+gliner_hib valor 60 0.910 0.760 0.829 0.786 0.866
+gliner_hib unidade 60 0.887 0.741 0.807 0.760 0.848
+gliner_hib faixa 60 0.903 0.755 0.822 0.777 0.862
+gliner_hib completa 60 0.880 0.735 0.801 0.754 0.843
+gliner_hib s_exame 60 0.863 0.721 0.786 0.739 0.827
+gliner_hib s_valor 60 0.937 0.783 0.853 0.813 0.888
+gliner_hib s_unidade 60 0.930 0.777 0.847 0.802 0.886
+gliner_hib s_faixa 60 0.977 0.816 0.889 0.858 0.916
+gliner_llm exame 60 0.957 0.799 0.871 0.832 0.904
+gliner_llm valor 60 0.910 0.760 0.829 0.786 0.866
+gliner_llm unidade 60 0.917 0.766 0.835 0.790 0.873
+gliner_llm faixa 60 0.937 0.783 0.853 0.812 0.888
+gliner_llm completa 60 0.880 0.735 0.801 0.754 0.843
+gliner_llm s_exame 60 0.863 0.721 0.786 0.739 0.827
+gliner_llm s_valor 60 0.937 0.783 0.853 0.813 0.888
+gliner_llm s_unidade 60 0.930 0.777 0.847 0.802 0.886
+gliner_llm s_faixa 60 0.977 0.816 0.889 0.858 0.916
+gemini_ent exame 60 0.980 0.964 0.972 0.934 0.996
+gemini_ent valor 60 0.980 0.964 0.972 0.934 0.996
+gemini_ent unidade 60 0.938 0.922 0.930 0.882 0.968
+gemini_ent faixa 60 0.969 0.953 0.961 0.922 0.989
+gemini_ent completa 60 0.932 0.916 0.924 0.875 0.964
+gemini_ent s_exame 60 0.977 0.961 0.969 0.925 0.996
+gemini_ent s_valor 60 0.994 0.978 0.986 0.970 0.999
+gemini_ent s_unidade 60 0.952 0.936 0.944 0.909 0.973
+gemini_ent s_faixa 60 0.994 0.978 0.986 0.973 0.996
+gemini_e2e exame 60 0.659 0.593 0.625 0.574 0.675
+gemini_e2e valor 60 0.635 0.571 0.601 0.547 0.656
+gemini_e2e unidade 60 0.573 0.515 0.543 0.486 0.599
+gemini_e2e faixa 60 0.635 0.571 0.601 0.547 0.656
+gemini_e2e completa 60 0.570 0.513 0.540 0.482 0.596
+regex 60 0.986 0.959 1.000 100.0 100.0 100.0 0.000 0.00 0  0.964 0.916 0.997 346 351 359 0.000
+gliner 60 0.923 0.786 1.000 100.0 100.0 100.0 8.619 0.00 0  0.067 0.036 0.102 24 26 359 5.608
+gliner_hib 60 0.972 0.952 0.989 100.0 100.0 100.0 14.110 0.00 0  0.760 0.712 0.804 273 281 359 5.549
+gliner_llm 60 0.972 0.952 0.989 100.0 100.0 100.0 15.697 0.38 332 gemini-3.1-flash-lite 0.760 0.712 0.804 273 281 359 6.592
+gemini_ent 60 0.986 0.959 1.000 100.0 100.0 100.0 8.960 1.30 761 gemini-3.1-flash-lite 0.964 0.921 0.994 346 351 359 6.596
+gemini_e2e 60 0.647 0.597 0.696 5.0 0.0 11.7 16.503 1.50 3374 gemini-3.1-flash-lite 0.571 0.510 0.633 205 317 359 11.208
+regex visto 359 0.914 351 0.986
+gliner visto 359 0.000 26 0.923
+gliner_hib visto 359 0.735 281 0.972
+gliner_llm visto 359 0.735 281 0.972
+gemini_ent visto 359 0.916 351 0.986
+gemini_e2e visto 359 0.513 317 0.647
+regex layout=tabela 12 0.941
+regex layout=colunas 15 0.911
+regex layout=blocos 19 0.956
+regex layout=legado 14 0.851
+regex escaneado 17 0.677
+regex digital 43 1.000
+gliner layout=tabela 12 0.000
+gliner layout=colunas 15 0.000
+gliner layout=blocos 19 0.000
+gliner layout=legado 14 0.000
+gliner escaneado 17 0.000
+gliner digital 43 0.000
+gliner_hib layout=tabela 12 0.787
+gliner_hib layout=colunas 15 0.735
+gliner_hib layout=blocos 19 0.858
+gliner_hib layout=legado 14 0.805
+gliner_hib escaneado 17 0.624
+gliner_hib digital 43 0.863
+gliner_llm layout=tabela 12 0.787
+gliner_llm layout=colunas 15 0.735
+gliner_llm layout=blocos 19 0.858
+gliner_llm layout=legado 14 0.805
+gliner_llm escaneado 17 0.624
+gliner_llm digital 43 0.863
+gemini_ent layout=tabela 12 0.941
+gemini_ent layout=colunas 15 0.916
+gemini_ent layout=blocos 19 0.956
+gemini_ent layout=legado 14 0.877
+gemini_ent escaneado 17 0.703
+gemini_ent digital 43 1.000
+gemini_e2e layout=tabela 12 0.533
+gemini_e2e layout=colunas 15 0.503
+gemini_e2e layout=blocos 19 0.584
+gemini_e2e layout=legado 14 0.521
+gemini_e2e escaneado 17 0.512
+gemini_e2e digital 43 0.549
+gliner_hib regex acuracia_loinc -0.014 -0.035 +0.009 0.2110
+gliner_hib regex f1_obs_completa -0.115 -0.146 -0.084 0.0000
+gliner_hib regex recall_nao_vistos +0.000 +0.000 +0.000 1.0000
+gliner_hib gemini_ent acuracia_loinc -0.014 -0.035 +0.008 0.2090
+gliner_hib gemini_ent f1_obs_completa -0.123 -0.154 -0.093 0.0000
+gliner_hib gemini_ent recall_nao_vistos +0.000 +0.000 +0.000 1.0000
+regex gemini_ent acuracia_loinc +0.000 -0.000 +0.000 1.0000
+regex gemini_ent f1_obs_completa -0.008 -0.018 +0.000 0.0904
+regex gemini_ent recall_nao_vistos +0.000 +0.000 +0.000 1.0000
+gemini_e2e gliner_hib acuracia_loinc -0.325 -0.374 -0.276 0.0000
+gemini_e2e gliner_hib f1_obs_completa -0.262 -0.325 -0.200 0.0000
+gemini_e2e gliner_hib recall_nao_vistos +0.000 +0.000 +0.000 1.0000
+gliner_llm gliner_hib acuracia_loinc +0.000 +0.000 +0.000 1.0000
+gliner_llm gliner_hib f1_obs_completa +0.000 +0.000 +0.000 1.0000
+gliner_llm gliner_hib recall_nao_vistos +0.000 +0.000 +0.000 1.0000
+gliner_llm gemini_e2e acuracia_loinc +0.325 +0.276 +0.374 0.0000
+gliner_llm gemini_e2e f1_obs_completa +0.262 +0.200 +0.325 0.0000
+gliner_llm gemini_e2e recall_nao_vistos +0.000 +0.000 +0.000 1.0000

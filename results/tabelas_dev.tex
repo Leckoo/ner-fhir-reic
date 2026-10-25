@@ -4,10 +4,11 @@
 \begin{tabular}{lccccc}\toprule
 Método & Exame (LOINC) & Valor & Unidade & Faixa de ref. & Obs. completa\\\midrule
 Regex + dicionário & 0,97 [0,92; 1,00] & 0,97 [0,92; 1,00] & 0,92 [0,87; 0,96] & 0,95 [0,91; 0,99] & 0,92 [0,86; 0,96]\\
-GLiNER zero-shot & 0,31 [0,21; 0,40] & 0,10 [0,06; 0,15] & 0,00 [0,00; 0,01] & 0,00 [0,00; 0,00] & 0,00 [0,00; 0,00]\\
-GLiNER (exame) + regras & 0,83 [0,79; 0,87] & 0,83 [0,79; 0,87] & 0,81 [0,76; 0,85] & 0,82 [0,78; 0,86] & 0,80 [0,76; 0,84]\\
+GLiNER zero-shot & 0,31 [0,21; 0,41] & 0,10 [0,06; 0,16] & 0,00 [0,00; 0,01] & 0,00 [0,00; 0,00] & 0,00 [0,00; 0,00]\\
+GLiNER (exame) + regras & 0,83 [0,79; 0,87] & 0,83 [0,79; 0,87] & 0,81 [0,76; 0,85] & 0,82 [0,78; 0,86] & 0,80 [0,75; 0,84]\\
+Híbrido + LLM reserva & 0,87 [0,83; 0,90] & 0,83 [0,79; 0,87] & 0,83 [0,79; 0,87] & 0,85 [0,81; 0,89] & 0,80 [0,75; 0,84]\\
 Gemini (entidades) + ligação & 0,97 [0,93; 1,00] & 0,97 [0,93; 1,00] & 0,93 [0,88; 0,97] & 0,96 [0,92; 0,99] & 0,92 [0,88; 0,96]\\
-Gemini FHIR direto & 0,62 [0,57; 0,68] & 0,60 [0,55; 0,65] & 0,54 [0,49; 0,60] & 0,60 [0,55; 0,65] & 0,54 [0,48; 0,59]\\
+Gemini FHIR direto & 0,62 [0,57; 0,68] & 0,60 [0,55; 0,66] & 0,54 [0,49; 0,60] & 0,60 [0,55; 0,66] & 0,54 [0,48; 0,60]\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -15,20 +16,22 @@ Gemini FHIR direto & 0,62 [0,57; 0,68] & 0,60 [0,55; 0,65] & 0,54 [0,49; 0,60] &
 \begin{tabular}{lcccc}\toprule
 Método & Exame & Valor & Unidade & Faixa\\\midrule
 Regex + dicionário & 0,97 [0,92; 1,00] & 0,98 [0,95; 1,00] & 0,93 [0,89; 0,97] & 0,98 [0,96; 0,99]\\
-GLiNER zero-shot & 0,28 [0,19; 0,37] & 0,11 [0,07; 0,17] & 0,01 [0,00; 0,01] & 0,00 [0,00; 0,00]\\
+GLiNER zero-shot & 0,28 [0,19; 0,36] & 0,11 [0,07; 0,17] & 0,01 [0,00; 0,01] & 0,00 [0,00; 0,00]\\
 GLiNER (exame) + regras & 0,79 [0,74; 0,83] & 0,85 [0,81; 0,89] & 0,85 [0,80; 0,89] & 0,89 [0,86; 0,92]\\
-Gemini (entidades) + ligação & 0,97 [0,92; 1,00] & 0,99 [0,97; 1,00] & 0,94 [0,91; 0,97] & 0,99 [0,97; 1,00]\\
+Híbrido + LLM reserva & 0,79 [0,74; 0,83] & 0,85 [0,81; 0,89] & 0,85 [0,80; 0,89] & 0,89 [0,86; 0,92]\\
+Gemini (entidades) + ligação & 0,97 [0,93; 1,00] & 0,99 [0,97; 1,00] & 0,94 [0,91; 0,97] & 0,99 [0,97; 1,00]\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
 \caption{Acurácia LOINC, conformidade HL7 R5, latência e custo por laudo.}\label{tab:fhir}
 \begin{tabular}{lcccc}\toprule
-Método & Acur. LOINC & Válidos HL7 (\%) & Latência (s) & Chamadas / \textit{tokens}\\\midrule
-Regex + dicionário & 0,986 [0,958; 1,000] & 100,0 [100,0; 100,0] & 0,000 & 0,00 / 0\\
-GLiNER zero-shot & 0,923 [0,783; 1,000] & 100,0 [100,0; 100,0] & 8,619 & 0,00 / 0\\
-GLiNER (exame) + regras & 0,972 [0,952; 0,989] & 100,0 [100,0; 100,0] & 14,110 & 0,00 / 0\\
-Gemini (entidades) + ligação & 0,986 [0,958; 1,000] & 100,0 [100,0; 100,0] & 8,960 & 1,30 / 761\\
-Gemini FHIR direto & 0,647 [0,599; 0,696] & 5,0 [0,0; 11,7] & 16,503 & 1,50 / 3374\\
+Método & Acur. LOINC & Válidos HL7 (\%) & Latência média (mediana), s & Chamadas / \textit{tokens}\\\midrule
+Regex + dicionário & 0,986 [0,959; 1,000] & 100,0 [100,0; 100,0] & 0,0 (0,0) & 0,00 / 0\\
+GLiNER zero-shot & 0,923 [0,786; 1,000] & 100,0 [100,0; 100,0] & 8,6 (5,6) & 0,00 / 0\\
+GLiNER (exame) + regras & 0,972 [0,952; 0,989] & 100,0 [100,0; 100,0] & 14,1 (5,5) & 0,00 / 0\\
+Híbrido + LLM reserva & 0,972 [0,952; 0,989] & 100,0 [100,0; 100,0] & 15,7 (6,6) & 0,38 / 332\\
+Gemini (entidades) + ligação & 0,986 [0,959; 1,000] & 100,0 [100,0; 100,0] & 9,0 (6,6) & 1,30 / 761\\
+Gemini FHIR direto & 0,647 [0,597; 0,696] & 5,0 [0,0; 11,7] & 16,5 (11,2) & 1,50 / 3374\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -38,21 +41,31 @@ Método & Rótulo & Obs. & Recall obs. & Acur. LOINC\\\midrule
 Regex + dicionário & visto & 359 & 0,914 & 0,986\\
 GLiNER zero-shot & visto & 359 & 0,000 & 0,923\\
 GLiNER (exame) + regras & visto & 359 & 0,735 & 0,972\\
+Híbrido + LLM reserva & visto & 359 & 0,735 & 0,972\\
 Gemini (entidades) + ligação & visto & 359 & 0,916 & 0,986\\
 Gemini FHIR direto & visto & 359 & 0,513 & 0,647\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
-\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, 1000 reamostragens): método A $-$ método B.}\label{tab:dif}
+\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, 10000 reamostragens): método A $-$ método B.}\label{tab:dif}
 \begin{tabular}{llccc}\toprule
 A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule
-GLiNER (exame) + regras -- Regex + dicionário & acuracia loinc & -0,014 & [-0,035; +0,008] & 0,216\\
-GLiNER (exame) + regras -- Regex + dicionário & f1 obs completa & -0,115 & [-0,146; -0,082] & $<$0,001\\
-GLiNER (exame) + regras -- Regex + dicionário & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
-GLiNER (exame) + regras -- Gemini (entidades) + ligação & acuracia loinc & -0,014 & [-0,035; +0,008] & 0,214\\
-GLiNER (exame) + regras -- Gemini (entidades) + ligação & f1 obs completa & -0,123 & [-0,155; -0,092] & $<$0,001\\
-GLiNER (exame) + regras -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
-Regex + dicionário -- Gemini (entidades) + ligação & acuracia loinc & +0,000 & [-0,000; +0,000] & 1,000\\
-Regex + dicionário -- Gemini (entidades) + ligação & f1 obs completa & -0,008 & [-0,019; +0,000] & 0,094\\
-Regex + dicionário -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,000\\
+GLiNER (exame) + regras -- Regex + dicionário & acuracia loinc & -0,014 & [-0,035; +0,009] & 0,2110\\
+GLiNER (exame) + regras -- Regex + dicionário & f1 obs completa & -0,115 & [-0,146; -0,084] & $<$0,0001\\
+GLiNER (exame) + regras -- Regex + dicionário & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & acuracia loinc & -0,014 & [-0,035; +0,008] & 0,2090\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & f1 obs completa & -0,123 & [-0,154; -0,093] & $<$0,0001\\
+GLiNER (exame) + regras -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
+Regex + dicionário -- Gemini (entidades) + ligação & acuracia loinc & +0,000 & [-0,000; +0,000] & 1,0000\\
+Regex + dicionário -- Gemini (entidades) + ligação & f1 obs completa & -0,008 & [-0,018; +0,000] & 0,0904\\
+Regex + dicionário -- Gemini (entidades) + ligação & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
+Gemini FHIR direto -- GLiNER (exame) + regras & acuracia loinc & -0,325 & [-0,374; -0,276] & $<$0,0001\\
+Gemini FHIR direto -- GLiNER (exame) + regras & f1 obs completa & -0,262 & [-0,325; -0,200] & $<$0,0001\\
+Gemini FHIR direto -- GLiNER (exame) + regras & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
+Híbrido + LLM reserva -- GLiNER (exame) + regras & acuracia loinc & +0,000 & [+0,000; +0,000] & 1,0000\\
+Híbrido + LLM reserva -- GLiNER (exame) + regras & f1 obs completa & +0,000 & [+0,000; +0,000] & 1,0000\\
+Híbrido + LLM reserva -- GLiNER (exame) + regras & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
+Híbrido + LLM reserva -- Gemini FHIR direto & acuracia loinc & +0,325 & [+0,276; +0,374] & $<$0,0001\\
+Híbrido + LLM reserva -- Gemini FHIR direto & f1 obs completa & +0,262 & [+0,200; +0,325] & $<$0,0001\\
+Híbrido + LLM reserva -- Gemini FHIR direto & recall nao vistos & +0,000 & [+0,000; +0,000] & 1,0000\\
 \bottomrule\end{tabular}\end{table}

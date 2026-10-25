@@ -1,11 +1,51 @@
-Traceback (most recent call last):
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 253, in <module>
-    else: metricas(sys.argv[2])
-          ~~~~~~~~^^^^^^^^^^^^^
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 203, in metricas
-    tabelas_tex(conj, linhas_c, linhas_f, linhas_v, ldif); figura(conj, linhas_c)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspace/projetos/ner-fhir/src/avaliar.py", line 225, in tabelas_tex
-    t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[19]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
-                                                                                          ~^^^^
-IndexError: list index out of range
+regex exame 50 0.392 0.698 0.502 0.462 0.541
+regex valor 50 0.368 0.656 0.472 0.433 0.510
+regex unidade 50 0.337 0.601 0.432 0.388 0.476
+regex faixa 50 0.374 0.667 0.479 0.442 0.516
+regex completa 50 0.322 0.573 0.412 0.363 0.461
+regex s_exame 50 0.519 0.924 0.664 0.630 0.697
+regex s_valor 50 0.528 0.941 0.677 0.645 0.709
+regex s_unidade 50 0.485 0.865 0.622 0.584 0.660
+regex s_faixa 50 0.543 0.868 0.668 0.633 0.705
+gliner_hib exame 50 0.592 0.580 0.586 0.528 0.642
+gliner_hib valor 50 0.560 0.549 0.554 0.496 0.613
+gliner_hib unidade 50 0.518 0.507 0.512 0.453 0.573
+gliner_hib faixa 50 0.574 0.562 0.568 0.512 0.625
+gliner_hib completa 50 0.493 0.483 0.488 0.424 0.553
+gliner_hib s_exame 50 0.599 0.587 0.593 0.541 0.645
+gliner_hib s_valor 50 0.709 0.694 0.702 0.651 0.751
+gliner_hib s_unidade 50 0.730 0.715 0.723 0.672 0.774
+gliner_hib s_faixa 50 0.745 0.701 0.723 0.676 0.768
+gliner_llm exame 50 0.786 0.764 0.775 0.729 0.821
+gliner_llm valor 50 0.675 0.656 0.665 0.612 0.718
+gliner_llm unidade 50 0.696 0.677 0.687 0.628 0.744
+gliner_llm faixa 50 0.732 0.712 0.722 0.671 0.773
+gliner_llm completa 50 0.593 0.576 0.585 0.522 0.648
+gliner_llm s_exame 50 0.604 0.587 0.595 0.543 0.648
+gliner_llm s_valor 50 0.707 0.688 0.697 0.646 0.748
+gliner_llm s_unidade 50 0.729 0.708 0.718 0.665 0.771
+gliner_llm s_faixa 50 0.743 0.694 0.718 0.670 0.765
+regex 50 0.709 0.656 0.763 0.0 0.0 0.0 0.001 0.00 0  0.653 0.601 0.707 188 265 288 0.001
+gliner_hib 50 0.801 0.746 0.852 0.0 0.0 0.0 0.724 0.00 0  0.545 0.485 0.603 157 196 288 0.485
+gliner_llm 50 0.969 0.943 0.990 0.0 0.0 0.0 10.103 2.22 1921 gemini-3.1-flash-lite 0.653 0.599 0.703 188 194 288 3.399
+regex visto 193 0.803 179 0.989
+regex nao_visto 95 0.105 86 0.128
+gliner_hib visto 193 0.580 137 0.942
+gliner_hib nao_visto 95 0.284 59 0.475
+gliner_llm visto 193 0.580 135 0.956
+gliner_llm nao_visto 95 0.568 59 1.000
+regex layout=lab_br 50 0.412
+regex escaneado 22 0.320
+regex digital 28 0.478
+gliner_hib layout=lab_br 50 0.488
+gliner_hib escaneado 22 0.375
+gliner_hib digital 28 0.577
+gliner_llm layout=lab_br 50 0.585
+gliner_llm escaneado 22 0.458
+gliner_llm digital 28 0.683
+gliner_hib regex acuracia_loinc +0.092 +0.033 +0.146 0.0020
+gliner_hib regex f1_obs_completa +0.076 +0.027 +0.124 0.0022
+gliner_hib regex recall_nao_vistos +0.179 +0.069 +0.295 0.0014
+gliner_llm gliner_hib acuracia_loinc +0.168 +0.122 +0.218 0.0000
+gliner_llm gliner_hib f1_obs_completa +0.097 +0.067 +0.129 0.0000
+gliner_llm gliner_hib recall_nao_vistos +0.284 +0.212 +0.358 0.0000

@@ -222,7 +222,7 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
           r"\begin{tabular}{lcccc}\toprule", r"Método & Acur. LOINC & Válidos HL7 (\%) & Latência média (mediana), s & Chamadas / \textit{tokens}\\\midrule"]
     for l in lf:
         val = f"{l[5]} [{l[6]}; {l[7]}]" if l[5] != "NA" else "--"
-        t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[19]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
+        t.append(f"{NOME[l[0]]} & {l[2]} [{l[3]}; {l[4]}] & {val} & {float(l[8]):.1f} ({float(l[-1]):.1f}) & {l[9]} / {l[10]}".replace(".", ",") + r"\\")
     t += [r"\bottomrule\end{tabular}\end{table}", "",
           r"\begin{table}[ht]\centering\small", r"\caption{Rótulos vistos vs.\ não vistos no dicionário: recall da observação completa e acurácia LOINC.}\label{tab:vistos}",
           r"\begin{tabular}{llccc}\toprule", r"Método & Rótulo & Obs. & Recall obs. & Acur. LOINC\\\midrule"]
@@ -233,7 +233,7 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
               r"\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, " + str(B) + r" reamostragens): método A $-$ método B.}\label{tab:dif}",
               r"\begin{tabular}{llccc}\toprule", r"A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule"]
         for l in ld:
-            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.001' if float(l[6]) < 0.001 else f'{float(l[6]):.3f}'}".replace(".", ",") + r"\\")
+            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.0001' if float(l[6]) < 0.0001 else f'{float(l[6]):.4f}'}".replace(".", ",") + r"\\")
         t.append(r"\bottomrule\end{tabular}\end{table}")
     (RES / ("tabelas.tex" if conj == "teste" else f"tabelas_{conj}.tex")).write_text("\n".join(t) + "\n", encoding="utf-8")
 
