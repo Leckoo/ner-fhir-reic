@@ -61,8 +61,17 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
 `f1_campos_teste.png/.pdf`, `exemplo_bundle.json` (Listagem 1), `validacao/`, `fhir/<método>/<conjunto>/`, `pred/`.
 Os mesmos arquivos com sufixo `_dev` são do conjunto de desenvolvimento.
 
-No lab_br nenhum Bundle dos métodos determinísticos é válido (0/50): o cabeçalho em grade (`NOME:`, `DN: dd/mm/aaaa`)
-não é reconhecido por `pipeline.cabecalho`, que gera `Patient` vazio (bdl-3a/bdl-5). Registrado como achado, sem ajuste.
+No lab_br, pelo protocolo original, nenhum Bundle dos métodos determinísticos é válido (0/50): o cabeçalho em grade
+(`NOME:`, `DN: dd/mm/aaaa`) não é reconhecido por `pipeline.cabecalho`, que gera `Patient` vazio (bdl-3a/bdl-5).
+
+**Ajuste pós-hoc (separado do protocolo, só lab_br).** `pipeline.cabecalho_grade` lê `NOME:` (até o próximo
+`RÓTULO:` da linha), `DN:` e `DATA:` (DD/MM/AAAA → ISO); `pipeline.completar_cabecalho` preenche só os campos
+ausentes. `src/ajuste_cabecalho_grade.py` aplica isso às predições já gravadas (mesmas observações; nada é reextraído)
+e remonta os Bundles em `results/fhir/<m>_cabgrade/adicional_lab_br/`; validação com `validar.py <m>_cabgrade
+adicional_lab_br` e antes/depois com IC bootstrap (B=10000) em `results/ajuste_cabecalho_grade_adicional_lab_br.csv`.
+As métricas de extração não usam o cabeçalho e não mudam. Nenhuma função existente foi alterada e o teste congelado
+não usa o ajuste; `src/conferir_teste_inalterado.py` reextrai o teste em memória e confere extração e Bundles byte a
+byte com os gravados (150/150 nos três métodos).
 
 Latência: tempo de extração a partir do texto já extraído (a extração de texto/OCR é comum a todos os métodos e não entra).
 

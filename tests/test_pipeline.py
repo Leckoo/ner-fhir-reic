@@ -65,3 +65,18 @@ def test_pos_processamento_e2e_display_uuid():
     assert b["entry"][0]["resource"]["code"]["coding"][0]["display"] == "Hemoglobin [Mass/volume] in Blood"
     assert all(RE_UUID.match(e["fullUrl"]) for e in b["entry"])
     assert b["entry"][0]["resource"]["subject"]["reference"] == b["entry"][1]["fullUrl"]
+
+def test_cabecalho_grade_pos_hoc():
+    """Ajuste pós-hoc do lab_br: lê NOME:/DN:/DATA: em grade; não altera o cabeçalho do formato do teste."""
+    from pipeline import cabecalho, cabecalho_grade, completar_cabecalho
+    t = ("NOME: Maria Exemplo da Silva IDADE: 40 anos\nCONVENTO: Plano Exemplo DN: 05/03/1986\n"
+         "DR.(a): Exemplo Solicitante ID/LOGIN: 123456\nCRM: 12345/RS\nDATA: 15/02/2026\nEXAME: HEMOGRAMA COMPLETO")
+    assert cabecalho(t) == {"paciente": None, "data": None, "nascimento": None}
+    assert cabecalho_grade(t) == {"paciente": "Maria Exemplo da Silva", "data": "2026-02-15", "nascimento": "1986-03-05"}
+    ext = {"paciente": "Já Lido", "data": None, "nascimento": None, "observacoes": [{"loinc": "718-7"}]}
+    e = completar_cabecalho(ext, t)
+    assert e["paciente"] == "Já Lido" and e["data"] == "2026-02-15" and e["observacoes"] is ext["observacoes"]
+    b = para_fhir({**e, "observacoes": []}, "x")["entry"][0]["resource"]; assert b["birthDate"] == "1986-03-05"
+    # formato dos 4 layouts do teste: o parser em grade não encontra nada (e não é chamado nesse caminho)
+    assert cabecalho_grade("Paciente: Fulano Exemplo   Nascimento: 1980-01-02\nData: 2026-01-03") == \
+        {"paciente": None, "data": None, "nascimento": None}

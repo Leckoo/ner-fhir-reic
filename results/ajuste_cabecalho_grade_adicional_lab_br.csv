@@ -1,0 +1,4 @@
+metodo,docs,validos_antes,pct_antes,ic95_inf,ic95_sup,validos_depois,pct_depois,ic95_inf,ic95_sup,nome_igual_gabarito,nascimento_igual_gabarito,data_igual_gabarito
+regex,50,0,0.0,0.0,0.0,50,100.0,100.0,100.0,50,50,50
+gliner_hib,50,0,0.0,0.0,0.0,50,100.0,100.0,100.0,50,50,50
+gliner_llm,50,0,0.0,0.0,0.0,50,100.0,100.0,100.0,50,50,50

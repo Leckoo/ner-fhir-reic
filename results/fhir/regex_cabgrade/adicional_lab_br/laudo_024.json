@@ -1,0 +1,378 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "João Batista Moura"
+     }
+    ],
+    "birthDate": "1955-02-26"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4b1b76e0-874a-54ef-b2dc-e795d014a905",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: João Batista Moura IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 71.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:72f275de-0a4b-5a52-ac73-2829207dff47",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "787-2",
+       "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 101.1,
+     "unit": "fL",
+     "system": "http://unitsofmeasure.org",
+     "code": "fL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      },
+      "high": {
+       "value": 100.0,
+       "unit": "fL",
+       "system": "http://unitsofmeasure.org",
+       "code": "fL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f0308091-2ad7-55f7-abf4-3045312a90e0",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "786-4",
+       "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 35.0,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 32.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 36.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:81bdea7c-0fbb-5efe-bd6c-7f9ffb36b36c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 146.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f74696d2-3aaa-5187-8a94-25b3346d6492",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de colesterol total"
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 312.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:365618e4-c1d8-5156-b894-e662c1023d61",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/MG"
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 30343.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:66462bc6-a2b3-5830-8419-1d924c6a5a81",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 26.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:71baf94e-4c51-5ac4-aab2-874da094077d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LABORATÓRIO CLÍNICO EXEMPLO LTDA (fictício)"
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:907abad5-123b-5556-8927-d4788ba4c499",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:d75ea2fc-ed09-54fb-9ec5-f2e50b910fcc"
+    },
+    "effectiveDateTime": "2026-05-26",
+    "result": [
+     {
+      "reference": "urn:uuid:4b1b76e0-874a-54ef-b2dc-e795d014a905"
+     },
+     {
+      "reference": "urn:uuid:72f275de-0a4b-5a52-ac73-2829207dff47"
+     },
+     {
+      "reference": "urn:uuid:f0308091-2ad7-55f7-abf4-3045312a90e0"
+     },
+     {
+      "reference": "urn:uuid:81bdea7c-0fbb-5efe-bd6c-7f9ffb36b36c"
+     },
+     {
+      "reference": "urn:uuid:f74696d2-3aaa-5187-8a94-25b3346d6492"
+     },
+     {
+      "reference": "urn:uuid:365618e4-c1d8-5156-b894-e662c1023d61"
+     },
+     {
+      "reference": "urn:uuid:66462bc6-a2b3-5830-8419-1d924c6a5a81"
+     },
+     {
+      "reference": "urn:uuid:71baf94e-4c51-5ac4-aab2-874da094077d"
+     }
+    ]
+   }
+  }
+ ]
+}

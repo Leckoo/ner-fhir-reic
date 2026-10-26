@@ -33,5 +33,10 @@ fi
 ../$PY avaliar.py metricas adicional_lab_br > ../results/metricas_adicional_lab_br.txt
 # 5) análises de erro: rótulos não vistos (tabela por família) e origem dos FP no lab_br
 ../$PY erros_nao_vistos.py teste; ../$PY erros_nao_vistos.py adicional_lab_br; ../$PY fp_lab_br.py
+# 6) AJUSTE PÓS-HOC (separado do protocolo): cabeçalho em grade só no lab_br; teste congelado conferido inalterado
+../$PY ajuste_cabecalho_grade.py montar adicional_lab_br $LABBR
+for m in $LABBR; do ../$PY validar.py ${m}_cabgrade adicional_lab_br; done
+../$PY ajuste_cabecalho_grade.py resumo adicional_lab_br $LABBR
+../$PY conferir_teste_inalterado.py teste $LABBR
 ../$PY exemplo_bundle.py
 cd .. && $PY -m pytest -q tests

@@ -1,0 +1,338 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Marcos Antônio Vieira"
+     }
+    ],
+    "birthDate": "1941-08-08"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e3a298d3-c952-5547-9283-c8abc7df663f",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "789-8",
+       "display": "Erythrocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 3.92
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.2
+      },
+      "high": {
+       "value": 5.4
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f24c5407-83ba-5971-954c-a01ffce0bd71",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "6690-2",
+       "display": "Leukocytes [#/volume] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 14.8
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0
+      },
+      "high": {
+       "value": 11.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:462371ac-2bc1-53aa-ac41-7fc200c72407",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Neutrófilos"
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 45.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 40.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 70.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:284815bf-5b43-5420-852b-7fb49a8f48c4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Monócitos"
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 5.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 80.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 1.1,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:c47b766b-d833-5b30-86e9-9fe97209d2f9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Natremia"
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 148.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:3308c813-5d53-53aa-8684-0eb05eb487bd",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2093-3",
+       "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "valueQuantity": {
+     "value": 195.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:ff28380d-eb34-5cd7-85f3-a417b8634c15",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:bad8399f-63fd-59f3-832e-57a30885db18"
+    },
+    "effectiveDateTime": "2026-04-16",
+    "result": [
+     {
+      "reference": "urn:uuid:e3a298d3-c952-5547-9283-c8abc7df663f"
+     },
+     {
+      "reference": "urn:uuid:f24c5407-83ba-5971-954c-a01ffce0bd71"
+     },
+     {
+      "reference": "urn:uuid:462371ac-2bc1-53aa-ac41-7fc200c72407"
+     },
+     {
+      "reference": "urn:uuid:284815bf-5b43-5420-852b-7fb49a8f48c4"
+     },
+     {
+      "reference": "urn:uuid:c47b766b-d833-5b30-86e9-9fe97209d2f9"
+     },
+     {
+      "reference": "urn:uuid:3308c813-5d53-53aa-8684-0eb05eb487bd"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -110,6 +110,30 @@ def cabecalho(texto):
     return {"paciente": pac.group(1).strip() if pac else None, "data": dat.group(1) if dat else None,
             "nascimento": nas.group(1) if nas else None}
 
+# ---------- AJUSTE PÓS-HOC (só lab_br): cabeçalho em grade "RÓTULO: valor   RÓTULO: valor" ----------
+# Não é usado por extrair_regex/extrair_gliner*/para_fhir nem pelo teste congelado; é aplicado só por
+# src/ajuste_cabecalho_grade.py ao conjunto adicional_lab_br. Escrito a partir do formato impresso
+# (rótulos em maiúsculas seguidos de ':' e datas DD/MM/AAAA), sem consultar o gabarito.
+RE_ROT_GRADE = r"(?:\s+[A-ZÀ-Ú][A-ZÀ-Ú./()]+\s*:)"
+def _data_br(s):
+    m = re.search(r"(\d{2})/(\d{2})/(\d{4})", s or "")
+    if not m: return None
+    d, mo, a = map(int, m.groups())
+    return f"{a:04d}-{mo:02d}-{d:02d}" if 1 <= d <= 31 and 1 <= mo <= 12 else None
+
+def cabecalho_grade(texto):
+    """Lê NOME:, DN: e DATA: do cabeçalho em grade (o valor vai até o próximo RÓTULO: na mesma linha)."""
+    nome = re.search(rf"^\s*NOME\s*:\s*(.+?)(?={RE_ROT_GRADE}|\s*$)", texto, re.M)
+    dn = re.search(r"\bDN\s*:\s*(\d{2}/\d{2}/\d{4})", texto)
+    dat = re.search(r"^\s*DATA\s*:\s*(\d{2}/\d{2}/\d{4})", texto, re.M)
+    return {"paciente": nome.group(1).strip() if nome else None, "data": _data_br(dat.group(1)) if dat else None,
+            "nascimento": _data_br(dn.group(1)) if dn else None}
+
+def completar_cabecalho(ext, texto):
+    """Preenche só os campos de cabeçalho ausentes (None); as observações não são tocadas."""
+    g = cabecalho_grade(texto)
+    return {**ext, **{k: g[k] for k in ("paciente", "data", "nascimento") if not ext.get(k) and g[k]}}
+
 # ---------- baseline regex + dicionário (regras ajustadas só no dev) ----------
 UNID = r"(?P<u>[^\s(]+)"
 RE_LINHA = re.compile(rf"^(?P<v>{NUM})\s+{UNID}\s*\(?\s*(?:VR\s*:)?\s*(?P<f>.*?)\)?\s*$", re.I)

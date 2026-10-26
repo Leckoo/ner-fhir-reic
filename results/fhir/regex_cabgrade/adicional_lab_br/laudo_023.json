@@ -1,0 +1,379 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Tiago Monteiro"
+     }
+    ],
+    "birthDate": "1986-02-13"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7d2fa5d0-27ec-5fe0-8b3e-3f6140691feb",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: Tiago Monteiro IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 40.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6f4271bf-3f61-5e97-8381-e2daff49d0c1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "788-0",
+       "display": "Erythrocyte [DistWidth] in Blood by Automated count"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 16.4,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 11.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 14.5,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:276a4fee-b75f-527b-9c21-4f0f7f7dfbf4",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2823-3",
+       "display": "Potassium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 3.4,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 3.5,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 5.1,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4ebe25f0-8270-5378-878c-8a946cfd0c97",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de triglicerídeos"
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 394.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2cf8fb45-30c2-51cb-9d23-5e5a3bf43235",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1742-6",
+       "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 119.0
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 41.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:daba57b4-0201-5bde-bc1c-5b514db3c572",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Dosagem de colesterol total"
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 237.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 190.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:71effc84-0101-5aec-b3ca-0785273e6071",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/SP"
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 43495.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:e4ed4f53-fa49-590b-8c12-f82f73c05828",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "valueQuantity": {
+     "value": 18.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f8e9fae9-2e6c-5a5c-8a5f-47f5b5400c02",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:af4be7bb-008e-581b-bcaa-0c91645f1a07"
+    },
+    "effectiveDateTime": "2026-04-18",
+    "result": [
+     {
+      "reference": "urn:uuid:7d2fa5d0-27ec-5fe0-8b3e-3f6140691feb"
+     },
+     {
+      "reference": "urn:uuid:6f4271bf-3f61-5e97-8381-e2daff49d0c1"
+     },
+     {
+      "reference": "urn:uuid:276a4fee-b75f-527b-9c21-4f0f7f7dfbf4"
+     },
+     {
+      "reference": "urn:uuid:4ebe25f0-8270-5378-878c-8a946cfd0c97"
+     },
+     {
+      "reference": "urn:uuid:2cf8fb45-30c2-51cb-9d23-5e5a3bf43235"
+     },
+     {
+      "reference": "urn:uuid:daba57b4-0201-5bde-bc1c-5b514db3c572"
+     },
+     {
+      "reference": "urn:uuid:71effc84-0101-5aec-b3ca-0785273e6071"
+     },
+     {
+      "reference": "urn:uuid:e4ed4f53-fa49-590b-8c12-f82f73c05828"
+     }
+    ]
+   }
+  }
+ ]
+}

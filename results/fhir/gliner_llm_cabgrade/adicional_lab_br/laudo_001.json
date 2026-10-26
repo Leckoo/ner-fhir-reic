@@ -1,0 +1,160 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:df74232c-0f8e-571f-b6a7-a6f82c8af13b",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Elisa Prado"
+     }
+    ],
+    "birthDate": "1941-03-01"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d1332268-c657-502c-bc72-e6c8393dbd6c",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:df74232c-0f8e-571f-b6a7-a6f82c8af13b"
+    },
+    "effectiveDateTime": "2026-08-11",
+    "valueQuantity": {
+     "value": 216.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:4760f900-9e12-54cf-b3b7-b06a3cea1146",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:df74232c-0f8e-571f-b6a7-a6f82c8af13b"
+    },
+    "effectiveDateTime": "2026-08-11",
+    "valueQuantity": {
+     "value": 0.88,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:d8a88c0a-db6c-591b-8692-f8726c96d4d4",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:df74232c-0f8e-571f-b6a7-a6f82c8af13b"
+    },
+    "effectiveDateTime": "2026-08-11",
+    "result": [
+     {
+      "reference": "urn:uuid:d1332268-c657-502c-bc72-e6c8393dbd6c"
+     },
+     {
+      "reference": "urn:uuid:4760f900-9e12-54cf-b3b7-b06a3cea1146"
+     }
+    ]
+   }
+  }
+ ]
+}

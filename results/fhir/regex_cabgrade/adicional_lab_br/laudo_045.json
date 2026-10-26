@@ -1,0 +1,645 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:411c8151-49c5-537e-b79a-578796074431",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Vânia Lopes"
+     }
+    ],
+    "birthDate": "1977-12-15"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f8d934fe-47cf-5f49-9bcb-dcf295463498",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "NOME: Vânia Lopes IDADE"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 49.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2353c9cf-41d9-571d-b1dd-d888f91602a5",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin [Mass/volume] in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 11.5,
+     "unit": "g/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "g/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 12.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      },
+      "high": {
+       "value": 16.0,
+       "unit": "g/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "g/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:f306566c-3c5d-5978-80f5-b07e7f96dbd1",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Determinação do hematócrito"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 33.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 36.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 48.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:33833361-0302-5e3e-bcc9-2e5a521363d3",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Contagem de leucócitos"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 14.6
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 4.0
+      },
+      "high": {
+       "value": 11.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6ac10d12-f99d-58a2-a224-5121863918de",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Neutrófilos"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 64.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 40.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 70.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6555ad59-ee26-5fe6-860c-32bf442ab90e",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Segmentados"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 54.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 40.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 65.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:8cabf6a0-3aaf-5537-b05a-996a6b239e95",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Linfócitos"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 20.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 20.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 40.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:7eccfdb4-cf42-54c0-a812-05e666fc0be3",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 298.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 150.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:590aae85-b098-508f-a113-c80269d2cb95",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 125.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2f8560c6-5816-50a5-b2b5-9a0a7f763545",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2345-7",
+       "display": "Glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 164.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 70.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 99.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:49ede9b2-e1a5-506e-bd37-8ac00aa2b618",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 2.33,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:da88d583-9910-5ad3-b6d2-001789c3195a",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "CRM/SC"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 85307.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:0c30640e-89f4-533d-9f22-917baa5418fc",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Cidade Exemplo,"
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "valueQuantity": {
+     "value": 22.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:dfb9d62d-3082-52c3-b430-66c232915ffd",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:411c8151-49c5-537e-b79a-578796074431"
+    },
+    "effectiveDateTime": "2026-01-22",
+    "result": [
+     {
+      "reference": "urn:uuid:f8d934fe-47cf-5f49-9bcb-dcf295463498"
+     },
+     {
+      "reference": "urn:uuid:2353c9cf-41d9-571d-b1dd-d888f91602a5"
+     },
+     {
+      "reference": "urn:uuid:f306566c-3c5d-5978-80f5-b07e7f96dbd1"
+     },
+     {
+      "reference": "urn:uuid:33833361-0302-5e3e-bcc9-2e5a521363d3"
+     },
+     {
+      "reference": "urn:uuid:6ac10d12-f99d-58a2-a224-5121863918de"
+     },
+     {
+      "reference": "urn:uuid:6555ad59-ee26-5fe6-860c-32bf442ab90e"
+     },
+     {
+      "reference": "urn:uuid:8cabf6a0-3aaf-5537-b05a-996a6b239e95"
+     },
+     {
+      "reference": "urn:uuid:7eccfdb4-cf42-54c0-a812-05e666fc0be3"
+     },
+     {
+      "reference": "urn:uuid:590aae85-b098-508f-a113-c80269d2cb95"
+     },
+     {
+      "reference": "urn:uuid:2f8560c6-5816-50a5-b2b5-9a0a7f763545"
+     },
+     {
+      "reference": "urn:uuid:49ede9b2-e1a5-506e-bd37-8ac00aa2b618"
+     },
+     {
+      "reference": "urn:uuid:da88d583-9910-5ad3-b6d2-001789c3195a"
+     },
+     {
+      "reference": "urn:uuid:0c30640e-89f4-533d-9f22-917baa5418fc"
+     }
+    ]
+   }
+  }
+ ]
+}

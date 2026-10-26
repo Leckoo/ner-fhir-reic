@@ -1,0 +1,435 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "fullUrl": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e",
+   "resource": {
+    "resourceType": "Patient",
+    "name": [
+     {
+      "text": "Otávio Pereira"
+     }
+    ],
+    "birthDate": "1943-06-23"
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:47e7afbc-6a09-5647-84c6-5a2504710c00",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Neutrófilos"
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 50.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 1.6,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 7.7,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6c3b4c36-d960-5571-8d72-b65c845c74c9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Linfócitos"
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 36.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 20.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 40.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:327c99d5-defc-59a3-95d5-314e1038a1a2",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "Monócitos"
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 8.0,
+     "unit": "%",
+     "system": "http://unitsofmeasure.org",
+     "code": "%"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 2.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      },
+      "high": {
+       "value": 10.0,
+       "unit": "%",
+       "system": "http://unitsofmeasure.org",
+       "code": "%"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:19d16198-b85d-568b-83df-ddb0e408a029",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "3091-6",
+       "display": "Urea [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 29.0,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 15.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 45.0,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:6ccecfcd-3bcf-5b5d-9f3f-c3f5ee1e0ee9",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Creatinine [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 2.69,
+     "unit": "mg/dL",
+     "system": "http://unitsofmeasure.org",
+     "code": "mg/dL"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 0.6,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      },
+      "high": {
+       "value": 1.2,
+       "unit": "mg/dL",
+       "system": "http://unitsofmeasure.org",
+       "code": "mg/dL"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:b362115c-37af-58f3-aa3e-58a99e0804e6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1920-8",
+       "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 72.0
+    },
+    "referenceRange": [
+     {
+      "high": {
+       "value": 40.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:014b3fbf-ff0c-5d4b-9da7-66737c682f0d",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2951-2",
+       "display": "Sodium [Moles/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 41.0,
+     "unit": "mmol/L",
+     "system": "http://unitsofmeasure.org",
+     "code": "mmol/L"
+    },
+    "referenceRange": [
+     {
+      "low": {
+       "value": 136.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      },
+      "high": {
+       "value": 145.0,
+       "unit": "mmol/L",
+       "system": "http://unitsofmeasure.org",
+       "code": "mmol/L"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:2a0bb21c-320e-5b1f-9c8f-a6a2c325c9e6",
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "laboratory"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "text": "LABORATÓRIO CLÍNICO EXEMPLO LTDA"
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "valueQuantity": {
+     "value": 1.0
+    }
+   }
+  },
+  {
+   "fullUrl": "urn:uuid:9960242d-2f21-5eb9-a516-b59ab03de9b0",
+   "resource": {
+    "resourceType": "DiagnosticReport",
+    "status": "final",
+    "category": [
+     {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+        "code": "LAB"
+       }
+      ]
+     }
+    ],
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "11502-2",
+       "display": "Laboratory report"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "urn:uuid:ce3b2874-5273-50f2-b9f0-be3b703f198e"
+    },
+    "effectiveDateTime": "2026-02-16",
+    "result": [
+     {
+      "reference": "urn:uuid:47e7afbc-6a09-5647-84c6-5a2504710c00"
+     },
+     {
+      "reference": "urn:uuid:6c3b4c36-d960-5571-8d72-b65c845c74c9"
+     },
+     {
+      "reference": "urn:uuid:327c99d5-defc-59a3-95d5-314e1038a1a2"
+     },
+     {
+      "reference": "urn:uuid:19d16198-b85d-568b-83df-ddb0e408a029"
+     },
+     {
+      "reference": "urn:uuid:6ccecfcd-3bcf-5b5d-9f3f-c3f5ee1e0ee9"
+     },
+     {
+      "reference": "urn:uuid:b362115c-37af-58f3-aa3e-58a99e0804e6"
+     },
+     {
+      "reference": "urn:uuid:014b3fbf-ff0c-5d4b-9da7-66737c682f0d"
+     },
+     {
+      "reference": "urn:uuid:2a0bb21c-320e-5b1f-9c8f-a6a2c325c9e6"
+     }
+    ]
+   }
+  }
+ ]
+}
