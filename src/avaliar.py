@@ -8,8 +8,10 @@ from pipeline import extrair_texto, extrair_regex, para_fhir, norm
 BASE = pathlib.Path(__file__).parent.parent
 RES = BASE / "results"
 METODOS = ["regex", "gliner", "gliner_hib", "gliner_llm", "gemini_ent", "gemini_e2e"]
-NOME = {"regex": "Regex + dicionário", "gliner": "GLiNER zero-shot", "gliner_hib": "GLiNER (exame) + regras", "gemini_ent": "Gemini (entidades) + ligação",
-        "gemini_e2e": "Gemini FHIR direto", "gliner_llm": "Híbrido + LLM reserva"}
+NOME = {"regex": "Regex + dicionário", "gliner": "GLiNER zero-shot (puro)", "gliner_hib": "GLiNER (exame) + regras",
+        "gliner_llm": "GLiNER + regras + LLM reserva", "gemini_ent": "Gemini extrai + ligação", "gemini_e2e": "Gemini ponta a ponta"}
+NOME_EN = {"regex": "Regex + dictionary", "gliner": "GLiNER zero-shot (pure)", "gliner_hib": "GLiNER (test name) + rules",
+           "gliner_llm": "GLiNER + rules + LLM fallback", "gemini_ent": "Gemini extraction + linking", "gemini_e2e": "Gemini end-to-end"}
 B, SEED = 10000, 12345
 I_LO, I_HI = int(0.025 * B), int(0.975 * B) - 1   # IC 95% percentil
 
@@ -204,6 +206,10 @@ def metricas(conj):
     for L in (linhas_c, linhas_f, linhas_v, linhas_cond, ldif):
         for l in L: print(*l)
 
+def fmt_p(pv):
+    """p de bootstrap com 4 casas; p = 0 nas reamostragens vira p < 2/B (resolução do bootstrap bilateral)."""
+    return f"$<${2 / B:.4f}" if float(pv) == 0 else f"{float(pv):.4f}"
+
 def tabelas_tex(conj, lc, lf, lv, ld=()):
     C = {(l[0], l[1]): l for l in lc}
     fmt = lambda l: f"{float(l[5]):.2f} [{float(l[6]):.2f}; {float(l[7]):.2f}]".replace(".", ",") if l else "--"
@@ -233,20 +239,25 @@ def tabelas_tex(conj, lc, lf, lv, ld=()):
               r"\caption{Diferenças pareadas (\textit{bootstrap} pareado por laudo, " + str(B) + r" reamostragens): método A $-$ método B.}\label{tab:dif}",
               r"\begin{tabular}{llccc}\toprule", r"A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule"]
         for l in ld:
-            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {'$<$0.0001' if float(l[6]) < 0.0001 else f'{float(l[6]):.4f}'}".replace(".", ",") + r"\\")
+            t.append(f"{NOME[l[0]]} -- {NOME[l[1]]} & {l[2].replace('_', ' ')} & {l[3]} & [{l[4]}; {l[5]}] & {fmt_p(l[6])}".replace(".", ",") + r"\\")
         t.append(r"\bottomrule\end{tabular}\end{table}")
     (RES / ("tabelas.tex" if conj == "teste" else f"tabelas_{conj}.tex")).write_text("\n".join(t) + "\n", encoding="utf-8")
 
 def figura(conj, lc):
+    """F1 por campo com barras de erro = IC 95% (bootstrap). Gera versão em pt-BR e em inglês (sufixo _en)."""
     import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
     ks = ["exame", "valor", "unidade", "faixa", "completa"]; ms = [m for m in METODOS if any(l[0] == m for l in lc)]
-    C = {(l[0], l[1]): l for l in lc}; fig, ax = plt.subplots(figsize=(7, 3.6)); w = 0.8 / max(len(ms), 1)
-    for j, m in enumerate(ms):
-        y = [float(C[(m, k)][5]) for k in ks]; e = [[y[i] - float(C[(m, k)][6]) for i, k in enumerate(ks)], [float(C[(m, k)][7]) - y[i] for i, k in enumerate(ks)]]
-        ax.bar([i + j * w for i in range(len(ks))], y, w, yerr=e, capsize=2, label=NOME[m])
-    ax.set_xticks([i + w * (len(ms) - 1) / 2 for i in range(len(ks))]); ax.set_xticklabels(["Exame", "Valor", "Unidade", "Faixa", "Obs. completa"])
-    ax.set_ylabel("F1"); ax.set_ylim(0, 1.05); ax.legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.14), ncol=3, frameon=False); fig.tight_layout()
-    fig.savefig(RES / f"f1_campos_{conj}.png", dpi=200); fig.savefig(RES / f"f1_campos_{conj}.pdf")
+    C = {(l[0], l[1]): l for l in lc}; w = 0.8 / max(len(ms), 1)
+    for suf, nomes, xt in (("", NOME, ["Exame", "Valor", "Unidade", "Faixa de ref.", "Obs. completa"]),
+                           ("_en", NOME_EN, ["Test", "Value", "Unit", "Ref. range", "Full observation"])):
+        fig, ax = plt.subplots(figsize=(7, 3.6))
+        for j, m in enumerate(ms):
+            y = [float(C[(m, k)][5]) for k in ks]; e = [[y[i] - float(C[(m, k)][6]) for i, k in enumerate(ks)], [float(C[(m, k)][7]) - y[i] for i, k in enumerate(ks)]]
+            ax.bar([i + j * w for i in range(len(ks))], y, w, yerr=e, capsize=2, label=nomes[m])
+        ax.set_xticks([i + w * (len(ms) - 1) / 2 for i in range(len(ks))]); ax.set_xticklabels(xt)
+        ax.set_ylabel("F1"); ax.set_ylim(0, 1.05); ax.legend(fontsize=7, loc="upper center", bbox_to_anchor=(0.5, -0.14), ncol=3, frameon=False); fig.tight_layout()
+        fig.savefig(RES / f"f1_campos_{conj}{suf}.png", dpi=200); fig.savefig(RES / f"f1_campos_{conj}{suf}.pdf", metadata={"CreationDate": None})
+        plt.close(fig)
 
 if __name__ == "__main__":
     if sys.argv[1] == "rodar": rodar(sys.argv[2], sys.argv[3])

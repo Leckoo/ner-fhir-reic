@@ -5,7 +5,7 @@
 Método & Exame (LOINC) & Valor & Unidade & Faixa de ref. & Obs. completa\\\midrule
 Regex + dicionário & 0,50 [0,46; 0,54] & 0,47 [0,43; 0,51] & 0,43 [0,39; 0,48] & 0,48 [0,44; 0,52] & 0,41 [0,36; 0,46]\\
 GLiNER (exame) + regras & 0,59 [0,53; 0,64] & 0,55 [0,50; 0,61] & 0,51 [0,45; 0,57] & 0,57 [0,51; 0,62] & 0,49 [0,42; 0,55]\\
-Híbrido + LLM reserva & 0,78 [0,73; 0,82] & 0,67 [0,61; 0,72] & 0,69 [0,63; 0,74] & 0,72 [0,67; 0,77] & 0,58 [0,52; 0,65]\\
+GLiNER + regras + LLM reserva & 0,78 [0,73; 0,82] & 0,67 [0,61; 0,72] & 0,69 [0,63; 0,74] & 0,72 [0,67; 0,77] & 0,58 [0,52; 0,65]\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -14,7 +14,7 @@ Híbrido + LLM reserva & 0,78 [0,73; 0,82] & 0,67 [0,61; 0,72] & 0,69 [0,63; 0,7
 Método & Exame & Valor & Unidade & Faixa\\\midrule
 Regex + dicionário & 0,66 [0,63; 0,70] & 0,68 [0,65; 0,71] & 0,62 [0,58; 0,66] & 0,67 [0,63; 0,70]\\
 GLiNER (exame) + regras & 0,59 [0,54; 0,65] & 0,70 [0,65; 0,75] & 0,72 [0,67; 0,77] & 0,72 [0,68; 0,77]\\
-Híbrido + LLM reserva & 0,59 [0,54; 0,65] & 0,70 [0,65; 0,75] & 0,72 [0,67; 0,77] & 0,72 [0,67; 0,77]\\
+GLiNER + regras + LLM reserva & 0,59 [0,54; 0,65] & 0,70 [0,65; 0,75] & 0,72 [0,67; 0,77] & 0,72 [0,67; 0,77]\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -23,7 +23,7 @@ Híbrido + LLM reserva & 0,59 [0,54; 0,65] & 0,70 [0,65; 0,75] & 0,72 [0,67; 0,7
 Método & Acur. LOINC & Válidos HL7 (\%) & Latência média (mediana), s & Chamadas / \textit{tokens}\\\midrule
 Regex + dicionário & 0,709 [0,656; 0,763] & 0,0 [0,0; 0,0] & 0,0 (0,0) & 0,00 / 0\\
 GLiNER (exame) + regras & 0,801 [0,746; 0,852] & 0,0 [0,0; 0,0] & 0,7 (0,5) & 0,00 / 0\\
-Híbrido + LLM reserva & 0,969 [0,943; 0,990] & 0,0 [0,0; 0,0] & 10,1 (3,4) & 2,22 / 1921\\
+GLiNER + regras + LLM reserva & 0,969 [0,943; 0,990] & 0,0 [0,0; 0,0] & 10,1 (3,4) & 2,22 / 1921\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -34,8 +34,8 @@ Regex + dicionário & visto & 193 & 0,803 & 0,989\\
 Regex + dicionário & nao visto & 95 & 0,105 & 0,128\\
 GLiNER (exame) + regras & visto & 193 & 0,580 & 0,942\\
 GLiNER (exame) + regras & nao visto & 95 & 0,284 & 0,475\\
-Híbrido + LLM reserva & visto & 193 & 0,580 & 0,956\\
-Híbrido + LLM reserva & nao visto & 95 & 0,568 & 1,000\\
+GLiNER + regras + LLM reserva & visto & 193 & 0,580 & 0,956\\
+GLiNER + regras + LLM reserva & nao visto & 95 & 0,568 & 1,000\\
 \bottomrule\end{tabular}\end{table}
 
 \begin{table}[ht]\centering\small
@@ -45,7 +45,7 @@ A vs.\ B & Métrica & Diferença & IC 95\% & $p$\\\midrule
 GLiNER (exame) + regras -- Regex + dicionário & acuracia loinc & +0,092 & [+0,033; +0,146] & 0,0020\\
 GLiNER (exame) + regras -- Regex + dicionário & f1 obs completa & +0,076 & [+0,027; +0,124] & 0,0022\\
 GLiNER (exame) + regras -- Regex + dicionário & recall nao vistos & +0,179 & [+0,069; +0,295] & 0,0014\\
-Híbrido + LLM reserva -- GLiNER (exame) + regras & acuracia loinc & +0,168 & [+0,122; +0,218] & $<$0,0001\\
-Híbrido + LLM reserva -- GLiNER (exame) + regras & f1 obs completa & +0,097 & [+0,067; +0,129] & $<$0,0001\\
-Híbrido + LLM reserva -- GLiNER (exame) + regras & recall nao vistos & +0,284 & [+0,212; +0,358] & $<$0,0001\\
+GLiNER + regras + LLM reserva -- GLiNER (exame) + regras & acuracia loinc & +0,168 & [+0,122; +0,218] & $<$0,0002\\
+GLiNER + regras + LLM reserva -- GLiNER (exame) + regras & f1 obs completa & +0,097 & [+0,067; +0,129] & $<$0,0002\\
+GLiNER + regras + LLM reserva -- GLiNER (exame) + regras & recall nao vistos & +0,284 & [+0,212; +0,358] & $<$0,0002\\
 \bottomrule\end{tabular}\end{table}

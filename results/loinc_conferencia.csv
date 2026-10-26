@@ -1,0 +1,21 @@
+exame,loinc,display_catalogo,display_tx_fhir_org,versao_loinc,confere
+Hemoglobina,718-7,Hemoglobin [Mass/volume] in Blood,Hemoglobin [Mass/volume] in Blood,2.83,sim
+Hematócrito,4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,Hematocrit [Volume Fraction] of Blood by Automated count,2.83,sim
+Hemácias,789-8,Erythrocytes [#/volume] in Blood by Automated count,Erythrocytes [#/volume] in Blood by Automated count,2.83,sim
+VCM,787-2,MCV [Entitic mean volume] in Red Blood Cells by Automated count,MCV [Entitic mean volume] in Red Blood Cells by Automated count,2.83,sim
+HCM,785-6,MCH [Entitic mass] by Automated count,MCH [Entitic mass] by Automated count,2.83,sim
+CHCM,786-4,MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count,MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count,2.83,sim
+RDW,788-0,Erythrocyte [DistWidth] in Blood by Automated count,Erythrocyte [DistWidth] in Blood by Automated count,2.83,sim
+Leucócitos,6690-2,Leukocytes [#/volume] in Blood by Automated count,Leukocytes [#/volume] in Blood by Automated count,2.83,sim
+Plaquetas,777-3,Platelets [#/volume] in Blood by Automated count,Platelets [#/volume] in Blood by Automated count,2.83,sim
+Glicose,2345-7,Glucose [Mass/volume] in Serum or Plasma,Glucose [Mass/volume] in Serum or Plasma,2.83,sim
+Glicemia de jejum,1558-6,Fasting glucose [Mass/volume] in Serum or Plasma,Fasting glucose [Mass/volume] in Serum or Plasma,2.83,sim
+Creatinina,2160-0,Creatinine [Mass/volume] in Serum or Plasma,Creatinine [Mass/volume] in Serum or Plasma,2.83,sim
+Ureia,3091-6,Urea [Mass/volume] in Serum or Plasma,Urea [Mass/volume] in Serum or Plasma,2.83,sim
+Colesterol total,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,Cholesterol [Mass/volume] in Serum or Plasma,2.83,sim
+Triglicerídeos,2571-8,Triglyceride [Mass/volume] in Serum or Plasma,Triglyceride [Mass/volume] in Serum or Plasma,2.83,sim
+Potássio,2823-3,Potassium [Moles/volume] in Serum or Plasma,Potassium [Moles/volume] in Serum or Plasma,2.83,sim
+Sódio,2951-2,Sodium [Moles/volume] in Serum or Plasma,Sodium [Moles/volume] in Serum or Plasma,2.83,sim
+TSH,3016-3,Thyrotropin [Units/volume] in Serum or Plasma,Thyrotropin [Units/volume] in Serum or Plasma,2.83,sim
+TGO,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,2.83,sim
+TGP,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,2.83,sim

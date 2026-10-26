@@ -24,7 +24,12 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
   não vistos). Hash próprio em `SHA256SUMS`; NÃO entra no teste de 150. Métricas: `results/*_adicional_lab_br.csv`
   (`cd src && ../.venv/bin/python avaliar.py metricas adicional_lab_br`).
 - Histórico: (1) uma versão do teste sem rótulos fora do dicionário (hash `102e496e…`) foi substituída, ver R2b;
-  (2) em 20/10 os `display` LOINC foram corrigidos para os nomes oficiais (conferência local) só nos gabaritos JSON, sem mudar os PDFs; os Bundles em `results/fhir/` foram regenerados.
+  (2) em 20/10 os `display` LOINC foram corrigidos para os nomes oficiais (conferência registrada só localmente, não
+  publicada) só nos gabaritos JSON, sem mudar os PDFs; os Bundles em `results/fhir/` foram regenerados. A conferência
+  reprodutível dos 20 códigos e `display` é `scripts/conferir_loinc.py` (CodeSystem/$lookup no tx.fhir.org), com
+  saída em `results/loinc_conferencia.csv` (26/10/2026: 20/20 iguais, LOINC 2.83).
+- As menções a "cópia: referencias-reais/..." em `data/variantes-reais-fontes.md` (arquivo congelado por hash) apontam
+  para cópias locais já removidas; a fonte válida é a URL ao lado (ver `data/fontes-referencias.md`).
 
 ## Pipeline e métodos (`src/`)
 - `pipeline.py`: texto (pdfplumber; OCR se o PDF for imagem), normalização (UCUM, números, faixas), ligação LOINC
@@ -48,7 +53,11 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
   digital × escaneado, latência (média e mediana), chamadas e tokens; acurácia LOINC condicional (sobre pares pelo
   valor) e absoluta (sobre todas as observações do gabarito); IC 95% por bootstrap (10000 reamostragens de laudos,
   seed 12345). Diferenças pareadas (`diferencas_<conj>.csv`): família declarada de 6 pares × 3 métricas = 18 testes,
-  Bonferroni α = 0,05/18 ≈ 0,0028 (p mínimo não nulo = 2/10000).
+  Bonferroni α = 0,05/18 ≈ 0,0028 (p mínimo não nulo = 2/10000; p = 0 nas reamostragens é reportado como p < 0,0002).
+  Latência = tempo de extração por laudo a partir do texto já extraído (extração de texto/OCR fora); no Gemini inclui
+  rede e novas tentativas, mas não a espera do limite de taxa, e respostas em cache mantêm a latência gravada na 1.ª chamada.
+  Ambiente das medições: máquina virtual Linux (Debian 13, KVM), 8 vCPUs Intel Xeon, 16 GB de RAM, sem GPU (PyTorch em CPU),
+  Python 3.13; máquina compartilhada, então a latência varia entre execuções.
 - `sensibilidade_e2e.py`: validade HL7 do gemini_e2e após pós-processamento sem API (`display` do catálogo e UUIDs
   válidos; + unidade UCUM). Saída `results/sensibilidade_e2e_teste.csv`.
 - `erros_nao_vistos.py`: erros por rótulo não visto × método, por família (prefixo "Dosagem de", sigla,
@@ -58,7 +67,7 @@ Benchmark sintético + pipeline do artigo REIC. Tudo roda com `./run_all.sh` (ou
 
 ## Saídas (`results/`)
 `campos_teste.csv`, `fhir_custo_teste.csv`, `vistos_naovistos_teste.csv`, `por_condicao_teste.csv`, `tabelas.tex`,
-`f1_campos_teste.png/.pdf`, `exemplo_bundle.json` (Listagem 1), `validacao/`, `fhir/<método>/<conjunto>/`, `pred/`.
+`f1_campos_teste.png/.pdf` (e `f1_campos_teste_en.png/.pdf`, rótulos em inglês; barras de erro = IC 95%), `exemplo_bundle.json` (Listagem 1), `validacao/`, `fhir/<método>/<conjunto>/`, `pred/`.
 Os mesmos arquivos com sufixo `_dev` são do conjunto de desenvolvimento.
 
 No lab_br, pelo protocolo original, nenhum Bundle dos métodos determinísticos é válido (0/50): o cabeçalho em grade
